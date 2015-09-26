@@ -11,9 +11,9 @@
 
 import re, sys, pprint
 
-re_html = re.compile(r'<[^>]*>')
 re_nbsp = re.compile(r'\s*&(#160|nbsp);\s*')
-re_assemble_lines = re.compile(r'([^>])\n\s*')
+re_assemble_lines = re.compile(r'([^>:])\n\s*')
+re_html = re.compile(r'<[^>]*>')
 clean_html = lambda x: re_html.sub('', re_assemble_lines.sub(r'\1 ', re_nbsp.sub(' ', x.replace('&amp;', '&'))))
 
 months = {'janvier': '01', 'fevrier': '02', 'mars': '03', 'avril': '04', 'mai': '05', 'juin': '06', 'juillet': '07', 'aout': '08', 'septembre': '09', 'octobre': '10', 'novembre': '11', 'decembre': '12'}
@@ -79,13 +79,13 @@ re_presents = re.compile(ur'Pr(?:e|é|É)sents\s*:', re.I)
 re_absents = re.compile(ur'Absents? (non-* *)?excus(?:e|é|É)s? *:', re.I)
 re_secretaire = re.compile(ur'secrétaire de séance *: *M[ME\. ]* +(.+)', re.I)
 re_conseillers = re.compile(ur'^(?:M(?:\.|MES?) )*(.+?)(, (Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir donné à [^,]+))+', re.I)
+re_conseillers2 = re.compile(ur'^(?:M(?:\.|MES?) )+(.+?)\.?$', re.I)
 
 def parse_PV(text):
     data = {'date': '', 'heure_debut': '', 'heure_fin': '', 'date_convocation': '', 'date_affichage': '', 'president': '', 'presents': [], 'excuses': [], 'absents': [], 'secretaire': '', 'ODJ': '', 'deliberations': []}
     nohtml = clean_html(text)
     read = ""
     data['total_presents'] = 0
-    data['total_votants'] = 0
     for line in nohtml.split('\n'):
         line = line.strip()
         if not line:
@@ -126,11 +126,12 @@ def parse_PV(text):
                 print >> sys.stderr, "FOUND:", read, conseil.group(1)
                 handle_elus(data, conseil.group(1), read)
             else:
-                read = ""
-                if 'votants' in line.lower():
-                    try:
-                        data['total_votants'] = int(clear_alpha.sub('', line))
-                    except: pass
+                conseil = re_conseillers2.search(line)
+                if conseil:
+                    print >> sys.stderr, "FOUND:", read, conseil.group(1)
+                    handle_elus(data, conseil.group(1), read)
+                else:
+                    read = ""
         secretaire = re_secretaire.search(line)
         if secretaire:
             data['secretaire'] = lowerize(secretaire.group(1))
@@ -145,11 +146,8 @@ def test_data(data):
     if not len(data['presents']) or (data['total_presents'] and len(data["presents"]) != data['total_presents']):
         print >> sys.stderr, "ERROR presents missing:", data['total_presents'], data["presents"]
         errors +=1
-    if data['total_votants'] and len(data["presents"]+data["excuses"]) != data['total_votants']:
-        print >> sys.stderr, "ERROR presents missing:", data['total_votants'], data["presents"], data["excuses"], data["absents"]
-        errors +=1
     for k, v in data.items():
-        if k in ["absents", "presents", "excuses", "total_presents", "total_votants", "date_affichage"]: continue
+        if k in ["absents", "presents", "excuses", "total_presents", "date_affichage"]: continue
         if k in ["ODJ", "deliberations"]: continue      # TO BE REMOVED WHEN PARSED
         if not v:
             print >> sys.stderr, "ERROR field missing:", k
