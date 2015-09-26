@@ -13,8 +13,9 @@ import re, sys, pprint
 
 re_nbsp = re.compile(r'\s*&(#160|nbsp);\s*')
 re_assemble_lines = re.compile(r'([^>:])\n\s*')
+re_clean_secretaire = re.compile(ur'(secrétaire de séance.*:)\s*\n\s*', re.I|re.M)
 re_html = re.compile(r'<[^>]*>')
-clean_html = lambda x: re_html.sub('', re_assemble_lines.sub(r'\1 ', re_nbsp.sub(' ', x.replace('&amp;', '&'))))
+clean_html = lambda x: re_html.sub('', re_clean_secretaire.sub(r'\1 ', re_assemble_lines.sub(r'\1 ', re_nbsp.sub(' ', x.replace('&amp;', '&')))))
 
 months = {'janvier': '01', 'fevrier': '02', 'mars': '03', 'avril': '04', 'mai': '05', 'juin': '06', 'juillet': '07', 'aout': '08', 'septembre': '09', 'octobre': '10', 'novembre': '11', 'decembre': '12'}
 def convert_month(text):
@@ -61,7 +62,7 @@ def lowerize(text):
 
 re_clean_parent = re.compile(r'\s*\([^)]+\)')
 def handle_elus(data, text, field):
-    for elu in text.split(u','):
+    for elu in text.replace('.', ',').split(u','):
         elu = re_clean_parent.sub('', elu)
         nom = lowerize(elu.strip())
         if nom not in data[field]:
