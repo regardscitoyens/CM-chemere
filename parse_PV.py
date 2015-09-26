@@ -40,26 +40,26 @@ def handle_elus(text, field):
 
 nohtml = clean_html(text)
 
-#print nohtml
-#print text
+#print >> sys.stderr, nohtml
+#print >> sys.stderr, text
 
 re_seance = re.compile(ur'S[EÉ]ANCE DU (\d+)[eErR]* *([\wéû]+) *(\d{4})')
 re_date = re.compile(ur'(\d+)[eErR]* *([\wéû]+) *(\d{4})')
 #re_heure = re.compile(r"L'an [^,]+, le [^,]+, [àAÀ]\s*(\d+) *H\w* *(\d+)?", re.I)
+re_affichage = re.compile(ur"Date d’affichage", re.I)
 re_convoc = re.compile(r'Convocation\s*:', re.I)
 re_presents = re.compile(ur'Pr(?:e|é|É)sents\s*:', re.I)
 re_absents = re.compile(ur'Absents? (non-* *)?excus(?:e|é|É)s? *:', re.I)
-#re_match_secretaire = re.compile(r'((auxiliaire).*)?Secr(?:é|É|e)taire(?: de s(?:é|É|e)ance)?(?: désignée)?( *\w+)? *: *(.+)', re.I)
-#re_match_secretaire2 = re.compile(r'(M\w+ .*) est désignée secr(?:é|É|e)taire', re.I)
+re_secretaire = re.compile(ur'secrétaire de séance *: *M[ME\. ]* +(.+)', re.I)
 re_conseillers = re.compile(ur'^(?:M(?:\.|MES?) )*(.+?)(, (Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir donné à [^,]+))+', re.I)
 
-read = None
+read = ""
 for line in nohtml.split('\n'):
     line = line.strip()
     if not line:
         continue
-    if len(sys.argv) > 2:
-        print read, " - TEST : %s" % line
+    if len(sys.argv) > 3:
+        print >> sys.stderr, "TEST %s: %s" % (read, line)
 #    heure = re_heure.search(line)
 #    if heure:
 #        mins = 0
@@ -68,56 +68,42 @@ for line in nohtml.split('\n'):
 #        data['heure'] = "%02d:%02d" % (int(heure.group(1)), mins)
 #        continue
     seance = re_seance.search(line)
+    abse = re_absents.match(line)
     if seance:
         data['date'] = "%04d-%s-%02d" % (int(seance.group(3)), convert_month(seance.group(2)), int(seance.group(1)))
-        continue
-    convoc = re_convoc.match(line)
-    if re_convoc.search(line):
-        read = "convoc"
-        continue
-    if re_presents.match(line):
-        print line
+    elif re_affichage.match(line):
+        read = "date_affichage"
+    elif re_convoc.match(line):
+        read = "date_convocation"
+    elif re_presents.match(line):
+        print >> sys.stderr, line
         read = "presents"
-        continue
-    abse = re_absents.match(line)
-    if abse:
+    elif abse:
         if abse.group(1):
             read = 'absents'
         else: read = 'excuses'
-        continue
-    if read == "convoc":
+    elif read.startswith("date_"):
         dateconv = re_date.search(line)
-        data['convocation'] = "%04d-%s-%02d" % (int(dateconv.group(3)), convert_month(dateconv.group(2)), int(dateconv.group(1)))
-        read = None
-        continue
+        data[read] = "%04d-%s-%02d" % (int(dateconv.group(3)), convert_month(dateconv.group(2)), int(dateconv.group(1)))
+        read = ""
     elif read:
         conseil = re_conseillers.search(line)
         if conseil:
-            print "FOUND:", read, conseil.group(1)
+            print >> sys.stderr, "FOUND:", read, conseil.group(1)
             handle_elus(conseil.group(1), read)
         else:
-            print "WEIRD:", read, line
-            read = None
-#    secretaire = re_match_secretaire.search(line)
-#    if secretaire:
-#        option = ""
-#        if secretaire.group(1):
-#            option = "(%s) " % secretaire.group(2).strip(' –')
-#        if secretaire.group(3):
-#            option = "(%s) " % secretaire.group(3).strip(' –')
-#        if option:
-#            data['secretaire adjoint'] = secretaire.group(4).strip(' –')
-#        else:
-#            data['secretaire'] = secretaire.group(4).strip(' –')
-#    else:
-#        secretaire = re_match_secretaire2.search(line)
-#        if secretaire:
-#            data['secretaire'] = secretaire.group(1).strip(' –')
+            print >> sys.stderr, "WEIRD:", read, line
+            read = ""
+    secretaire = re_secretaire.search(line)
+    if secretaire:
+        data['secretaire'] = lowerize(secretaire.group(1))
 
 for abse in data['absents'] + data['excuses']:
     if abse in data['presents']:
         data['presents'].remove(abse)
 
-pprint.pprint(data)
-for a in data['presents']:
-    print "%s,%s,%s,%s" % (data['date'],data['heure'],data['convocation'],a)
+if len(sys.argv) > 2:
+    pprint.pprint(data)
+else:
+    for a in data['presents']:
+        print "%s,%s,%s,%s" % (data['date'],data['heure'],data['convocation'],a)
