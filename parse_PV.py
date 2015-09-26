@@ -1,12 +1,24 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# TODO
+# - tests:
+#  + all fields
+#  + total presents/presents+absents = nb presents/votants
+# - check all PVs in html
+# - run on all
+# - viz
+# - data conseillers
+# - ODJ
+# - delibs
+
+
 import re, sys, pprint
 
 with open(sys.argv[1], 'r') as PV:
     text = PV.read().decode('utf-8')
 
-data = {'date': '', 'heure': '', 'heure_fin': '', 'date_convocation': '', 'date_affichage': '', 'session' : '', 'president': '', 'presents': [], 'excuses': [], 'absents': [], 'secretaire': '', 'ODJ': '', 'deliberations': []}
+data = {'date': '', 'heure_debut': '', 'heure_fin': '', 'date_convocation': '', 'date_affichage': '', 'president': '', 'presents': [], 'excuses': [], 'absents': [], 'secretaire': '', 'ODJ': '', 'deliberations': []}
 
 re_html = re.compile(r'<[^>]*>')
 re_nbsp = re.compile(r'\s*&(#160|nbsp);\s*')
@@ -19,6 +31,32 @@ def convert_month(text):
     if month in months:
         return months[month]
     return text
+
+numbers = {
+    "": 00,
+    "dix-huit": 18,
+    "dix-neuf": 19,
+    "vingt": 20,
+    "vint-et-un": 21,
+    "vingt-deux": 22,
+    "vingt-trois": 22,
+    "trente": 30
+}
+def numberize(text):
+    try:
+        return int(text)
+    except:
+        return numbers[text.replace(' ', '-')]
+
+re_time = re.compile(ur'^(.+?)\s*(?:h(?:eures?)?)\s*(.*?)\s*(minutes?)?$', re.I)
+def clean_time(text):
+    text = text.lower().strip()
+    if text == "minuit":
+        return "00:00"
+    hourmins = re_time.search(text)
+    if hourmins:
+        return "%02d:%02d" % (numberize(hourmins.group(1)), numberize(hourmins.group(2)))
+    return ""
 
 re_split = re.compile(r"([ \-'])")
 def lowerize(text):
@@ -40,14 +78,12 @@ def handle_elus(text, field):
 
 nohtml = clean_html(text)
 
-#print >> sys.stderr, nohtml
-#print >> sys.stderr, text
-
 re_seance = re.compile(ur'S[EÉ]ANCE DU (\d+)[eErR]* *([\wéû]+) *(\d{4})')
 re_date = re.compile(ur'(\d+)[eErR]* *([\wéû]+) *(\d{4})')
-#re_heure = re.compile(r"L'an [^,]+, le [^,]+, [àAÀ]\s*(\d+) *H\w* *(\d+)?", re.I)
+re_header = re.compile(ur"L'an [^,]+, le [^,]+, [àAÀ]\s*([^,]+), .*, sous la présidence de (Monsieur|Madame) *([^,\.]+)", re.I)
+re_heurefin = re.compile(ur"Séance levée à *(.+?)\.?$", re.I)
 re_affichage = re.compile(ur"Date d’affichage", re.I)
-re_convoc = re.compile(r'Convocation\s*:', re.I)
+re_convoc = re.compile(ur'Convocation\s*:', re.I)
 re_presents = re.compile(ur'Pr(?:e|é|É)sents\s*:', re.I)
 re_absents = re.compile(ur'Absents? (non-* *)?excus(?:e|é|É)s? *:', re.I)
 re_secretaire = re.compile(ur'secrétaire de séance *: *M[ME\. ]* +(.+)', re.I)
@@ -67,9 +103,16 @@ for line in nohtml.split('\n'):
 #            mins = int(heure.group(2))
 #        data['heure'] = "%02d:%02d" % (int(heure.group(1)), mins)
 #        continue
+    header = re_header.search(line)
+    heurefin = re_heurefin.search(line)
     seance = re_seance.search(line)
     abse = re_absents.match(line)
-    if seance:
+    if header:
+        data['heure_debut'] = clean_time(header.group(1))
+        data['president'] = lowerize(header.group(3))
+    elif heurefin:
+        data['heure_fin'] = clean_time(heurefin.group(1))
+    elif seance:
         data['date'] = "%04d-%s-%02d" % (int(seance.group(3)), convert_month(seance.group(2)), int(seance.group(1)))
     elif re_affichage.match(line):
         read = "date_affichage"
@@ -106,4 +149,4 @@ if len(sys.argv) > 2:
     pprint.pprint(data)
 else:
     for a in data['presents']:
-        print "%s,%s,%s,%s" % (data['date'],data['heure'],data['convocation'],a)
+        print "%s,%s,%s" % (data['date'], data['heure_debut'], a)
