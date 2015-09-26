@@ -1,0 +1,1766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml>
+<page number="1" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="0" size="16" family="Times" color="#000000"/>
+	<fontspec id="1" size="16" family="Times" color="#000000"/>
+	<fontspec id="2" size="22" family="Times" color="#000000"/>
+	<fontspec id="3" size="22" family="Times" color="#000000"/>
+	<fontspec id="4" size="16" family="Times" color="#000000"/>
+	<fontspec id="5" size="16" family="Times" color="#000000"/>
+	<fontspec id="6" size="16" family="Helvetica" color="#000000"/>
+	<fontspec id="7" size="16" family="Times" color="#000080"/>
+	<fontspec id="8" size="16" family="Times" color="#000000"/>
+	<fontspec id="9" size="16" family="Times" color="#000080"/>
+	<fontspec id="10" size="16" family="Times" color="#000000"/>
+	<fontspec id="11" size="13" family="Times" color="#000000"/>
+	<fontspec id="12" size="13" family="Times" color="#000000"/>
+	<fontspec id="13" size="13" family="Times" color="#000000"/>
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="560" width="149" height="16" font="0"><i><b>CM 15 février 2012 </b></i></text>
+<text top="68" left="119" width="281" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="765" width="14" height="16" font="1"><b>1 </b></text>
+<text top="134" left="447" width="6" height="22" font="2"><b> </b></text>
+<text top="161" left="319" width="261" height="22" font="2"><b>CONSEIL MUNICIPAL </b></text>
+<text top="189" left="279" width="342" height="22" font="2"><b>SEANCE DU 15 FEVRIER 2012 </b></text>
+<text top="216" left="119" width="6" height="22" font="3"> </text>
+<text top="244" left="119" width="180" height="16" font="1"><b>Nombre de Conseillers </b></text>
+<text top="264" left="119" width="122" height="16" font="1"><b>en exercice :</b> 17 </text>
+<text top="285" left="119" width="102" height="16" font="1"><b>Présents :</b> 13 </text>
+<text top="306" left="119" width="97" height="16" font="1"><b>Votants :</b> 17 </text>
+<text top="326" left="119" width="142" height="16" font="1"><b>Procurations :</b> 4</text>
+<text top="244" left="371" width="407" height="16" font="0"><i><b>L'an deux mil douze, le quinze février, à vingt heures, </b></i></text>
+<text top="265" left="323" width="455" height="16" font="0"><i><b>le  Conseil  Municipal  de  la  Commune  de  CHEMERE, </b></i></text>
+<text top="285" left="323" width="455" height="16" font="0"><i><b>dûment  convoqué,  s'est  réuni  en  session  ordinaire,  à  la </b></i></text>
+<text top="306" left="323" width="456" height="16" font="0"><i><b>Mairie, sous la  présidence de Monsieur Jean-Paul  LERAY, </b></i></text>
+<text top="327" left="323" width="67" height="16" font="0"><i><b>Maire.</b></i></text>
+<text top="348" left="119" width="5" height="16" font="4"> </text>
+<text top="369" left="119" width="117" height="16" font="1"><b>Convocation :  </b></text>
+<text top="389" left="119" width="120" height="16" font="4">7 février 2012</text>
+<text top="348" left="323" width="80" height="16" font="1"><b>Présents:  </b></text>
+<text top="368" left="323" width="216" height="16" font="4">M. Jean-Paul LERAY, Maire </text>
+<text top="389" left="321" width="20" height="16" font="4">M.</text>
+<text top="389" left="342" width="5" height="17" font="6"> </text>
+<text top="389" left="376" width="397" height="16" font="4">Georges  LECLEVE,  Bernard  CHAZELAS,  Jean-</text>
+<text top="410" left="321" width="415" height="16" font="4">Marie GATARD, Jean-Pierre GRANDJOUAN, Adjoints </text>
+<text top="431" left="321" width="412" height="16" font="4">M. Jacques CHEVALIER, Conseiller municipal délégué </text>
+<text top="451" left="323" width="455" height="16" font="4">M.  MMES  Régine  CORMIER,  Nicolas  BOUCHER,  Eric </text>
+<text top="472" left="323" width="455" height="16" font="4">LOMBREY, Annie BARDOUL, Alice BICZYSKO, Philippe </text>
+<text top="493" left="323" width="364" height="16" font="4">BRIAND, Paul PIPAUD, Conseillers municipaux </text>
+<text top="514" left="323" width="137" height="16" font="1"><b>Absents excusés :</b> </text>
+<text top="534" left="323" width="456" height="16" font="4">M. Michel GRAVOUIL, Conseiller municipal, pouvoir donné </text>
+<text top="555" left="323" width="177" height="16" font="4">à M. Jean-Paul LERAY </text>
+<text top="575" left="323" width="455" height="16" font="4">MME  Marie-Josèphe  BATARD,  Conseillère  municipale, </text>
+<text top="596" left="323" width="309" height="16" font="4">pouvoir donné à MME Annie BARDOUL </text>
+<text top="617" left="323" width="455" height="16" font="4">MME  Michèle  FRANCHETEAU,  Conseillère  municipale, </text>
+<text top="638" left="323" width="295" height="16" font="4">pouvoir donné à M. Georges LECLEVE </text>
+<text top="658" left="323" width="455" height="16" font="4">M. Lionel LESCURAT, Conseiller municipal, pouvoir donné </text>
+<text top="679" left="323" width="183" height="16" font="4">à M. Nicolas BOUCHER</text>
+<text top="675" left="506" width="18" height="20" font="7"></text>
+<text top="696" left="216" width="18" height="20" font="5"></text>
+<text top="700" left="323" width="447" height="16" font="1"><b>A été élue secrétaire de séance : </b>MME Annie BARDOUL</text>
+<text top="719" left="119" width="131" height="20" font="8"><b>Date d’affichage </b></text>
+<text top="722" left="323" width="115" height="16" font="4">20 février 2012 </text>
+<text top="743" left="119" width="5" height="16" font="9"> </text>
+<text top="764" left="119" width="660" height="16" font="1"><b>Compte-rendu de la réunion du 17 janvier 2012</b> : Pas d’observations. Le compte-rendu </text>
+<text top="781" left="119" width="181" height="20" font="5">est adopté à l’unanimité. </text>
+<text top="806" left="119" width="5" height="16" font="0"><i><b> </b></i></text>
+<text top="822" left="119" width="570" height="21" font="5"><i><b> DE-2012/15 – Délégations de pouvoirs « Marchés publics » : Information</b></i> </text>
+<text top="847" left="119" width="659" height="16" font="4">Conformément  aux  délibérations  n°2008/45  en  date  du  22  mars  2008  et  n°2009/155  en </text>
+<text top="867" left="119" width="659" height="16" font="4">date du 24 novembre 2009 sur  la délégation de pouvoirs au  niveau des  marchés publics, </text>
+<text top="888" left="119" width="659" height="16" font="4">Monsieur  le Maire rend compte au Conseil  municipal des décisions prises en  vertu de la </text>
+<text top="909" left="119" width="345" height="16" font="4">délégation de pouvoirs sur les marchés publics. </text>
+<text top="930" left="126" width="54" height="14" font="11"><b>Date du </b></text>
+<text top="947" left="127" width="52" height="14" font="11"><b>marché </b></text>
+<text top="930" left="254" width="49" height="14" font="11"><b>Société </b></text>
+<text top="930" left="481" width="113" height="14" font="11"><b>Objet du marché </b></text>
+<text top="930" left="715" width="60" height="14" font="11"><b>Montant </b></text>
+<text top="947" left="728" width="33" height="14" font="11"><b>H.T. </b></text>
+<text top="982" left="125" width="57" height="14" font="12">23/01/12 </text>
+<text top="965" left="253" width="51" height="14" font="12">CAMIF </text>
+<text top="982" left="196" width="165" height="14" font="12">COLLECTIVITES (35135 </text>
+<text top="999" left="233" width="92" height="14" font="12">CHANTEPIE) </text>
+<text top="973" left="376" width="323" height="14" font="12">Mobilier restaurant scolaire : 42 chaises, 5 tables et 1 </text>
+<text top="991" left="465" width="145" height="14" font="12">meuble range serviettes </text>
+<text top="973" left="721" width="56" height="14" font="12">3 873,23 </text>
+<text top="988" left="766" width="11" height="17" font="13">€ </text>
+<text top="1026" left="125" width="57" height="14" font="12">25/01/12 </text>
+<text top="1017" left="201" width="156" height="14" font="12">LAMBERT CLOTURES </text>
+<text top="1035" left="215" width="128" height="14" font="12">(44220 COUËRON) </text>
+<text top="1017" left="386" width="302" height="14" font="12">Remplacement portail poste de relèvement rue du </text>
+<text top="1035" left="520" width="34" height="14" font="12">Breil </text>
+<text top="1023" left="721" width="56" height="17" font="13">464,86 € </text>
+<text top="1070" left="125" width="57" height="14" font="12">25/01/12 </text>
+<text top="1053" left="200" width="159" height="14" font="12">ACCUEIL.FR (44680 ST </text>
+<text top="1070" left="235" width="88" height="14" font="12">HILAIRE DE </text>
+<text top="1087" left="234" width="89" height="14" font="12">CHALEONS) </text>
+<text top="1058" left="377" width="321" height="17" font="13">Service d’hébergement site Internet de la commune : </text>
+<text top="1078" left="491" width="92" height="14" font="12">Contrat annuel </text>
+<text top="1066" left="721" width="56" height="17" font="13">192,00 € </text>
+<text top="1122" left="125" width="57" height="14" font="12">06/02/12 </text>
+<text top="1105" left="213" width="127" height="14" font="12">CABINET PRIEUR-</text>
+<text top="1122" left="224" width="110" height="14" font="12">DELAGE (44214 </text>
+<text top="1139" left="247" width="64" height="14" font="12">PORNIC) </text>
+<text top="1114" left="379" width="316" height="14" font="12">Mise à jour plan de bornage définitif parcelle G 197 </text>
+<text top="1131" left="480" width="115" height="14" font="12">(17 rue de Nantes) </text>
+<text top="1119" left="721" width="56" height="17" font="13">265,00 € </text>
+<text top="1166" left="125" width="57" height="14" font="12">06/02/12 </text>
+<text top="1157" left="207" width="143" height="14" font="12">PINSON JOEL (44680 </text>
+<text top="1175" left="238" width="81" height="14" font="12">CHEMERE) </text>
+<text top="1154" left="392" width="290" height="17" font="13">Travaux d’aménagement de voirie au restaurant </text>
+<text top="1175" left="512" width="51" height="14" font="12">scolaire </text>
+<text top="1157" left="721" width="56" height="14" font="12">5 850,00 </text>
+<text top="1172" left="766" width="11" height="17" font="13">€ </text>
+<text top="1193" left="125" width="57" height="14" font="12">06/02/12 </text>
+<text top="1193" left="223" width="112" height="14" font="12">FDGDON (44119 </text>
+<text top="1193" left="394" width="285" height="14" font="12">Intervention contre les taupes sur espaces verts </text>
+<text top="1193" left="721" width="56" height="14" font="12">1 568,90 </text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="14" size="16" family="Times" color="#000080"/>
+	<fontspec id="15" size="16" family="Times" color="#000000"/>
+	<fontspec id="16" size="9" family="Times" color="#000000"/>
+	<fontspec id="17" size="16" family="Times" color="#000000"/>
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="560" width="149" height="16" font="0"><i><b>CM 15 février 2012 </b></i></text>
+<text top="68" left="119" width="281" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="765" width="14" height="16" font="1"><b>2 </b></text>
+<text top="131" left="207" width="142" height="14" font="12">GRANDCHAMP DES </text>
+<text top="148" left="233" width="92" height="14" font="12">FONTAINES) </text>
+<text top="131" left="374" width="326" height="14" font="12">suivants : Parc de loisirs, la Pacauderie,, parking salle </text>
+<text top="148" left="384" width="307" height="14" font="12">de sports, arrière terrains de football, parking de la </text>
+<text top="166" left="419" width="237" height="14" font="12">Gare + pointe SNCF, arrière du théâtre </text>
+<text top="128" left="766" width="11" height="17" font="13">€ </text>
+<text top="201" left="125" width="57" height="14" font="12">09/02/12 </text>
+<text top="184" left="210" width="137" height="14" font="12">COFELY GDF SUEZ </text>
+<text top="201" left="205" width="147" height="14" font="12">(44802 ST HERBLAIN </text>
+<text top="218" left="249" width="59" height="14" font="12">CEDEX) </text>
+<text top="184" left="388" width="299" height="14" font="12">Entretien chauffage théâtre : Remplacement d’un </text>
+<text top="201" left="380" width="314" height="14" font="12">moteur de pompe sur le circuit central de traitement </text>
+<text top="215" left="521" width="32" height="17" font="13">d’air </text>
+<text top="198" left="721" width="56" height="17" font="13">893,40 € </text>
+<text top="245" left="125" width="57" height="14" font="12">13/02/12 </text>
+<text top="236" left="214" width="130" height="14" font="12">BRETHOME &amp; CIE </text>
+<text top="254" left="202" width="153" height="14" font="12">(44340 BOUGUENAIS) </text>
+<text top="236" left="377" width="321" height="14" font="12">Travaux rue de Saint-Hilaire : Création d’un passage </text>
+<text top="254" left="488" width="98" height="14" font="12">dans îlot (PVR) </text>
+<text top="236" left="721" width="56" height="14" font="12">1 100,00 </text>
+<text top="250" left="766" width="11" height="17" font="13">€ </text>
+<text top="273" left="119" width="5" height="16" font="14"><i><b> </b></i></text>
+<text top="293" left="119" width="208" height="14" font="12">Accusé de réception en préfecture </text>
+<text top="311" left="119" width="104" height="14" font="12">044-214400400- </text>
+<text top="329" left="119" width="163" height="14" font="12">Date de télétransmission :  </text>
+<text top="347" left="119" width="186" height="14" font="12">Date de réception préfecture :  </text>
+<text top="367" left="119" width="5" height="16" font="0"><i><b> </b></i></text>
+<text top="382" left="119" width="659" height="21" font="5"><i><b> DE-2012/16 – Demandes de subventions 2012 : Associations et organismes de droit </b></i></text>
+<text top="408" left="119" width="42" height="16" font="0"><i><b>privé </b></i></text>
+<text top="428" left="119" width="291" height="16" font="4">Monsieur le Maire, rapporteur, expose : </text>
+<text top="449" left="119" width="480" height="16" font="15"><i>« Comme  tous  les  ans,  la  Commission  des  finances,  réunie  le  1</i></text>
+<text top="445" left="599" width="10" height="11" font="16"><i>er</i></text>
+<text top="449" left="609" width="169" height="16" font="15"><i>  février  dernier,  a  été </i></text>
+<text top="470" left="119" width="659" height="16" font="15"><i>amenée  à  étudier  les  demandes  de  subvention  émanant  des  différentes  associations </i></text>
+<text top="490" left="119" width="659" height="16" font="15"><i>communales  et  extra-communales.  Je  soumets  donc  à  votre  attention,  le  projet  proposé </i></text>
+<text top="511" left="119" width="374" height="16" font="15"><i>par la Commission des finances lors de sa réunion. </i></text>
+<text top="528" left="119" width="659" height="20" font="17"><i>Il  est  proposé  d’appliquer  une  augmentation  de  2,10  %  sur  les  tarifs  revus  chaque </i></text>
+<text top="552" left="119" width="65" height="16" font="15"><i>année. » </i></text>
+<text top="573" left="119" width="659" height="16" font="4">Les  membres  du  Conseil  municipal,  après  avoir  délibéré  et  étudié  le  tableau  des </text>
+<text top="590" left="119" width="659" height="20" font="5">subventions  pour  l’exercice  2012,  décident  à  la  majorité  des  membres  présents  (Vote  à </text>
+<text top="615" left="119" width="659" height="16" font="4">main levée : « Pour » : 15, « Contre » : 2) de voter les subventions comme suit et d’ouvrir </text>
+<text top="635" left="119" width="659" height="16" font="4">par  anticipation  les  crédits  nécessaires  pour  permettre  le  versement  des  subventions </text>
+<text top="656" left="119" width="659" height="16" font="4">relevant  des  articles  6558,  657362  et  6574  avant  le  vote  du  budget  primitif  2012  qui </text>
+<text top="673" left="119" width="201" height="20" font="5">n’interviendra qu’en mars : </text>
+<text top="698" left="127" width="117" height="14" font="11"><b>ASSOCIATIONS </b></text>
+<text top="698" left="278" width="99" height="14" font="11"><b>Montants 2011 </b></text>
+<text top="698" left="434" width="99" height="14" font="11"><b>Montants 2012 </b></text>
+<text top="715" left="455" width="58" height="14" font="11"><b>sollicités </b></text>
+<text top="698" left="586" width="70" height="14" font="11"><b>Prop Com </b></text>
+<text top="698" left="696" width="63" height="14" font="11"><b>Vote CM </b></text>
+<text top="732" left="122" width="117" height="14" font="12">AEP La Saint Jean </text>
+<text top="749" left="122" width="54" height="14" font="12">(Contrat </text>
+<text top="764" left="122" width="88" height="17" font="13">d’association) </text>
+<text top="784" left="122" width="89" height="14" font="12">(Article 6558) </text>
+<text top="729" left="323" width="75" height="17" font="13">66 960,00 € </text>
+<text top="749" left="294" width="105" height="14" font="12">620 x 108 élèves </text>
+<text top="767" left="289" width="109" height="14" font="12">(Prise en cpte des </text>
+<text top="784" left="259" width="139" height="14" font="12">enfants B. (1) et R. (1) </text>
+<text top="801" left="291" width="107" height="14" font="12">et pas de prise en </text>
+<text top="819" left="292" width="110" height="14" font="12">compte des TPS)  </text>
+<text top="732" left="420" width="127" height="14" font="12">Nouveau calcul coût </text>
+<text top="749" left="437" width="95" height="14" font="12">élève au public </text>
+<text top="764" left="438" width="92" height="17" font="13">571,50 €/élève </text>
+<text top="784" left="450" width="71" height="14" font="12">112 élèves  </text>
+<text top="729" left="599" width="75" height="17" font="13">64 008,00 € </text>
+<text top="729" left="700" width="75" height="17" font="13">64 008,00 € </text>
+<text top="837" left="122" width="73" height="14" font="12">Fournitures </text>
+<text top="854" left="122" width="91" height="14" font="12">scolaires école </text>
+<text top="871" left="122" width="68" height="14" font="12">publique – </text>
+<text top="888" left="122" width="109" height="14" font="12">Inscription au BP </text>
+<text top="906" left="122" width="89" height="14" font="12">(Article 6067) </text>
+<text top="834" left="331" width="68" height="17" font="13">9 296,28 € </text>
+<text top="854" left="321" width="78" height="14" font="12">(42,84*217) </text>
+<text top="871" left="395" width="4" height="14" font="12"> </text>
+<text top="837" left="429" width="109" height="14" font="12">43,74*207 élèves </text>
+<text top="834" left="606" width="68" height="17" font="13">9 474,18 € </text>
+<text top="851" left="589" width="85" height="17" font="13">(9 054,18 € + </text>
+<text top="871" left="572" width="101" height="14" font="12">reliquat 2011 de </text>
+<text top="885" left="612" width="61" height="17" font="13">420,00 €) </text>
+<text top="834" left="707" width="68" height="17" font="13">9 474,18 € </text>
+<text top="924" left="122" width="104" height="14" font="12">Manuels ou jeux </text>
+<text top="941" left="122" width="98" height="14" font="12">pédagogiques – </text>
+<text top="958" left="122" width="109" height="14" font="12">Inscription au BP </text>
+<text top="975" left="122" width="89" height="14" font="12">(Article 6067) </text>
+<text top="921" left="331" width="68" height="17" font="13">3 554,00 € </text>
+<text top="941" left="328" width="70" height="14" font="12">(444,25*8) </text>
+<text top="924" left="431" width="105" height="14" font="12">453,58*8 classes </text>
+<text top="921" left="606" width="68" height="17" font="13">3 628,64 € </text>
+<text top="921" left="707" width="68" height="17" font="13">3 628,64 € </text>
+<text top="941" left="771" width="4" height="14" font="12"> </text>
+<text top="993" left="122" width="87" height="14" font="12">Coop scolaire </text>
+<text top="1011" left="122" width="99" height="14" font="12">sorties scolaires </text>
+<text top="1028" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="990" left="331" width="68" height="17" font="13">2 962,05 € </text>
+<text top="1011" left="321" width="78" height="14" font="12">(13,65*217) </text>
+<text top="993" left="429" width="109" height="14" font="12">13,94*207 élèves </text>
+<text top="990" left="606" width="68" height="17" font="13">2 885,58 € </text>
+<text top="990" left="707" width="68" height="17" font="13">2 885,58 € </text>
+<text top="1011" left="771" width="4" height="14" font="12"> </text>
+<text top="1046" left="122" width="122" height="14" font="12">Coop scolaire école </text>
+<text top="1063" left="122" width="56" height="14" font="12">publique </text>
+<text top="1080" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="1043" left="331" width="68" height="17" font="13">1 400,00 € </text>
+<text top="1043" left="450" width="68" height="17" font="13">1 430,00 € </text>
+<text top="1043" left="606" width="68" height="17" font="13">1 430,00 € </text>
+<text top="1043" left="707" width="68" height="17" font="13">1 430,00 € </text>
+<text top="1098" left="122" width="85" height="14" font="12">APE (Parents </text>
+<text top="1113" left="122" width="89" height="17" font="13">d’élèves école </text>
+<text top="1133" left="122" width="61" height="14" font="12">publique) </text>
+<text top="1150" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="1095" left="331" width="68" height="17" font="13">1 122,00 € </text>
+<text top="1098" left="450" width="68" height="14" font="12">1 200,00 € </text>
+<text top="1095" left="606" width="68" height="17" font="13">1 145,00 € </text>
+<text top="1095" left="707" width="68" height="17" font="13">1 145,00 € </text>
+<text top="1168" left="122" width="49" height="14" font="12">ADMR </text>
+<text top="1186" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="1165" left="331" width="68" height="17" font="13">1 000,00 € </text>
+<text top="1165" left="450" width="68" height="17" font="13">1 000,00 € </text>
+<text top="1165" left="606" width="68" height="17" font="13">1 000,00 € </text>
+<text top="1165" left="707" width="68" height="17" font="13">1 000,00 € </text>
+<text top="1204" left="122" width="127" height="14" font="12">ACC – Au plaisir de </text>
+<text top="1200" left="342" width="56" height="17" font="13">200,00 € </text>
+<text top="1200" left="456" width="56" height="17" font="13">300,00 € </text>
+<text top="1200" left="617" width="56" height="17" font="13">300,00 € </text>
+<text top="1200" left="718" width="56" height="17" font="13">300,00 € </text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="18" size="7" family="Times" color="#000000"/>
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="560" width="149" height="16" font="0"><i><b>CM 15 février 2012 </b></i></text>
+<text top="68" left="119" width="281" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="765" width="14" height="16" font="1"><b>3 </b></text>
+<text top="131" left="122" width="75" height="14" font="12">lire -section </text>
+<text top="148" left="122" width="79" height="14" font="12">bibliothèque </text>
+<text top="166" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="184" left="122" width="122" height="14" font="12">ACC – section Fête </text>
+<text top="201" left="122" width="108" height="14" font="12">du Parc de loisirs </text>
+<text top="218" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="184" left="331" width="68" height="14" font="12">6 800,00 € </text>
+<text top="198" left="296" width="102" height="17" font="13">(5800,00 € délib </text>
+<text top="215" left="267" width="132" height="17" font="13">2011/09 et 1000,00 € </text>
+<text top="236" left="307" width="92" height="14" font="12">délib 2011/80) </text>
+<text top="181" left="450" width="68" height="17" font="13">5 800,00 € </text>
+<text top="181" left="606" width="68" height="17" font="13">5 800,00 € </text>
+<text top="181" left="707" width="68" height="17" font="13">5 800,00 € </text>
+<text top="254" left="122" width="127" height="14" font="12">ACC - Compagnons </text>
+<text top="271" left="122" width="97" height="14" font="12">de la Blanche – </text>
+<text top="288" left="122" width="91" height="14" font="12">section théâtre </text>
+<text top="305" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="250" left="331" width="68" height="17" font="13">2 251,00 € </text>
+<text top="268" left="285" width="113" height="17" font="13">(451,00 € versés à </text>
+<text top="285" left="276" width="123" height="17" font="13">l’asso et acquisition </text>
+<text top="305" left="270" width="128" height="14" font="12">matériel  réglé par la </text>
+<text top="320" left="258" width="140" height="17" font="13">commune 1 800,00 €)) </text>
+<text top="254" left="450" width="68" height="14" font="12">3 060,00 € </text>
+<text top="271" left="425" width="117" height="14" font="12">(Animatrice atelier </text>
+<text top="288" left="419" width="131" height="14" font="12">jeunes 4 ateliers – 32 </text>
+<text top="305" left="423" width="122" height="14" font="12">élèves de Chéméré) </text>
+<text top="250" left="606" width="68" height="17" font="13">2 280,00 € </text>
+<text top="271" left="573" width="101" height="14" font="12">(Prise en charge </text>
+<text top="288" left="572" width="102" height="14" font="12">que de 3 ateliers </text>
+<text top="305" left="627" width="47" height="14" font="12">jeunes) </text>
+<text top="250" left="707" width="68" height="17" font="13">2 280,00 € </text>
+<text top="341" left="122" width="95" height="14" font="12">AFR – Cantine </text>
+<text top="358" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="338" left="323" width="75" height="17" font="13">31 550,92 € </text>
+<text top="358" left="263" width="135" height="14" font="12">(Base de calcul : subv </text>
+<text top="375" left="258" width="141" height="14" font="12">par repas servi n-1 soit </text>
+<text top="389" left="266" width="132" height="17" font="13">29 000 x 1 € = 29000 </text>
+<text top="406" left="260" width="138" height="17" font="13">€ et régul repas + frais </text>
+<text top="424" left="261" width="137" height="17" font="13">d’avocat de 2550,92 € </text>
+<text top="444" left="299" width="103" height="14" font="12">délib 2011/129)  </text>
+<text top="338" left="446" width="75" height="17" font="13">35 363,00 € </text>
+<text top="355" left="414" width="139" height="17" font="13">(1,14 € * 31020 repas) </text>
+<text top="338" left="599" width="75" height="17" font="13">32 090,00 € </text>
+<text top="358" left="570" width="104" height="14" font="12">(Base de calcul : </text>
+<text top="375" left="583" width="90" height="14" font="12">subv par repas </text>
+<text top="392" left="591" width="82" height="14" font="12">servi n-1 soit </text>
+<text top="406" left="576" width="98" height="17" font="13">29863 x 1,021€ </text>
+<text top="427" left="611" width="63" height="14" font="12">+ ménage </text>
+<text top="441" left="627" width="46" height="17" font="13">1600€) </text>
+<text top="338" left="700" width="75" height="17" font="13">32 090,00 € </text>
+<text top="358" left="771" width="4" height="14" font="12"> </text>
+<text top="375" left="771" width="4" height="14" font="12"> </text>
+<text top="462" left="122" width="94" height="14" font="12">Triolet de Retz </text>
+<text top="479" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="459" left="335" width="64" height="17" font="13">4 776,90€ </text>
+<text top="479" left="298" width="100" height="14" font="12">1,50 x 2083 hab </text>
+<text top="494" left="278" width="120" height="17" font="13">91,80 € x 18 élèves </text>
+<text top="459" left="450" width="68" height="17" font="13">5 184,30 € </text>
+<text top="479" left="434" width="100" height="14" font="12">1,50 x 2083 hab </text>
+<text top="494" left="424" width="120" height="17" font="13">91,80 € x 18 élèves </text>
+<text top="459" left="606" width="68" height="17" font="13">5 184,30 € </text>
+<text top="459" left="707" width="68" height="17" font="13">5 184,30 € </text>
+<text top="515" left="122" width="127" height="14" font="12">Arche Football Club </text>
+<text top="532" left="122" width="127" height="14" font="12">Subvention annuelle </text>
+<text top="549" left="122" width="72" height="14" font="12">Subvention </text>
+<text top="567" left="122" width="64" height="14" font="12">animateur </text>
+<text top="584" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="515" left="395" width="4" height="14" font="12"> </text>
+<text top="529" left="331" width="68" height="17" font="13">1 500,00 € </text>
+<text top="546" left="331" width="68" height="17" font="13">2 138,00 € </text>
+<text top="515" left="482" width="4" height="14" font="12"> </text>
+<text top="529" left="450" width="68" height="17" font="13">1 500,00 € </text>
+<text top="546" left="450" width="68" height="17" font="13">2 138,00 € </text>
+<text top="515" left="670" width="4" height="14" font="12"> </text>
+<text top="529" left="606" width="68" height="17" font="13">1 500,00 € </text>
+<text top="546" left="606" width="68" height="17" font="13">2 138,00 € </text>
+<text top="515" left="771" width="4" height="14" font="12"> </text>
+<text top="529" left="707" width="68" height="17" font="13">1 500,00 € </text>
+<text top="546" left="707" width="68" height="17" font="13">2 138,00 € </text>
+<text top="602" left="122" width="33" height="14" font="12">USC </text>
+<text top="619" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="599" left="342" width="56" height="17" font="13">700,00 € </text>
+<text top="599" left="456" width="56" height="17" font="13">600,00 € </text>
+<text top="599" left="617" width="56" height="17" font="13">600,00 € </text>
+<text top="599" left="718" width="56" height="17" font="13">600,00 € </text>
+<text top="637" left="122" width="78" height="14" font="12">Amicale des </text>
+<text top="654" left="122" width="108" height="14" font="12">donneurs de sang </text>
+<text top="671" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="634" left="342" width="56" height="17" font="13">170,00 € </text>
+<text top="654" left="395" width="4" height="14" font="12"> </text>
+<text top="634" left="456" width="56" height="17" font="13">170,00 € </text>
+<text top="654" left="482" width="4" height="14" font="12"> </text>
+<text top="634" left="617" width="56" height="17" font="13">170,00 € </text>
+<text top="634" left="718" width="56" height="17" font="13">170,00 € </text>
+<text top="689" left="122" width="69" height="14" font="12">DOMUS – </text>
+<text top="707" left="122" width="70" height="14" font="12">convention </text>
+<text top="724" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="686" left="342" width="56" height="17" font="13">115,00 € </text>
+<text top="707" left="337" width="62" height="14" font="12">304 repas </text>
+<text top="724" left="260" width="138" height="14" font="12">0,04003404*1924 hab </text>
+<text top="741" left="258" width="144" height="14" font="12">0,10365667*324 repas  </text>
+<text top="686" left="459" width="49" height="17" font="13">57,00 € </text>
+<text top="707" left="427" width="113" height="14" font="12">(0,227*251 repas) </text>
+<text top="721" left="456" width="56" height="17" font="13">186,60 € </text>
+<text top="741" left="408" width="151" height="14" font="12">(Renvellement parc auto </text>
+<text top="755" left="444" width="19" height="17" font="13">– 1</text>
+<text top="755" left="464" width="12" height="9" font="18">ère</text>
+<text top="758" left="475" width="47" height="14" font="12"> année) </text>
+<text top="686" left="625" width="49" height="17" font="13">57,00 € </text>
+<text top="703" left="617" width="56" height="17" font="13">186,60 € </text>
+<text top="724" left="581" width="92" height="14" font="12">(Renvellement </text>
+<text top="741" left="603" width="70" height="14" font="12">parc auto – </text>
+<text top="758" left="576" width="98" height="14" font="12">Délib 2011/151 </text>
+<text top="776" left="593" width="81" height="14" font="12">du 06/12/11) </text>
+<text top="686" left="726" width="49" height="17" font="13">57,00 € </text>
+<text top="703" left="718" width="56" height="17" font="13">186,60 € </text>
+<text top="794" left="122" width="109" height="14" font="12">Société de chasse </text>
+<text top="811" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="791" left="342" width="56" height="17" font="13">300,00 € </text>
+<text top="791" left="456" width="56" height="17" font="13">300,00 € </text>
+<text top="791" left="617" width="56" height="17" font="13">300,00 € </text>
+<text top="791" left="718" width="56" height="17" font="13">300,00 € </text>
+<text top="829" left="122" width="42" height="14" font="12">ESAC </text>
+<text top="846" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="826" left="342" width="56" height="17" font="13">840,00 € </text>
+<text top="826" left="456" width="56" height="17" font="13">840,00 € </text>
+<text top="826" left="617" width="56" height="17" font="13">840,00 € </text>
+<text top="829" left="718" width="56" height="14" font="12">840,00 € </text>
+<text top="864" left="122" width="83" height="14" font="12">FOOT PLUS </text>
+<text top="882" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="861" left="342" width="56" height="17" font="13">300,00 € </text>
+<text top="861" left="456" width="56" height="17" font="13">300,00 € </text>
+<text top="861" left="617" width="56" height="17" font="13">300,00 € </text>
+<text top="861" left="718" width="56" height="17" font="13">300,00 € </text>
+<text top="900" left="122" width="96" height="14" font="12">MCP LES JOE </text>
+<text top="917" left="122" width="35" height="14" font="12">BAR </text>
+<text top="934" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="897" left="342" width="56" height="17" font="13">250,00 € </text>
+<text top="897" left="456" width="56" height="17" font="13">250,00 € </text>
+<text top="897" left="617" width="56" height="17" font="13">250,00 € </text>
+<text top="897" left="718" width="56" height="17" font="13">250.00 € </text>
+<text top="952" left="122" width="120" height="14" font="12">Mutuelle Nationale </text>
+<text top="969" left="122" width="72" height="14" font="12">Territoriale </text>
+<text top="986" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="949" left="300" width="56" height="17" font="13">900,00 € </text>
+<text top="969" left="257" width="141" height="14" font="12">Cotisation 2011 : 800€ </text>
+<text top="986" left="279" width="123" height="14" font="12">Régul 2010 : 100 €  </text>
+<text top="949" left="456" width="56" height="17" font="13">850,00 € </text>
+<text top="969" left="411" width="145" height="14" font="12">Cotisation 2012 : 900 € </text>
+<text top="986" left="426" width="116" height="14" font="12">Régul 2011 : -50 € </text>
+<text top="949" left="617" width="56" height="17" font="13">850,00 € </text>
+<text top="949" left="718" width="56" height="17" font="13">850,00 € </text>
+<text top="969" left="684" width="91" height="14" font="12">(Les acomptes </text>
+<text top="986" left="693" width="81" height="14" font="12">seront versés </text>
+<text top="1004" left="714" width="61" height="14" font="12">au vu des </text>
+<text top="1021" left="733" width="42" height="14" font="12">appels </text>
+<text top="1038" left="699" width="76" height="14" font="12">trimestriels) </text>
+<text top="1056" left="122" width="43" height="14" font="12">CCAS </text>
+<text top="1074" left="122" width="104" height="14" font="12">(Article 657362) </text>
+<text top="1053" left="331" width="68" height="17" font="13">1 500,00 € </text>
+<text top="1056" left="456" width="56" height="14" font="12">3 300,00 </text>
+<text top="1074" left="410" width="147" height="14" font="12">Budget annuel : 1 500 € </text>
+<text top="1091" left="410" width="147" height="14" font="12">Part. att. familles transp </text>
+<text top="1108" left="439" width="88" height="14" font="12">scol :  1 600 € </text>
+<text top="1125" left="407" width="153" height="14" font="12">Indemn. stagiaire : 200 € </text>
+<text top="1143" left="482" width="4" height="14" font="12"> </text>
+<text top="1053" left="606" width="68" height="17" font="13">3 300,00 € </text>
+<text top="1053" left="707" width="68" height="17" font="13">3 300,00 € </text>
+<text top="1161" left="122" width="60" height="14" font="12">ADICLA </text>
+<text top="1178" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="1158" left="342" width="56" height="17" font="13">318,45 € </text>
+<text top="1178" left="295" width="107" height="14" font="12">(0,15*2123 hab)  </text>
+<text top="1158" left="456" width="56" height="17" font="13">326,70 € </text>
+<text top="1178" left="432" width="103" height="14" font="12">(0,15*2178 hab) </text>
+<text top="1158" left="617" width="56" height="17" font="13">326,70 € </text>
+<text top="1158" left="718" width="56" height="17" font="13">326,70 € </text>
+<text top="1196" left="122" width="59" height="14" font="12">ADAPEI </text>
+<text top="1193" left="342" width="56" height="17" font="13">649,20 € </text>
+<text top="1196" left="461" width="44" height="14" font="12">Forfait </text>
+<text top="1193" left="617" width="56" height="17" font="13">650,00 € </text>
+<text top="1193" left="718" width="56" height="17" font="13">650,00 € </text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="19" size="13" family="Helvetica" color="#000000"/>
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="560" width="149" height="16" font="0"><i><b>CM 15 février 2012 </b></i></text>
+<text top="68" left="119" width="281" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="765" width="14" height="16" font="1"><b>4 </b></text>
+<text top="131" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="149" left="122" width="111" height="14" font="12">Association « Les </text>
+<text top="166" left="122" width="92" height="14" font="12">Chiens Guides </text>
+<text top="181" left="122" width="84" height="17" font="13">d’Aveugles » </text>
+<text top="201" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="146" left="350" width="207" height="17" font="13">88,00 €  Demande non parvenue </text>
+<text top="149" left="625" width="49" height="14" font="12">90,00 € </text>
+<text top="146" left="726" width="49" height="17" font="13">90,00 € </text>
+<text top="219" left="122" width="77" height="14" font="12">Institut Paul </text>
+<text top="236" left="122" width="124" height="14" font="12">Cézanne (Fougères) </text>
+<text top="254" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="216" left="350" width="49" height="17" font="13">65,00 € </text>
+<text top="236" left="355" width="44" height="14" font="12">(65*1) </text>
+<text top="219" left="460" width="47" height="14" font="12">1 élève </text>
+<text top="216" left="625" width="49" height="17" font="13">66,00 € </text>
+<text top="236" left="670" width="4" height="14" font="12"> </text>
+<text top="216" left="726" width="49" height="17" font="13">66,00 € </text>
+<text top="272" left="122" width="99" height="14" font="12">Asso pr dvpt du </text>
+<text top="289" left="122" width="127" height="14" font="12">Bassin Versant de la </text>
+<text top="306" left="122" width="117" height="14" font="12">Baie de Bourgneuf </text>
+<text top="323" left="122" width="71" height="14" font="12">Part SAGE </text>
+<text top="341" left="122" width="95" height="14" font="12">Cotisation asso </text>
+<text top="358" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="272" left="395" width="4" height="14" font="12"> </text>
+<text top="289" left="395" width="4" height="14" font="12"> </text>
+<text top="306" left="395" width="4" height="14" font="12"> </text>
+<text top="320" left="350" width="49" height="17" font="13">35,17 € </text>
+<text top="338" left="342" width="56" height="17" font="13">160,17 € </text>
+<text top="272" left="482" width="4" height="14" font="12"> </text>
+<text top="289" left="482" width="4" height="14" font="12"> </text>
+<text top="306" left="482" width="4" height="14" font="12"> </text>
+<text top="320" left="459" width="49" height="17" font="13">33,15 € </text>
+<text top="338" left="456" width="56" height="17" font="13">161,90 € </text>
+<text top="272" left="670" width="4" height="14" font="12"> </text>
+<text top="289" left="670" width="4" height="14" font="12"> </text>
+<text top="306" left="670" width="4" height="14" font="12"> </text>
+<text top="320" left="625" width="49" height="17" font="13">33,15 € </text>
+<text top="341" left="617" width="56" height="14" font="12">161,90 € </text>
+<text top="272" left="771" width="4" height="14" font="12"> </text>
+<text top="289" left="771" width="4" height="14" font="12"> </text>
+<text top="306" left="771" width="4" height="14" font="12"> </text>
+<text top="320" left="726" width="49" height="17" font="13">33,15 € </text>
+<text top="338" left="718" width="56" height="17" font="13">161,90 € </text>
+<text top="376" left="122" width="105" height="14" font="12">Asso ,Fédérative </text>
+<text top="393" left="122" width="123" height="14" font="12">Départementale des </text>
+<text top="410" left="122" width="95" height="14" font="12">Maires de L.A. </text>
+<text top="428" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="373" left="342" width="56" height="17" font="13">501,02 € </text>
+<text top="393" left="313" width="85" height="14" font="12">(0,236*2123) </text>
+<text top="373" left="456" width="56" height="17" font="13">511,64 € </text>
+<text top="393" left="441" width="85" height="14" font="12">(0,241*2123) </text>
+<text top="373" left="617" width="56" height="17" font="13">511,64 € </text>
+<text top="373" left="718" width="56" height="17" font="13">511,64 € </text>
+<text top="446" left="122" width="120" height="14" font="12">Association Maires </text>
+<text top="463" left="122" width="100" height="14" font="12">du Pays de Retz </text>
+<text top="480" left="122" width="61" height="14" font="12">Part. asso </text>
+<text top="497" left="122" width="128" height="14" font="12">Part. Institut culturel </text>
+<text top="515" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="442" left="342" width="56" height="17" font="13">405,46 € </text>
+<text top="463" left="395" width="4" height="14" font="12"> </text>
+<text top="480" left="296" width="103" height="14" font="12">(0,03*2134 hab) </text>
+<text top="497" left="295" width="107" height="14" font="12">(0,16*2134 hab)  </text>
+<text top="442" left="456" width="56" height="17" font="13">412,49 € </text>
+<text top="463" left="482" width="4" height="14" font="12"> </text>
+<text top="480" left="432" width="103" height="14" font="12">(0,03*2171 hab) </text>
+<text top="497" left="432" width="103" height="14" font="12">(0,16*2171 hab) </text>
+<text top="442" left="617" width="56" height="17" font="13">412,49 € </text>
+<text top="442" left="718" width="56" height="17" font="13">412,49 € </text>
+<text top="533" left="122" width="123" height="14" font="12">Collectif Spectacles </text>
+<text top="550" left="122" width="49" height="14" font="12">en Retz </text>
+<text top="567" left="122" width="61" height="14" font="12">Adhésion </text>
+<text top="585" left="122" width="74" height="14" font="12">Convention </text>
+<text top="602" left="122" width="107" height="14" font="12">« Ateliers théâtre </text>
+<text top="619" left="122" width="53" height="14" font="12">jeunes » </text>
+<text top="636" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="533" left="395" width="4" height="14" font="12"> </text>
+<text top="550" left="395" width="4" height="14" font="12"> </text>
+<text top="564" left="350" width="49" height="17" font="13">60,00 € </text>
+<text top="581" left="342" width="56" height="17" font="13">803,00 € </text>
+<text top="533" left="482" width="4" height="14" font="12"> </text>
+<text top="550" left="482" width="4" height="14" font="12"> </text>
+<text top="564" left="459" width="49" height="17" font="13">60,00 € </text>
+<text top="581" left="450" width="68" height="17" font="13">1 140,00 € </text>
+<text top="602" left="455" width="57" height="14" font="12">(4 cours) </text>
+<text top="533" left="670" width="4" height="14" font="12"> </text>
+<text top="550" left="670" width="4" height="14" font="12"> </text>
+<text top="564" left="625" width="49" height="17" font="13">60,00 € </text>
+<text top="581" left="617" width="56" height="17" font="13">855,00 € </text>
+<text top="602" left="577" width="97" height="14" font="12">(3 cours pris en </text>
+<text top="619" left="625" width="49" height="14" font="12">charge) </text>
+<text top="533" left="771" width="4" height="14" font="12"> </text>
+<text top="550" left="771" width="4" height="14" font="12"> </text>
+<text top="564" left="726" width="49" height="17" font="13">60,00 € </text>
+<text top="581" left="718" width="56" height="17" font="13">855,00 € </text>
+<text top="654" left="122" width="81" height="14" font="12">Subv séjours </text>
+<text top="671" left="122" width="80" height="14" font="12">linguistiques </text>
+<text top="689" left="122" width="89" height="14" font="12">(Article 6574) </text>
+<text top="651" left="331" width="68" height="17" font="13">1 242,00 € </text>
+<text top="671" left="306" width="92" height="14" font="12">(46*27 élèves) </text>
+<text top="654" left="428" width="111" height="14" font="12">Ligne de séjours : </text>
+<text top="668" left="427" width="114" height="17" font="13">47€/élève pour les </text>
+<text top="689" left="408" width="151" height="14" font="12">voyages à destination de </text>
+<text top="706" left="421" width="125" height="14" font="12">la Grande-Bretagne, </text>
+<text top="723" left="414" width="139" height="14" font="12">Espagne et Allemagne </text>
+<text top="740" left="417" width="133" height="14" font="12">limités aux classes de </text>
+<text top="758" left="449" width="8" height="14" font="12">4</text>
+<text top="755" left="457" width="16" height="9" font="18">ème</text>
+<text top="758" left="473" width="26" height="14" font="12"> et 3</text>
+<text top="755" left="499" width="16" height="9" font="18">ème</text>
+<text top="758" left="515" width="8" height="14" font="12">  </text>
+<text top="651" left="606" width="68" height="17" font="13">1 500,00 € </text>
+<text top="671" left="583" width="90" height="14" font="12">47 €/élèv pour </text>
+<text top="689" left="590" width="84" height="14" font="12">les voyages à </text>
+<text top="706" left="572" width="102" height="14" font="12">destination de la </text>
+<text top="723" left="621" width="49" height="14" font="12">Grande-</text>
+<text top="740" left="612" width="62" height="14" font="12">Bretagne, </text>
+<text top="758" left="604" width="69" height="14" font="12">Espagne et </text>
+<text top="775" left="604" width="70" height="14" font="12">Allemagne </text>
+<text top="792" left="604" width="70" height="14" font="12">limités aux </text>
+<text top="810" left="583" width="71" height="14" font="12">classes de 4</text>
+<text top="806" left="654" width="16" height="9" font="18">ème</text>
+<text top="810" left="670" width="4" height="14" font="12"> </text>
+<text top="827" left="621" width="22" height="14" font="12">et 3</text>
+<text top="824" left="644" width="16" height="9" font="18">ème</text>
+<text top="827" left="659" width="14" height="14" font="12"> e </text>
+<text top="651" left="707" width="68" height="17" font="13">1 500,00 € </text>
+<text top="671" left="718" width="57" height="14" font="12">Ligne de </text>
+<text top="689" left="729" width="46" height="14" font="12">séjours </text>
+<text top="846" left="146" width="5" height="16" font="4"> </text>
+<text top="866" left="119" width="208" height="14" font="12">Accusé de réception en préfecture </text>
+<text top="884" left="119" width="104" height="14" font="12">044-214400400- </text>
+<text top="902" left="119" width="163" height="14" font="12">Date de télétransmission :  </text>
+<text top="920" left="119" width="186" height="14" font="12">Date de réception préfecture :  </text>
+<text top="939" left="119" width="5" height="16" font="0"><i><b> </b></i></text>
+<text top="956" left="119" width="659" height="21" font="5"><i><b> DE-2012/17 – Tarifs communaux et des locations de salles  sauf la salle de théâtre </b></i></text>
+<text top="981" left="119" width="41" height="16" font="0"><i><b>2012 </b></i></text>
+<text top="1001" left="119" width="291" height="16" font="4">Monsieur le Maire, rapporteur, expose : </text>
+<text top="1022" left="119" width="323" height="16" font="15"><i>« La  commission  des  finances,  réunie  le  1</i></text>
+<text top="1018" left="443" width="10" height="11" font="16"><i>er</i></text>
+<text top="1022" left="453" width="326" height="16" font="15"><i>  février  dernier,  propose  aux  membres  du </i></text>
+<text top="1039" left="119" width="485" height="20" font="17"><i>Conseil municipal d’augmenter les tarifs municipaux comme suit : </i></text>
+<text top="1063" left="222" width="4" height="14" font="19"> </text>
+<text top="1064" left="367" width="39" height="14" font="11"><b>Unité </b></text>
+<text top="1064" left="483" width="91" height="14" font="11"><b>Tarifs actuels </b></text>
+<text top="1064" left="645" width="104" height="14" font="11"><b>Tarifs proposés </b></text>
+<text top="1088" left="119" width="117" height="14" font="11"><b>Photocopies - Fax </b></text>
+<text top="1112" left="119" width="26" height="14" font="12">Fax </text>
+<text top="1112" left="385" width="4" height="14" font="12"> </text>
+<text top="1109" left="471" width="114" height="17" font="13">0,55 € par numéro </text>
+<text top="1109" left="649" width="96" height="17" font="13">0,55 € par page </text>
+<text top="1137" left="119" width="147" height="14" font="12">Photocopie (format A4) </text>
+<text top="1137" left="381" width="11" height="14" font="12">1 </text>
+<text top="1133" left="508" width="41" height="17" font="13">0,35 € </text>
+<text top="1133" left="676" width="41" height="17" font="13">0,35 € </text>
+<text top="1161" left="119" width="69" height="14" font="12">Cimetières<b> </b></text>
+<text top="1190" left="119" width="151" height="14" font="12">Concession cimetière ou </text>
+<text top="1190" left="365" width="43" height="14" font="12">15 ans </text>
+<text top="1187" left="501" width="56" height="17" font="13">170,00 € </text>
+<text top="1187" left="668" width="56" height="17" font="13">173,57 € </text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="20" size="13" family="Times" color="#ffffff"/>
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="560" width="149" height="16" font="0"><i><b>CM 15 février 2012 </b></i></text>
+<text top="68" left="119" width="281" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="765" width="14" height="16" font="1"><b>5 </b></text>
+<text top="132" left="119" width="84" height="14" font="12">columbarium </text>
+<text top="132" left="365" width="43" height="14" font="12">30 ans </text>
+<text top="129" left="501" width="56" height="17" font="13">250,00 € </text>
+<text top="129" left="668" width="56" height="17" font="13">255,25 € </text>
+<text top="156" left="365" width="43" height="14" font="12">50 ans </text>
+<text top="153" left="501" width="56" height="17" font="13">532,00 € </text>
+<text top="153" left="668" width="56" height="17" font="13">543,37 € </text>
+<text top="181" left="119" width="49" height="14" font="12">Caveau </text>
+<text top="181" left="363" width="47" height="14" font="12">1 place </text>
+<text top="178" left="501" width="56" height="17" font="13">705,00 € </text>
+<text top="178" left="668" width="56" height="17" font="13">719,80 € </text>
+<text top="200" left="360" width="52" height="14" font="12">2 places </text>
+<text top="196" left="501" width="56" height="17" font="13">834,00 € </text>
+<text top="196" left="668" width="56" height="17" font="13">851,51 € </text>
+<text top="218" left="360" width="52" height="14" font="12">3 places </text>
+<text top="215" left="495" width="67" height="17" font="13">1 005,00 € </text>
+<text top="215" left="663" width="68" height="17" font="13">1 026,10 € </text>
+<text top="236" left="119" width="138" height="14" font="12">Place au colombarium </text>
+<text top="236" left="381" width="11" height="14" font="12">1 </text>
+<text top="233" left="501" width="56" height="17" font="13">573,00 € </text>
+<text top="233" left="668" width="56" height="17" font="13">585,03 € </text>
+<text top="255" left="119" width="201" height="14" font="11"><b>Occupation du domaine public </b></text>
+<text top="278" left="119" width="89" height="14" font="12">Droit de place </text>
+<text top="278" left="365" width="43" height="14" font="12">Année </text>
+<text top="275" left="504" width="49" height="17" font="13">80,00 € </text>
+<text top="275" left="672" width="49" height="17" font="13">90,00 € </text>
+<text top="303" left="361" width="51" height="14" font="12">Journée </text>
+<text top="300" left="504" width="49" height="17" font="13">42,00 € </text>
+<text top="300" left="672" width="49" height="17" font="13">42,88 € </text>
+<text top="328" left="350" width="72" height="14" font="12">1/2 journée </text>
+<text top="325" left="504" width="49" height="17" font="13">25,00 € </text>
+<text top="325" left="672" width="49" height="17" font="13">25,52 € </text>
+<text top="353" left="119" width="101" height="14" font="11"><b>Assainissement </b></text>
+<text top="377" left="119" width="123" height="14" font="12">Abonnement (H.T.) </text>
+<text top="377" left="381" width="11" height="14" font="12">1 </text>
+<text top="374" left="563" width="49" height="17" font="13">25,09 € </text>
+<text top="377" left="632" width="130" height="14" font="12">Délib n°2011/115 du </text>
+<text top="395" left="668" width="57" height="14" font="12">12/10/11 </text>
+<text top="402" left="119" width="184" height="14" font="12">Surtaxe assainissement (H.T.) </text>
+<text top="402" left="376" width="12" height="14" font="12">m</text>
+<text top="399" left="388" width="5" height="9" font="18">3</text>
+<text top="402" left="393" width="4" height="14" font="12"> </text>
+<text top="399" left="555" width="56" height="17" font="13">0,5799 € </text>
+<text top="427" left="119" width="205" height="14" font="12">Forfait minimum par personne au </text>
+<text top="445" left="119" width="35" height="14" font="12">foyer </text>
+<text top="427" left="335" width="30" height="14" font="12">30 m</text>
+<text top="424" left="366" width="5" height="9" font="18">3</text>
+<text top="427" left="371" width="237" height="14" font="12"> par personne au foyer avec un plafond </text>
+<text top="445" left="443" width="48" height="14" font="12">de 60 m</text>
+<text top="441" left="492" width="5" height="9" font="18">3</text>
+<text top="445" left="496" width="4" height="14" font="12"> </text>
+<text top="463" left="119" width="181" height="14" font="12">PRE (Part. au raccordement à </text>
+<text top="477" left="119" width="51" height="17" font="13">l’égout) </text>
+<text top="463" left="381" width="11" height="14" font="12">1 </text>
+<text top="460" left="544" width="68" height="17" font="13">1 330,00 € </text>
+<text top="460" left="663" width="68" height="17" font="13">1 360,00 € </text>
+<text top="499" left="119" width="184" height="14" font="12">TRE (Taxe de raccordement à </text>
+<text top="516" left="119" width="51" height="14" font="12">l’égout) </text>
+<text top="499" left="381" width="11" height="14" font="12">1 </text>
+<text top="495" left="555" width="56" height="17" font="13">850,00 € </text>
+<text top="495" left="668" width="56" height="17" font="13">870,00 € </text>
+<text top="535" left="119" width="5" height="16" font="4"> </text>
+<text top="556" left="119" width="5" height="16" font="4"> </text>
+<text top="576" left="178" width="541" height="14" font="11"><b>TARIFS ACTUELS DE LOCATION DES SALLES SAUF SALLE DU THEA¨TRE </b></text>
+<text top="594" left="123" width="27" height="14" font="11"><b>Cat </b></text>
+<text top="594" left="428" width="80" height="14" font="11"><b>Désignation </b></text>
+<text top="613" left="131" width="11" height="14" font="11"><b>1 </b></text>
+<text top="612" left="158" width="364" height="14" font="12">Particuliers résidant la commune et entreprises communales </text>
+<text top="637" left="131" width="11" height="14" font="11"><b>2 </b></text>
+<text top="637" left="158" width="614" height="14" font="12">Associations communales, les comités d'entreprise à but non lucratif et non commercial, les syndicats </text>
+<text top="654" left="158" width="135" height="14" font="12">et les partis politiques </text>
+<text top="673" left="131" width="11" height="14" font="11"><b>3 </b></text>
+<text top="673" left="158" width="396" height="14" font="12">Particuliers résidant hors commune- Les associations extérieures. </text>
+<text top="698" left="131" width="11" height="14" font="11"><b>4 </b></text>
+<text top="697" left="158" width="549" height="14" font="12">Sociétés commerciales ou professionnelles hors commune. Les autres utilisateurs non cités </text>
+<text top="715" left="158" width="96" height="14" font="12">précédemment. </text>
+<text top="733" left="119" width="45" height="14" font="12">       </text>
+<text top="733" left="519" width="11" height="14" font="11"><b>1 </b></text>
+<text top="733" left="592" width="11" height="14" font="11"><b>2 </b></text>
+<text top="733" left="657" width="11" height="14" font="11"><b>3 </b></text>
+<text top="733" left="732" width="11" height="14" font="11"><b>4 </b></text>
+<text top="758" left="119" width="75" height="14" font="11"><b>SALLE 95  </b></text>
+<text top="783" left="119" width="82" height="14" font="12">Pour réunion </text>
+<text top="783" left="505" width="39" height="14" font="12">Néant </text>
+<text top="783" left="578" width="39" height="14" font="12">Néant </text>
+<text top="783" left="661" width="4" height="14" font="20"> </text>
+<text top="783" left="736" width="4" height="14" font="20"> </text>
+<text top="807" left="385" width="97" height="14" font="12">Tarifs proposés </text>
+<text top="807" left="505" width="39" height="14" font="12">Néant </text>
+<text top="807" left="578" width="39" height="14" font="12">Néant </text>
+<text top="807" left="661" width="4" height="14" font="20"> </text>
+<text top="807" left="736" width="4" height="14" font="20"> </text>
+<text top="832" left="119" width="155" height="14" font="11"><b>SALLE MUNICIPALE </b></text>
+<text top="857" left="119" width="82" height="14" font="12">Pour réunion </text>
+<text top="857" left="505" width="39" height="14" font="12">Néant </text>
+<text top="857" left="578" width="39" height="14" font="12">Néant </text>
+<text top="854" left="635" width="56" height="17" font="13">102,00 € </text>
+<text top="854" left="710" width="56" height="17" font="13">102,00 € </text>
+<text top="882" left="385" width="97" height="14" font="12">Tarifs proposés </text>
+<text top="882" left="505" width="39" height="14" font="12">Néant </text>
+<text top="882" left="578" width="39" height="14" font="12">Néant </text>
+<text top="879" left="635" width="56" height="17" font="13">104,14 € </text>
+<text top="879" left="710" width="56" height="17" font="13">104,14 € </text>
+<text top="906" left="119" width="118" height="14" font="12">Pour vin d'honneur </text>
+<text top="903" left="500" width="49" height="17" font="13">37,00 € </text>
+<text top="906" left="578" width="39" height="14" font="12">Néant </text>
+<text top="903" left="635" width="56" height="17" font="13">102,00 € </text>
+<text top="903" left="710" width="56" height="17" font="13">102,00 € </text>
+<text top="931" left="385" width="97" height="14" font="12">Tarifs proposés </text>
+<text top="928" left="500" width="49" height="17" font="13">37,77 € </text>
+<text top="931" left="578" width="39" height="14" font="12">Néant </text>
+<text top="928" left="635" width="56" height="17" font="13">104,14 € </text>
+<text top="931" left="710" width="55" height="14" font="12">104,14 e </text>
+<text top="956" left="119" width="274" height="14" font="12">Pour buffet campagnard sans soirée dansante </text>
+<text top="953" left="500" width="49" height="17" font="13">83,00 € </text>
+<text top="956" left="578" width="39" height="14" font="12">Néant </text>
+<text top="953" left="635" width="56" height="17" font="13">162,00 € </text>
+<text top="953" left="710" width="56" height="17" font="13">162,00 € </text>
+<text top="981" left="385" width="97" height="14" font="12">Tarifs proposés </text>
+<text top="978" left="500" width="49" height="17" font="13">84,74 € </text>
+<text top="981" left="578" width="39" height="14" font="12">Néant </text>
+<text top="978" left="635" width="56" height="17" font="13">165,40 € </text>
+<text top="978" left="710" width="56" height="17" font="13">165,40 € </text>
+<text top="1005" left="119" width="184" height="14" font="12">Pour repas de famille ou autre </text>
+<text top="1002" left="500" width="49" height="17" font="13">83,00 € </text>
+<text top="1005" left="578" width="39" height="14" font="12">Néant </text>
+<text top="1002" left="635" width="56" height="17" font="13">162,00 € </text>
+<text top="1002" left="710" width="56" height="17" font="13">162,00 € </text>
+<text top="1030" left="385" width="97" height="14" font="12">Tarifs proposés </text>
+<text top="1027" left="500" width="49" height="17" font="13">84,74 € </text>
+<text top="1030" left="578" width="39" height="14" font="12">Néant </text>
+<text top="1027" left="635" width="56" height="17" font="13">165,40 € </text>
+<text top="1027" left="710" width="56" height="17" font="13">165,40 € </text>
+<text top="1055" left="119" width="294" height="14" font="12">Manifestation avec contributions financières des </text>
+<text top="1069" left="119" width="177" height="17" font="13">participants (loto, belote, …) </text>
+<text top="1052" left="500" width="49" height="17" font="13">50,00 € </text>
+<text top="1052" left="573" width="118" height="17" font="13">50,00 €  102,00 € </text>
+<text top="1055" left="710" width="56" height="14" font="12">102,00 € </text>
+<text top="1091" left="385" width="97" height="14" font="12">Tarifs proposés </text>
+<text top="1087" left="500" width="49" height="17" font="13">51,05 € </text>
+<text top="1087" left="573" width="49" height="17" font="13">51,05 € </text>
+<text top="1105" left="590" width="12" height="9" font="18">(1)</text>
+<text top="1108" left="602" width="4" height="14" font="12"> </text>
+<text top="1087" left="635" width="56" height="17" font="13">104,14 € </text>
+<text top="1087" left="710" width="56" height="17" font="13">104,14 € </text>
+<text top="1127" left="119" width="149" height="14" font="11"><b>HALL DU THEATRE </b></text>
+<text top="1151" left="119" width="82" height="14" font="12">Pour réunion </text>
+<text top="1151" left="523" width="4" height="14" font="20"> </text>
+<text top="1151" left="578" width="39" height="14" font="12">Néant </text>
+<text top="1151" left="661" width="4" height="14" font="20"> </text>
+<text top="1151" left="736" width="4" height="14" font="20"> </text>
+<text top="1175" left="385" width="97" height="14" font="12">Tarifs proposés </text>
+<text top="1175" left="523" width="4" height="14" font="20"> </text>
+<text top="1175" left="578" width="39" height="14" font="12">Néant </text>
+<text top="1175" left="661" width="4" height="14" font="20"> </text>
+<text top="1175" left="736" width="4" height="14" font="20"> </text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="21" size="11" family="Times" color="#000000"/>
+	<fontspec id="22" size="13" family="Times" color="#000000"/>
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="560" width="149" height="16" font="0"><i><b>CM 15 février 2012 </b></i></text>
+<text top="68" left="119" width="281" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="765" width="14" height="16" font="1"><b>6 </b></text>
+<text top="132" left="119" width="118" height="14" font="12">Pour vin d'honneur </text>
+<text top="129" left="500" width="49" height="17" font="13">26,00 € </text>
+<text top="132" left="578" width="39" height="14" font="12">Néant </text>
+<text top="129" left="639" width="49" height="17" font="13">96,00 € </text>
+<text top="129" left="713" width="49" height="17" font="13">96,00 € </text>
+<text top="156" left="385" width="97" height="14" font="12">Tarifs proposés </text>
+<text top="153" left="500" width="49" height="17" font="13">27,00 € </text>
+<text top="156" left="578" width="39" height="14" font="12">Néant </text>
+<text top="153" left="639" width="49" height="17" font="13">98,00 € </text>
+<text top="153" left="713" width="49" height="17" font="13">98,00 € </text>
+<text top="181" left="119" width="588" height="14" font="12">Caution des salles (sauf salle du théâtre) : 160,00 € sauf utilisation habituelle par les associations. </text>
+<text top="199" left="119" width="18" height="14" font="12">(1)</text>
+<text top="198" left="137" width="4" height="14" font="19"> </text>
+<text top="199" left="146" width="631" height="14" font="12">Gratuité  une  fois  par  an  pour  les  associations  communales  à  but  non  lucratif  organisant  une </text>
+<text top="216" left="146" width="355" height="14" font="12">manifestation avec contribution financière des participants </text>
+<text top="233" left="146" width="4" height="14" font="11"><b> </b></text>
+<text top="251" left="119" width="346" height="14" font="11"><b>Le matériel cassé ou dérobé sera facturé par la Mairie</b></text>
+<text top="249" left="465" width="5" height="16" font="4"> </text>
+<text top="270" left="160" width="39" height="14" font="11"><b>Unité </b></text>
+<text top="270" left="262" width="119" height="14" font="11"><b>Location Matériel </b></text>
+<text top="270" left="410" width="117" height="14" font="11"><b>Px location actuel </b></text>
+<text top="270" left="551" width="75" height="14" font="11"><b>Px proposé </b></text>
+<text top="269" left="708" width="5" height="16" font="4"> </text>
+<text top="291" left="174" width="11" height="14" font="12">1 </text>
+<text top="291" left="246" width="113" height="14" font="12">Boîte de 12 verres </text>
+<text top="288" left="493" width="41" height="17" font="13">1,10 € </text>
+<text top="288" left="595" width="41" height="17" font="13">1,12 € </text>
+<text top="291" left="642" width="5" height="16" font="4"> </text>
+<text top="320" left="174" width="11" height="14" font="12">1 </text>
+<text top="311" left="246" width="92" height="14" font="12">Verre cassé ou </text>
+<text top="329" left="246" width="63" height="14" font="12">manquant </text>
+<text top="317" left="493" width="41" height="17" font="13">2,20 € </text>
+<text top="317" left="595" width="41" height="17" font="13">2,24 € </text>
+<text top="319" left="642" width="5" height="16" font="4"> </text>
+<text top="348" left="174" width="11" height="14" font="12">1 </text>
+<text top="348" left="246" width="118" height="14" font="12">Torchon manquant </text>
+<text top="345" left="493" width="41" height="17" font="13">2,20 € </text>
+<text top="345" left="595" width="41" height="17" font="13">2,24 € </text>
+<text top="347" left="642" width="5" height="16" font="4"> </text>
+<text top="370" left="174" width="11" height="14" font="12">1 </text>
+<text top="370" left="246" width="111" height="14" font="12">Plateau manquant </text>
+<text top="366" left="493" width="41" height="17" font="13">8,80 € </text>
+<text top="366" left="595" width="41" height="17" font="13">8,98 € </text>
+<text top="369" left="642" width="5" height="16" font="4"> </text>
+<text top="389" left="174" width="11" height="14" font="12">1 </text>
+<text top="389" left="246" width="38" height="14" font="12">Table </text>
+<text top="386" left="493" width="41" height="17" font="13">2,20 € </text>
+<text top="386" left="595" width="177" height="17" font="13">2,24 €  <b>Par jour suivant les </b></text>
+<text top="407" left="642" width="123" height="14" font="11"><b>disponibilités pour </b></text>
+<text top="424" left="642" width="117" height="14" font="11"><b>les manifestations </b></text>
+<text top="442" left="642" width="115" height="14" font="11"><b>privées en dehors </b></text>
+<text top="459" left="642" width="59" height="14" font="11"><b>des salles</b></text>
+<text top="457" left="701" width="5" height="16" font="4"> </text>
+<text top="433" left="174" width="11" height="14" font="12">1 </text>
+<text top="433" left="246" width="44" height="14" font="12">Chaise </text>
+<text top="430" left="493" width="41" height="17" font="13">0,35 € </text>
+<text top="430" left="595" width="41" height="17" font="13">0,35 € </text>
+<text top="485" left="178" width="4" height="14" font="12"> </text>
+<text top="477" left="246" width="135" height="14" font="12">Caution pour location </text>
+<text top="493" left="246" width="101" height="14" font="12">tables &amp; chaises </text>
+<text top="482" left="485" width="49" height="17" font="13">80,00 € </text>
+<text top="482" left="587" width="49" height="17" font="13">80,00 € </text>
+<text top="484" left="642" width="5" height="16" font="4"> </text>
+<text top="529" left="178" width="4" height="14" font="11"><b> </b></text>
+<text top="520" left="246" width="138" height="14" font="12">Caution pour location  </text>
+<text top="537" left="246" width="36" height="14" font="12">sono  </text>
+<text top="526" left="478" width="56" height="17" font="13">250,00 € </text>
+<text top="526" left="579" width="56" height="17" font="13">250,00 € </text>
+<text top="512" left="642" width="85" height="14" font="11"><b>Loc réservée </b></text>
+<text top="529" left="642" width="107" height="14" font="11"><b>uniquement aux </b></text>
+<text top="546" left="642" width="76" height="14" font="11"><b>associations</b></text>
+<text top="544" left="718" width="5" height="16" font="4"> </text>
+<text top="565" left="119" width="659" height="16" font="4">Le  Conseil  municipal,  après  avoir  entendu  son  rapporteur  en  son  exposé  et  délibéré, </text>
+<text top="582" left="119" width="659" height="20" font="5">décide  à  l’unanimité  des  membres  présents,  d’approuver  l’augmentation  des  tarifs  2012 </text>
+<text top="603" left="119" width="238" height="20" font="5">telle qu’elle leur a été présentée. </text>
+<text top="627" left="119" width="5" height="16" font="4"> </text>
+<text top="648" left="119" width="208" height="14" font="12">Accusé de réception en préfecture </text>
+<text top="666" left="119" width="104" height="14" font="12">044-214400400- </text>
+<text top="684" left="119" width="168" height="14" font="12">Date de télétransmission : - </text>
+<text top="702" left="119" width="186" height="14" font="12">Date de réception préfecture :  </text>
+<text top="721" left="119" width="5" height="16" font="4"> </text>
+<text top="737" left="119" width="459" height="21" font="5"><i><b> DE-2012/18 – Tarifs de location de la salle de théâtre 2012 </b></i></text>
+<text top="762" left="119" width="291" height="16" font="4">Monsieur le Maire, rapporteur, expose : </text>
+<text top="783" left="119" width="323" height="16" font="15"><i>« La  commission  des  finances,  réunie  le  1</i></text>
+<text top="779" left="443" width="10" height="11" font="16"><i>er</i></text>
+<text top="783" left="453" width="326" height="16" font="15"><i>  février  dernier,  propose  aux  membres  du </i></text>
+<text top="800" left="119" width="638" height="20" font="17"><i>Conseil municipal d’augmenter les tarifs de location de la salle du théâtre comme suit : </i></text>
+<text top="825" left="123" width="27" height="14" font="11"><b>Cat </b></text>
+<text top="825" left="429" width="80" height="14" font="11"><b>Désignation </b></text>
+<text top="843" left="131" width="11" height="14" font="11"><b>1 </b></text>
+<text top="843" left="159" width="541" height="14" font="12">Associations communales et les comités d'entreprise à but non lucratif et non commercial </text>
+<text top="868" left="131" width="11" height="14" font="11"><b>2 </b></text>
+<text top="868" left="159" width="150" height="14" font="12">Associations extérieures </text>
+<text top="892" left="131" width="11" height="14" font="11"><b>3 </b></text>
+<text top="892" left="159" width="353" height="14" font="12">Sociétés commerciales ou professionnelles hors commune </text>
+<text top="917" left="119" width="3" height="12" font="21"> </text>
+<text top="933" left="161" width="4" height="14" font="12"> </text>
+<text top="933" left="563" width="11" height="14" font="12">1 </text>
+<text top="933" left="636" width="11" height="14" font="12">2 </text>
+<text top="933" left="700" width="11" height="14" font="12">3 </text>
+<text top="959" left="161" width="155" height="14" font="11"><b>SALLE DU THEÂTRE </b></text>
+<text top="983" left="161" width="91" height="14" font="12">Pour spectacle </text>
+<text top="983" left="549" width="39" height="14" font="12">Néant </text>
+<text top="980" left="613" width="121" height="17" font="13">350,00 €  450,00 € </text>
+<text top="1008" left="430" width="97" height="14" font="12">Tarifs proposés </text>
+<text top="1008" left="549" width="39" height="14" font="12">Néant </text>
+<text top="1005" left="613" width="121" height="17" font="13">357,35 €  459,45 € </text>
+<text top="1033" left="119" width="485" height="14" font="12">Caution salle du théâtre : 500,00 € sauf utilisation habituelle par les associations </text>
+<text top="1050" left="119" width="658" height="14" font="11"><b>*  Les  associations  intercommunales  pouvant  être  assimilées  à  celles  de  CHEMERE  ayant  un  but </b></text>
+<text top="1067" left="119" width="658" height="14" font="11"><b>éducatif avec un nb  d'adhérents de CHEMERE significatif paieront  une location de 100 €uros (Ex.: </b></text>
+<text top="1085" left="119" width="181" height="14" font="11"><b>INSERETZ, EVIDANCES) </b></text>
+<text top="1103" left="119" width="659" height="16" font="4">Le  Conseil  municipal,  après  avoir  entendu  son  rapporteur  en  son  exposé  et  délibéré, </text>
+<text top="1120" left="119" width="659" height="20" font="5">décide  à  l’unanimité  des  membres  présents  d’approuver  les  tarifs  2012  de  la  salle  du </text>
+<text top="1140" left="119" width="290" height="20" font="5">théâtre tels qu’ils leur ont été présentés. </text>
+<text top="1165" left="119" width="5" height="16" font="4"> </text>
+<text top="1185" left="119" width="208" height="14" font="12">Accusé de réception en préfecture </text>
+<text top="1203" left="119" width="109" height="14" font="12">044-214400400-- </text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="1262" width="892">
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="560" width="149" height="16" font="0"><i><b>CM 15 février 2012 </b></i></text>
+<text top="68" left="119" width="281" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="765" width="14" height="16" font="1"><b>7 </b></text>
+<text top="131" left="119" width="168" height="14" font="12">Date de télétransmission : - </text>
+<text top="149" left="119" width="186" height="14" font="12">Date de réception préfecture :  </text>
+<text top="168" left="119" width="5" height="17" font="6"> </text>
+<text top="189" left="119" width="5" height="16" font="0"><i><b> </b></i></text>
+<text top="205" left="119" width="494" height="21" font="5"><i><b> DE-2012/19 – Convention de partenariat avec le Triolet de Retz </b></i></text>
+<text top="230" left="119" width="659" height="16" font="4">Monsieur  Jean-Marie GATARD, rapporteur, informe les membres du Conseil municipal </text>
+<text top="247" left="119" width="659" height="20" font="5">que  l’association  intercommunale  « Triolet  de  Retz »  propose  la  signature  d’une </text>
+<text top="268" left="119" width="659" height="20" font="5">convention de partenariat entre les communes d’ARTHON-EN-RETZ, de CHAUVE, de </text>
+<text top="292" left="119" width="660" height="16" font="4">CHEMERE et de SAINT-HILAIRE-DE CHALEONS d’une part et l’association « Triolet </text>
+<text top="313" left="119" width="659" height="16" font="4">de  Retz »  d’autre  part,  afin  de  définir  les  conditions  dans  lesquelles  les  communes </text>
+<text top="330" left="119" width="507" height="20" font="5">apportent leur soutien aux activités d’intérêt général de cette dernière. </text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="1262" width="892">
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="560" width="149" height="16" font="0"><i><b>CM 15 février 2012 </b></i></text>
+<text top="68" left="119" width="281" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="765" width="14" height="16" font="1"><b>8 </b></text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="1262" width="892">
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="560" width="149" height="16" font="0"><i><b>CM 15 février 2012 </b></i></text>
+<text top="68" left="119" width="281" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="765" width="14" height="16" font="1"><b>9 </b></text>
+<text top="912" left="764" width="5" height="16" font="0"><i><b> </b></i></text>
+<text top="928" left="119" width="654" height="16" font="4">Le  Conseil  municipal,  après  avoir  entendu  son  rapporteur  en  son  exposé  et  délibéré, </text>
+<text top="945" left="119" width="324" height="20" font="5">décide à l’unanimité des membres présents : </text>
+<text top="970" left="146" width="6" height="16" font="4">-</text>
+<text top="969" left="152" width="5" height="17" font="6"> </text>
+<text top="966" left="173" width="502" height="20" font="5">d’approuver le projet de convention de partenariat proposé ci-dessus, </text>
+<text top="991" left="146" width="6" height="16" font="4">-</text>
+<text top="990" left="152" width="5" height="17" font="6"> </text>
+<text top="991" left="173" width="599" height="16" font="4">de  donner  tous  pouvoirs  à  Monsieur  le  Maire  pour  mener  ce  dossier  à  bien, </text>
+<text top="1011" left="173" width="302" height="16" font="4">notamment la signature de la convention, </text>
+<text top="1032" left="119" width="5" height="16" font="0"><i><b> </b></i></text>
+<text top="1052" left="119" width="208" height="14" font="12">Accusé de réception en préfecture </text>
+<text top="1070" left="119" width="109" height="14" font="12">044-214400400-- </text>
+<text top="1088" left="119" width="168" height="14" font="12">Date de télétransmission : - </text>
+<text top="1106" left="119" width="186" height="14" font="12">Date de réception préfecture :  </text>
+<text top="1126" left="119" width="5" height="16" font="0"><i><b> </b></i></text>
+<text top="1142" left="119" width="251" height="21" font="5"><i><b> DE-2012/20 – Projet éoliennes </b></i></text>
+<text top="1167" left="119" width="659" height="16" font="4">Monsieur  le  Maire,  rapporteur,  informe  les  membres  du  Conseil  municipal  que  suite  au </text>
+<text top="1184" left="119" width="659" height="20" font="5">projet  d’implantation  de  5  éoliennes  sur  le  territoire  de  la  commune,  une  réunion  des </text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="1262" width="892">
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="560" width="149" height="16" font="0"><i><b>CM 15 février 2012 </b></i></text>
+<text top="68" left="119" width="281" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="756" width="23" height="16" font="1"><b>10 </b></text>
+<text top="128" left="119" width="659" height="20" font="5">riverains a eu lieu en mairie le 24 janvier 2012. Il ressort de cette réunion qu’aucun d’entre </text>
+<text top="149" left="119" width="209" height="20" font="5">eux n’est opposé à ce projet. </text>
+<text top="173" left="119" width="659" height="16" font="4">Il est demandé aux membres du Conseil municipal de prendre une position vis-à-vis de ce </text>
+<text top="190" left="119" width="659" height="20" font="5">projet. Si l’avis est positif, une demande de création d’une Zone de développement éolien </text>
+<text top="210" left="119" width="637" height="20" font="5">(ZDE) devra être effectuée auprès de la communauté de communes Cœur Pays de Retz. </text>
+<text top="235" left="119" width="660" height="16" font="4">Il  est  procédé  à  un  vote  à  main  levée.  Par  15  voix  « Pour »,  1  « Contre »  et  1 </text>
+<text top="256" left="119" width="659" height="16" font="4">« Abstention »,  le  Conseil  municipal,  après  en  avoir  délibéré,  décide  à  la  majorité  des </text>
+<text top="277" left="119" width="144" height="16" font="4">membres présents : </text>
+<text top="297" left="146" width="6" height="16" font="4">-</text>
+<text top="296" left="152" width="5" height="17" font="6"> </text>
+<text top="293" left="173" width="402" height="20" font="5">d’émettre un avis favorable pour la poursuite du projet, </text>
+<text top="318" left="146" width="6" height="16" font="4">-</text>
+<text top="317" left="152" width="5" height="17" font="6"> </text>
+<text top="318" left="173" width="606" height="16" font="4">de  donner  tous  pouvoirs  à  Monsieur  le  Maire  pour  mener  ce  dossier  à  bien, </text>
+<text top="335" left="173" width="605" height="20" font="5">notamment  la  demande  de  création  d’une  ZDE  auprès  de  la  communauté  de </text>
+<text top="356" left="173" width="229" height="20" font="5">communes Cœur Pays de Retz. </text>
+<text top="380" left="119" width="5" height="16" font="4"> </text>
+<text top="401" left="119" width="208" height="14" font="12">Accusé de réception en préfecture </text>
+<text top="419" left="119" width="104" height="14" font="12">044-214400400- </text>
+<text top="437" left="119" width="168" height="14" font="12">Date de télétransmission : - </text>
+<text top="455" left="119" width="186" height="14" font="12">Date de réception préfecture :  </text>
+<text top="474" left="119" width="5" height="16" font="0"><i><b> </b></i></text>
+<text top="490" left="119" width="415" height="21" font="5"><i><b> DE-2012/21 – Débat d’orientations budgétaires 2012 </b></i></text>
+<text top="515" left="119" width="291" height="16" font="4">Monsieur le Maire, rapporteur, expose : </text>
+<text top="535" left="119" width="659" height="16" font="15"><i>« Avant  de  voter  les  budgets  en  mars  2012,  je  vous  propose,  bien  que  ce  ne  soit  pas </i></text>
+<text top="553" left="119" width="659" height="20" font="17"><i>obligatoire pour notre commune, de débattre des projets d’investissement à inscrire aux </i></text>
+<text top="577" left="119" width="270" height="16" font="15"><i>différents budgets communaux 2012. </i></text>
+<text top="598" left="119" width="659" height="16" font="15"><i>Vous  trouverez,  ci-après,  la  liste  des  travaux  prévus.  Le  montant  total  de  ces  travaux </i></text>
+<text top="618" left="119" width="659" height="16" font="15"><i>dépassant les possibilités du budget, il faudra opérer des choix, emprunter ou reporter les </i></text>
+<text top="635" left="119" width="218" height="20" font="17"><i>projets sur l’exercice suivant. </i></text>
+<text top="660" left="119" width="329" height="14" font="11"><b>LISTE DES TRAVAUX ET INVESTISSEMENTS </b></text>
+<text top="660" left="603" width="34" height="14" font="11"><b>2012 </b></text>
+<text top="684" left="119" width="4" height="14" font="12"> </text>
+<text top="684" left="489" width="108" height="14" font="11"><b>Fonctionnement </b></text>
+<text top="684" left="653" width="98" height="14" font="11"><b>Investissement </b></text>
+<text top="707" left="119" width="131" height="14" font="12">Acquisition tondeuse </text>
+<text top="707" left="619" width="4" height="14" font="12"> </text>
+<text top="707" left="714" width="64" height="14" font="12">30 000,00 </text>
+<text top="728" left="119" width="177" height="17" font="13">Travaux logement d’urgence </text>
+<text top="731" left="619" width="4" height="14" font="12"> </text>
+<text top="731" left="714" width="64" height="14" font="12">35 000,00 </text>
+<text top="755" left="119" width="104" height="14" font="12">Travaux VIVAL </text>
+<text top="755" left="619" width="4" height="14" font="12"> </text>
+<text top="755" left="707" width="71" height="14" font="12">122 000,00 </text>
+<text top="778" left="119" width="213" height="14" font="12">Bâtiment commercial centre bourg </text>
+<text top="778" left="619" width="4" height="14" font="12"> </text>
+<text top="778" left="714" width="64" height="14" font="12">73 000,00 </text>
+<text top="802" left="119" width="164" height="14" font="12">Acquisition terrain – vente </text>
+<text top="802" left="619" width="4" height="14" font="12"> </text>
+<text top="802" left="705" width="73" height="14" font="12">- 24 000,00 </text>
+<text top="825" left="119" width="89" height="14" font="12">Salle des fêtes </text>
+<text top="825" left="619" width="4" height="14" font="12"> </text>
+<text top="825" left="769" width="9" height="14" font="12">- </text>
+<text top="849" left="119" width="167" height="14" font="12">Aménagement rue du Breil </text>
+<text top="849" left="619" width="4" height="14" font="12"> </text>
+<text top="849" left="707" width="71" height="14" font="12">200 000,00 </text>
+<text top="870" left="119" width="183" height="17" font="13">Maîtrise d’œuvre rue du Breil </text>
+<text top="873" left="619" width="4" height="14" font="12"> </text>
+<text top="873" left="721" width="56" height="14" font="12">8 000,00 </text>
+<text top="896" left="119" width="174" height="14" font="12">Matériel services techniques </text>
+<text top="896" left="619" width="4" height="14" font="12"> </text>
+<text top="896" left="721" width="56" height="14" font="12">5 000,00 </text>
+<text top="920" left="119" width="174" height="14" font="12">Budget investissement école </text>
+<text top="920" left="619" width="4" height="14" font="12"> </text>
+<text top="920" left="721" width="56" height="14" font="12">3 300,00 </text>
+<text top="944" left="119" width="126" height="14" font="12">Matériel désherbage </text>
+<text top="944" left="619" width="4" height="14" font="12"> </text>
+<text top="944" left="714" width="64" height="14" font="12">10 500,00 </text>
+<text top="967" left="119" width="185" height="14" font="12">Branchement électrique église </text>
+<text top="967" left="619" width="4" height="14" font="12"> </text>
+<text top="967" left="721" width="56" height="14" font="12">5 000,00 </text>
+<text top="991" left="119" width="137" height="14" font="12">Réhausse pare ballons </text>
+<text top="991" left="619" width="4" height="14" font="12"> </text>
+<text top="991" left="721" width="56" height="14" font="12">2 600,00 </text>
+<text top="1015" left="119" width="129" height="14" font="12">Bancs terrain de foot </text>
+<text top="1015" left="619" width="4" height="14" font="12"> </text>
+<text top="1015" left="721" width="56" height="14" font="12">1 000,00 </text>
+<text top="1038" left="119" width="44" height="14" font="12">PAVC </text>
+<text top="1038" left="619" width="4" height="14" font="12"> </text>
+<text top="1038" left="714" width="64" height="14" font="12">50 000,00 </text>
+<text top="1062" left="119" width="69" height="14" font="12">Cour école </text>
+<text top="1062" left="619" width="4" height="14" font="12"> </text>
+<text top="1062" left="714" width="64" height="14" font="12">24 000,00 </text>
+<text top="1085" left="119" width="87" height="14" font="12">PAVE + ERP </text>
+<text top="1085" left="619" width="4" height="14" font="12"> </text>
+<text top="1085" left="721" width="56" height="14" font="12">3 000,00 </text>
+<text top="1109" left="119" width="177" height="14" font="12">Extension restaurant scolaire </text>
+<text top="1109" left="619" width="4" height="14" font="12"> </text>
+<text top="1109" left="714" width="64" height="14" font="12">35 000,00 </text>
+<text top="1133" left="119" width="141" height="14" font="12">Chemins de randonnée </text>
+<text top="1133" left="619" width="4" height="14" font="12"> </text>
+<text top="1133" left="721" width="56" height="14" font="12">2 800,00 </text>
+<text top="1156" left="119" width="85" height="14" font="12">Espaces verts </text>
+<text top="1156" left="619" width="4" height="14" font="12"> </text>
+<text top="1156" left="714" width="64" height="14" font="12">15 000,00 </text>
+<text top="1180" left="119" width="197" height="14" font="12">Ravalement façade ancien poste </text>
+<text top="1180" left="567" width="56" height="14" font="12">1 000,00 </text>
+<text top="1180" left="774" width="4" height="14" font="12"> </text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="1262" width="892">
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="560" width="149" height="16" font="0"><i><b>CM 15 février 2012 </b></i></text>
+<text top="68" left="119" width="281" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="756" width="23" height="16" font="1"><b>11 </b></text>
+<text top="132" left="119" width="188" height="14" font="12">Travaux exhumation cimetière </text>
+<text top="132" left="567" width="56" height="14" font="12">1 530,00 </text>
+<text top="132" left="774" width="4" height="14" font="12"> </text>
+<text top="155" left="119" width="147" height="14" font="12">Entretien salle de sports </text>
+<text top="155" left="567" width="56" height="14" font="12">8 080,00 </text>
+<text top="155" left="774" width="4" height="14" font="12"> </text>
+<text top="179" left="119" width="133" height="14" font="12">Peinture portes église </text>
+<text top="179" left="567" width="56" height="14" font="12">2 000,00 </text>
+<text top="179" left="774" width="4" height="14" font="12"> </text>
+<text top="203" left="119" width="74" height="14" font="12">Hall théâtre </text>
+<text top="203" left="567" width="56" height="14" font="12">4 500,00 </text>
+<text top="203" left="774" width="4" height="14" font="12"> </text>
+<text top="226" left="119" width="137" height="14" font="12">Entretien bibliothèque </text>
+<text top="226" left="559" width="64" height="14" font="12">15 000,00 </text>
+<text top="226" left="774" width="4" height="14" font="12"> </text>
+<text top="250" left="119" width="56" height="14" font="11"><b>TOTAL </b></text>
+<text top="250" left="559" width="64" height="14" font="11"><b>32 110,00 </b></text>
+<text top="250" left="707" width="71" height="14" font="11"><b>601 200,00 </b></text>
+<text top="274" left="119" width="660" height="16" font="4">Le  Conseil  municipal  prend  acte  de  la  liste  des  différents  travaux  et  investissements </text>
+<text top="295" left="119" width="57" height="16" font="4">prévus. </text>
+<text top="316" left="119" width="5" height="16" font="4"> </text>
+<text top="336" left="119" width="208" height="14" font="12">Accusé de réception en préfecture </text>
+<text top="354" left="119" width="9" height="14" font="12">- </text>
+<text top="372" left="119" width="168" height="14" font="12">Date de télétransmission : - </text>
+<text top="390" left="119" width="186" height="14" font="12">Date de réception préfecture :  </text>
+<text top="409" left="119" width="5" height="16" font="4"> </text>
+<text top="425" left="119" width="597" height="21" font="5"><i><b> DE-2012/22 – Association Familiale Rurale (AFR)  de CHEMERE : Cantine </b></i></text>
+<text top="451" left="119" width="659" height="16" font="4">Monsieur le Maire, rapporteur, rappelle aux membres du Conseil municipal que lors de sa </text>
+<text top="471" left="119" width="659" height="16" font="4">réunion du 8 novembre 2011, le Conseil municipal avait proposé d’étudier la possibilité de </text>
+<text top="488" left="119" width="628" height="20" font="5">reprendre la gestion de la cantine scolaire afin de soulager l’AFR de l’aspect financier. </text>
+<text top="509" left="119" width="659" height="20" font="5">Il avait été indiqué qu’il était nécessaire de travailler en étroite collaboration avec l’AFR. </text>
+<text top="530" left="119" width="659" height="20" font="5">Suite  à  l’opposition  du  conseil  d’administration  de  l’AFR  sur  cette reprise,  Monsieur  le </text>
+<text top="554" left="119" width="659" height="16" font="4">Maire  propose  aux  membres  du  Conseil  municipal  de  retirer  la  proposition  faite  par  le </text>
+<text top="575" left="119" width="426" height="16" font="4">Conseil municipal lors de sa réunion du 8 novembre 2011. </text>
+<text top="596" left="119" width="659" height="16" font="4">Il est procédé à un vote à main levée. Par 11 voix « Pour » et 6 « Abstention », le Conseil </text>
+<text top="616" left="119" width="659" height="16" font="4">municipal, après en avoir délibéré, décide à la majorité des membres présents, de retirer la </text>
+<text top="633" left="119" width="659" height="20" font="5">proposition  d’étudier  la  possibilité  de  reprise  d’une  gestion  communale  de  la  cantine </text>
+<text top="654" left="119" width="659" height="20" font="5">scolaire. Par ailleurs,  le  Conseil  municipal  demande  à  l’AFR de respecter  la  convention </text>
+<text top="678" left="119" width="659" height="16" font="4">signée  le 25  février 2011 en  invitant le délégué communal désigné aux réunions prévues </text>
+<text top="699" left="119" width="659" height="16" font="4">par la dite convention et de communiquer à la commune la mise à jour de l’inventaire qui </text>
+<text top="720" left="119" width="355" height="16" font="4">doit être établi au 31 décembre de chaque année. </text>
+<text top="741" left="119" width="5" height="16" font="4"> </text>
+<text top="761" left="119" width="208" height="14" font="12">Accusé de réception en préfecture </text>
+<text top="779" left="119" width="104" height="14" font="12">044-214400400- </text>
+<text top="797" left="119" width="163" height="14" font="12">Date de télétransmission :  </text>
+<text top="815" left="119" width="186" height="14" font="12">Date de réception préfecture :  </text>
+<text top="834" left="119" width="5" height="16" font="4"> </text>
+<text top="850" left="119" width="454" height="21" font="5"><i><b> DE-2012/23 – Modification des commissions communales </b></i></text>
+<text top="875" left="119" width="659" height="16" font="4">Suite  au  retrait  des  délégations  de  deux  conseillers  municipaux  délégués  dans  les </text>
+<text top="896" left="119" width="146" height="16" font="4">domaines suivants : </text>
+<text top="917" left="146" width="6" height="16" font="4">-</text>
+<text top="916" left="152" width="5" height="17" font="6"> </text>
+<text top="917" left="173" width="431" height="16" font="4">Environnement, déplacements (MLLE Alice BICZYSKO), </text>
+<text top="938" left="146" width="6" height="16" font="4">-</text>
+<text top="937" left="152" width="5" height="17" font="6"> </text>
+<text top="938" left="173" width="545" height="16" font="4">Enfance, jeunesse, Conseil municipal des jeunes (M. Nicolas BOUCHER), </text>
+<text top="958" left="119" width="386" height="16" font="4">le tableau des commissions est désormais le suivant : </text>
+<text top="980" left="119" width="325" height="16" font="1"><b>Culture,  sport  et  relations  avec  les </b></text>
+<text top="1001" left="119" width="100" height="16" font="1"><b>associations  </b></text>
+<text top="980" left="451" width="165" height="16" font="4">Jean-Marie GATARD </text>
+<text top="1000" left="451" width="259" height="16" font="4">Lionel LESCURAT, Paul PIPAUD </text>
+<text top="1022" left="119" width="87" height="16" font="1"><b>Animation </b></text>
+<text top="1044" left="279" width="6" height="22" font="2"><b> </b></text>
+<text top="1022" left="451" width="165" height="16" font="4">Jean-Marie GATARD </text>
+<text top="1042" left="451" width="48" height="16" font="4">Annie </text>
+<text top="1042" left="535" width="96" height="16" font="4">BARDOUL, </text>
+<text top="1042" left="668" width="111" height="16" font="4">Marie-Josèphe </text>
+<text top="1063" left="451" width="83" height="16" font="4">BATARD, </text>
+<text top="1063" left="554" width="63" height="16" font="4">Michèle </text>
+<text top="1063" left="637" width="146" height="16" font="4">FRANCHETEAU,  </text>
+<text top="1084" left="451" width="328" height="16" font="4">Lionel  LESCURAT,  Eric  LOMBREY, </text>
+<text top="1105" left="451" width="138" height="16" font="4">Alice BICZYSKO </text>
+<text top="1126" left="119" width="141" height="16" font="1"><b>Enfance, jeunesse </b></text>
+<text top="1126" left="451" width="165" height="16" font="4">Jean-Marie GATARD </text>
+<text top="1147" left="451" width="328" height="16" font="4">Eric  LOMBREY,  Paul  PIPAUD,  Georges </text>
+<text top="1167" left="451" width="238" height="16" font="4">LECLEVE, Lionel LESCURAT </text>
+<text top="1189" left="119" width="129" height="16" font="1"><b>Environnement, </b></text>
+<text top="1189" left="280" width="47" height="16" font="1"><b>cadre </b></text>
+<text top="1189" left="359" width="22" height="16" font="1"><b>de </b></text>
+<text top="1189" left="413" width="199" height="16" font="1"><b>vie,  </b>Bernard CHAZELAS </text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="1262" width="892">
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="560" width="149" height="16" font="0"><i><b>CM 15 février 2012 </b></i></text>
+<text top="68" left="119" width="281" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="756" width="23" height="16" font="1"><b>12 </b></text>
+<text top="132" left="119" width="312" height="16" font="1"><b>développement durable et déplacements </b></text>
+<text top="132" left="451" width="328" height="16" font="4">Alice  BICZYSKO,  Philippe  BRIAND, </text>
+<text top="153" left="451" width="154" height="16" font="4">Michel GRAVOUIL </text>
+<text top="175" left="119" width="198" height="16" font="1"><b>Agriculture, hydraulique </b></text>
+<text top="175" left="451" width="167" height="16" font="4">Jacques CHEVALIER </text>
+<text top="195" left="451" width="328" height="16" font="4">Alice  BICZYSKO,  Jean-Marie  GATARD, </text>
+<text top="216" left="451" width="106" height="16" font="4">Paul PIPAUD </text>
+<text top="238" left="119" width="83" height="16" font="1"><b>Tourisme  </b></text>
+<text top="237" left="451" width="213" height="16" font="4">Jean-Pierre GRANDJOUAN </text>
+<text top="258" left="451" width="43" height="16" font="4">Alice </text>
+<text top="258" left="555" width="99" height="16" font="4">BICZYSKO, </text>
+<text top="258" left="715" width="64" height="16" font="4">Michèle </text>
+<text top="279" left="451" width="268" height="16" font="4">FRANCHETEAU, Eric LOMBREY </text>
+<text top="301" left="119" width="297" height="16" font="1"><b>Voirie, espaces verts, sécurité routière </b></text>
+<text top="300" left="451" width="161" height="16" font="4">Bernard CHAZELAS </text>
+<text top="321" left="451" width="328" height="16" font="4">Philippe  BRIAND,  Jacques  CHEVALIER, </text>
+<text top="342" left="451" width="307" height="16" font="4">Michel GRAVOUIL, Lionel LESCURAT </text>
+<text top="363" left="119" width="276" height="16" font="1"><b>Bâtiments communaux, patrimoine </b></text>
+<text top="363" left="451" width="161" height="16" font="4">Bernard CHAZELAS </text>
+<text top="384" left="451" width="328" height="16" font="4">Jacques CHEVALIER, Michel GRAVOUIl, </text>
+<text top="404" left="451" width="106" height="16" font="4">Paul PIPAUD </text>
+<text top="426" left="119" width="174" height="16" font="1"><b>Urbanisme, cimetière  </b></text>
+<text top="426" left="451" width="213" height="16" font="4">Jean-Pierre GRANDJOUAN </text>
+<text top="446" left="451" width="328" height="16" font="4">Philippe  BRIAND,  Bernard  CHAZELAS, </text>
+<text top="467" left="451" width="154" height="16" font="4">Michel GRAVOUIL </text>
+<text top="489" left="119" width="170" height="16" font="1"><b>Affaires économiques </b></text>
+<text top="489" left="451" width="149" height="16" font="4">Georges LECLEVE </text>
+<text top="509" left="451" width="328" height="16" font="4">Lionel LESCURAT, Eric LOMBREY, Paul </text>
+<text top="530" left="451" width="70" height="16" font="4">PIPAUD </text>
+<text top="552" left="119" width="128" height="16" font="1"><b>Communication </b></text>
+<text top="552" left="451" width="149" height="16" font="4">Georges LECLEVE </text>
+<text top="572" left="451" width="48" height="16" font="4">Annie </text>
+<text top="572" left="535" width="96" height="16" font="4">BARDOUL, </text>
+<text top="572" left="668" width="111" height="16" font="4">Marie-Josèphe </text>
+<text top="593" left="451" width="328" height="16" font="4">BATARD,  Alice  BICZYSKO,  Jacques </text>
+<text top="614" left="451" width="328" height="16" font="4">CHEVALIER,  Michèle  FRANCHETEAU, </text>
+<text top="634" left="451" width="213" height="16" font="4">Jean-Pierre GRANDJOUAN </text>
+<text top="656" left="119" width="113" height="16" font="1"><b>Enseignement </b></text>
+<text top="656" left="451" width="149" height="16" font="4">Georges LECLEVE </text>
+<text top="677" left="451" width="110" height="16" font="4">Marie-Josèphe </text>
+<text top="677" left="600" width="83" height="16" font="4">BATARD, </text>
+<text top="677" left="723" width="56" height="16" font="4">Régine </text>
+<text top="697" left="451" width="218" height="16" font="4">CORMIER, Eric LOMBREY </text>
+<text top="719" left="119" width="129" height="16" font="1"><b>Affaires sociales </b></text>
+<text top="719" left="451" width="213" height="16" font="4">Jean-Pierre GRANDJOUAN </text>
+<text top="740" left="451" width="48" height="16" font="4">Annie </text>
+<text top="740" left="535" width="96" height="16" font="4">BARDOUL, </text>
+<text top="740" left="668" width="111" height="16" font="4">Marie-Josèphe </text>
+<text top="760" left="451" width="328" height="16" font="4">BATARD,  Régine  CORMIER,  Michèle </text>
+<text top="781" left="451" width="141" height="16" font="4">FRANCHETEAU, </text>
+<text top="781" left="608" width="65" height="16" font="4">Georges </text>
+<text top="781" left="689" width="89" height="16" font="4">LECLEVE, </text>
+<text top="802" left="451" width="127" height="16" font="4">Eric LOMBREY </text>
+<text top="824" left="119" width="73" height="16" font="1"><b>Finances </b></text>
+<text top="823" left="451" width="139" height="16" font="4">Jean-Paul LERAY </text>
+<text top="844" left="451" width="328" height="16" font="4">Annie  BARDOUL,  Philippe  BRIAND, </text>
+<text top="865" left="451" width="297" height="16" font="4">Jean-Marie GATARD, Eric LOMBREY </text>
+<text top="886" left="119" width="281" height="16" font="1"><b>Conseil municipal des jeunes (CMJ) </b></text>
+<text top="886" left="451" width="88" height="16" font="1"><b>Référents </b>: </text>
+<text top="907" left="451" width="328" height="16" font="4">Nicolas  BOUCHER,  Lionel  LESCURAT, </text>
+<text top="927" left="451" width="238" height="16" font="4">Eric LOMBREY, Paul PIPAUD </text>
+<text top="949" left="119" width="110" height="16" font="1"><b>Salle des fêtes </b></text>
+<text top="949" left="451" width="139" height="16" font="4">LERAY Jean-Paul </text>
+<text top="969" left="451" width="110" height="16" font="4">Marie-Josèphe </text>
+<text top="969" left="597" width="83" height="16" font="4">BATARD, </text>
+<text top="969" left="716" width="63" height="16" font="4">Bernard </text>
+<text top="990" left="451" width="328" height="16" font="4">CHAZELAS,  Michel  GRAVOUIL,  Paul </text>
+<text top="1011" left="451" width="328" height="16" font="4">PIPAUD,  Jean-Marie  GATARD,  Jacques </text>
+<text top="1032" left="451" width="106" height="16" font="4">CHEVALIER </text>
+<text top="1053" left="119" width="325" height="16" font="1"><b>PAVE (Plan de mise en accessibilité de la </b></text>
+<text top="1074" left="119" width="223" height="16" font="1"><b>voirie et des espaces publics) </b></text>
+<text top="1053" left="451" width="328" height="16" font="4">Bernard  CHAZELAS,  Philippe  BRIAND, </text>
+<text top="1074" left="451" width="60" height="16" font="4">Jacques </text>
+<text top="1074" left="561" width="111" height="16" font="4">CHEVALIER, </text>
+<text top="1074" left="723" width="56" height="16" font="4">Michel </text>
+<text top="1094" left="451" width="328" height="16" font="4">GRAVOUIL,  Jean-Pierre  GRANDJOUAN, </text>
+<text top="1115" left="451" width="106" height="16" font="4">Paul PIPAUD </text>
+<text top="1137" left="119" width="59" height="16" font="1"><b>MAPA </b></text>
+<text top="1136" left="451" width="89" height="16" font="1"><b>Titulaires</b> : </text>
+<text top="1157" left="451" width="328" height="16" font="4">Jean-Paul  LERAY,  Michel  GRAVOUIL, </text>
+<text top="1178" left="451" width="280" height="16" font="4">Eric LOMBREY, Georges LECLEVE </text>
+<text top="1199" left="451" width="99" height="16" font="1"><b>Suppléants</b>:  </text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="1262" width="892">
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="560" width="149" height="16" font="0"><i><b>CM 15 février 2012 </b></i></text>
+<text top="68" left="119" width="281" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="756" width="23" height="16" font="1"><b>13 </b></text>
+<text top="132" left="451" width="328" height="16" font="4">Jean-Marie  GATARD,  Philippe  BRIAND, </text>
+<text top="153" left="451" width="213" height="16" font="4">Jean-Pierre GRANDJOUAN </text>
+<text top="175" left="119" width="659" height="16" font="4">Monsieur Jean-Paul LERAY, Maire, est le président de droit de toutes ces commissions. Il </text>
+<text top="195" left="119" width="636" height="16" font="4">pourra néanmoins se faire représenter par un adjoint ou le conseiller municipal délégué. </text>
+<text top="216" left="119" width="5" height="16" font="4"> </text>
+<text top="236" left="119" width="208" height="14" font="12">Accusé de réception en préfecture </text>
+<text top="254" left="119" width="104" height="14" font="12">044-214400400- </text>
+<text top="272" left="119" width="163" height="14" font="12">Date de télétransmission :  </text>
+<text top="290" left="119" width="186" height="14" font="12">Date de réception préfecture :  </text>
+<text top="309" left="119" width="5" height="16" font="4"> </text>
+<text top="326" left="119" width="659" height="21" font="5"><i><b> DE-2012/24 – Mise à jour des délégués à la communauté de communes Cœur Pays </b></i></text>
+<text top="351" left="119" width="58" height="16" font="0"><i><b>de Retz </b></i></text>
+<text top="372" left="119" width="659" height="16" font="4">Monsieur le Maire, rapporteur, informe les membres du Conseil municipal que suite à la </text>
+<text top="392" left="119" width="659" height="16" font="4">démission de Monsieur Nicolas BOUCHER de son poste de conseiller municipal délégué </text>
+<text top="409" left="119" width="659" height="20" font="5">à l’enfance et également délégué suppléant à la communauté de communes Cœur Pays de </text>
+<text top="430" left="119" width="437" height="20" font="5">Retz, il est nécessaire d’élire un nouveau délégué suppléant. </text>
+<text top="454" left="119" width="659" height="16" font="4">Monsieur  le  Maire  rappelle  le  nom  des  délégués  à  la  communauté  de  communes  Cœur </text>
+<text top="475" left="119" width="97" height="16" font="4">Pays de Retz </text>
+<text top="497" left="119" width="95" height="16" font="1"><b>Titulaires : </b> </text>
+<text top="517" left="119" width="139" height="16" font="4">Jean-Paul LERAY </text>
+<text top="538" left="119" width="149" height="16" font="4">Georges LECLEVE </text>
+<text top="558" left="119" width="165" height="16" font="4">Jean-Marie GATARD </text>
+<text top="497" left="451" width="100" height="16" font="1"><b>Suppléants : </b></text>
+<text top="517" left="451" width="213" height="16" font="4">Jean-Pierre GRANDJOUAN </text>
+<text top="538" left="451" width="5" height="16" font="4"> </text>
+<text top="580" left="119" width="575" height="16" font="4">Monsieur Jacques CHEVALIER se porte candidat pour être délégué suppléant. </text>
+<text top="597" left="119" width="658" height="20" font="5">Il est donc procédé à un vote. Il ressort de ce vote qu’est élu à l’unanimité des membres </text>
+<text top="621" left="119" width="504" height="16" font="4">présents, Monsieur Jacques CHEVALIER comme délégué suppléant. </text>
+<text top="642" left="119" width="5" height="16" font="4"> </text>
+<text top="663" left="119" width="208" height="14" font="12">Accusé de réception en préfecture </text>
+<text top="681" left="119" width="104" height="14" font="12">044-214400400- </text>
+<text top="699" left="119" width="163" height="14" font="12">Date de télétransmission :  </text>
+<text top="717" left="119" width="186" height="14" font="12">Date de réception préfecture :  </text>
+<text top="736" left="119" width="5" height="16" font="4"> </text>
+<text top="752" left="119" width="659" height="21" font="5"><i><b> 2012/25 – Mise à jour des délégués désignés aux commissions de la communauté de </b></i></text>
+<text top="774" left="119" width="229" height="20" font="10"><i><b>communes Cœur Pays de Retz </b></i></text>
+<text top="798" left="119" width="659" height="16" font="4">Suite  à  la  démission  de  Mademoiselle  Alice  BICYSKO  et  de  Monsieur  Nicolas </text>
+<text top="818" left="119" width="659" height="16" font="4">BOUCHER  de  leur  poste  de  conseillers  municipaux  délégués  à  l’environnement  et  à </text>
+<text top="835" left="119" width="659" height="20" font="5">l’enfance, le Conseil municipal, après en avoir délibéré, arrête à l’unanimité des membres </text>
+<text top="860" left="119" width="659" height="16" font="4">présents,  la  liste  des  délégués  désignés  aux  diverses  commissions  de  la  communauté  de </text>
+<text top="877" left="119" width="326" height="20" font="5">communes Cœur Pays de Retz, comme suit : </text>
+<text top="902" left="119" width="225" height="16" font="1"><b>Développement économique  </b></text>
+<text top="902" left="451" width="90" height="16" font="1"><b>Titulaires : </b></text>
+<text top="923" left="451" width="280" height="16" font="4">Georges LECLEVE, Eric LOMBREY </text>
+<text top="944" left="451" width="93" height="16" font="1"><b>Suppléant : </b></text>
+<text top="964" left="451" width="106" height="16" font="4">Paul PIPAUD </text>
+<text top="986" left="119" width="155" height="16" font="1"><b>Animation jeunesse </b></text>
+<text top="986" left="451" width="83" height="16" font="1"><b>Titulaire : </b></text>
+<text top="1006" left="451" width="165" height="16" font="4">Jean-Marie GATARD </text>
+<text top="1027" left="451" width="93" height="16" font="1"><b>Suppléant : </b></text>
+<text top="1047" left="451" width="149" height="16" font="4">Georges LECLEVE </text>
+<text top="1069" left="119" width="145" height="16" font="1"><b>Statuts et finances </b></text>
+<text top="1069" left="451" width="90" height="16" font="1"><b>Titulaires : </b></text>
+<text top="1090" left="451" width="297" height="16" font="4">Jean-Marie GATARD, Eric LOMBREY </text>
+<text top="1111" left="451" width="93" height="16" font="1"><b>Suppléant : </b></text>
+<text top="1131" left="451" width="140" height="16" font="4">Annie BARDOUL </text>
+<text top="1153" left="119" width="128" height="16" font="1"><b>Communication </b></text>
+<text top="1153" left="451" width="90" height="16" font="1"><b>Titulaires : </b></text>
+<text top="1173" left="451" width="65" height="16" font="4">Georges </text>
+<text top="1173" left="547" width="89" height="16" font="4">LECLEVE, </text>
+<text top="1173" left="668" width="111" height="16" font="4">Marie-Josèphe </text>
+<text top="1194" left="451" width="79" height="16" font="4">BATARD </text>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="1262" width="892">
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="560" width="149" height="16" font="0"><i><b>CM 15 février 2012 </b></i></text>
+<text top="68" left="119" width="281" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="756" width="23" height="16" font="1"><b>14 </b></text>
+<text top="132" left="451" width="93" height="16" font="1"><b>Suppléant : </b></text>
+<text top="153" left="451" width="167" height="16" font="4">Jacques CHEVALIER </text>
+<text top="175" left="119" width="124" height="16" font="1"><b>Environnement </b></text>
+<text top="175" left="451" width="90" height="16" font="1"><b>Titulaires : </b></text>
+<text top="195" left="451" width="306" height="16" font="4">Philippe BRIAND, Michel GRAVOUIL,  </text>
+<text top="216" left="451" width="93" height="16" font="1"><b>Suppléant : </b></text>
+<text top="237" left="451" width="138" height="16" font="4">Alice BICZYSKO </text>
+<text top="255" left="119" width="204" height="20" font="8"><b>Aménagement de l’espace </b></text>
+<text top="259" left="451" width="90" height="16" font="1"><b>Titulaires : </b></text>
+<text top="279" left="451" width="346" height="16" font="4">Jean-Pierre  GRANDJOUAN,  Jacques  es </text>
+<text top="300" left="451" width="106" height="16" font="4">CHEVALIER </text>
+<text top="320" left="451" width="100" height="16" font="1"><b>Suppléants : </b></text>
+<text top="341" left="451" width="63" height="16" font="4">Michèle </text>
+<text top="341" left="554" width="141" height="16" font="4">FRANCHETEAU, </text>
+<text top="341" left="735" width="44" height="16" font="4">Alice </text>
+<text top="361" left="451" width="95" height="16" font="4">BICZYSKO </text>
+<text top="383" left="119" width="133" height="16" font="1"><b>Secours incendie </b></text>
+<text top="383" left="451" width="90" height="16" font="1"><b>Titulaires : </b></text>
+<text top="404" left="451" width="303" height="16" font="4">Bernard CHAZELAS, Philippe BRIAND </text>
+<text top="425" left="451" width="93" height="16" font="1"><b>Suppléant : </b></text>
+<text top="445" left="451" width="213" height="16" font="4">Jean-Pierre GRANDJOUAN </text>
+<text top="467" left="119" width="187" height="16" font="1"><b>Energie (électrification) </b></text>
+<text top="467" left="451" width="90" height="16" font="1"><b>Titulaires : </b></text>
+<text top="487" left="451" width="307" height="16" font="4">Michel GRAVOUIL, Lionel LESCURAT </text>
+<text top="508" left="451" width="93" height="16" font="1"><b>Suppléant : </b></text>
+<text top="529" left="451" width="161" height="16" font="4">Bernard CHAZELAS </text>
+<text top="551" left="119" width="59" height="16" font="1"><b>Piscine </b></text>
+<text top="550" left="451" width="285" height="16" font="4">Jean-Paul LERAY, Régine CORMIER </text>
+<text top="572" left="119" width="100" height="16" font="1"><b>Accessibilité </b></text>
+<text top="571" left="451" width="324" height="16" font="4">Jean-Pierre GRANDJOUAN, Paul PIPAUD </text>
+<text top="593" left="119" width="197" height="16" font="1"><b>Syndicat mixte du SCOT </b></text>
+<text top="593" left="451" width="83" height="16" font="1"><b>Titulaire : </b></text>
+<text top="614" left="451" width="139" height="16" font="4">Jean-Paul LERAY </text>
+<text top="635" left="451" width="93" height="16" font="1"><b>Suppléant : </b></text>
+<text top="655" left="451" width="149" height="16" font="4">Georges LECLEVE </text>
+<text top="677" left="119" width="330" height="16" font="1"><b>Syndicat mixte de la région de Grandlieu  </b></text>
+<text top="694" left="119" width="325" height="20" font="8"><b>Machecoul  Legé  pour  l’exploitation  du </b></text>
+<text top="718" left="119" width="153" height="16" font="1"><b>Cet des « 6 Pièces » </b></text>
+<text top="677" left="451" width="83" height="16" font="1"><b>Titulaire : </b></text>
+<text top="697" left="451" width="138" height="16" font="4">Alice BICZYSKO </text>
+<text top="718" left="451" width="93" height="16" font="1"><b>Suppléant : </b></text>
+<text top="739" left="451" width="159" height="16" font="4">Michel GRAVOUIL  </text>
+<text top="757" left="119" width="325" height="20" font="8"><b>Syndicat  d’aménagement  hydraulique </b></text>
+<text top="781" left="119" width="53" height="16" font="1"><b>(SAH) </b></text>
+<text top="760" left="451" width="249" height="16" font="1"><b>Titulaire</b> : Jacques CHEVALIER<b> </b></text>
+<text top="781" left="451" width="199" height="16" font="1"><b>Suppléant :</b> Paul PIPAUD </text>
+<text top="803" left="119" width="113" height="16" font="1"><b>Mission locale </b></text>
+<text top="803" left="451" width="83" height="16" font="1"><b>Titulaire : </b></text>
+<text top="823" left="451" width="213" height="16" font="4">Jean-Pierre GRANDJOUAN </text>
+<text top="844" left="451" width="93" height="16" font="1"><b>Suppléant : </b></text>
+<text top="865" left="451" width="140" height="16" font="4">Annie BARDOUL </text>
+<text top="886" left="119" width="325" height="16" font="1"><b>Conférence  de  la  Fédération  du  Pays  de </b></text>
+<text top="907" left="119" width="126" height="16" font="1"><b>Retz Atlantique </b></text>
+<text top="886" left="451" width="93" height="16" font="1"><b>Suppléant : </b></text>
+<text top="907" left="451" width="213" height="16" font="4">Jean-Pierre GRANDJOUAN </text>
+<text top="928" left="119" width="79" height="16" font="1"><b>Tourisme </b></text>
+<text top="928" left="451" width="138" height="16" font="4">Alice BICZYSKO </text>
+<text top="950" left="119" width="56" height="16" font="1"><b>OPAH </b></text>
+<text top="950" left="451" width="154" height="16" font="4">Michel GRAVOUIL </text>
+<text top="971" left="119" width="142" height="16" font="1"><b>Lila à la demande </b></text>
+<text top="971" left="451" width="189" height="16" font="4">Marie-Josèphe BATARD </text>
+<text top="993" left="119" width="164" height="16" font="1"><b>Logement des jeunes </b></text>
+<text top="992" left="451" width="142" height="16" font="4">Régine CORMIER </text>
+<text top="1014" left="119" width="149" height="16" font="1"><b>Forum des métiers </b></text>
+<text top="1014" left="451" width="149" height="16" font="4">Georges LECLEVE </text>
+<text top="1036" left="119" width="57" height="16" font="1"><b>ORAC </b></text>
+<text top="1035" left="451" width="149" height="16" font="4">Georges LECLEVE </text>
+<text top="1057" left="119" width="5" height="16" font="4"> </text>
+<text top="1077" left="119" width="208" height="14" font="12">Accusé de réception en préfecture </text>
+<text top="1095" left="119" width="104" height="14" font="12">044-214400400- </text>
+<text top="1113" left="119" width="163" height="14" font="12">Date de télétransmission :  </text>
+<text top="1131" left="119" width="186" height="14" font="12">Date de réception préfecture :  </text>
+<text top="1150" left="119" width="5" height="16" font="4"> </text>
+<text top="1167" left="119" width="477" height="21" font="5"><i><b> 2012/26 – Mise à jour des délégués désignés aux associations </b></i></text>
+<text top="1192" left="119" width="660" height="16" font="4">Suite  à  la  démission  de  Monsieur  Nicolas  BOUCHER  de  son  poste  de  conseiller </text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="1262" width="892">
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="560" width="149" height="16" font="0"><i><b>CM 15 février 2012 </b></i></text>
+<text top="68" left="119" width="281" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="756" width="23" height="16" font="1"><b>15 </b></text>
+<text top="128" left="119" width="659" height="20" font="5">municipal délégué à l’enfance,  la liste des délégués désignés aux diverses associations, est </text>
+<text top="152" left="119" width="166" height="16" font="4">modifiée comme suit : </text>
+<text top="174" left="119" width="59" height="16" font="1"><b>AIALJ </b></text>
+<text top="174" left="449" width="83" height="16" font="1"><b>Titulaire : </b></text>
+<text top="194" left="449" width="165" height="16" font="4">Jean-Marie GATARD </text>
+<text top="215" left="449" width="93" height="16" font="1"><b>Suppléant : </b></text>
+<text top="236" left="449" width="11" height="16" font="4">- </text>
+<text top="257" left="119" width="5" height="16" font="9"> </text>
+<text top="278" left="119" width="208" height="14" font="12">Accusé de réception en préfecture </text>
+<text top="296" left="119" width="104" height="14" font="12">044-214400400- </text>
+<text top="314" left="119" width="163" height="14" font="12">Date de télétransmission :  </text>
+<text top="332" left="119" width="186" height="14" font="12">Date de réception préfecture :  </text>
+<text top="351" left="119" width="5" height="16" font="0"><i><b> </b></i></text>
+<text top="367" left="119" width="659" height="21" font="5"><i><b>  2012/27  –  Personnel  communal :  Fixation  des  taux  horaires  pour  interventions </b></i></text>
+<text top="392" left="119" width="119" height="16" font="0"><i><b>exceptionnelles </b></i></text>
+<text top="413" left="119" width="291" height="16" font="4">Monsieur le Maire, rapporteur, expose : </text>
+<text top="434" left="119" width="659" height="16" font="15"><i>« Suivant  les  besoins,  les  agents  peuvent  être  appelés  pour  des  interventions </i></text>
+<text top="454" left="119" width="400" height="16" font="15"><i>exceptionnelles la nuit, le dimanche ou les jours fériés. </i></text>
+<text top="475" left="119" width="659" height="16" font="15"><i>Il convient de préciser les modalités financières liées à ces interventions exceptionnelles. </i></text>
+<text top="492" left="119" width="660" height="20" font="17"><i>Il  est  proposé  d’attribuer  un  forfait  de  3  heures  au  tarif  « Dimanche  et  jour  férié »  si </i></text>
+<text top="513" left="119" width="660" height="20" font="17"><i>l’intervention a lieu ces jours là et un forfait de 2 heures 30  au tarif « heures de nuit » si </i></text>
+<text top="533" left="119" width="659" height="20" font="17"><i>l’intervention a lieu les autres jours. Le taux de ces heures supplémentaires sera basé sur </i></text>
+<text top="558" left="119" width="454" height="16" font="15"><i>celui appliqué par le Centre de gestion de Loire-Atlantique. ». </i></text>
+<text top="579" left="119" width="659" height="16" font="4">Le  Conseil  municipal,  après  avoir  entendu  son  rapporteur  en  son  exposé  et  délibéré, </text>
+<text top="595" left="119" width="659" height="20" font="5">décide  à  l’unanimité  des  membres  présents,  d’attribuer  un  forfait  de  3  heures  au  tarif </text>
+<text top="620" left="119" width="664" height="16" font="4">« Dimanche et jour férié » si l’intervention a lieu ces jours là et un forfait de 2 heures 30  </text>
+<text top="641" left="119" width="659" height="16" font="4">au  tarif  « heures  de  nuit »  si  l’intervention  a  lieu  les  autres  jours.  Le  taux  de  ces  heures </text>
+<text top="661" left="119" width="646" height="16" font="4">supplémentaires sera basé sur celui appliqué par le Centre de gestion de Loire-Atlantique </text>
+<text top="682" left="119" width="5" height="16" font="9"> </text>
+<text top="703" left="119" width="208" height="14" font="12">Accusé de réception en préfecture </text>
+<text top="721" left="119" width="104" height="14" font="12">044-214400400- </text>
+<text top="739" left="119" width="163" height="14" font="12">Date de télétransmission :  </text>
+<text top="757" left="119" width="186" height="14" font="12">Date de réception préfecture :  </text>
+<text top="776" left="119" width="5" height="16" font="4"> </text>
+<text top="792" left="119" width="659" height="21" font="5"><i><b>  2012/28  –  Sentiers  pédestres  (chemin  des  Louées  et  chemin  forêt  de Princé  vers  la </b></i></text>
+<text top="817" left="119" width="254" height="16" font="0"><i><b>Biche) : Demande de subventions </b></i></text>
+<text top="838" left="119" width="439" height="16" font="4">Monsieur Jean-Pierre GRANDJOUAN, rapporteur, expose : </text>
+<text top="858" left="119" width="660" height="16" font="15"><i>« Il  est  envisagé d’effectuer des travaux d’empierrement  du « chemin des Louées » et  du </i></text>
+<text top="879" left="119" width="305" height="16" font="15"><i>chemin « Forêt de Princé vers la Biche ». </i></text>
+<text top="896" left="119" width="659" height="20" font="17"><i>Ces  travaux  s’élèveraient  aux  environs  de  11 000,00  €  et  seraient  susceptibles  de </i></text>
+<text top="917" left="119" width="659" height="20" font="17"><i>bénéficier  d’une  subvention  du  Conseil  Général  dans  le  cadre  de  leur  inscription  au </i></text>
+<text top="941" left="119" width="61" height="16" font="15"><i>PDIPR. </i></text>
+<text top="962" left="119" width="593" height="16" font="15"><i>Il vous est demandé de vous prononcer sur la réalisation de ces aménagements. » </i></text>
+<text top="983" left="119" width="659" height="16" font="4">Le  Conseil  municipal,  après  avoir  entendu  son  rapporteur  en  son  exposé  et  délibéré, </text>
+<text top="999" left="119" width="324" height="20" font="5">décide à l’unanimité des membres présents : </text>
+<text top="1024" left="146" width="6" height="16" font="4">-</text>
+<text top="1023" left="152" width="5" height="17" font="6"> </text>
+<text top="1020" left="173" width="605" height="20" font="5">de réaliser les travaux d’empierrement du chemin des Louées et du chemin « Forêt </text>
+<text top="1045" left="173" width="189" height="16" font="4">de Princé vers la Biche », </text>
+<text top="1065" left="146" width="6" height="16" font="4">-</text>
+<text top="1065" left="152" width="5" height="17" font="6"> </text>
+<text top="1065" left="173" width="398" height="16" font="4">de solliciter une subvention auprès du Conseil général, </text>
+<text top="1086" left="146" width="6" height="16" font="4">-</text>
+<text top="1085" left="152" width="5" height="17" font="6"> </text>
+<text top="1086" left="173" width="545" height="16" font="4">de donner tous pouvoirs à Monsieur le Maire pour mener ce dossier à bien. </text>
+<text top="1107" left="146" width="5" height="16" font="4"> </text>
+<text top="1127" left="119" width="208" height="14" font="12">Accusé de réception en préfecture </text>
+<text top="1145" left="119" width="104" height="14" font="12">044-214400400- </text>
+<text top="1163" left="119" width="163" height="14" font="12">Date de télétransmission :  </text>
+<text top="1181" left="119" width="186" height="14" font="12">Date de réception préfecture :  </text>
+<text top="1201" left="119" width="5" height="16" font="0"><i><b> </b></i></text>
+</page>
+<page number="16" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="23" size="16" family="Helvetica" color="#000080"/>
+	<fontspec id="24" size="9" family="Times" color="#000000"/>
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="560" width="149" height="16" font="0"><i><b>CM 15 février 2012 </b></i></text>
+<text top="68" left="119" width="281" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="756" width="23" height="16" font="1"><b>16 </b></text>
+<text top="127" left="119" width="334" height="21" font="5"><i><b> DE-2012/29 – Cession de parcelle : G197p</b></i></text>
+<text top="132" left="453" width="5" height="16" font="14"><i><b> </b></i></text>
+<text top="152" left="119" width="291" height="16" font="4">Monsieur le Maire, rapporteur, expose : </text>
+<text top="173" left="119" width="659" height="16" font="15"><i>« Concernant le projet du bâtiment commercial en centre bourg, il est envisagé de vendre </i></text>
+<text top="190" left="119" width="503" height="20" font="17"><i>une partie de la parcelle cadastrée G 197 d’une contenance de 922 m</i></text>
+<text top="190" left="622" width="6" height="11" font="16"><i>2</i></text>
+<text top="194" left="628" width="9" height="16" font="15"><i>. </i></text>
+<text top="214" left="119" width="659" height="16" font="15"><i>Le bornage définitif de cette parcelle ayant été réalisé, il vous est proposé de céder le lot </i></text>
+<text top="235" left="119" width="209" height="16" font="15"><i>A d’une superficie de 535 m</i></text>
+<text top="231" left="328" width="6" height="11" font="16"><i>2</i></text>
+<text top="235" left="334" width="264" height="16" font="15"><i> (le lot B d’une superficie de 387 m</i></text>
+<text top="231" left="599" width="9" height="11" font="16"><i>2 </i></text>
+<text top="235" left="609" width="170" height="16" font="15"><i>restant propriété de la </i></text>
+<text top="252" left="119" width="304" height="20" font="17"><i>commune) pour un prix fixé à 120 € le m</i></text>
+<text top="252" left="424" width="6" height="11" font="16"><i>2</i></text>
+<text top="256" left="430" width="349" height="16" font="15"><i>. Le service des Domaines a été préalablement </i></text>
+<text top="277" left="119" width="87" height="16" font="15"><i>consulté. ». </i></text>
+<text top="297" left="119" width="659" height="16" font="4">Le  Conseil  municipal,  après  avoir  entendu  son  rapporteur  en  son  exposé  et  délibéré, </text>
+<text top="314" left="119" width="324" height="20" font="5">décide à l’unanimité des membres présents : </text>
+<text top="338" left="146" width="6" height="16" font="9">-</text>
+<text top="338" left="152" width="5" height="17" font="23"> </text>
+<text top="338" left="173" width="605" height="16" font="4">de céder le lot A de la parcelle actuellement cadastrée G197 d’une contenance de </text>
+<text top="359" left="173" width="46" height="16" font="4">535 m</text>
+<text top="355" left="218" width="6" height="11" font="24">2</text>
+<text top="359" left="224" width="203" height="16" font="4"> pour un prix fixé à 120 €/m</text>
+<text top="355" left="427" width="6" height="11" font="24">2</text>
+<text top="359" left="433" width="5" height="16" font="4">,</text>
+<text top="359" left="438" width="5" height="16" font="9"> </text>
+<text top="380" left="146" width="6" height="16" font="4">-</text>
+<text top="379" left="152" width="5" height="17" font="6"> </text>
+<text top="380" left="173" width="605" height="16" font="4">de  donner  tous  pouvoirs  à  Monsieur  le  Maire  de  faire  tout  ce  qui  sera  utile  ou </text>
+<text top="401" left="173" width="538" height="16" font="4">nécessaire pour mener ce dossier à bien, notamment la signature de l’acte. </text>
+<text top="421" left="146" width="5" height="16" font="4"> </text>
+<text top="442" left="119" width="208" height="14" font="12">Accusé de réception en préfecture </text>
+<text top="460" left="119" width="104" height="14" font="12">044-214400400- </text>
+<text top="478" left="119" width="163" height="14" font="12">Date de télétransmission :  </text>
+<text top="496" left="119" width="186" height="14" font="12">Date de réception préfecture :  </text>
+<text top="515" left="119" width="5" height="16" font="4"> </text>
+<text top="531" left="119" width="659" height="21" font="5"><i><b>  DE-2012/30  –  Vœu  de  non  libéralisation  des  droits  de  plantations  de  vignes  sur  le </b></i></text>
+<text top="553" left="119" width="246" height="20" font="10"><i><b>territoire de l’Union européenne </b></i></text>
+<text top="577" left="119" width="659" height="16" font="4">Monsieur Georges LECLEVE, rapporteur, informe les membres du Conseil municipal que </text>
+<text top="598" left="119" width="659" height="16" font="4">la  Commission  européenne  a  décidé  en  2008  de  rendre  totalement  libre  la  plantation  de </text>
+<text top="615" left="119" width="452" height="20" font="5">vignes sur tout le territoire de l’Union européenne à partir du 1</text>
+<text top="614" left="572" width="9" height="11" font="24">er</text>
+<text top="618" left="581" width="104" height="16" font="4"> janvier 2016. </text>
+<text top="639" left="119" width="659" height="16" font="4">Cette décision suscite une très vive opposition des organisations viticoles européennes en </text>
+<text top="660" left="119" width="659" height="16" font="4">raison de :  l’augmentation de la production et déséquilibre des marchés, chute du prix de </text>
+<text top="681" left="119" width="659" height="16" font="4">vente  des  producteurs,  délocalisation  de  la  vigne  des  coteaux  pauvres  vers  les  plaines </text>
+<text top="701" left="119" width="598" height="16" font="4">fertiles, plantation dans des régions et pays non traditionnellement producteurs …. </text>
+<text top="722" left="119" width="659" height="16" font="4">En  conséquence,  il  est  proposé  aux  membres  du  Conseil  municipal  de  prendre  une </text>
+<text top="739" left="119" width="659" height="20" font="5">délibération pour s’opposer à la  libéralisation des droits de plantation sur le territoire de </text>
+<text top="760" left="119" width="153" height="20" font="5">l’Union européenne. </text>
+<text top="784" left="119" width="659" height="16" font="4">Considérant la décision prise en 2008 de rendre totalement libre la plantation de vignes sur </text>
+<text top="805" left="119" width="384" height="16" font="4">tout  le territoire de  l'Union européenne à partir du 1</text>
+<text top="801" left="504" width="9" height="11" font="24">er</text>
+<text top="805" left="513" width="265" height="16" font="4">  janvier 2016 ; que  la plantation de </text>
+<text top="825" left="119" width="659" height="16" font="4">vignes  est  régulée  dans  certains  Etats  membres  depuis  les  années  1930  et  dans  l'Union </text>
+<text top="846" left="119" width="267" height="16" font="4">européenne depuis les années 1970 ; </text>
+<text top="863" left="119" width="352" height="20" font="5">Nous, élus, à l’unanimité des membres présents, </text>
+<text top="888" left="146" width="6" height="16" font="4">-</text>
+<text top="887" left="152" width="5" height="17" font="6"> </text>
+<text top="888" left="173" width="605" height="16" font="4">demandons au gouvernement et au Chef de l'Etat de poursuivre leurs efforts et de </text>
+<text top="908" left="173" width="605" height="16" font="4">convaincre  les  quelques  Etats  membres  nécessaires  à  la  formation  d'une  majorité </text>
+<text top="929" left="173" width="72" height="16" font="4">qualifiée, </text>
+<text top="950" left="146" width="6" height="16" font="4">-</text>
+<text top="949" left="152" width="5" height="17" font="6"> </text>
+<text top="946" left="173" width="605" height="20" font="5">invitons le Conseil des Ministres de l’Agriculture à acter formellement ensuite les </text>
+<text top="970" left="173" width="74" height="16" font="4">positions,<i><b> </b></i></text>
+<text top="991" left="146" width="6" height="16" font="4">-</text>
+<text top="990" left="152" width="5" height="17" font="6"> </text>
+<text top="987" left="173" width="600" height="20" font="5">demandons à la Commission européenne d’entendre la position portée par la quasi-</text>
+<text top="1012" left="173" width="553" height="16" font="4">totalité des pays producteurs et de faire une nouvelle proposition législative,<i><b> </b></i></text>
+<text top="1032" left="146" width="6" height="16" font="4">-</text>
+<text top="1032" left="152" width="5" height="17" font="6"> </text>
+<text top="1032" left="173" width="605" height="16" font="4">appelons  le  Parlement  Européen  à  user  de  ses  nouveaux  pouvoirs  et  à  prendre </text>
+<text top="1053" left="173" width="605" height="16" font="4">toutes les initiatives pour faire aboutir ce dossier au plus vite et invitons les autres </text>
+<text top="1074" left="173" width="437" height="16" font="4">élus et les collectivités locales à s'associer à cette démarche.<i><b> </b></i></text>
+<text top="1095" left="119" width="5" height="16" font="4"> </text>
+<text top="1115" left="119" width="208" height="14" font="12">Accusé de réception en préfecture </text>
+<text top="1133" left="119" width="104" height="14" font="12">044-214400400- </text>
+<text top="1151" left="119" width="163" height="14" font="12">Date de télétransmission :  </text>
+<text top="1169" left="119" width="186" height="14" font="12">Date de réception préfecture :  </text>
+<text top="1188" left="119" width="5" height="16" font="4"> </text>
+</page>
+<page number="17" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="25" size="14" family="Times" color="#000000"/>
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="560" width="149" height="16" font="0"><i><b>CM 15 février 2012 </b></i></text>
+<text top="68" left="119" width="281" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="756" width="23" height="16" font="1"><b>17 </b></text>
+<text top="127" left="119" width="659" height="21" font="5"><i><b>  DE-2012/31  –  Commission  de  réforme :  Convention  relative  au  traitement  des </b></i></text>
+<text top="153" left="119" width="659" height="16" font="0"><i><b>dossiers  de  la  commission  départementale  de  réforme  par  le  Centre  de  gestion  de  la </b></i></text>
+<text top="173" left="119" width="371" height="16" font="0"><i><b>fonction publique territoriale de Loire-Atlantique </b></i></text>
+<text top="194" left="119" width="291" height="16" font="4">Monsieur le Maire, rapporteur, expose : </text>
+<text top="214" left="119" width="659" height="16" font="15"><i>« Le  Centre  de  gestion  de  la  fonction  publique  territoriale  de  Loire-Atlantique  assure </i></text>
+<text top="235" left="119" width="659" height="16" font="15"><i>depuis  2009,  la  présidence  et  le  secrétariat  de  la  commission  de  réforme  compétente  à </i></text>
+<text top="252" left="119" width="659" height="20" font="17"><i>l’égard  des  agents  territoriaux  des  collectivités  et  établissements  territoriaux  du </i></text>
+<text top="277" left="119" width="566" height="16" font="15"><i>département qui lui sont affiliés, ainsi que certaines collectivités non affiliées. </i></text>
+<text top="297" left="119" width="128" height="16" font="15"><i>A  compter  du  1</i></text>
+<text top="293" left="247" width="10" height="11" font="16"><i>er</i></text>
+<text top="297" left="257" width="522" height="16" font="15"><i>  janvier  2012,  il  voit  cette  compétence  étendue  à  l’ensemble  des </i></text>
+<text top="318" left="119" width="660" height="16" font="15"><i>collectivités et établissements du département visés aux articles 15 et 16 de la loi n°84-53 </i></text>
+<text top="338" left="119" width="146" height="16" font="15"><i>du 26 janvier 1984. </i></text>
+<text top="359" left="119" width="659" height="16" font="15"><i>Les  nouveaux  bénéficiaires  du  service  sont :  Nantes,  Nantes  Métropole,  le  SDIS  44  et </i></text>
+<text top="380" left="119" width="109" height="16" font="15"><i>Saint-Nazaire. </i></text>
+<text top="401" left="119" width="659" height="16" font="15"><i>Vu la complexité des dossiers étudiés et du temps d’instruction y afférent, il est nécessaire </i></text>
+<text top="418" left="119" width="659" height="20" font="17"><i>de  compenser  partiellement  l’augmentation  des  dépenses  de  fonctionnement  de  la </i></text>
+<text top="442" left="119" width="94" height="16" font="15"><i>commission. </i></text>
+<text top="459" left="119" width="659" height="20" font="17"><i>Le Conseil d’Administration, par délibération du 7 juillet  2011, a fixé une participation </i></text>
+<text top="484" left="119" width="659" height="16" font="15"><i>forfaitaire  de  29  euros  pour  chaque  dossier  instruit  et  présenté  à  la  commission  de </i></text>
+<text top="504" left="119" width="170" height="16" font="15"><i>réforme à compter du 1</i></text>
+<text top="500" left="290" width="10" height="11" font="16"><i>er</i></text>
+<text top="504" left="299" width="105" height="16" font="15"><i> janvier 2012. </i></text>
+<text top="525" left="119" width="471" height="16" font="15"><i>Une convention dans ce sens est ainsi proposée à la commune.». </i></text>
+<text top="545" left="119" width="659" height="16" font="4">Le  Conseil  municipal,  après  avoir  entendu  son  rapporteur  en  son  exposé  et  délibéré, </text>
+<text top="563" left="119" width="659" height="20" font="5">autorise, à  l’unanimité des  membres présents, Monsieur  le Maire  à signer  la convention </text>
+<text top="587" left="119" width="659" height="16" font="4">relative  au  traitement  des  dossiers  de  la  commission  départementale  de  réforme  par  le </text>
+<text top="608" left="119" width="534" height="16" font="4">Centre de gestion de la fonction publique territoriale de Loire-Atlantique. </text>
+<text top="628" left="119" width="5" height="16" font="4"> </text>
+<text top="649" left="119" width="208" height="14" font="12">Accusé de réception en préfecture </text>
+<text top="667" left="119" width="104" height="14" font="12">044-214400400- </text>
+<text top="685" left="119" width="163" height="14" font="12">Date de télétransmission :  </text>
+<text top="703" left="119" width="186" height="14" font="12">Date de réception préfecture :  </text>
+<text top="722" left="119" width="5" height="16" font="4"> </text>
+<text top="738" left="119" width="147" height="21" font="5"><i><b> Affaires diverses </b></i></text>
+<text top="763" left="119" width="463" height="16" font="4">Monsieur le Maire informe les membres du Conseil municipal : </text>
+<text top="784" left="146" width="6" height="16" font="4">-</text>
+<text top="783" left="152" width="5" height="17" font="6"> </text>
+<text top="784" left="173" width="518" height="16" font="4">de la démission de Thibault BOURA du Conseil municipal des jeunes ; </text>
+<text top="805" left="146" width="6" height="16" font="4">-</text>
+<text top="804" left="152" width="5" height="17" font="6"> </text>
+<text top="801" left="173" width="605" height="20" font="5">du  montant  de  l’indemnité  représentative  de  logement  (IRL)  versé  par  le  Centre </text>
+<text top="822" left="173" width="605" height="20" font="5">national de la fonction publique territoriale aux instituteurs pour l’année 2011. Le </text>
+<text top="842" left="173" width="605" height="20" font="5">montant  de  l’indemnité  annuelle  de  base  a  été  fixé  à  2  246,40  €  et  celui  de </text>
+<text top="867" left="173" width="427" height="16" font="4">l’indemnité majorée pour charges de famille à 2 808,00 € ; </text>
+<text top="888" left="146" width="6" height="16" font="4">-</text>
+<text top="887" left="152" width="5" height="17" font="6"> </text>
+<text top="884" left="173" width="605" height="20" font="5">du  soutien  adressé  à  Madame  HAMON,  EVS  à  l’école  publique  « Armelle </text>
+<text top="908" left="173" width="124" height="16" font="4">CHEVALIER ». </text>
+<text top="929" left="119" width="5" height="16" font="4"> </text>
+<text top="950" left="119" width="603" height="16" font="4">Monsieur Jean-Pierre GRANDJOUAN donne lecture des documents d’urbanisme : </text>
+<text top="975" left="123" width="246" height="14" font="11"><b>DROIT DE PREEMPTION URBAIN </b></text>
+<text top="999" left="146" width="49" height="15" font="25"><b>Année </b></text>
+<text top="999" left="244" width="22" height="15" font="25"><b>N° </b></text>
+<text top="1018" left="228" width="53" height="15" font="25"><b>dossier </b></text>
+<text top="999" left="317" width="117" height="15" font="25"><b>Adresse du bien </b></text>
+<text top="999" left="469" width="56" height="15" font="25"><b>Section </b></text>
+<text top="999" left="556" width="23" height="15" font="25"><b>N° </b></text>
+<text top="999" left="613" width="75" height="15" font="25"><b>Superficie </b></text>
+<text top="1018" left="629" width="43" height="15" font="25"><b>totale </b></text>
+<text top="999" left="710" width="64" height="15" font="25"><b>Exercice </b></text>
+<text top="1018" left="713" width="60" height="15" font="25"><b>droit de </b></text>
+<text top="1037" left="704" width="72" height="15" font="25"><b>préemptio</b></text>
+<text top="1056" left="736" width="13" height="15" font="25"><b>n </b></text>
+<text top="1075" left="154" width="34" height="14" font="12">2012 </text>
+<text top="1075" left="249" width="11" height="14" font="12">3 </text>
+<text top="1075" left="298" width="155" height="14" font="12">3 rue de la Bride à Mains </text>
+<text top="1075" left="489" width="15" height="14" font="12">G </text>
+<text top="1075" left="550" width="34" height="14" font="12">3023 </text>
+<text top="1075" left="627" width="46" height="14" font="12">540 m² </text>
+<text top="1075" left="727" width="30" height="14" font="12">Non </text>
+<text top="1102" left="154" width="34" height="14" font="12">2012 </text>
+<text top="1102" left="249" width="11" height="14" font="12">4 </text>
+<text top="1102" left="343" width="65" height="14" font="12">6 Le Breil </text>
+<text top="1102" left="489" width="15" height="14" font="12">G </text>
+<text top="1093" left="543" width="48" height="14" font="12">3031 et </text>
+<text top="1111" left="550" width="34" height="14" font="12">3034 </text>
+<text top="1102" left="627" width="46" height="14" font="12">808 m² </text>
+<text top="1102" left="727" width="30" height="14" font="12">Non </text>
+<text top="1129" left="154" width="34" height="14" font="12">2012 </text>
+<text top="1129" left="249" width="11" height="14" font="12">5 </text>
+<text top="1129" left="292" width="166" height="14" font="12">3A rue de la Bride à Mains </text>
+<text top="1129" left="489" width="15" height="14" font="12">G </text>
+<text top="1129" left="550" width="34" height="14" font="12">3028 </text>
+<text top="1129" left="627" width="46" height="14" font="12">411 m² </text>
+<text top="1129" left="727" width="30" height="14" font="12">Non </text>
+<text top="1165" left="154" width="34" height="14" font="12">2011 </text>
+<text top="1165" left="249" width="11" height="14" font="12">6 </text>
+<text top="1165" left="321" width="110" height="14" font="12">7 rue du Brandais </text>
+<text top="1165" left="489" width="19" height="14" font="12">G  </text>
+<text top="1147" left="548" width="38" height="14" font="12">3057, </text>
+<text top="1165" left="543" width="48" height="14" font="12">3059 et </text>
+<text top="1182" left="550" width="34" height="14" font="12">3061 </text>
+<text top="1165" left="627" width="46" height="14" font="12">778 m² </text>
+<text top="1165" left="727" width="30" height="14" font="12">Non </text>
+</page>
+<page number="18" position="absolute" top="0" left="0" height="1262" width="892">
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="560" width="149" height="16" font="0"><i><b>CM 15 février 2012 </b></i></text>
+<text top="68" left="119" width="281" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="756" width="23" height="16" font="1"><b>18 </b></text>
+<text top="138" left="119" width="191" height="14" font="11"><b>PERMIS DE CONSTRUIRE </b></text>
+<text top="165" left="133" width="107" height="14" font="11"><b>N°  Date dépôt </b></text>
+<text top="165" left="264" width="80" height="14" font="11"><b>Demandeur </b></text>
+<text top="165" left="406" width="55" height="14" font="11"><b>Adresse </b></text>
+<text top="165" left="510" width="52" height="14" font="11"><b>Réf cad </b></text>
+<text top="165" left="657" width="41" height="14" font="11"><b>Objet </b></text>
+<text top="194" left="119" width="377" height="14" font="12">A 1001 12/01/2012 NICOL Christophe  1 impasse des Roses </text>
+<text top="194" left="511" width="48" height="14" font="12">G 2503 </text>
+<text top="194" left="585" width="185" height="14" font="12">Extension maison d'habitation </text>
+<text top="238" left="119" width="369" height="14" font="12">A 1002 23/01/2012 DRONEAU Ludwig  7 rue du Brandais </text>
+<text top="221" left="506" width="60" height="14" font="12">G 1482p, </text>
+<text top="238" left="508" width="56" height="14" font="12">1485p et </text>
+<text top="255" left="515" width="41" height="14" font="12">1486p </text>
+<text top="238" left="616" width="123" height="14" font="12">Maison d'habitation </text>
+<text top="282" left="119" width="120" height="14" font="12">A 1003 23/01/2012 </text>
+<text top="274" left="240" width="122" height="14" font="12">GAUTHIER Sylvie </text>
+<text top="291" left="240" width="69" height="14" font="12">et Yannick </text>
+<text top="282" left="401" width="65" height="14" font="12">6 Le Breil </text>
+<text top="274" left="500" width="71" height="14" font="12">G 3031p et </text>
+<text top="291" left="515" width="41" height="14" font="12">3034p </text>
+<text top="282" left="616" width="123" height="14" font="12">Maison d'habitation </text>
+<text top="318" left="136" width="19" height="14" font="12">A  </text>
+<text top="336" left="126" width="34" height="14" font="12">1004 </text>
+<text top="327" left="167" width="72" height="14" font="12">25/01/2012 </text>
+<text top="310" left="240" width="122" height="14" font="12">GUILBAUD Lolita </text>
+<text top="327" left="240" width="82" height="14" font="12">et GRUAND </text>
+<text top="344" left="240" width="50" height="14" font="12">Sylvain </text>
+<text top="327" left="386" width="94" height="14" font="12">52 rue du Breil </text>
+<text top="318" left="500" width="71" height="14" font="12">G 2529p et </text>
+<text top="336" left="511" width="48" height="14" font="12">G 2412 </text>
+<text top="327" left="616" width="123" height="14" font="12">Maison d'habitation </text>
+<text top="372" left="119" width="231" height="14" font="12">A 1005 27/01/2012 BICHON Sylvain </text>
+<text top="372" left="401" width="65" height="14" font="12">8 Le Breil </text>
+<text top="363" left="500" width="71" height="14" font="12">G 808, 809 </text>
+<text top="380" left="515" width="41" height="14" font="12">et 811 </text>
+<text top="372" left="616" width="123" height="14" font="12">Maison d'habitation </text>
+<text top="399" left="119" width="4" height="14" font="11"><b> </b></text>
+<text top="417" left="119" width="229" height="14" font="11"><b>DECLARATIONS PREALABLES </b></text>
+<text top="443" left="133" width="107" height="14" font="11"><b>N°  Date dépôt </b></text>
+<text top="443" left="264" width="80" height="14" font="11"><b>Demandeur </b></text>
+<text top="443" left="406" width="55" height="14" font="11"><b>Adresse </b></text>
+<text top="443" left="510" width="52" height="14" font="11"><b>Réf cad </b></text>
+<text top="443" left="657" width="41" height="14" font="11"><b>Objet </b></text>
+<text top="487" left="119" width="120" height="14" font="12">A 2002 06/01/2012 </text>
+<text top="478" left="255" width="98" height="14" font="12">BETHUIZEAU </text>
+<text top="495" left="283" width="42" height="14" font="12">Albert </text>
+<text top="487" left="378" width="110" height="14" font="12">7 rue du Brandais </text>
+<text top="469" left="510" width="52" height="14" font="12">G 1482, </text>
+<text top="487" left="511" width="48" height="14" font="12">1485 et </text>
+<text top="504" left="519" width="34" height="14" font="12">1486 </text>
+<text top="487" left="591" width="173" height="14" font="12">Détachement d'un lot à bâtir </text>
+<text top="558" left="119" width="120" height="14" font="12">A 2003 09/01/2012 </text>
+<text top="549" left="242" width="123" height="14" font="12">GINEAU Jean-Paul </text>
+<text top="567" left="248" width="112" height="14" font="12">et MARLIO Yves </text>
+<text top="558" left="388" width="91" height="14" font="12">6 et 8 Le Breil </text>
+<text top="523" left="510" width="52" height="14" font="12">G 3030, </text>
+<text top="541" left="498" width="75" height="14" font="12">3031, 3032, </text>
+<text top="558" left="498" width="75" height="14" font="12">3033, 3034, </text>
+<text top="575" left="500" width="71" height="14" font="12">3035, 3036 </text>
+<text top="592" left="511" width="48" height="14" font="12">et 3037 </text>
+<text top="558" left="596" width="161" height="14" font="12">Détachement 2 lots à bâtir </text>
+<text top="621" left="119" width="120" height="14" font="12">A 2004 11/01/2012 </text>
+<text top="612" left="263" width="83" height="14" font="12">GUIGNEUX </text>
+<text top="629" left="273" width="62" height="14" font="12">Christelle </text>
+<text top="612" left="404" width="58" height="14" font="12">9 rue des </text>
+<text top="629" left="389" width="88" height="14" font="12">Moissonneurs </text>
+<text top="621" left="511" width="48" height="14" font="12">G 2920 </text>
+<text top="621" left="653" width="49" height="14" font="12">Clôture </text>
+<text top="654" left="119" width="120" height="14" font="12">A 2005 20/01/2012 </text>
+<text top="654" left="259" width="91" height="14" font="12">HERY Michel </text>
+<text top="654" left="383" width="101" height="14" font="12">4 rue du Moulin </text>
+<text top="654" left="511" width="48" height="14" font="12">G 1143 </text>
+<text top="654" left="632" width="91" height="14" font="12">Garage à Vélo </text>
+<text top="688" left="119" width="120" height="14" font="12">A 2006 27/01/2012 </text>
+<text top="679" left="260" width="88" height="14" font="12">FAULQUIER </text>
+<text top="697" left="279" width="51" height="14" font="12">Jacques </text>
+<text top="688" left="393" width="81" height="14" font="12">Pierre-Levée </text>
+<text top="688" left="516" width="39" height="14" font="12">E 518 </text>
+<text top="688" left="654" width="47" height="14" font="12">Piscine </text>
+<text top="725" left="119" width="120" height="14" font="12">A 2007 31/01/2012 </text>
+<text top="716" left="254" width="97" height="14" font="12">DUPONT Jean-</text>
+<text top="733" left="285" width="39" height="14" font="12">Pierre </text>
+<text top="716" left="381" width="105" height="14" font="12">2 rue de la Croix </text>
+<text top="733" left="409" width="49" height="14" font="12">Rabeau </text>
+<text top="725" left="511" width="48" height="14" font="12">G 2510 </text>
+<text top="725" left="591" width="173" height="14" font="12">Détachement d'un lot à bâtir </text>
+<text top="761" left="119" width="120" height="14" font="12">A 2008 02/02/2012 </text>
+<text top="761" left="259" width="90" height="14" font="12">BARRE Brice </text>
+<text top="761" left="386" width="94" height="14" font="12">20 rue du Breil </text>
+<text top="761" left="511" width="48" height="14" font="12">G 2743 </text>
+<text top="753" left="582" width="191" height="14" font="12">Changement porte de garage et </text>
+<text top="770" left="615" width="124" height="14" font="12">création d'ouverture </text>
+<text top="795" left="119" width="236" height="14" font="12">A 2009 02/02/2012  TESSIER Gilles </text>
+<text top="795" left="374" width="118" height="14" font="12">34 rue de la Treille </text>
+<text top="795" left="511" width="48" height="14" font="12">G 1328 </text>
+<text top="795" left="606" width="143" height="14" font="12">Modification de façade </text>
+<text top="826" left="119" width="373" height="14" font="12">A 2010 03/02/2012 GRAVOUIL Michel  13 rue du Brandais </text>
+<text top="826" left="511" width="48" height="14" font="12">G 1493 </text>
+<text top="826" left="617" width="121" height="14" font="12">Abri bois + pergola </text>
+<text top="860" left="119" width="120" height="14" font="12">A 2011 06/02/2012 </text>
+<text top="851" left="256" width="97" height="14" font="12">CHAUMERET </text>
+<text top="868" left="280" width="49" height="14" font="12">Gabriel </text>
+<text top="860" left="374" width="118" height="14" font="12">43 rue de la Treille </text>
+<text top="851" left="504" width="63" height="14" font="12">G 2798 et </text>
+<text top="868" left="519" width="34" height="14" font="12">2104 </text>
+<text top="860" left="623" width="107" height="14" font="12">Garage et clôture </text>
+<text top="887" left="119" width="5" height="16" font="4"> </text>
+<text top="908" left="119" width="273" height="16" font="4">Séance levée à 23 heures 55 minutes. </text>
+<text top="929" left="119" width="5" height="16" font="4"> </text>
+<text top="949" left="119" width="5" height="16" font="4"> </text>
+</page>
+</pdf2xml>

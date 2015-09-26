@@ -1,0 +1,1511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml>
+<page number="1" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="0" size="16" family="Times" color="#000000"/>
+	<fontspec id="1" size="16" family="Times" color="#000000"/>
+	<fontspec id="2" size="21" family="Times" color="#000000"/>
+	<fontspec id="3" size="21" family="Times" color="#000000"/>
+	<fontspec id="4" size="16" family="Times" color="#000000"/>
+	<fontspec id="5" size="16" family="Times" color="#000000"/>
+	<fontspec id="6" size="16" family="Times" color="#000000"/>
+	<fontspec id="7" size="16" family="Times" color="#000080"/>
+	<fontspec id="8" size="16" family="Helvetica" color="#000000"/>
+	<fontspec id="9" size="16" family="Times" color="#000000"/>
+	<fontspec id="10" size="12" family="Times" color="#000000"/>
+	<fontspec id="11" size="12" family="Times" color="#000000"/>
+	<fontspec id="12" size="12" family="Times" color="#000000"/>
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="553" width="164" height="16" font="0"><i><b>CM 4 novembre 2014 </b></i></text>
+<text top="67" left="119" width="282" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="756" width="23" height="16" font="1"><b>96 </b></text>
+<text top="134" left="447" width="6" height="22" font="2"><b> </b></text>
+<text top="162" left="319" width="261" height="22" font="2"><b>CONSEIL MUNICIPAL </b></text>
+<text top="190" left="268" width="363" height="22" font="2"><b>SEANCE DU 4 NOVEMBRE 2014 </b></text>
+<text top="217" left="119" width="6" height="22" font="3"> </text>
+<text top="244" left="119" width="179" height="16" font="1"><b>Nombre de Conseillers </b></text>
+<text top="264" left="119" width="122" height="16" font="1"><b>en exercice :</b> 19 </text>
+<text top="285" left="119" width="102" height="16" font="1"><b>Présents :</b> 18 </text>
+<text top="305" left="119" width="97" height="16" font="1"><b>Votants :</b> 19 </text>
+<text top="326" left="119" width="135" height="16" font="1"><b>Procuration :</b> 1</text>
+<text top="244" left="371" width="403" height="16" font="0"><i><b>L'an  deux  mil  quatorze,  le  quatre  novembre,  à  dix-</b></i></text>
+<text top="264" left="323" width="455" height="16" font="0"><i><b>neuf heures trente, le Conseil Municipal de la Commune de </b></i></text>
+<text top="285" left="323" width="455" height="16" font="0"><i><b>CHEMERE,  dûment  convoqué,  s'est  réuni  en  session </b></i></text>
+<text top="306" left="323" width="455" height="16" font="0"><i><b>ordinaire,  à  la  Mairie,  sous  la  présidence  de  Monsieur </b></i></text>
+<text top="326" left="323" width="224" height="16" font="0"><i><b>Georges LECLEVE, Maire.</b></i></text>
+<text top="348" left="119" width="5" height="16" font="4"> </text>
+<text top="369" left="119" width="112" height="16" font="1"><b>Convocation : </b></text>
+<text top="389" left="119" width="135" height="16" font="4">28 octobre 2014</text>
+<text top="348" left="323" width="80" height="16" font="1"><b>Présents:  </b></text>
+<text top="368" left="323" width="226" height="16" font="4">M. Georges LECLEVE, Maire </text>
+<text top="389" left="323" width="451" height="16" font="4">M. MMES Virginie PORCHER, Michel GRAVOUIL, Marie-</text>
+<text top="410" left="323" width="330" height="16" font="4">Laure DAVID, Gérard CHAUVET, Adjoints </text>
+<text top="430" left="321" width="457" height="16" font="4">M.  MMES  Jean-Marc  VOYAU,  Jacques  CHEVALIER, </text>
+<text top="451" left="321" width="53" height="16" font="4">Karine </text>
+<text top="451" left="398" width="93" height="16" font="4">FOUQUET, </text>
+<text top="451" left="514" width="62" height="16" font="4">Romain </text>
+<text top="451" left="599" width="97" height="16" font="4">RUNGOAT, </text>
+<text top="451" left="719" width="59" height="16" font="4">Sabrina </text>
+<text top="472" left="321" width="457" height="16" font="4">PENNETIER-BIGOT,  Anthony  LATOUCHE,  Conseillers </text>
+<text top="493" left="321" width="161" height="16" font="4">municipaux délégués. </text>
+<text top="513" left="323" width="455" height="16" font="4">M.  MMES  Sylviane  GIBET,  Valérie  LEBLOND,  Anne </text>
+<text top="534" left="323" width="455" height="16" font="4">BRUNETEAU,  Philippe  BRIAND,  Christelle  GUIGNON, </text>
+<text top="555" left="323" width="455" height="16" font="4">Dominique  MUSLEWSKI,  Nicolas  BOUCHER,  Conseillers </text>
+<text top="575" left="323" width="89" height="16" font="4">municipaux </text>
+<text top="596" left="323" width="140" height="16" font="1"><b>Absente excusée : </b></text>
+<text top="617" left="323" width="455" height="16" font="4">MME  Tatiana  BERTHELOT,  Conseillère  municipale, </text>
+<text top="637" left="323" width="292" height="16" font="4">pouvoir donné à M Nicolas BOUCHER </text>
+<text top="655" left="216" width="18" height="20" font="5"></text>
+<text top="659" left="323" width="427" height="16" font="1"><b>A été élu secrétaire de séance : </b>M. Nicolas BOUCHER</text>
+<text top="677" left="119" width="131" height="20" font="6"><b>Date d’affichage </b></text>
+<text top="680" left="323" width="140" height="16" font="4">10 novembre 2014 </text>
+<text top="702" left="119" width="5" height="16" font="7"> </text>
+<text top="723" left="119" width="655" height="16" font="1"><b>Compte-rendu  de  la  réunion  du  16  septembre  2014</b> :  Pas  d’observations.  Le  compte-</text>
+<text top="740" left="119" width="227" height="20" font="5">rendu est adopté à l’unanimité. </text>
+<text top="760" left="119" width="659" height="20" font="5">Monsieur le Maire donne lecture de l’ordre du jour et propose au Conseil municipal de d’y </text>
+<text top="785" left="119" width="179" height="16" font="4">ajouter le point suivant : </text>
+<text top="805" left="146" width="6" height="16" font="4">-</text>
+<text top="805" left="152" width="5" height="17" font="8"> </text>
+<text top="805" left="173" width="437" height="16" font="4">Aménagement de la route de Rouans : Approbation du plan. </text>
+<text top="826" left="119" width="295" height="16" font="4">Le Conseil municipal donne son accord. </text>
+<text top="847" left="119" width="5" height="16" font="4"> </text>
+<text top="867" left="119" width="5" height="16" font="4"> </text>
+<text top="884" left="119" width="431" height="21" font="5"><i><b> DE-2014/97 – Informations sur la délégation du Maire </b></i></text>
+<text top="909" left="119" width="659" height="16" font="4">Suite à la délibération du Conseil municipal n°2014/33 en date du 22 avril 2014, relative à </text>
+<text top="930" left="119" width="659" height="16" font="4">la  délégation  donnée  au  Maire  par  le  Conseil  municipal,  il  est  rendu  compte, </text>
+<text top="947" left="119" width="659" height="20" font="5">conformément  aux  dispositions  de  l’article  L  2122-23  du  Code  général  des  collectivités </text>
+<text top="971" left="119" width="647" height="16" font="4">territoriales, des décisions prises par Monsieur le Maire dans le cadre de cette délégation. </text>
+<text top="992" left="119" width="659" height="16" font="4">Les  tableaux  annexés  ci-après  recensent  les  décisions  prises  dans  le  cadre  de  cette </text>
+<text top="1012" left="119" width="80" height="16" font="4">délégation </text>
+<text top="1033" left="140" width="15" height="16" font="4">1-</text>
+<text top="1032" left="155" width="5" height="17" font="8"> </text>
+<text top="1033" left="167" width="435" height="16" font="4">Information sur la délégation du maire relative aux marchés </text>
+<text top="1054" left="124" width="54" height="13" font="10"><b>Date du </b></text>
+<text top="1072" left="125" width="52" height="13" font="10"><b>marché </b></text>
+<text top="1054" left="230" width="60" height="13" font="10"><b>Titulaire </b></text>
+<text top="1054" left="449" width="113" height="13" font="10"><b>Objet du marché </b></text>
+<text top="1054" left="687" width="82" height="13" font="10"><b>Montant  en </b></text>
+<text top="1072" left="712" width="33" height="13" font="10"><b>H.T. </b></text>
+<text top="1098" left="122" width="57" height="13" font="11">09/09/14 </text>
+<text top="1089" left="200" width="121" height="13" font="11">GDF SUEZ (92400 </text>
+<text top="1106" left="208" width="105" height="13" font="11">COURBEVOIE) </text>
+<text top="1089" left="346" width="319" height="13" font="11">Abonnement gaz restaurant scolaire 3 ans à prix fixe </text>
+<text top="1106" left="434" width="142" height="13" font="11">(01/12/14 au 30/11/17) </text>
+<text top="1095" left="711" width="67" height="17" font="12">77,50 €/an </text>
+<text top="1150" left="122" width="57" height="13" font="11">22/09/14 </text>
+<text top="1124" left="198" width="125" height="13" font="11">CHARIER TP SUD </text>
+<text top="1142" left="237" width="46" height="13" font="11">(44344 </text>
+<text top="1159" left="210" width="101" height="13" font="11">BOUGUENAIS </text>
+<text top="1176" left="231" width="59" height="13" font="11">CEDEX) </text>
+<text top="1142" left="351" width="308" height="13" font="11">Travaux régies rue du Breil : Location niveleuse et </text>
+<text top="1159" left="384" width="242" height="13" font="11">compacteur avec chauffeur pour 2 jours </text>
+<text top="1150" left="710" width="67" height="13" font="11">2 850,00 € </text>
+<text top="1194" left="122" width="57" height="13" font="11">29/09/14 </text>
+<text top="1194" left="195" width="131" height="13" font="11">FREDON-FDGDON </text>
+<text top="1194" left="363" width="284" height="13" font="11">Lutte collective biologique contre les chenilles </text>
+<text top="1191" left="721" width="56" height="17" font="12">350,00 € </text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="13" size="7" family="Times" color="#000000"/>
+	<fontspec id="14" size="14" family="Times" color="#000000"/>
+	<fontspec id="15" size="14" family="Times" color="#000000"/>
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="553" width="164" height="16" font="0"><i><b>CM 4 novembre 2014 </b></i></text>
+<text top="67" left="119" width="282" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="756" width="23" height="16" font="1"><b>97 </b></text>
+<text top="132" left="237" width="46" height="13" font="11">(44119 </text>
+<text top="149" left="189" width="142" height="13" font="11">GRANDCHAMP DES </text>
+<text top="166" left="214" width="92" height="13" font="11">FONTAINES) </text>
+<text top="132" left="375" width="260" height="13" font="11">processionnaires du pin (4 sites, 40 arbres) </text>
+<text top="193" left="122" width="57" height="13" font="11">30/09/14 </text>
+<text top="184" left="206" width="109" height="13" font="11">SYDELA (44701 </text>
+<text top="201" left="220" width="80" height="13" font="11">ORVAULT) </text>
+<text top="181" left="340" width="330" height="17" font="12">Travaux d’éclairage public rue du Breil : Extension de </text>
+<text top="201" left="401" width="209" height="13" font="11">réseau et matériel éclairage public </text>
+<text top="184" left="710" width="68" height="13" font="11">2 842,81 € </text>
+<text top="201" left="734" width="43" height="13" font="11">T.T.C. </text>
+<text top="237" left="122" width="57" height="13" font="11">08/10/14 </text>
+<text top="219" left="210" width="102" height="13" font="11">CHUBB (44472 </text>
+<text top="237" left="213" width="95" height="13" font="11">CARQUEFOU </text>
+<text top="254" left="231" width="59" height="13" font="11">CEDEX) </text>
+<text top="219" left="349" width="313" height="13" font="11">Entretien système de détection incendie du théâtre : </text>
+<text top="233" left="347" width="316" height="17" font="12">Remplacement des batteries et du report d’alarme et </text>
+<text top="254" left="414" width="184" height="13" font="11">démantèlement des détecteurs </text>
+<text top="237" left="710" width="67" height="13" font="11">1 325,21 € </text>
+<text top="281" left="122" width="57" height="13" font="11">08/10/14 </text>
+<text top="272" left="211" width="98" height="13" font="11">REXEL (44210 </text>
+<text top="289" left="229" width="64" height="13" font="11">PORNIC) </text>
+<text top="272" left="373" width="264" height="13" font="11">Entretien maison des jeunes : Acquisition 1 </text>
+<text top="289" left="439" width="132" height="13" font="11">convecteur électrique </text>
+<text top="277" left="729" width="49" height="17" font="12">66,53 € </text>
+<text top="324" left="122" width="57" height="13" font="11">09/10/14 </text>
+<text top="307" left="199" width="123" height="13" font="11">EDITIONS PROST </text>
+<text top="324" left="215" width="91" height="13" font="11">(69412 LYON </text>
+<text top="342" left="231" width="59" height="13" font="11">CEDEX) </text>
+<text top="316" left="350" width="311" height="13" font="11">80 exemplaires « A la découverte de ta commune » </text>
+<text top="333" left="465" width="15" height="13" font="11">14</text>
+<text top="331" left="480" width="16" height="9" font="13">ème</text>
+<text top="333" left="496" width="49" height="13" font="11"> édition </text>
+<text top="321" left="721" width="56" height="17" font="12">160,00 € </text>
+<text top="377" left="122" width="57" height="13" font="11">10/10/14 </text>
+<text top="360" left="199" width="123" height="13" font="11">HORIS SERVICES </text>
+<text top="377" left="213" width="94" height="13" font="11">(22003 SAINT </text>
+<text top="394" left="229" width="64" height="13" font="11">BRIEUC) </text>
+<text top="368" left="358" width="294" height="13" font="11">Restaurant scolaire : Remplacement évaporateur </text>
+<text top="385" left="435" width="141" height="13" font="11">armoire froide positive </text>
+<text top="374" left="721" width="56" height="17" font="12">836,65 € </text>
+<text top="421" left="122" width="57" height="13" font="11">16/10/14 </text>
+<text top="412" left="191" width="138" height="13" font="11">SARL PINSON JOEL </text>
+<text top="429" left="197" width="127" height="13" font="11">(44680 CHEMERE) </text>
+<text top="421" left="375" width="261" height="13" font="11">Travaux de busage rue de la Bride à Mains </text>
+<text top="421" left="710" width="67" height="13" font="11">9 890,00 € </text>
+<text top="491" left="122" width="57" height="13" font="11">20/10/14 </text>
+<text top="473" left="200" width="120" height="13" font="11">NEW DIFF (44680 </text>
+<text top="491" left="193" width="135" height="13" font="11">SAINT HILAIRE DE </text>
+<text top="508" left="216" width="89" height="13" font="11">CHALEONS) </text>
+<text top="482" left="357" width="296" height="13" font="11">Réalisation bulletin municipal année 2015 (1300 </text>
+<text top="499" left="465" width="81" height="13" font="11">exemplaires) </text>
+<text top="447" left="723" width="54" height="13" font="11">Parution </text>
+<text top="465" left="702" width="76" height="13" font="11">trimestrielle </text>
+<text top="482" left="686" width="91" height="13" font="11">1 218,00 € (16 </text>
+<text top="499" left="735" width="43" height="13" font="11">pages) </text>
+<text top="516" left="686" width="91" height="13" font="11">1 595,00 € (20 </text>
+<text top="534" left="735" width="43" height="13" font="11">pages) </text>
+<text top="560" left="122" width="57" height="13" font="11">23/10/14 </text>
+<text top="552" left="210" width="102" height="13" font="11">MICHAUD JJH </text>
+<text top="569" left="197" width="127" height="13" font="11">(44680 CHEMERE) </text>
+<text top="560" left="348" width="314" height="13" font="11">Travaux local « Votre Marché » : porte accès jardin </text>
+<text top="557" left="721" width="56" height="17" font="12">880,00 € </text>
+<text top="604" left="122" width="57" height="13" font="11">23/10/14 </text>
+<text top="587" left="208" width="104" height="13" font="11">BOIS EXPO LA </text>
+<text top="604" left="199" width="123" height="13" font="11">BAULE (44500 LA </text>
+<text top="621" left="231" width="59" height="13" font="11">BAULE) </text>
+<text top="604" left="382" width="247" height="13" font="11">Travaux régies aux Chaussées : Rondins </text>
+<text top="604" left="710" width="67" height="13" font="11">1 334,45 € </text>
+<text top="648" left="122" width="57" height="13" font="11">28/10/14 </text>
+<text top="639" left="216" width="89" height="13" font="11">AXES (44700 </text>
+<text top="657" left="220" width="80" height="13" font="11">ORVAULT) </text>
+<text top="639" left="364" width="283" height="13" font="11">Mise en place du SCAN du photocopieur suite </text>
+<text top="657" left="443" width="124" height="13" font="11">changement serveur </text>
+<text top="645" left="729" width="49" height="17" font="12">90,00 € </text>
+<text top="692" left="122" width="57" height="13" font="11">24/10/14 </text>
+<text top="675" left="196" width="128" height="13" font="11">ROGER LOUERAT </text>
+<text top="692" left="192" width="136" height="13" font="11">(44320 RATHON EN </text>
+<text top="709" left="237" width="46" height="13" font="11">RETZ) </text>
+<text top="689" left="345" width="321" height="17" font="12">Travaux d’électricité Maison de la Gare (local étage) </text>
+<text top="692" left="710" width="67" height="13" font="11">4 051,50 € </text>
+<text top="736" left="122" width="57" height="13" font="11">30/10/14 </text>
+<text top="727" left="206" width="109" height="13" font="11">SYDELA (44701 </text>
+<text top="744" left="220" width="80" height="13" font="11">ORVAULT) </text>
+<text top="733" left="361" width="288" height="17" font="12">Pose et dépose des illuminations de fin d’année </text>
+<text top="736" left="710" width="67" height="13" font="11">2 813,65 € </text>
+<text top="771" left="122" width="57" height="13" font="11">31/10/14 </text>
+<text top="762" left="210" width="102" height="13" font="11">MICHAUD JJH </text>
+<text top="780" left="197" width="127" height="13" font="11">(44680 CHEMERE) </text>
+<text top="762" left="348" width="314" height="13" font="11">Salle Ellipse – accès scène : Réalisation d’une main </text>
+<text top="780" left="478" width="55" height="13" font="11">courante </text>
+<text top="768" left="721" width="56" height="17" font="12">190,00 € </text>
+<text top="798" left="119" width="5" height="16" font="4"> </text>
+<text top="819" left="140" width="15" height="16" font="4">2-</text>
+<text top="818" left="155" width="5" height="17" font="8"> </text>
+<text top="815" left="167" width="538" height="20" font="5">Conventions d’occupations précaires à titre onéreux et à durée déterminée </text>
+<text top="841" left="131" width="128" height="15" font="14"><b>Adresse/Parcelles </b></text>
+<text top="841" left="295" width="88" height="15" font="14"><b>Bénéficiaire </b></text>
+<text top="841" left="407" width="121" height="15" font="14"><b>Caractéristiques </b></text>
+<text top="859" left="438" width="57" height="15" font="14"><b>du bien </b></text>
+<text top="841" left="550" width="47" height="15" font="14"><b>Durée </b></text>
+<text top="841" left="621" width="46" height="15" font="14"><b>Loyer </b></text>
+<text top="841" left="702" width="46" height="15" font="14"><b>Usage </b></text>
+<text top="888" left="137" width="116" height="15" font="15">Délaissé RD 751 </text>
+<text top="907" left="124" width="143" height="15" font="15">(Voie n°19 rétrocéde </text>
+<text top="926" left="121" width="149" height="15" font="15">par le Conseil général </text>
+<text top="945" left="138" width="115" height="15" font="15">- Voie n° d'ordre </text>
+<text top="964" left="141" width="109" height="15" font="15">communal : 53) </text>
+<text top="910" left="287" width="104" height="13" font="11">COHONER Joël </text>
+<text top="927" left="281" width="116" height="13" font="11">(Ecole de conduite </text>
+<text top="944" left="308" width="63" height="13" font="11">Chéméré) </text>
+<text top="898" left="427" width="80" height="15" font="15">Occupation </text>
+<text top="917" left="429" width="76" height="15" font="15">temporaire </text>
+<text top="936" left="412" width="108" height="15" font="15">d'occupation du </text>
+<text top="955" left="414" width="102" height="15" font="15">domaine public</text>
+<text top="956" left="516" width="4" height="13" font="11"> </text>
+<text top="884" left="549" width="48" height="13" font="11">1 an du </text>
+<text top="901" left="536" width="75" height="13" font="11">01/09/14 au </text>
+<text top="918" left="543" width="61" height="13" font="11">31/08/15, </text>
+<text top="935" left="533" width="81" height="13" font="11">renouvelable </text>
+<text top="953" left="544" width="59" height="13" font="11">par tacite </text>
+<text top="970" left="532" width="82" height="13" font="11">reconduction </text>
+<text top="927" left="621" width="46" height="13" font="11">Gratuit </text>
+<text top="879" left="674" width="103" height="15" font="15">Professionnel : </text>
+<text top="898" left="680" width="91" height="15" font="15">Dispense des </text>
+<text top="917" left="696" width="60" height="15" font="15">cours de </text>
+<text top="936" left="695" width="61" height="15" font="15">conduite </text>
+<text top="955" left="676" width="99" height="15" font="15">concernant les </text>
+<text top="974" left="674" width="102" height="15" font="15">permis &#34;Moto&#34; </text>
+<text top="1030" left="140" width="111" height="15" font="15">3 emplacements </text>
+<text top="1050" left="155" width="81" height="15" font="15">(parking du </text>
+<text top="1068" left="123" width="144" height="15" font="15">cimetière, parking de </text>
+<text top="1088" left="124" width="143" height="15" font="15">la Gare et parking du </text>
+<text top="1106" left="141" width="104" height="15" font="15">Parc de Loisirs)</text>
+<text top="1108" left="245" width="4" height="13" font="11"> </text>
+<text top="1026" left="278" width="121" height="13" font="11">FABBRO Sandrine </text>
+<text top="1043" left="307" width="64" height="13" font="11">(Boutique </text>
+<text top="1060" left="295" width="88" height="13" font="11">ambulante LE </text>
+<text top="1078" left="284" width="111" height="13" font="11">TAPIS VOLANT </text>
+<text top="1095" left="323" width="32" height="13" font="11">DES </text>
+<text top="1112" left="289" width="100" height="13" font="11">BOUTCHOUS) </text>
+<text top="1022" left="427" width="80" height="15" font="15">Occupation </text>
+<text top="1041" left="419" width="96" height="15" font="15">temporaire du </text>
+<text top="1060" left="409" width="116" height="15" font="15">domaine public - </text>
+<text top="1079" left="422" width="89" height="15" font="15">Abonnement </text>
+<text top="1098" left="443" width="48" height="15" font="15">annuel </text>
+<text top="1117" left="465" width="4" height="13" font="11"> </text>
+<text top="1060" left="534" width="75" height="13" font="11">2 ans (2014-</text>
+<text top="1078" left="554" width="39" height="13" font="11">2015) </text>
+<text top="1043" left="627" width="35" height="13" font="11">Droit </text>
+<text top="1060" left="635" width="18" height="13" font="11">de </text>
+<text top="1078" left="627" width="35" height="13" font="11">place </text>
+<text top="1095" left="622" width="44" height="13" font="11">annuel </text>
+<text top="993" left="674" width="103" height="15" font="15">Professionnel : </text>
+<text top="1012" left="686" width="79" height="15" font="15">Installer un </text>
+<text top="1031" left="678" width="94" height="15" font="15">véhicule pour </text>
+<text top="1050" left="688" width="76" height="15" font="15">la vente de </text>
+<text top="1069" left="690" width="71" height="15" font="15">vêtements </text>
+<text top="1088" left="697" width="56" height="15" font="15">neufs et </text>
+<text top="1107" left="689" width="73" height="15" font="15">d'occasion </text>
+<text top="1126" left="682" width="86" height="15" font="15">pour enfants </text>
+<text top="1145" left="723" width="4" height="13" font="11"> </text>
+<text top="1163" left="138" width="114" height="15" font="15">1 emplacement - </text>
+<text top="1182" left="123" width="145" height="15" font="15">trottoir rue de Nantes </text>
+<text top="1201" left="141" width="109" height="15" font="15">entre Bureau de </text>
+<text top="1166" left="285" width="107" height="13" font="11">RIFLET Mickael </text>
+<text top="1183" left="281" width="116" height="13" font="11">(Camion ambulant </text>
+<text top="1200" left="299" width="80" height="13" font="11">LES PLATS </text>
+<text top="1163" left="427" width="80" height="15" font="15">Occupation </text>
+<text top="1182" left="419" width="96" height="15" font="15">temporaire du </text>
+<text top="1201" left="409" width="116" height="15" font="15">domaine public - </text>
+<text top="1174" left="534" width="75" height="13" font="11">2 ans (2014-</text>
+<text top="1191" left="554" width="39" height="13" font="11">2015) </text>
+<text top="1166" left="627" width="35" height="13" font="11">Droit </text>
+<text top="1183" left="635" width="18" height="13" font="11">de </text>
+<text top="1200" left="627" width="35" height="13" font="11">place </text>
+<text top="1163" left="674" width="103" height="15" font="15">Professionnel : </text>
+<text top="1182" left="686" width="79" height="15" font="15">Installer un </text>
+<text top="1201" left="678" width="94" height="15" font="15">véhicule pour </text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="16" size="14" family="Times" color="#000000"/>
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="553" width="164" height="16" font="0"><i><b>CM 4 novembre 2014 </b></i></text>
+<text top="67" left="119" width="282" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="756" width="23" height="16" font="1"><b>98 </b></text>
+<text top="132" left="131" width="128" height="15" font="15">Tabac et Mairie en </text>
+<text top="151" left="137" width="117" height="15" font="15">vue d'installer un </text>
+<text top="170" left="165" width="60" height="15" font="15">véhicule </text>
+<text top="189" left="193" width="4" height="15" font="15"> </text>
+<text top="132" left="286" width="105" height="13" font="11">GOURMANDS) </text>
+<text top="132" left="422" width="89" height="15" font="15">Abonnement </text>
+<text top="151" left="443" width="48" height="15" font="15">annuel </text>
+<text top="170" left="465" width="4" height="15" font="15"> </text>
+<text top="132" left="622" width="44" height="13" font="11">annuel </text>
+<text top="132" left="678" width="95" height="15" font="15">la préparation </text>
+<text top="151" left="688" width="76" height="15" font="15">et vente de </text>
+<text top="170" left="679" width="93" height="15" font="15">plats cuisinés </text>
+<text top="189" left="688" width="75" height="15" font="15">à emporter </text>
+<text top="209" left="138" width="114" height="15" font="15">1 emplacement - </text>
+<text top="228" left="123" width="145" height="15" font="15">trottoir rue de Nantes </text>
+<text top="247" left="129" width="133" height="15" font="15">en face de la mairie </text>
+<text top="266" left="127" width="137" height="15" font="15">en vue d'installer un </text>
+<text top="284" left="134" width="122" height="15" font="15">véhicule pour son </text>
+<text top="304" left="123" width="145" height="15" font="15">activité ambulante de </text>
+<text top="322" left="131" width="129" height="15" font="15">charcuterie traiteur </text>
+<text top="219" left="289" width="100" height="15" font="15">BRIANCEAU </text>
+<text top="238" left="284" width="111" height="15" font="15">Karine (Camion </text>
+<text top="257" left="292" width="94" height="15" font="15">ambulant AU </text>
+<text top="276" left="294" width="90" height="15" font="15">FAISAN DE </text>
+<text top="295" left="314" width="51" height="15" font="15">RETZ) </text>
+<text top="313" left="337" width="4" height="13" font="11"> </text>
+<text top="218" left="427" width="80" height="15" font="15">Occupation </text>
+<text top="237" left="419" width="96" height="15" font="15">temporaire du </text>
+<text top="256" left="409" width="116" height="15" font="15">domaine public - </text>
+<text top="275" left="422" width="89" height="15" font="15">Abonnement </text>
+<text top="294" left="443" width="48" height="15" font="15">annuel </text>
+<text top="313" left="465" width="4" height="15" font="15"> </text>
+<text top="257" left="534" width="75" height="13" font="11">2 ans (2014-</text>
+<text top="275" left="554" width="39" height="13" font="11">2015) </text>
+<text top="240" left="627" width="35" height="13" font="11">Droit </text>
+<text top="257" left="635" width="18" height="13" font="11">de </text>
+<text top="275" left="627" width="35" height="13" font="11">place </text>
+<text top="292" left="622" width="44" height="13" font="11">annuel </text>
+<text top="209" left="674" width="103" height="15" font="15">Professionnel : </text>
+<text top="228" left="686" width="79" height="15" font="15">Installer un </text>
+<text top="247" left="678" width="94" height="15" font="15">véhicule pour </text>
+<text top="266" left="686" width="80" height="15" font="15">son activité </text>
+<text top="284" left="679" width="93" height="15" font="15">ambulante de </text>
+<text top="304" left="687" width="78" height="15" font="15">charcuterie </text>
+<text top="322" left="700" width="52" height="15" font="15">traiteur </text>
+<text top="342" left="138" width="114" height="15" font="15">1 emplacement - </text>
+<text top="361" left="123" width="145" height="15" font="15">trottoir rue de Nantes </text>
+<text top="380" left="129" width="133" height="15" font="15">en face de la mairie </text>
+<text top="399" left="127" width="137" height="15" font="15">en vue d'installer un </text>
+<text top="418" left="134" width="122" height="15" font="15">véhicule pour son </text>
+<text top="437" left="123" width="145" height="15" font="15">activité ambulante de </text>
+<text top="456" left="128" width="134" height="15" font="15">vente de fruits et de </text>
+<text top="475" left="125" width="141" height="15" font="15">légumes et de bijoux </text>
+<text top="494" left="165" width="60" height="15" font="15">fantaisie </text>
+<text top="381" left="287" width="104" height="15" font="15">PETIT Isabelle </text>
+<text top="400" left="308" width="62" height="15" font="15">(Camion </text>
+<text top="419" left="306" width="66" height="15" font="15">ambulant </text>
+<text top="438" left="290" width="99" height="15" font="15">SYLPHIDES) </text>
+<text top="457" left="337" width="4" height="13" font="11"> </text>
+<text top="371" left="427" width="80" height="15" font="15">Occupation </text>
+<text top="390" left="419" width="96" height="15" font="15">temporaire du </text>
+<text top="409" left="409" width="116" height="15" font="15">domaine public - </text>
+<text top="428" left="422" width="89" height="15" font="15">Abonnement </text>
+<text top="447" left="443" width="48" height="15" font="15">annuel </text>
+<text top="466" left="465" width="4" height="15" font="15"> </text>
+<text top="410" left="534" width="75" height="13" font="11">2 ans (2014-</text>
+<text top="427" left="554" width="39" height="13" font="11">2015) </text>
+<text top="393" left="627" width="35" height="13" font="11">Droit </text>
+<text top="410" left="635" width="18" height="13" font="11">de </text>
+<text top="427" left="627" width="35" height="13" font="11">place </text>
+<text top="445" left="622" width="44" height="13" font="11">annuel </text>
+<text top="342" left="674" width="103" height="15" font="15">Professionnel : </text>
+<text top="361" left="686" width="79" height="15" font="15">Installer un </text>
+<text top="380" left="678" width="94" height="15" font="15">véhicule pour </text>
+<text top="399" left="686" width="80" height="15" font="15">son activité </text>
+<text top="418" left="679" width="93" height="15" font="15">ambulante de </text>
+<text top="437" left="676" width="99" height="15" font="15">vente de fruits </text>
+<text top="456" left="678" width="95" height="15" font="15">et de légumes </text>
+<text top="475" left="684" width="82" height="15" font="15">et de bijoux </text>
+<text top="494" left="695" width="60" height="15" font="15">fantaisie </text>
+<text top="514" left="138" width="114" height="15" font="15">1 emplacement - </text>
+<text top="533" left="123" width="145" height="15" font="15">trottoir rue de Nantes </text>
+<text top="552" left="129" width="133" height="15" font="15">en face de la mairie </text>
+<text top="571" left="127" width="137" height="15" font="15">en vue d'installer un </text>
+<text top="590" left="134" width="122" height="15" font="15">véhicule pour son </text>
+<text top="609" left="123" width="145" height="15" font="15">activité ambulante de </text>
+<text top="628" left="131" width="128" height="15" font="15">restauration rapide </text>
+<text top="646" left="137" width="117" height="15" font="15">crêpes et galettes </text>
+<text top="534" left="305" width="68" height="15" font="15">STREIFF </text>
+<text top="553" left="280" width="119" height="15" font="15">Myriam (Camion </text>
+<text top="572" left="293" width="92" height="15" font="15">ambulant LA </text>
+<text top="591" left="300" width="78" height="15" font="15">GALETTE </text>
+<text top="609" left="290" width="98" height="15" font="15">BRETONNE) </text>
+<text top="628" left="337" width="4" height="13" font="11"> </text>
+<text top="533" left="427" width="80" height="15" font="15">Occupation </text>
+<text top="552" left="419" width="96" height="15" font="15">temporaire du </text>
+<text top="571" left="409" width="116" height="15" font="15">domaine public - </text>
+<text top="590" left="422" width="89" height="15" font="15">Abonnement </text>
+<text top="609" left="443" width="48" height="15" font="15">annuel </text>
+<text top="628" left="465" width="4" height="15" font="15"> </text>
+<text top="572" left="534" width="75" height="13" font="11">2 ans (2014-</text>
+<text top="589" left="554" width="39" height="13" font="11">2015) </text>
+<text top="555" left="627" width="35" height="13" font="11">Droit </text>
+<text top="572" left="635" width="18" height="13" font="11">de </text>
+<text top="589" left="627" width="35" height="13" font="11">place </text>
+<text top="607" left="622" width="44" height="13" font="11">annuel </text>
+<text top="514" left="674" width="103" height="15" font="15">Professionnel : </text>
+<text top="533" left="686" width="79" height="15" font="15">Installer un </text>
+<text top="552" left="678" width="94" height="15" font="15">véhicule pour </text>
+<text top="571" left="686" width="80" height="15" font="15">son activité </text>
+<text top="590" left="679" width="93" height="15" font="15">ambulante de </text>
+<text top="609" left="684" width="82" height="15" font="15">restauration </text>
+<text top="628" left="680" width="92" height="15" font="15">rapide crêpes </text>
+<text top="646" left="690" width="71" height="15" font="15">et galettes </text>
+<text top="667" left="119" width="5" height="16" font="4"> </text>
+<text top="687" left="140" width="15" height="16" font="4">3-</text>
+<text top="687" left="155" width="5" height="17" font="8"> </text>
+<text top="687" left="167" width="414" height="16" font="4">Délivrance et reprise des concessions dans les cimetières </text>
+<text top="709" left="132" width="60" height="15" font="14"><b>N° de la </b></text>
+<text top="728" left="123" width="78" height="15" font="14"><b>concession </b></text>
+<text top="709" left="209" width="101" height="15" font="14"><b>Emplacement </b></text>
+<text top="709" left="344" width="37" height="15" font="14"><b>Date </b></text>
+<text top="724" left="315" width="96" height="18" font="16"><b>d’attribution </b></text>
+<text top="709" left="422" width="88" height="15" font="14"><b>Bénéficiaire </b></text>
+<text top="709" left="528" width="74" height="15" font="14"><b>Nature de </b></text>
+<text top="728" left="556" width="17" height="15" font="14"><b>la </b></text>
+<text top="747" left="526" width="78" height="15" font="14"><b>concession </b></text>
+<text top="709" left="614" width="47" height="15" font="14"><b>Durée </b></text>
+<text top="709" left="700" width="44" height="15" font="14"><b>Motif </b></text>
+<text top="774" left="149" width="26" height="13" font="11">369 </text>
+<text top="774" left="245" width="30" height="13" font="11">D31 </text>
+<text top="774" left="334" width="57" height="13" font="11">18/09/14 </text>
+<text top="766" left="419" width="94" height="13" font="11">BRUNETEAU </text>
+<text top="783" left="437" width="62" height="13" font="11">Huguette  </text>
+<text top="774" left="535" width="60" height="13" font="11">Familiale </text>
+<text top="774" left="616" width="157" height="13" font="11">30 ans  Renouvellement </text>
+<text top="810" left="149" width="26" height="13" font="11">361 </text>
+<text top="810" left="246" width="28" height="13" font="11">E14 </text>
+<text top="810" left="334" width="57" height="13" font="11">08/09/14 </text>
+<text top="801" left="431" width="70" height="13" font="11">GUILLOU </text>
+<text top="818" left="427" width="78" height="13" font="11">Marie-Paule </text>
+<text top="810" left="535" width="60" height="13" font="11">Familiale </text>
+<text top="810" left="616" width="157" height="13" font="11">30 ans  Renouvellement </text>
+<text top="842" left="149" width="26" height="13" font="11">609 </text>
+<text top="842" left="251" width="17" height="13" font="11">J2 </text>
+<text top="842" left="334" width="57" height="13" font="11">16/09/14 </text>
+<text top="842" left="419" width="93" height="13" font="11">LERAY Pierre </text>
+<text top="842" left="527" width="246" height="13" font="11">Individuelle  30 ans  Renouvellement </text>
+<text top="866" left="173" width="5" height="16" font="4"> </text>
+<text top="887" left="146" width="15" height="16" font="4">4-</text>
+<text top="886" left="161" width="5" height="17" font="8"> </text>
+<text top="887" left="172" width="606" height="16" font="4">Information  sur  la  délégation  du  maire  relative  au  droit  de  préemption  urbain </text>
+<text top="907" left="173" width="53" height="16" font="4">(DPU) </text>
+<text top="929" left="129" width="49" height="15" font="14"><b>Année </b></text>
+<text top="929" left="201" width="76" height="15" font="14"><b>N° dossier </b></text>
+<text top="929" left="300" width="83" height="15" font="14"><b>Adresse du </b></text>
+<text top="948" left="324" width="34" height="15" font="14"><b>bien </b></text>
+<text top="929" left="410" width="55" height="15" font="14"><b>Section </b></text>
+<text top="929" left="511" width="23" height="15" font="14"><b>N° </b></text>
+<text top="929" left="580" width="76" height="15" font="14"><b>Superficie </b></text>
+<text top="948" left="596" width="44" height="15" font="14"><b>totale </b></text>
+<text top="929" left="682" width="104" height="15" font="14"><b>Exercice droit </b></text>
+<text top="948" left="724" width="21" height="15" font="14"><b>de </b></text>
+<text top="967" left="691" width="86" height="15" font="14"><b>préemption </b></text>
+<text top="994" left="137" width="34" height="13" font="11">2014 </text>
+<text top="994" left="230" width="19" height="13" font="11">25 </text>
+<text top="986" left="297" width="88" height="13" font="11">8 rue Léonard </text>
+<text top="1003" left="313" width="55" height="13" font="11">de Vinci </text>
+<text top="994" left="431" width="12" height="13" font="11">F </text>
+<text top="986" left="486" width="71" height="13" font="11">1575, 1576 </text>
+<text top="1003" left="498" width="48" height="13" font="11">et 1579 </text>
+<text top="994" left="591" width="54" height="13" font="11">4564 m² </text>
+<text top="994" left="719" width="30" height="13" font="11">Non </text>
+<text top="1026" left="137" width="34" height="13" font="11">2014 </text>
+<text top="1026" left="230" width="19" height="13" font="11">26 </text>
+<text top="1026" left="293" width="95" height="13" font="11">Rue du Moulin </text>
+<text top="1026" left="430" width="15" height="13" font="11">G </text>
+<text top="1026" left="505" width="34" height="13" font="11">3175 </text>
+<text top="1026" left="595" width="46" height="13" font="11">355 m² </text>
+<text top="1026" left="719" width="30" height="13" font="11">Non </text>
+<text top="1058" left="137" width="34" height="13" font="11">2014 </text>
+<text top="1058" left="230" width="19" height="13" font="11">27 </text>
+<text top="1050" left="291" width="95" height="13" font="11">14 rue de Saint-</text>
+<text top="1067" left="318" width="45" height="13" font="11">Hilaire </text>
+<text top="1058" left="431" width="12" height="13" font="11">F </text>
+<text top="1058" left="509" width="26" height="13" font="11">435 </text>
+<text top="1058" left="595" width="46" height="13" font="11">565 m² </text>
+<text top="1058" left="719" width="30" height="13" font="11">Non </text>
+<text top="1094" left="137" width="34" height="13" font="11">2014 </text>
+<text top="1094" left="230" width="19" height="13" font="11">28 </text>
+<text top="1085" left="312" width="58" height="13" font="11">2 rue des </text>
+<text top="1102" left="319" width="43" height="13" font="11">Sables </text>
+<text top="1094" left="430" width="15" height="13" font="11">G </text>
+<text top="1094" left="505" width="34" height="13" font="11">1144 </text>
+<text top="1094" left="595" width="46" height="13" font="11">873 m² </text>
+<text top="1094" left="719" width="30" height="13" font="11">Non </text>
+<text top="1129" left="137" width="34" height="13" font="11">2014 </text>
+<text top="1129" left="230" width="19" height="13" font="11">29 </text>
+<text top="1120" left="311" width="60" height="13" font="11">11 rue de </text>
+<text top="1138" left="319" width="43" height="13" font="11">Pornic </text>
+<text top="1129" left="430" width="15" height="13" font="11">G </text>
+<text top="1129" left="505" width="34" height="13" font="11">1486 </text>
+<text top="1129" left="595" width="46" height="13" font="11">171 m² </text>
+<text top="1129" left="719" width="30" height="13" font="11">Non </text>
+<text top="1156" left="173" width="5" height="16" font="4"> </text>
+<text top="1177" left="119" width="659" height="16" font="4">Le Conseil municipal prend acte des décisions prises par Monsieur le Maire dans le cadre </text>
+<text top="1198" left="119" width="144" height="16" font="4">de cette délégation. </text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="17" size="14" family="Times" color="#000000"/>
+	<fontspec id="18" size="14" family="Helvetica" color="#000000"/>
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="553" width="164" height="16" font="0"><i><b>CM 4 novembre 2014 </b></i></text>
+<text top="67" left="119" width="282" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="756" width="23" height="16" font="1"><b>99 </b></text>
+<text top="132" left="119" width="5" height="16" font="4"> </text>
+<text top="148" left="119" width="585" height="21" font="5"><i><b> DE-2014/98 – Salle Ellipse : Règlement intérieur – Modification (version 3) </b></i></text>
+<text top="173" left="119" width="659" height="16" font="4">Monsieur Gérard CHAUVET, rapporteur, informe les membres  du Conseil municipal de </text>
+<text top="194" left="119" width="659" height="16" font="4">la nécessité de procéder à des modifications du règlement intérieur de la salle Ellipse suite </text>
+<text top="211" left="119" width="423" height="20" font="5">à son utilisation effective depuis le début de l’année 2014. </text>
+<text top="231" left="119" width="659" height="20" font="5">Il est proposé d’effectuer les modifications suivantes (modifications apportées en italique </text>
+<text top="256" left="119" width="67" height="16" font="4">et gras) : </text>
+<text top="276" left="172" width="605" height="15" font="15">« Le  présent  règlement  intérieur  a  pour  objet  de  définir  les  conditions  d’utilisation  de  la </text>
+<text top="295" left="172" width="190" height="15" font="15">salle ELLIPSE de Chéméré. </text>
+<text top="314" left="172" width="606" height="15" font="15">Il  est  présenté  avant  toute  mise  à  disposition,  aux  utilisateurs  qui  devront  en  avoir  pris </text>
+<text top="333" left="172" width="313" height="15" font="15">connaissance et en avoir accepté les modalités. </text>
+<text top="349" left="172" width="379" height="18" font="17">La salle ELLIPSE est utilisable tous les jours de l’année. </text>
+<text top="372" left="172" width="199" height="16" font="1"><b>I - LES UTILISATEURS </b></text>
+<text top="388" left="172" width="605" height="18" font="17">La  mise  à  disposition  de  la  salle  ELLIPSE  est  soumise  à  la  signature  d’une  convention </text>
+<text top="407" left="172" width="606" height="18" font="17">entre  la  commune  de  Chéméré  et  l’utilisateur  et,  le  cas  échéant,  au  paiement  d’une </text>
+<text top="430" left="172" width="400" height="15" font="15">redevance révisable chaque année par le Conseil Municipal. </text>
+<text top="445" left="172" width="606" height="18" font="17">L’utilisateur ne peut effectuer de sous location, ni servir de prête-nom pour masquer des </text>
+<text top="468" left="172" width="145" height="15" font="15">utilisations. (cf. V-B) </text>
+<text top="487" left="172" width="314" height="15" font="15">Les utilisateurs se répartissent en 5 catégories : </text>
+<text top="506" left="172" width="205" height="15" font="14"><b>A. La commune de Chéméré </b></text>
+<text top="521" left="172" width="606" height="18" font="17">La  commune  se  réserve  une  priorité  d’utilisation  de  la  salle  ELLIPSE,  principalement </text>
+<text top="544" left="172" width="43" height="15" font="15">pour : </text>
+<text top="562" left="177" width="6" height="15" font="15">-</text>
+<text top="562" left="183" width="5" height="15" font="18"> </text>
+<text top="559" left="204" width="228" height="18" font="17">L’organisation de la Fête du Parc, </text>
+<text top="582" left="177" width="6" height="15" font="15">-</text>
+<text top="581" left="183" width="5" height="15" font="18"> </text>
+<text top="578" left="204" width="574" height="18" font="17">L’organisation de réunions publiques, de manifestations municipales ou en partenariat </text>
+<text top="600" left="204" width="149" height="15" font="15">avec des associations, </text>
+<text top="619" left="177" width="6" height="15" font="15">-</text>
+<text top="619" left="183" width="5" height="15" font="18"> </text>
+<text top="619" left="204" width="491" height="15" font="15">Les événements ou les obligations imprévus au moment de la réservation, </text>
+<text top="638" left="177" width="6" height="15" font="15">-</text>
+<text top="638" left="183" width="5" height="15" font="18"> </text>
+<text top="638" left="204" width="353" height="15" font="15">Les travaux et les interventions techniques à réaliser. </text>
+<text top="658" left="172" width="239" height="15" font="14"><b>B. Les associations chéméréennes </b></text>
+<text top="676" left="172" width="267" height="15" font="15">- Toutes les associations chéméréennes, </text>
+<text top="695" left="172" width="113" height="15" font="15">Et par analogie : </text>
+<text top="714" left="172" width="171" height="15" font="15">Les écoles chéméréennes </text>
+<text top="733" left="172" width="605" height="15" font="15">Les associations chéméréennes peuvent réserver la salle ELLIPSE pour y organiser leurs </text>
+<text top="752" left="172" width="86" height="15" font="15">évènements. </text>
+<text top="772" left="172" width="221" height="15" font="14"><b>C. Les particuliers chéméréens </b></text>
+<text top="790" left="172" width="605" height="15" font="15">Les particuliers chéméréens peuvent louer la salle ELLIPSE pour des réunions à caractère </text>
+<text top="809" left="172" width="128" height="15" font="15">familial ou amical. </text>
+<text top="828" left="172" width="180" height="15" font="14"><b>D. Les autres utilisateurs </b></text>
+<text top="847" left="172" width="191" height="15" font="15">Relèvent de cette catégorie : </text>
+<text top="866" left="177" width="6" height="15" font="15">-</text>
+<text top="866" left="183" width="5" height="15" font="18"> </text>
+<text top="866" left="204" width="192" height="15" font="15">Les associations extérieures, </text>
+<text top="885" left="177" width="6" height="15" font="15">-</text>
+<text top="884" left="183" width="5" height="15" font="18"> </text>
+<text top="885" left="204" width="574" height="15" font="15">Les particuliers non-résidents sur la commune, pour des réunions à caractère familial </text>
+<text top="904" left="204" width="73" height="15" font="15">ou amical, </text>
+<text top="923" left="177" width="6" height="15" font="15">-</text>
+<text top="922" left="183" width="5" height="15" font="18"> </text>
+<text top="923" left="204" width="267" height="15" font="15">Les entreprises de droit privé ou public  </text>
+<text top="942" left="177" width="6" height="15" font="15">-</text>
+<text top="941" left="183" width="5" height="15" font="18"> </text>
+<text top="942" left="204" width="142" height="15" font="15">Les partis politiques, </text>
+<text top="961" left="177" width="6" height="15" font="15">-</text>
+<text top="960" left="183" width="5" height="15" font="18"> </text>
+<text top="961" left="204" width="197" height="15" font="15">Les organisations syndicales, </text>
+<text top="980" left="177" width="6" height="15" font="15">-</text>
+<text top="979" left="183" width="5" height="15" font="18"> </text>
+<text top="976" left="204" width="574" height="18" font="17">Les  candidats  à  une  élection  qui  utilisent  une  salle  municipale  à  l’occasion  de  leur </text>
+<text top="999" left="204" width="75" height="15" font="15">campagne. </text>
+<text top="1015" left="172" width="398" height="18" font="16"><b>E. Règles générales s’appliquant aux diverses demandes </b></text>
+<text top="1037" left="172" width="605" height="15" font="15">La  commune  examine les demandes  au cas  par  cas  et  se  réserve  la possibilité  de  refuser </text>
+<text top="1056" left="172" width="605" height="15" font="15">toute activité susceptible de générer des troubles à l’ordre public et/ou à la sécurité et/ou à </text>
+<text top="1075" left="172" width="159" height="15" font="15">la tranquillité publique. </text>
+<text top="1090" left="172" width="605" height="18" font="17">Afin  d’assurer  la  conservation  de  son  patrimoine,  la  commune  pourra  refuser  toute </text>
+<text top="1113" left="172" width="606" height="15" font="15">demande de location formulée par un demandeur ayant, lors d’une précédente réservation, </text>
+<text top="1132" left="172" width="526" height="15" font="15">causé des dommages conséquents à la salle et/ou au mobilier mis à disposition. </text>
+<text top="1151" left="172" width="342" height="16" font="1"><b>II. LES MODALITES DE RESERVATION </b></text>
+<text top="1172" left="172" width="112" height="15" font="14"><b>A. La demande </b></text>
+<text top="1191" left="225" width="4" height="15" font="14"><b> </b></text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="19" size="14" family="Times" color="#2d74b5"/>
+	<fontspec id="20" size="14" family="Times" color="#2d74b5"/>
+	<fontspec id="21" size="14" family="Helvetica" color="#000000"/>
+	<fontspec id="22" size="14" family="Times" color="#ff0000"/>
+	<fontspec id="23" size="14" family="Times" color="#1f4e79"/>
+	<fontspec id="24" size="14" family="Times" color="#1f4e79"/>
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="553" width="164" height="16" font="0"><i><b>CM 4 novembre 2014 </b></i></text>
+<text top="67" left="119" width="282" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="747" width="32" height="16" font="1"><b>100 </b></text>
+<text top="132" left="225" width="117" height="15" font="14"><b>1. Les modalités </b></text>
+<text top="150" left="172" width="253" height="15" font="15">Les demandes de réservation se font : </text>
+<text top="169" left="177" width="10" height="15" font="18">- </text>
+<text top="169" left="204" width="473" height="15" font="15">Soit en contactant directement le service location des salles à la mairie, </text>
+<text top="188" left="177" width="10" height="15" font="18">- </text>
+<text top="188" left="204" width="574" height="15" font="15">Soit en ligne, via le site internet de la commune <a href="http://www.chemere.fr/">: www.chemere.fr </a>rubrique location </text>
+<text top="207" left="204" width="71" height="15" font="15">des salles. </text>
+<text top="223" left="172" width="605" height="18" font="17">Toute demande fait l’objet d’un formulaire de réservation à compléter et à adresser à la </text>
+<text top="245" left="172" width="364" height="15" font="15">mairie, au plus tôt selon les délais indiqués ci-dessous. </text>
+<text top="264" left="225" width="90" height="15" font="14"><b>2. Les délais </b></text>
+<text top="283" left="172" width="606" height="15" font="15">La demande de location de la salle ELLIPSE devra être sollicitée au moins deux semaines </text>
+<text top="302" left="172" width="141" height="15" font="15">avant la date prévue. </text>
+<text top="321" left="172" width="606" height="15" font="15">Les réservations de la petite salle pourront se faire au maximum sur 9 mois glissant au jour </text>
+<text top="340" left="172" width="51" height="15" font="15">le jour. </text>
+<text top="359" left="172" width="605" height="15" font="15">Les  associations  chéméréennes  pourront  effectuer  leurs  réservations  annuelles  lors  de  la </text>
+<text top="378" left="172" width="55" height="15" font="15">réunion </text>
+<text top="375" left="233" width="336" height="18" font="19"><i><b>fixée  au  dernier  vendredi  du  mois  d’octobre</b></i></text>
+<text top="378" left="570" width="208" height="15" font="15">  établissant  le  planning  des </text>
+<text top="397" left="172" width="150" height="15" font="15">manifestations locales </text>
+<text top="394" left="323" width="192" height="18" font="19"><i><b>jusqu’au 31 décembre N+1</b></i>. </text>
+<text top="416" left="172" width="192" height="15" font="14"><b>B. Le dossier administratif </b></text>
+<text top="435" left="177" width="12" height="15" font="14"><b>1.</b></text>
+<text top="435" left="190" width="5" height="15" font="21"><b> </b></text>
+<text top="435" left="204" width="105" height="15" font="14"><b>La convention </b></text>
+<text top="454" left="172" width="606" height="15" font="15">A la réception du formulaire de réservation, une convention est établie entre la commune </text>
+<text top="470" left="172" width="356" height="18" font="17">de Chéméré, représentée par le Maire, et l’utilisateur. </text>
+<text top="488" left="172" width="392" height="18" font="17">La convention engage l’utilisateur à respecter strictement : </text>
+<text top="510" left="177" width="10" height="15" font="18">- </text>
+<text top="511" left="204" width="258" height="15" font="15">Les dispositions du présent règlement, </text>
+<text top="529" left="177" width="10" height="15" font="18">- </text>
+<text top="527" left="204" width="574" height="18" font="17">Les  horaires  d’utilisation  de  la  salle  indiqués  sur  la  convention  (temps </text>
+<text top="545" left="204" width="286" height="18" font="17">d’aménagement et de rangement compris). </text>
+<text top="568" left="225" width="197" height="15" font="14"><b>2. Le dossier de réservation </b></text>
+<text top="587" left="172" width="435" height="15" font="15">Le dossier complet de réservation comporte les pièces suivantes : </text>
+<text top="605" left="177" width="10" height="15" font="18">- </text>
+<text top="606" left="204" width="330" height="15" font="15">La convention signée par le Maire et l’utilisateur, </text>
+<text top="624" left="177" width="10" height="15" font="18">- </text>
+<text top="621" left="204" width="292" height="18" font="17">Le présent règlement signé par l’utilisateur, </text>
+<text top="643" left="177" width="10" height="15" font="18">- </text>
+<text top="644" left="204" width="77" height="15" font="15">Les arrhes, </text>
+<text top="662" left="177" width="10" height="15" font="18">- </text>
+<text top="663" left="204" width="472" height="15" font="15">Pour les particuliers, un justificatif de domicile de moins de trois mois, </text>
+<text top="682" left="177" width="10" height="15" font="18">- </text>
+<text top="679" left="204" width="482" height="18" font="17">Pour les entreprises, un extrait Kbis, s’il s’agit d’une première demande, </text>
+<text top="701" left="177" width="10" height="15" font="18">- </text>
+<text top="701" left="204" width="574" height="15" font="15">Pour  les  associations,  les  statuts  complétés  du  récépissé  de  la  déclaration  en </text>
+<text top="717" left="204" width="574" height="18" font="17">Préfecture et la composition du bureau s’il s’agit d’une première demande ou si les </text>
+<text top="739" left="204" width="574" height="15" font="15">statuts  ont  été  modifiés.  La  commune  pourra  solliciter  des  pièces  complémentaires </text>
+<text top="755" left="204" width="574" height="18" font="17">(notamment,  rapport  d’activité,  rapport  moral  …)  dans  le  but  de  s’assurer  de </text>
+<text top="774" left="204" width="409" height="18" font="17">l’effectivité du fonctionnement administratif de l’association. </text>
+<text top="796" left="172" width="605" height="15" font="15">Le  demandeur  retourne  dans  les  15  jours  le  dossier  de  réservation  dument  complété  et </text>
+<text top="815" left="172" width="606" height="15" font="15">signé,  accompagné  des  pièces  justificatives  demandées  (selon  les  cas  :  KBis,  Statuts, </text>
+<text top="834" left="172" width="293" height="15" font="15">justificatif de domicile, lien de parenté ….). </text>
+<text top="853" left="172" width="605" height="15" font="14"><b>Seule  la  réception  du  dossier  de  réservation  complet  par  la  commune,  dans  le  délai </b></text>
+<text top="872" left="172" width="234" height="15" font="14"><b>imparti, confirme la réservation. </b></text>
+<text top="891" left="172" width="488" height="15" font="15">Celle-ci est acquise sous réserve de l’application des dispositions (IV-A). </text>
+<text top="910" left="172" width="4" height="15" font="15"> </text>
+<text top="910" left="225" width="211" height="15" font="14"><b>3. Les pièces supplémentaires </b></text>
+<text top="929" left="172" width="258" height="15" font="15">- L’attestation de responsabilité civile, </text>
+<text top="948" left="172" width="217" height="15" font="15">- Le dépôt de garantie (caution), </text>
+<text top="967" left="172" width="74" height="15" font="15">- Le solde. </text>
+<text top="982" left="172" width="593" height="18" font="17">Ces pièces devront être déposées à la mairie au moins 15 jours avant la date d’utilisation.<b> </b></text>
+<text top="1005" left="172" width="237" height="15" font="14"><b>C. Le dépôt de garantie (caution) </b></text>
+<text top="1024" left="172" width="17" height="15" font="15">Le</text>
+<text top="1024" left="190" width="4" height="15" font="22"> </text>
+<text top="1024" left="194" width="583" height="15" font="15">dépôt de garantie, versé par le demandeur, permet d’assurer l’exécution des obligations </text>
+<text top="1043" left="172" width="319" height="15" font="15">locatives et de couvrir les éventuels dommages. </text>
+<text top="1062" left="172" width="259" height="15" font="23"><i><b>Ainsi, il sera demandé trois chèques : </b></i></text>
+<text top="1081" left="172" width="360" height="15" font="23"><i><b>- 50 € pour le tri sélectif et le rangement de matériel, </b></i></text>
+<text top="1100" left="172" width="165" height="15" font="23"><i><b>- 200 € pour le ménage, </b></i></text>
+<text top="1119" left="172" width="563" height="15" font="23"><i><b>- le montant total de la location (au minimum 500 €) pour les éventuels dommages </b></i></text>
+<text top="1138" left="172" width="17" height="15" font="15">Le</text>
+<text top="1138" left="190" width="4" height="15" font="22"> </text>
+<text top="1138" left="195" width="583" height="15" font="15">dépôt de garantie est restitué après l’utilisation de la salle ELLIPSE s’il n’y a pas lieu </text>
+<text top="1157" left="172" width="418" height="15" font="15">de mettre en oeuvre les dispositions précisées au chapitre V-B. </text>
+<text top="1176" left="172" width="165" height="15" font="14"><b>D. La redevance (tarif) </b></text>
+<text top="1195" left="172" width="533" height="15" font="15">Sauf cas particuliers (cf. II-F), la mise à disposition fait l’objet d’une redevance. </text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="25" size="14" family="Times" color="#1f4e79"/>
+	<fontspec id="26" size="12" family="Times" color="#1f4e79"/>
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="553" width="164" height="16" font="0"><i><b>CM 4 novembre 2014 </b></i></text>
+<text top="67" left="119" width="282" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="747" width="32" height="16" font="1"><b>101 </b></text>
+<text top="131" left="172" width="495" height="15" font="15">Le  montant  appelé  pour  la  redevance  sera  celui  qui  sera  appliqué </text>
+<text top="131" left="674" width="104" height="15" font="23"><i><b>le  jour  de  la </b></i></text>
+<text top="151" left="172" width="102" height="15" font="23"><i><b>manifestation. </b></i></text>
+<text top="170" left="225" width="95" height="15" font="14"><b>1. Les arrhes </b></text>
+<text top="185" left="172" width="606" height="18" font="17">Le  demandeur  joint  au  dossier  de  réservation  un  chèque  d’arrhes,  à  l’ordre  du  Trésor </text>
+<text top="204" left="172" width="369" height="18" font="17">Public, d’une valeur de 30% du montant de la location. </text>
+<text top="207" left="541" width="237" height="15" font="23"><i><b>qui sera encaissé un mois après la </b></i></text>
+<text top="226" left="172" width="181" height="15" font="23"><i><b>réservation. (à supprimer) </b></i></text>
+<text top="245" left="225" width="79" height="15" font="14"><b>2. Le solde </b></text>
+<text top="261" left="172" width="605" height="18" font="17">Le  demandeur  doit  s’acquitter  du  solde  de la  redevance,  par chèque  à  l’ordre  du  Trésor </text>
+<text top="283" left="172" width="606" height="15" font="15">Public, au plus tard, 15 jours avant la date d’utilisation. Celui-ci sera encaissé qu’après la </text>
+<text top="302" left="172" width="98" height="15" font="15">manifestation. </text>
+<text top="322" left="172" width="42" height="16" font="1"><b>III. L</b></text>
+<text top="324" left="214" width="126" height="13" font="10"><b>ES CONDITIONS D</b></text>
+<text top="318" left="341" width="6" height="20" font="6"><b>’</b></text>
+<text top="324" left="347" width="99" height="13" font="10"><b>UTILISATION </b></text>
+<text top="342" left="172" width="606" height="15" font="15">La location de la salle ELLIPSE comprend la mise à disposition des locaux, du mobilier </text>
+<text top="361" left="172" width="400" height="15" font="15">attenant (tables, chaises), et des matériels qui s’y rattachent. </text>
+<text top="380" left="172" width="197" height="15" font="14"><b>A. Configurations possibles </b></text>
+<text top="399" left="172" width="605" height="15" font="15">La  conception  de  la  salle  ELLIPSE  rend  possible  la  location  de  tout  ou  partie  de </text>
+<text top="414" left="172" width="416" height="18" font="17">l’équipement. Les configurations possibles sont les suivantes : </text>
+<text top="437" left="169" width="37" height="15" font="15">Salle </text>
+<text top="437" left="282" width="74" height="15" font="15">Surface en </text>
+<text top="456" left="307" width="25" height="15" font="15">m2 </text>
+<text top="437" left="381" width="194" height="15" font="15">Capacité en fonction du type </text>
+<text top="456" left="413" width="130" height="15" font="15">de la manifestation </text>
+<text top="437" left="594" width="96" height="15" font="15">Espaces loués </text>
+<text top="437" left="731" width="77" height="15" font="15">Prestations </text>
+<text top="456" left="722" width="94" height="15" font="15">périphériques </text>
+<text top="475" left="739" width="61" height="15" font="15">gratuites </text>
+<text top="495" left="119" width="86" height="15" font="15">Salle entière </text>
+<text top="514" left="119" width="137" height="15" font="15">Combinaison  de  la </text>
+<text top="533" left="119" width="137" height="15" font="15">petite  salle  et  de  la </text>
+<text top="552" left="119" width="83" height="15" font="15">grande salle </text>
+<text top="495" left="270" width="29" height="15" font="15">430 </text>
+<text top="495" left="380" width="158" height="15" font="15">Utilisation type repas :  </text>
+<text top="514" left="380" width="161" height="15" font="15">300 personnes attablées </text>
+<text top="533" left="380" width="174" height="15" font="15">Utilisation type réunion :  </text>
+<text top="552" left="380" width="148" height="15" font="15">400 personnes assises </text>
+<text top="571" left="380" width="4" height="15" font="15"> </text>
+<text top="590" left="380" width="196" height="15" font="15">Maximum  443  personnes </text>
+<text top="609" left="380" width="188" height="15" font="15">(433 publics+10personnels) </text>
+<text top="628" left="380" width="4" height="15" font="15"> </text>
+<text top="495" left="592" width="33" height="15" font="15">Hall </text>
+<text top="514" left="592" width="44" height="15" font="15">Scène </text>
+<text top="533" left="592" width="55" height="15" font="15">Parquet </text>
+<text top="552" left="592" width="100" height="15" font="15">Avec  ou  sans </text>
+<text top="571" left="592" width="43" height="15" font="15">office </text>
+<text top="495" left="704" width="71" height="15" font="15">Mobilier : </text>
+<text top="513" left="715" width="10" height="15" font="18">- </text>
+<text top="514" left="757" width="21" height="15" font="15">55 </text>
+<text top="514" left="814" width="42" height="15" font="15">tables </text>
+<text top="533" left="715" width="97" height="15" font="15">rectangulaires </text>
+<text top="552" left="704" width="153" height="15" font="23"><i><b>Dimension  183  x  76 </b></i></text>
+<text top="571" left="704" width="24" height="15" font="23"><i><b>cm </b></i></text>
+<text top="590" left="704" width="124" height="15" font="23"><i><b>- 30 tables rondes </b></i></text>
+<text top="609" left="704" width="121" height="15" font="23"><i><b>Diamètre 180 cm </b></i></text>
+<text top="628" left="704" width="90" height="15" font="15">- 500 chaises </text>
+<text top="647" left="704" width="48" height="15" font="15">- Sono </text>
+<text top="647" left="751" width="66" height="15" font="23"><i><b>+ micro*</b></i> </text>
+<text top="666" left="704" width="121" height="15" font="15">- Vidéoprojecteur </text>
+<text top="686" left="119" width="87" height="15" font="15">Grande salle </text>
+<text top="686" left="270" width="29" height="15" font="15">318 </text>
+<text top="686" left="380" width="172" height="15" font="15">Maximum 322 personnes </text>
+<text top="686" left="592" width="33" height="15" font="15">Hall </text>
+<text top="704" left="592" width="44" height="15" font="15">Scène </text>
+<text top="724" left="592" width="55" height="15" font="15">Parquet </text>
+<text top="742" left="592" width="100" height="15" font="15">Avec  ou  sans </text>
+<text top="762" left="592" width="43" height="15" font="15">office </text>
+<text top="686" left="704" width="71" height="15" font="15">Mobilier : </text>
+<text top="704" left="704" width="30" height="15" font="15">- 55 </text>
+<text top="704" left="803" width="43" height="15" font="15">tables </text>
+<text top="724" left="704" width="97" height="15" font="15">rectangulaires </text>
+<text top="743" left="704" width="142" height="15" font="23"><i><b>Dimension 183 x 76 </b></i></text>
+<text top="762" left="704" width="24" height="15" font="23"><i><b>cm </b></i></text>
+<text top="781" left="704" width="124" height="15" font="23"><i><b>- 30 tables rondes </b></i></text>
+<text top="800" left="704" width="80" height="15" font="23"><i><b>   Diamètre </b></i></text>
+<text top="800" left="806" width="29" height="15" font="23"><i><b>180 </b></i></text>
+<text top="819" left="704" width="24" height="15" font="23"><i><b>cm </b></i></text>
+<text top="837" left="704" width="90" height="15" font="15">- 500 chaises </text>
+<text top="856" left="704" width="43" height="15" font="15">- Sono</text>
+<text top="856" left="747" width="4" height="15" font="22"> </text>
+<text top="856" left="751" width="66" height="15" font="23"><i><b>+ micro*</b></i> </text>
+<text top="875" left="704" width="121" height="15" font="15">- Vidéoprojecteur </text>
+<text top="895" left="119" width="76" height="15" font="15">Petite salle </text>
+<text top="895" left="268" width="29" height="15" font="15">111 </text>
+<text top="895" left="381" width="154" height="15" font="15">Utilisation type repas : </text>
+<text top="914" left="381" width="55" height="13" font="26"><i><b>Environ </b></i></text>
+<text top="914" left="463" width="19" height="13" font="26"><i><b>80 </b></i></text>
+<text top="914" left="509" width="66" height="13" font="26"><i><b>personnes </b></i></text>
+<text top="931" left="381" width="58" height="13" font="26"><i><b>attablées </b></i></text>
+<text top="949" left="381" width="176" height="15" font="15">Maximum 111 personnes  </text>
+<text top="895" left="592" width="33" height="15" font="15">Hall </text>
+<text top="914" left="592" width="100" height="15" font="15">Avec  ou  sans </text>
+<text top="933" left="592" width="43" height="15" font="15">office </text>
+<text top="895" left="704" width="71" height="15" font="15">Mobilier : </text>
+<text top="914" left="704" width="9" height="15" font="15">- </text>
+<text top="914" left="713" width="17" height="15" font="23"><i><b>10</b></i></text>
+<text top="914" left="730" width="4" height="15" font="15"> </text>
+<text top="914" left="814" width="43" height="15" font="15">tables </text>
+<text top="933" left="704" width="97" height="15" font="15">rectangulaires </text>
+<text top="952" left="704" width="153" height="15" font="23"><i><b>Dimension  183  x  76 </b></i></text>
+<text top="971" left="704" width="20" height="15" font="23"><i><b>cm</b></i></text>
+<text top="971" left="724" width="4" height="15" font="15"> </text>
+<text top="990" left="704" width="9" height="15" font="15">- </text>
+<text top="990" left="713" width="17" height="15" font="23"><i><b>60</b></i></text>
+<text top="990" left="730" width="56" height="15" font="15"> chaises </text>
+<text top="1006" left="704" width="74" height="18" font="24"><i><b>Possibilité </b></i></text>
+<text top="1006" left="823" width="34" height="18" font="24"><i><b>d’en </b></i></text>
+<text top="1028" left="704" width="47" height="15" font="23"><i><b>mettre </b></i></text>
+<text top="1028" left="775" width="33" height="15" font="23"><i><b>plus </b></i></text>
+<text top="1028" left="831" width="26" height="15" font="23"><i><b>sur </b></i></text>
+<text top="1047" left="704" width="66" height="15" font="23"><i><b>demande </b></i></text>
+<text top="1067" left="119" width="33" height="15" font="15">Hall </text>
+<text top="1067" left="176" width="34" height="15" font="15">pour </text>
+<text top="1067" left="233" width="22" height="15" font="15">les </text>
+<text top="1086" left="119" width="64" height="15" font="15">habitants </text>
+<text top="1086" left="202" width="20" height="15" font="15">de </text>
+<text top="1086" left="240" width="16" height="15" font="15">la </text>
+<text top="1104" left="119" width="69" height="15" font="15">commune </text>
+<text top="1067" left="268" width="29" height="15" font="15">135 </text>
+<text top="1067" left="381" width="4" height="15" font="15"> </text>
+<text top="1067" left="592" width="33" height="15" font="15">Hall </text>
+<text top="1067" left="704" width="28" height="15" font="15">Bar </text>
+<text top="1086" left="704" width="44" height="15" font="15">verres </text>
+<text top="1104" left="704" width="108" height="15" font="15">Chambre froide </text>
+<text top="1124" left="119" width="33" height="15" font="15">Hall </text>
+<text top="1124" left="176" width="34" height="15" font="15">pour </text>
+<text top="1124" left="233" width="22" height="15" font="15">les </text>
+<text top="1143" left="119" width="64" height="15" font="15">habitants </text>
+<text top="1143" left="224" width="32" height="15" font="15">hors </text>
+<text top="1162" left="119" width="69" height="15" font="15">commune </text>
+<text top="1181" left="119" width="4" height="15" font="15"> </text>
+<text top="1124" left="268" width="29" height="15" font="15">135 </text>
+<text top="1124" left="381" width="86" height="15" font="15">Uniquement </text>
+<text top="1124" left="492" width="34" height="15" font="15">pour </text>
+<text top="1124" left="551" width="25" height="15" font="15">vin </text>
+<text top="1140" left="381" width="72" height="18" font="17">d’honneur </text>
+<text top="1140" left="482" width="46" height="18" font="17">(durée </text>
+<text top="1140" left="556" width="20" height="18" font="17">de </text>
+<text top="1162" left="381" width="120" height="15" font="15">location 4H max) </text>
+<text top="1181" left="381" width="4" height="15" font="15"> </text>
+<text top="1124" left="592" width="33" height="15" font="15">Hall </text>
+<text top="1124" left="704" width="28" height="15" font="15">Bar </text>
+<text top="1143" left="704" width="44" height="15" font="15">verres </text>
+<text top="1162" left="704" width="108" height="15" font="15">Chambre froide </text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="1262" width="892">
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="553" width="164" height="16" font="0"><i><b>CM 4 novembre 2014 </b></i></text>
+<text top="67" left="119" width="282" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="747" width="32" height="16" font="1"><b>102 </b></text>
+<text top="132" left="172" width="606" height="15" font="23"><i><b>*Sono + micro : la sono est utilisée pour amplifier la voie des personnes et des musiques </b></i></text>
+<text top="151" left="172" width="606" height="15" font="23"><i><b>mais en aucun cas pour remplacer une sonorisation de bal ou de discothèque. Le micro </b></i></text>
+<text top="166" left="172" width="469" height="18" font="24"><i><b>fonctionne avec une pile de 9V qui doit être fournie par l’utilisateur. </b></i></text>
+<text top="189" left="172" width="111" height="15" font="14"><b>B. Les horaires </b></text>
+<text top="204" left="172" width="605" height="18" font="17">La  mise  à  disposition  est  accordée  à  la  journée.  L’utilisateur  pourra  accéder  à  la  salle </text>
+<text top="226" left="172" width="245" height="15" font="15">ELLIPSE à partir de 8h00 du matin </text>
+<text top="226" left="418" width="360" height="15" font="25">(<i><b>possibilité plus tôt sur demande). En aucun cas, la </b></i></text>
+<text top="245" left="172" width="392" height="15" font="23"><i><b>salle ne peut être mise à disposition gratuitement la veille.</b></i></text>
+<text top="245" left="565" width="4" height="15" font="15"> </text>
+<text top="264" left="172" width="606" height="15" font="15">Les  horaires  de  fermeture  sont  fixés  comme  suit :  du  dimanche  au  jeudi  à  1  heure  du </text>
+<text top="283" left="172" width="351" height="15" font="15">matin, et les vendredi et samedi à 2 heures du matin. </text>
+<text top="302" left="172" width="606" height="15" font="15">Le  temps  nécessaire  à  la  remise  en état  de propreté étant  seul  toléré.  Les  locaux  devront </text>
+<text top="321" left="172" width="310" height="15" font="15">être  libérés  de  toute  présence  au  plus  tard  à </text>
+<text top="321" left="485" width="34" height="15" font="23"><i><b>4h00</b></i></text>
+<text top="321" left="519" width="76" height="15" font="15">  du  matin, </text>
+<text top="321" left="597" width="181" height="15" font="23"><i><b>heure  à  laquelle  vous  ne </b></i></text>
+<text top="340" left="172" width="195" height="15" font="23"><i><b>pourrez plus fermer la salle. </b></i></text>
+<text top="359" left="172" width="146" height="15" font="14"><b>C. La responsabilité </b></text>
+<text top="378" left="225" width="158" height="15" font="14"><b>1. Le principe général </b></text>
+<text top="393" left="172" width="606" height="18" font="17">Pendant  l’utilisation  de  la  salle,  la  présence  de  l’utilisateur  est  requise.  Il  prend  les </text>
+<text top="416" left="172" width="376" height="15" font="15">dispositions de surveillance et de protection nécessaires. </text>
+<text top="431" left="172" width="605" height="18" font="17">L’utilisateur engage sa responsabilité personnelle. Il respecte, sous peine de pénalité (cf. </text>
+<text top="454" left="172" width="49" height="15" font="15">VI-b) : </text>
+<text top="472" left="177" width="10" height="15" font="18">- </text>
+<text top="473" left="204" width="232" height="15" font="15">Les horaires de mise à disposition, </text>
+<text top="491" left="177" width="10" height="15" font="18">- </text>
+<text top="488" left="204" width="436" height="18" font="17">La propreté et l’intégrité des locaux, du mobilier et des matériels, </text>
+<text top="510" left="177" width="10" height="15" font="18">- </text>
+<text top="511" left="204" width="549" height="15" font="15">Le nombre maximum de personnes attendues, mentionné sur la convention signée. </text>
+<text top="530" left="225" width="165" height="15" font="14"><b>2. Vols et dégradations </b></text>
+<text top="549" left="172" width="606" height="15" font="15">Le locataire est responsable des dégradations faites sur le matériel, aux installations et au </text>
+<text top="568" left="172" width="66" height="15" font="15">bâtiment. </text>
+<text top="583" left="172" width="605" height="18" font="17">Tout  accident  corporel  ou  matériel  survenu  aux  personnes  ou  aux  choses,  à  l’occasion </text>
+<text top="602" left="172" width="606" height="18" font="17">d’une  manifestation  quelle  qu’elle  soit  est  imputable  aux  organisateurs,  à  charge  pour </text>
+<text top="625" left="172" width="223" height="15" font="15">ceux-ci de se couvrir des risques. </text>
+<text top="640" left="172" width="606" height="18" font="17">La  commune  n’est  pas  responsable  de  la  conservation  du  matériel  et  des  produits </text>
+<text top="659" left="172" width="605" height="18" font="17">alimentaires  dont  elle  n’est  pas  propriétaire  et  qui  sont  entreposés  dans  la  salle  par  les </text>
+<text top="682" left="172" width="226" height="15" font="15">organisateurs de la manifestation. </text>
+<text top="697" left="172" width="606" height="18" font="17">La  commune  n’est  pas  responsable  des  vols  ou  des  détériorations  des  matériels </text>
+<text top="716" left="172" width="526" height="18" font="17">appartenant au locataire ou aux participants (vêtements, sacs, objets divers …). </text>
+<text top="739" left="225" width="71" height="15" font="14"><b>3. Pannes </b></text>
+<text top="754" left="172" width="605" height="18" font="17">Pour  toute  panne  ou  incident  technique  perturbant  le  déroulement  de  l’activité,  la </text>
+<text top="777" left="172" width="559" height="15" font="15">commune ne pourra être tenue pour responsable des éventuels désagréments causés. </text>
+<text top="796" left="172" width="103" height="15" font="14"><b>D. La sécurité </b></text>
+<text top="811" left="172" width="605" height="18" font="17">Pour  des  raisons  de  sécurité,  l’utilisateur  respecte  la  capacité  d’accueil  indiquée  sur  la </text>
+<text top="834" left="172" width="605" height="15" font="15">convention signée. Il interdit toute activité dangereuse et applique les dispositions légales </text>
+<text top="849" left="172" width="266" height="18" font="17">d’hygiène et de sécurité, en particulier : </text>
+<text top="871" left="177" width="10" height="15" font="18">- </text>
+<text top="872" left="204" width="574" height="15" font="15">La circulation du public ne doit pas être gênée aux abords, à l’intérieur des salles et à </text>
+<text top="891" left="204" width="216" height="15" font="15">proximité des issues de secours, </text>
+<text top="909" left="177" width="10" height="15" font="18">- </text>
+<text top="909" left="204" width="439" height="15" font="15">Les blocs autonomes, les issues de secours doivent rester visibles, </text>
+<text top="928" left="177" width="10" height="15" font="18">- </text>
+<text top="929" left="204" width="574" height="15" font="15">Aucune  intervention  sur  les  installations  électriques  et  dans  les  locaux  techniques </text>
+<text top="944" left="204" width="104" height="18" font="17">n’est autorisée, </text>
+<text top="966" left="177" width="10" height="15" font="18">- </text>
+<text top="963" left="204" width="574" height="18" font="17">Aucun matériel de cuisson ne devra être introduit (four, barbecue, bouteille de gaz…) </text>
+<text top="986" left="204" width="102" height="15" font="15">dans les salles, </text>
+<text top="1004" left="177" width="10" height="15" font="18">- </text>
+<text top="1001" left="204" width="574" height="18" font="17">L’utilisation de feux d’artifice ou de fumigènes est interdite à l’intérieur de la salle </text>
+<text top="1024" left="204" width="72" height="15" font="15">ELLIPSE. </text>
+<text top="1039" left="172" width="606" height="18" font="17">D’une  manière  générale,  l’utilisateur  est  réputé  avoir  pris  connaissance  des  consignes </text>
+<text top="1058" left="172" width="605" height="18" font="17">générales de sécurité, avoir constaté l’emplacement des systèmes de secours et avoir pris </text>
+<text top="1077" left="172" width="605" height="18" font="17">connaissance  des  itinéraires  et  sorties  d’évacuation  et  s’engage  à  respecter  toutes  les </text>
+<text top="1100" left="172" width="242" height="15" font="15">prescriptions en matière de sécurité. </text>
+<text top="1115" left="172" width="127" height="18" font="16"><b>E. L’ordre public </b></text>
+<text top="1134" left="172" width="605" height="18" font="17">L’utilisateur  garantit  le  respect  de  l’ordre  public  sur  place,  aux  abords  de  la  salle  et </text>
+<text top="1156" left="172" width="190" height="15" font="15">notamment sur les parkings. </text>
+<text top="1175" left="172" width="66" height="15" font="15">Rappels : </text>
+<text top="1194" left="177" width="10" height="15" font="18">- </text>
+<text top="1194" left="204" width="309" height="15" font="15">Il est interdit de fumer dans la salle ELLIPSE, </text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="27" size="14" family="Helvetica" color="#1f4e79"/>
+	<fontspec id="28" size="14" family="Times" color="#000000"/>
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="553" width="164" height="16" font="0"><i><b>CM 4 novembre 2014 </b></i></text>
+<text top="67" left="119" width="282" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="747" width="32" height="16" font="1"><b>103 </b></text>
+<text top="131" left="177" width="10" height="15" font="18">- </text>
+<text top="128" left="204" width="574" height="18" font="17">Les  dispositions  relatives  à  l’ivresse  publique  sont  applicables  notamment </text>
+<text top="147" left="204" width="412" height="18" font="17">l’interdiction de vendre des boissons alcoolisées aux mineurs, </text>
+<text top="169" left="177" width="10" height="15" font="18">- </text>
+<text top="166" left="204" width="458" height="18" font="17">L’accès aux équipements est interdit aux personnes en état d’ébriété, </text>
+<text top="188" left="177" width="10" height="15" font="18">- </text>
+<text top="188" left="204" width="510" height="15" font="15">La salle ELLIPSE ne peut abriter des activités contraires aux bonnes mœurs, </text>
+<text top="207" left="177" width="10" height="15" font="18">- </text>
+<text top="207" left="204" width="574" height="15" font="15">Tout  abus  relatif  aux  nuisances  sonores  entraînera  l’évacuation  et  la  fermeture </text>
+<text top="226" left="204" width="152" height="15" font="15">immédiate des locaux, </text>
+<text top="245" left="177" width="10" height="15" font="18">- </text>
+<text top="245" left="204" width="335" height="15" font="15">Assurer la discrétion lors des départs des voitures. </text>
+<text top="261" left="172" width="237" height="18" font="16"><b>F. Le respect de l’environnement </b></text>
+<text top="280" left="172" width="606" height="18" font="17">L’utilisateur fait preuve d’un comportement citoyen, en particulier en matière de respect </text>
+<text top="299" left="172" width="176" height="18" font="17">de l’environnement pour : </text>
+<text top="321" left="177" width="10" height="15" font="18">- </text>
+<text top="318" left="204" width="324" height="18" font="17">L’utilisation raisonnée de l’éclairage et de l’eau, </text>
+<text top="340" left="177" width="10" height="15" font="18">- </text>
+<text top="340" left="204" width="360" height="15" font="15">Le rejet des eaux usées dans les éviers exclusivement, </text>
+<text top="359" left="177" width="10" height="15" font="18">- </text>
+<text top="359" left="204" width="176" height="15" font="15">Le tri sélectif des déchets, </text>
+<text top="378" left="177" width="10" height="15" font="18">- </text>
+<text top="378" left="204" width="194" height="15" font="15">Le respect des espaces verts. </text>
+<text top="397" left="172" width="606" height="15" font="15">En  cas  de  manquements,  les  dispositions  prévues  au  chapitre  VI-B  pourront  être </text>
+<text top="416" left="172" width="79" height="15" font="15">appliquées. </text>
+<text top="436" left="172" width="190" height="15" font="14"><b>G. Rangement - Nettoyage </b></text>
+<text top="451" left="172" width="543" height="18" font="17">Le nettoyage des locaux est à la charge de l’utilisateur selon les critères suivants : </text>
+<text top="473" left="177" width="10" height="15" font="18">- </text>
+<text top="474" left="204" width="424" height="15" font="15">Les chaises et les tables sont à nettoyer et à remettre en place </text>
+<text top="474" left="630" width="148" height="15" font="23"><i><b>comme il est indiqué </b></i></text>
+<text top="493" left="204" width="94" height="15" font="23"><i><b>sur les photos</b></i></text>
+<text top="493" left="298" width="230" height="15" font="15"> dans les locaux prévus à cet effet. </text>
+<text top="511" left="177" width="10" height="15" font="27">- </text>
+<text top="512" left="204" width="380" height="15" font="23"><i><b>La grande salle et la salle entière devront être balayées, </b></i></text>
+<text top="530" left="177" width="10" height="15" font="27">- </text>
+<text top="531" left="204" width="574" height="15" font="23"><i><b>La  petite  salle,  le  hall,  les  cuisines,  les  sanitaires  et  locaux  annexes  devront  être </b></i></text>
+<text top="550" left="204" width="303" height="15" font="23"><i><b>lavés et rendus propres avec lavage des sols. </b></i></text>
+<text top="568" left="177" width="10" height="15" font="18">- </text>
+<text top="569" left="204" width="441" height="15" font="15">Le nettoyage des abords est également à la charge des utilisateurs,<i><b> </b></i></text>
+<text top="587" left="177" width="10" height="15" font="18">- </text>
+<text top="588" left="204" width="573" height="15" font="15">Le tri sélectif des déchets est à la charge du locataire (des bacs spécifiques sont mis à </text>
+<text top="603" left="204" width="426" height="18" font="17">disposition  dans  l’abri  poubelle  pour  les  déchets  ménagers  et </text>
+<text top="607" left="633" width="107" height="15" font="23"><i><b>les  emballages)</b></i></text>
+<text top="607" left="740" width="39" height="15" font="15">.  Les </text>
+<text top="626" left="204" width="574" height="15" font="15">verres et les papiers devront être déposés dans les colonnes de tris spécifiques de la </text>
+<text top="645" left="204" width="73" height="15" font="15">commune. </text>
+<text top="645" left="277" width="440" height="15" font="23"><i><b>Les cartons et les cagettes devront être emmenés à la déchetterie,</b></i></text>
+<text top="645" left="717" width="4" height="15" font="28"><i><b> </b></i></text>
+<text top="663" left="177" width="10" height="15" font="18">- </text>
+<text top="660" left="204" width="574" height="18" font="17">Des verres sont mis à disposition pour les vins d’honneur et pour le bar, ils devront </text>
+<text top="683" left="204" width="574" height="15" font="15">être rendus propres. En cas de casse ou de manque, ils seront facturés au locataire au </text>
+<text top="702" left="204" width="349" height="15" font="15">tarif prévu par la délibération du Conseil Municipal.<i><b> </b></i></text>
+<text top="721" left="172" width="605" height="15" font="23"><i><b>En  cas  de  non-respect  de  ces  consignes,  une  pénalité  de  200  €  sera  appliquée  pour  le </b></i></text>
+<text top="736" left="172" width="605" height="18" font="24"><i><b>nettoyage et une autre pénalité de 50 € sera appliquée pour le tri sélectif des déchets. (cf. </b></i></text>
+<text top="759" left="172" width="43" height="15" font="23"><i><b>II-C). </b></i></text>
+<text top="774" left="172" width="207" height="18" font="16"><b>H. L’état des lieux – Caution </b></text>
+<text top="797" left="172" width="606" height="15" font="23"><i><b>Trois chèques de caution seront exigés lors du règlement du solde de la location, soit au </b></i></text>
+<text top="812" left="172" width="306" height="18" font="24"><i><b>plus tard 15 jours avant la date d’utilisation. </b></i></text>
+<text top="835" left="172" width="356" height="15" font="23"><i><b>- 50 € pour le tri sélectif et le rangement de matériel </b></i></text>
+<text top="854" left="172" width="160" height="15" font="23"><i><b>- 200 € pour le ménage </b></i></text>
+<text top="873" left="172" width="563" height="15" font="23"><i><b>- le montant total de la location (au minimum 500 €) pour les éventuels dommages </b></i></text>
+<text top="888" left="172" width="605" height="18" font="17">La  caution  sera  restituée  à  l’utilisateur  si  la  salle  est  rendue  dans  un  état  satisfaisant  en </text>
+<text top="907" left="172" width="605" height="18" font="17">conformité  avec  le  présent  règlement.  Sans  réserve  de  la  part  de  la  mairie,  l’utilisateur </text>
+<text top="929" left="172" width="246" height="15" font="15">devra passer en mairie afin de retirer </text>
+<text top="929" left="418" width="155" height="15" font="23"><i><b>ses chèques de caution</b></i></text>
+<text top="929" left="573" width="8" height="15" font="15">. </text>
+<text top="948" left="172" width="606" height="15" font="15">Si  des  détériorations  sont  constatées  et  d’un  montant  supérieur  au  chèque  de  caution,  le </text>
+<text top="967" left="172" width="530" height="15" font="15">chèque sera encaissé et les frais supplémentaires seront à la charge du locataire. </text>
+<text top="986" left="172" width="605" height="15" font="15">Si  le  montant  des  détériorations  est  inférieur  au  montant  du  chèque  caution,  soit  le </text>
+<text top="1005" left="172" width="421" height="15" font="15">locataire règle directement les frais, soit le chèque est encaissé. </text>
+<text top="1021" left="172" width="542" height="18" font="17">La caution n’est pas limitative quant à la responsabilité de l’utilisateur de la salle. </text>
+<text top="1043" left="172" width="605" height="15" font="15">Un premier état des lieux sera effectué par le personnel communal avec le locataire lors de </text>
+<text top="1062" left="172" width="455" height="15" font="15">la remise des clés et un second état des lieux après la manifestation.  </text>
+<text top="1078" left="172" width="580" height="18" font="17">Si le locataire est absent lors de l’état des lieux, il n’y aura pas de réclamation possible. </text>
+<text top="1100" left="172" width="605" height="15" font="15">Tous dégâts pourront être prouvés par des photographies ou une vidéo. Les détériorations, </text>
+<text top="1119" left="172" width="303" height="15" font="15">même légères, seront facturées à l’utilisateur. </text>
+<text top="1138" left="172" width="419" height="15" font="14"><b>I. Les autorisations de débits de boissons et les déclarations </b></text>
+<text top="1157" left="172" width="605" height="15" font="15">Chaque  locataire  doit  dès  la  réservation  de  la  salle  faire  les  déclarations  règlementaires </text>
+<text top="1176" left="172" width="209" height="15" font="15">auxquelles il peut être soumis : </text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="29" size="12" family="Times" color="#000000"/>
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="553" width="164" height="16" font="0"><i><b>CM 4 novembre 2014 </b></i></text>
+<text top="67" left="119" width="282" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="747" width="32" height="16" font="1"><b>104 </b></text>
+<text top="131" left="188" width="10" height="15" font="18">- </text>
+<text top="128" left="215" width="563" height="18" font="17">Des formalités éventuelles d’ouverture d’un débit temporaire de boissons auprès de </text>
+<text top="150" left="215" width="429" height="15" font="15">la mairie et respecter la réglementation en vigueur en la matière, </text>
+<text top="169" left="188" width="10" height="15" font="18">- </text>
+<text top="166" left="215" width="378" height="18" font="17">Des déclarations règlementaires (SACEM, URSSAF…). </text>
+<text top="189" left="172" width="41" height="16" font="1"><b>IV. L</b></text>
+<text top="189" left="213" width="232" height="16" font="29"><b>ES CONDITIONS D’ANNULATION </b></text>
+<text top="209" left="172" width="237" height="15" font="14"><b>A. La résiliation par la commune </b></text>
+<text top="224" left="172" width="606" height="18" font="17">En  cas  de  manquement  à  l’une  quelconque  des  obligations  prescrites  dans  le  présent </text>
+<text top="244" left="172" width="605" height="18" font="17">règlement,  l’utilisateur  s’expose  à  une  résiliation  immédiate  de  la  réservation  par  la </text>
+<text top="262" left="172" width="571" height="18" font="17">commune, prononcée à ses torts exclusifs sans qu’il puisse prétendre à indemnisation. </text>
+<text top="281" left="172" width="606" height="18" font="17">La résiliation à l’initiative de la commune est effective dès envoi recommandé avec accusé </text>
+<text top="300" left="172" width="605" height="18" font="17">de réception ou remise en main propre d’un courrier informant l’utilisateur de la décision </text>
+<text top="319" left="172" width="606" height="18" font="17">résolutoire  de  la  commune  accompagnée  des  motifs  ayant  conduit  à  l’application  du </text>
+<text top="342" left="172" width="101" height="15" font="15">présent article. </text>
+<text top="361" left="172" width="605" height="15" font="15">Pour des raisons impérieuses de sécurité, la commune peut, à tout moment et sans préavis, </text>
+<text top="376" left="172" width="606" height="18" font="17">immobiliser la salle ELLIPSE. L’utilisateur est immédiatement informé de la situation et </text>
+<text top="399" left="172" width="543" height="15" font="15">est remboursé des montants déjà acquittés de sa réservation valant indemnisation. </text>
+<text top="415" left="172" width="226" height="18" font="24"><i><b>B. La résiliation par l’utilisateur </b></i></text>
+<text top="434" left="172" width="606" height="18" font="24"><i><b>L’utilisateur,  souhaitant  annuler  sa  réservation,  informe  le  Maire,  par  lettre </b></i></text>
+<text top="456" left="172" width="605" height="15" font="23"><i><b>recommandée  avec  accusé  de  réception  ou  par  dépôt  en  Mairie  contre  un  récépissé </b></i></text>
+<text top="475" left="172" width="44" height="15" font="23"><i><b>signé. </b></i></text>
+<text top="491" left="172" width="606" height="18" font="24"><i><b>En  cas  d’annulation,  les  arrhes  ne  sont  pas  remboursées  et  l’utilisateur  bénéficiant </b></i></text>
+<text top="509" left="172" width="541" height="18" font="24"><i><b>d’une mise à disposition gratuite de la salle, devra régler une pénalité de 150 €. </b></i></text>
+<text top="529" left="172" width="605" height="18" font="24"><i><b>Ces  retenues  ou  pénalités  ne  s’appliquent  pas  en  cas  de  forces  majeures,  et  sur </b></i></text>
+<text top="551" left="172" width="447" height="15" font="23"><i><b>présentations des justificatifs qui seront examinés au cas par cas. </b></i></text>
+<text top="570" left="172" width="22" height="16" font="1"><b>V. </b></text>
+<text top="570" left="194" width="173" height="16" font="29"><b>LES MESURES D’ORDRE </b></text>
+<text top="590" left="172" width="257" height="15" font="15">Dans la salle ELLIPSE, il est interdit : </text>
+<text top="609" left="177" width="10" height="15" font="18">- </text>
+<text top="609" left="204" width="71" height="15" font="15">De fumer, </text>
+<text top="628" left="177" width="10" height="15" font="18">- </text>
+<text top="628" left="204" width="504" height="15" font="15">De fixer quoi que ce soit au mur avec des adhésifs, clous, pointes, punaises, </text>
+<text top="647" left="177" width="10" height="15" font="18">- </text>
+<text top="644" left="204" width="574" height="18" font="17">D’utiliser des confettis, des pétards, des bougies et/ou décorations inflammables (les </text>
+<text top="666" left="204" width="165" height="15" font="15">cotillons sont autorisés), </text>
+<text top="685" left="177" width="10" height="15" font="18">- </text>
+<text top="682" left="204" width="574" height="18" font="17">D’y  introduire  des  animaux,  seuls  les  animaux  à  vocation  d’accompagnement  de </text>
+<text top="701" left="204" width="392" height="18" font="17">personnes à handicap sont autorisés sur l’ensemble du site, </text>
+<text top="723" left="177" width="10" height="15" font="18">- </text>
+<text top="723" left="204" width="553" height="15" font="15">De pratiquer des jeux ou actes dangereux ou immoraux de pratiquer des jeux d'eau, </text>
+<text top="742" left="177" width="10" height="15" font="27">- </text>
+<text top="743" left="204" width="574" height="15" font="23"><i><b>De faire des barbecues sur les terrasses et les gazons, utiliser l’espace prévu à cet </b></i></text>
+<text top="758" left="204" width="365" height="18" font="24"><i><b>effet ou l’arrière de la salle côté bar (voir les photos). </b></i></text>
+<text top="781" left="172" width="41" height="16" font="1"><b>VI. L</b></text>
+<text top="784" left="213" width="83" height="13" font="10"><b>ES LITIGES </b></text>
+<text top="801" left="172" width="144" height="15" font="14"><b>A. Les réclamations </b></text>
+<text top="820" left="172" width="605" height="15" font="15">Les réclamations sont formulées par écrit à M. le Maire, Mairie, 6 rue de Nantes, 44680 </text>
+<text top="839" left="172" width="68" height="15" font="15">Chéméré. </text>
+<text top="858" left="172" width="368" height="15" font="14"><b>B. Les pénalités et les facturations complémentaires </b></text>
+<text top="877" left="172" width="550" height="15" font="15">Une pénalité égale au 1/3 du dépôt de garantie est appliquée dans les cas suivants : </text>
+<text top="895" left="177" width="10" height="15" font="18">- </text>
+<text top="896" left="204" width="268" height="15" font="15">Déclarations inexactes ou mensongères, </text>
+<text top="914" left="177" width="10" height="15" font="18">- </text>
+<text top="915" left="204" width="172" height="15" font="15">Non-respect des horaires, </text>
+<text top="934" left="177" width="10" height="15" font="18">- </text>
+<text top="934" left="204" width="222" height="15" font="15">Non-respect de l’environnement. </text>
+<text top="950" left="172" width="605" height="18" font="17">Si  le  lieu  n’est  pas  rendu  dans  un  état  satisfaisant.  La  commune  procède  en  sus  à  un </text>
+<text top="969" left="172" width="234" height="18" font="17">nettoyage aux frais de l’utilisateur. </text>
+<text top="991" left="172" width="605" height="15" font="15">Par  ailleurs,  en  cas  de  dégradation  des  biens,  les  frais  de  remise  en  état  ou  de </text>
+<text top="1010" left="172" width="606" height="15" font="15">remplacement du matériel et mobilier détériorés sont à la charge de l’utilisateur et facturés </text>
+<text top="1029" left="172" width="85" height="15" font="15">au coût réel. </text>
+<text top="1045" left="172" width="605" height="18" font="17">En  cas  d’abus  manifeste,  le  contrevenant  s’expose  à un  refus  définitif  d’accès  à  la  salle </text>
+<text top="1067" left="172" width="68" height="15" font="15">ELLIPSE </text>
+<text top="1086" left="172" width="94" height="15" font="14"><b>C. Les litiges </b></text>
+<text top="1102" left="172" width="605" height="18" font="17">Les  parties  s’engagent  à  se  rencontrer  pour  débattre  des  éventuels  différends  sur </text>
+<text top="1120" left="172" width="234" height="18" font="17">l’application du présent règlement. </text>
+<text top="1140" left="172" width="605" height="18" font="17">Tout litige portant sur l’application du présent règlement est de la compétence du Tribunal </text>
+<text top="1162" left="172" width="179" height="15" font="15">Administratif de Nantes. » </text>
+<text top="1181" left="119" width="659" height="16" font="4">Le  Conseil  municipal,  après  avoir  entendu  son  rapporteur  en  son  exposé  et  délibéré, </text>
+<text top="1198" left="119" width="659" height="20" font="5">décide  à  l’unanimité  des  membres  présents  d’adopter  le  règlement  de  la  salle  Ellipse </text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="30" size="16" family="Times" color="#000000"/>
+	<fontspec id="31" size="16" family="Times" color="#000000"/>
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="553" width="164" height="16" font="0"><i><b>CM 4 novembre 2014 </b></i></text>
+<text top="67" left="119" width="282" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="747" width="32" height="16" font="1"><b>105 </b></text>
+<text top="132" left="119" width="205" height="16" font="4">(version 3) tel que présenté. </text>
+<text top="152" left="119" width="5" height="16" font="4"> </text>
+<text top="173" left="119" width="208" height="13" font="11">Accusé de réception en préfecture </text>
+<text top="191" left="119" width="104" height="13" font="11">044-214400400- </text>
+<text top="209" left="119" width="163" height="13" font="11">Date de télétransmission :  </text>
+<text top="227" left="119" width="186" height="13" font="11">Date de réception préfecture :  </text>
+<text top="246" left="119" width="5" height="16" font="0"><i><b> </b></i></text>
+<text top="267" left="119" width="5" height="16" font="0"><i><b> </b></i></text>
+<text top="283" left="119" width="556" height="21" font="5"><i><b> DE-2014/99 – Demande de subvention 2014 : OGEC Ecole Notre Dame </b></i></text>
+<text top="308" left="119" width="659" height="16" font="4">Monsieur le Maire, rapporteur, informe le Conseil municipal, que lors de la séance du vote </text>
+<text top="328" left="119" width="659" height="16" font="4">des subventions 2014 aux organismes de droit privé en date du 26 février 2014, il y a eu </text>
+<text top="349" left="119" width="659" height="16" font="4">une erreur dans le calcul de la déduction du coût de la piscine à retirer du montant de la </text>
+<text top="370" left="119" width="88" height="16" font="4">subvention. </text>
+<text top="391" left="119" width="659" height="16" font="4">En  effet,  il  fallait  déduire  la  somme  de  1 133,60  €  (104  élèves  x  10,90  €)  et  non  pas </text>
+<text top="411" left="119" width="85" height="16" font="4">2 318,16 €. </text>
+<text top="432" left="119" width="659" height="16" font="4">Il est proposé aux membres du Conseil municipal de régulariser la demande de subvention </text>
+<text top="449" left="119" width="439" height="20" font="5">et d’attribuer une subvention complémentaire de 1 184,56 €. </text>
+<text top="473" left="119" width="659" height="16" font="4">Le  Conseil  municipal,  après  avoir  entendu  son  rapporteur  en  son  exposé  et  délibéré, </text>
+<text top="494" left="119" width="659" height="16" font="4">décide à la majorité des membres présents (Vote à main levée : 18 voix « Pour » et 1 voix </text>
+<text top="515" left="119" width="659" height="16" font="4">«   Contre »),  d’attribuer  une  subvention  complémentaire  à  l’AEP  La  Saint  Jean  de </text>
+<text top="536" left="119" width="85" height="16" font="4">1 184,56 €. </text>
+<text top="556" left="119" width="5" height="16" font="4"> </text>
+<text top="577" left="119" width="208" height="13" font="11">Accusé de réception en préfecture </text>
+<text top="595" left="119" width="104" height="13" font="11">044-214400400- </text>
+<text top="613" left="119" width="163" height="13" font="11">Date de télétransmission :  </text>
+<text top="631" left="119" width="186" height="13" font="11">Date de réception préfecture :  </text>
+<text top="650" left="119" width="5" height="16" font="0"><i><b> </b></i></text>
+<text top="671" left="119" width="5" height="16" font="0"><i><b> </b></i></text>
+<text top="687" left="119" width="244" height="21" font="5"><i><b> DE-2014/100 – Nouveau logo </b></i></text>
+<text top="712" left="119" width="659" height="16" font="4">Madame Karine FOUQUET, rapporteur,  informe les membres  du Conseil municipal que </text>
+<text top="732" left="119" width="659" height="16" font="4">le comité « Communication » a travaillé sur l’élaboration d’une nouvelle identité visuelle </text>
+<text top="753" left="119" width="188" height="16" font="4">pour le mot « Chéméré ». </text>
+<text top="774" left="119" width="659" height="16" font="4">Dans  la  charte  graphique  proposée,  le  comité  « Communication »  souhaitait  retranscrire </text>
+<text top="795" left="119" width="359" height="16" font="4">les éléments suivants caractérisant la commune :  </text>
+<text top="811" left="146" width="14" height="20" font="5"></text>
+<text top="815" left="160" width="5" height="17" font="8"> </text>
+<text top="815" left="172" width="244" height="16" font="4">La feuille symbolisant la ruralité, </text>
+<text top="832" left="146" width="14" height="20" font="5"></text>
+<text top="835" left="160" width="5" height="17" font="8"> </text>
+<text top="836" left="172" width="314" height="16" font="4">le gris représentant le tissu entrepreneurial, </text>
+<text top="853" left="146" width="14" height="20" font="5"></text>
+<text top="856" left="160" width="5" height="17" font="8"> </text>
+<text top="853" left="172" width="491" height="21" font="5">le cœur indiquant la centralité de la commune dans le Pays de Retz. </text>
+<text top="877" left="119" width="659" height="16" font="4">Le  Conseil  municipal,  après  avoir  entendu  son  rapporteur  en  son  exposé  et  délibéré, </text>
+<text top="898" left="119" width="636" height="16" font="4">décide à l’unanimité des membres présents de créer un nouveau logo pour la commune. </text>
+<text top="919" left="119" width="659" height="16" font="4">Le choix du logo a  fait l’objet  d’un vote à main levée.  Il  ressort  de ce vote, les résultats </text>
+<text top="939" left="119" width="446" height="16" font="4">suivants : 18 voix pour le logo n°1 et 1 voix pour le logo n°2. </text>
+<text top="960" left="119" width="5" height="16" font="4"> </text>
+<text top="981" left="119" width="208" height="13" font="11">Accusé de réception en préfecture </text>
+<text top="999" left="119" width="104" height="13" font="11">044-214400400- </text>
+<text top="1017" left="119" width="163" height="13" font="11">Date de télétransmission :  </text>
+<text top="1035" left="119" width="186" height="13" font="11">Date de réception préfecture :  </text>
+<text top="1054" left="227" width="5" height="16" font="4"> </text>
+<text top="1074" left="227" width="5" height="16" font="4"> </text>
+<text top="1091" left="119" width="659" height="21" font="5"><i><b> DE-2014/101 – Extension école publique « Armelle CHEVALIER » : Demandes de </b></i></text>
+<text top="1116" left="119" width="85" height="16" font="0"><i><b>subvention </b></i></text>
+<text top="1136" left="119" width="291" height="16" font="4">Monsieur le Maire, rapporteur, expose : </text>
+<text top="1157" left="119" width="659" height="16" font="30"><i>« Le  projet  d’extension  de  l’école  publique  « Armelle  CHEVALIER »  est  estimé  aux </i></text>
+<text top="1174" left="119" width="329" height="20" font="31"><i>environs de 268 680,00 € H.T. au stade APS. </i></text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="32" size="10" family="Times" color="#000000"/>
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="553" width="164" height="16" font="0"><i><b>CM 4 novembre 2014 </b></i></text>
+<text top="67" left="119" width="282" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="747" width="32" height="16" font="1"><b>106 </b></text>
+<text top="132" left="119" width="659" height="16" font="30"><i>Ces  travaux  sont  susceptibles  d’être  subventionnés  par  l’Etat  (DETR  2015,  réserve </i></text>
+<text top="152" left="119" width="659" height="16" font="30"><i>parlementaire),  du  Conseil  général  dans  le  cadre  du  Fonds  de  développement  solidaire </i></text>
+<text top="173" left="119" width="292" height="16" font="30"><i>pour les communes (FDSC 2012-2015). </i></text>
+<text top="194" left="119" width="659" height="16" font="30"><i>Le plan de financement pourrait se décomposer comme suit (on prendrait comme base un </i></text>
+<text top="214" left="119" width="659" height="16" font="30"><i>montant de travaux estimé aux environs de 275 000,00 € H.T. étant donné que l’estimatif </i></text>
+<text top="231" left="119" width="338" height="20" font="31"><i>n’a pas encore pris en compte l’étude béton) : </i></text>
+<text top="256" left="146" width="6" height="16" font="4">-</text>
+<text top="255" left="152" width="5" height="17" font="8"> </text>
+<text top="256" left="173" width="90" height="16" font="30"><i>DETR 2015 </i></text>
+<text top="256" left="672" width="90" height="16" font="30"><i>96 250,00 € </i></text>
+<text top="276" left="172" width="464" height="16" font="30"><i>(taux de subvention de 35 % plafonné à 350 000 € de dépenses) </i></text>
+<text top="297" left="146" width="6" height="16" font="4">-</text>
+<text top="297" left="152" width="5" height="17" font="8"> </text>
+<text top="297" left="173" width="260" height="16" font="30"><i>FDSC (taux de subvention de 20%) </i></text>
+<text top="297" left="672" width="90" height="16" font="30"><i>55 000,00 € </i></text>
+<text top="318" left="146" width="6" height="16" font="4">-</text>
+<text top="317" left="152" width="5" height="17" font="8"> </text>
+<text top="318" left="173" width="168" height="16" font="30"><i>Réserve parlementaire </i></text>
+<text top="318" left="672" width="90" height="16" font="30"><i>20 000,00 € </i></text>
+<text top="339" left="146" width="6" height="16" font="4">-</text>
+<text top="338" left="152" width="5" height="17" font="8"> </text>
+<text top="339" left="173" width="195" height="16" font="30"><i>Autofinancement/Emprunt </i></text>
+<text top="339" left="655" width="117" height="16" font="30"><i>103 750,00 € ». </i></text>
+<text top="359" left="119" width="659" height="16" font="4">Le  Conseil  municipal,  après  en  avoir  délibéré,  décide  à  l’unanimité  des  membres </text>
+<text top="380" left="119" width="73" height="16" font="4">présents : </text>
+<text top="401" left="146" width="6" height="16" font="4">-</text>
+<text top="400" left="152" width="5" height="17" font="8"> </text>
+<text top="401" left="173" width="605" height="16" font="4">de solliciter une subvention auprès  des différents organismes  susmentionnés  pour </text>
+<text top="421" left="173" width="524" height="16" font="4">les travaux sus-mentionnés avec le plan de financement tel que proposé, </text>
+<text top="442" left="146" width="6" height="16" font="4">-</text>
+<text top="441" left="152" width="5" height="17" font="8"> </text>
+<text top="442" left="173" width="605" height="16" font="4">de  donner  tous  pouvoirs  à  Monsieur  le  Maire  de  faire  tout  ce  qui  sera  utile  ou </text>
+<text top="463" left="173" width="294" height="16" font="4">nécessaire pour mener ce dossier à bien. </text>
+<text top="484" left="119" width="5" height="16" font="4"> </text>
+<text top="504" left="119" width="208" height="13" font="11">Accusé de réception en préfecture </text>
+<text top="522" left="119" width="104" height="13" font="11">044-214400400- </text>
+<text top="540" left="119" width="163" height="13" font="11">Date de télétransmission :  </text>
+<text top="558" left="119" width="186" height="13" font="11">Date de réception préfecture :  </text>
+<text top="577" left="119" width="5" height="16" font="4"> </text>
+<text top="598" left="119" width="5" height="16" font="4"> </text>
+<text top="614" left="119" width="419" height="21" font="5"><i><b> DE-2014/102 – Taxe d’aménagement : Reconduction </b></i></text>
+<text top="639" left="119" width="659" height="16" font="4">Monsieur  Romain  RUNGOAT,  rapporteur,  informe  les  membres  du  Conseil  municipal </text>
+<text top="660" left="119" width="659" height="16" font="4">que  la  délibération  n°2011/132  en  date  du  8  novembre  2011  instituant  la  taxe </text>
+<text top="677" left="119" width="659" height="20" font="5">d’aménagement présente une durée de validité qui s’achèvera au 31 décembre 2014. Cette </text>
+<text top="697" left="119" width="659" height="20" font="5">taxe  ne  pourra  plus  s’appliquer  sur  notre  territoire  pour  les  autorisations  délivrées  à </text>
+<text top="722" left="119" width="95" height="16" font="4">compter du 1</text>
+<text top="719" left="214" width="9" height="11" font="32">er</text>
+<text top="722" left="223" width="104" height="16" font="4"> janvier 2015. </text>
+<text top="743" left="119" width="659" height="16" font="4">Le Conseil municipal doit délibérer avant le 30 novembre 2014 pour continuer à percevoir </text>
+<text top="763" left="119" width="159" height="16" font="4">la taxe à compter du 1</text>
+<text top="760" left="278" width="9" height="11" font="32">er</text>
+<text top="763" left="288" width="104" height="16" font="4"> janvier 2015. </text>
+<text top="784" left="119" width="659" height="16" font="4">La commission des finances propose aux membres du Conseil municipal de reconduire la </text>
+<text top="805" left="119" width="393" height="16" font="4">délibération n°2011/132 en date du 8 novembre 2011. </text>
+<text top="825" left="119" width="659" height="16" font="4">Le  Conseil  municipal,  après  avoir  entendu  son  rapporteur  en  son  exposé  et  délibéré, </text>
+<text top="846" left="119" width="659" height="16" font="4">décide, à l’unanimité des membres présents, que la délibération n°2011/132 en date du 8 </text>
+<text top="867" left="119" width="434" height="16" font="4">novembre 2011 soit reconduite de plein droit annuellement. </text>
+<text top="887" left="119" width="5" height="16" font="4"> </text>
+<text top="908" left="119" width="208" height="13" font="11">Accusé de réception en préfecture </text>
+<text top="926" left="119" width="104" height="13" font="11">044-214400400- </text>
+<text top="944" left="119" width="163" height="13" font="11">Date de télétransmission :  </text>
+<text top="962" left="119" width="186" height="13" font="11">Date de réception préfecture :  </text>
+<text top="981" left="119" width="5" height="16" font="4"> </text>
+<text top="1002" left="119" width="5" height="16" font="4"> </text>
+<text top="1018" left="119" width="441" height="21" font="5"><i><b> DE-2014/103 – Taxe d’aménagement : Fixation du taux </b></i></text>
+<text top="1043" left="119" width="659" height="16" font="4">Monsieur  Romain  RUNGOAT,  rapporteur,  informe  les  membres  du  Conseil  municipal </text>
+<text top="1064" left="119" width="659" height="16" font="4">que  la  commission  des  finances  a  émis,  à  la  majorité  des  membres,  un  avis  favorable  à </text>
+<text top="1081" left="119" width="659" height="20" font="5">l’augmentation  d’un  point,  du  taux  de  la  taxe  d’aménagement  (qui  est  actuellement  de </text>
+<text top="1105" left="119" width="659" height="16" font="4">4,00%).  Cette  augmentation  s’explique  par  la  prise  en  charge  par  la  commune,  de </text>
+<text top="1122" left="119" width="405" height="20" font="5">l’instruction des documents d’urbanisme à compter du 1</text>
+<text top="1123" left="525" width="9" height="11" font="32">er</text>
+<text top="1126" left="534" width="96" height="16" font="4"> juillet 2015. </text>
+<text top="1147" left="119" width="584" height="16" font="4">Il est procédé à un vote à main levée. Il ressort de ce vote, les résultats suivants : </text>
+<text top="1167" left="146" width="6" height="16" font="4">-</text>
+<text top="1167" left="152" width="5" height="17" font="8"> </text>
+<text top="1167" left="173" width="315" height="16" font="4">3 voix pour une augmentation de 0,5 point, </text>
+<text top="1188" left="146" width="6" height="16" font="4">-</text>
+<text top="1187" left="152" width="5" height="17" font="8"> </text>
+<text top="1188" left="173" width="313" height="16" font="4">15 voix pour une augmentation d’un point, </text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="1262" width="892">
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="553" width="164" height="16" font="0"><i><b>CM 4 novembre 2014 </b></i></text>
+<text top="67" left="119" width="282" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="747" width="32" height="16" font="1"><b>107 </b></text>
+<text top="132" left="146" width="6" height="16" font="4">-</text>
+<text top="131" left="152" width="5" height="17" font="8"> </text>
+<text top="132" left="173" width="129" height="16" font="4">1 « Abstention ». </text>
+<text top="149" left="119" width="536" height="20" font="5">Vu le Code de l’Urbanisme et notamment ses articles L 331-1 et suivants, </text>
+<text top="169" left="119" width="659" height="20" font="5">Vu la délibération n°2014/102 du 4 novembre 2014 reconduisant la taxe d’aménagement </text>
+<text top="194" left="119" width="197" height="16" font="4">sur le territoire communal, </text>
+<text top="214" left="119" width="654" height="16" font="4">Le Conseil municipal, après en avoir délibéré, décide à la majorité des membres présents : </text>
+<text top="235" left="146" width="6" height="16" font="4">-</text>
+<text top="234" left="152" width="5" height="17" font="8"> </text>
+<text top="231" left="173" width="605" height="20" font="5">De  fixer  le  taux  de  la  taxe  d’aménagement  à  5%  sur  l’ensemble  du  territoire </text>
+<text top="256" left="173" width="85" height="16" font="4">communal. </text>
+<text top="273" left="119" width="659" height="20" font="5">La  présente  délibération  est  valable  pour  une  durée  d’un  an  reconductible.  Elle  est </text>
+<text top="293" left="119" width="645" height="20" font="5">transmise au service de l’Etat chargé de l’urbanisme dans le département au plus tard le 1</text>
+<text top="294" left="765" width="9" height="11" font="32">er</text>
+<text top="297" left="774" width="5" height="16" font="4"> </text>
+<text top="318" left="119" width="65" height="16" font="4">jour du 2</text>
+<text top="315" left="184" width="20" height="11" font="32">ème</text>
+<text top="318" left="204" width="202" height="16" font="4"> mois suivant son adoption. </text>
+<text top="339" left="119" width="5" height="16" font="4"> </text>
+<text top="359" left="119" width="208" height="13" font="11">Accusé de réception en préfecture </text>
+<text top="377" left="119" width="104" height="13" font="11">044-214400400- </text>
+<text top="395" left="119" width="163" height="13" font="11">Date de télétransmission :  </text>
+<text top="413" left="119" width="186" height="13" font="11">Date de réception préfecture :  </text>
+<text top="432" left="119" width="5" height="16" font="4"> </text>
+<text top="453" left="119" width="5" height="16" font="0"><i><b> </b></i></text>
+<text top="469" left="119" width="659" height="21" font="5"><i><b> DE-2014/104 – Taxe d’aménagement : Exonération facultative de la part communale </b></i></text>
+<text top="494" left="119" width="373" height="16" font="0"><i><b>des abris de jardin soumis à déclaration préalable</b></i> </text>
+<text top="515" left="119" width="659" height="16" font="4">Monsieur le Maire, rapporteur, informe les membres du Conseil municipal que les abris de </text>
+<text top="536" left="119" width="659" height="16" font="4">jardin  soumis  à  déclaration  préalable  (moins  de  20m2)  peuvent  être  exonérés  de  la  part </text>
+<text top="552" left="119" width="286" height="20" font="5">communale de la taxe d’aménagement. </text>
+<text top="577" left="119" width="659" height="16" font="4">Il  est  procédé  à  un  vote  à  main  levée  sur  la  question  suivante :  « Etes-vous  pour </text>
+<text top="594" left="119" width="659" height="20" font="5">l’exonération  de  la  part  communale  de  la  taxe  d’aménagement  pour  les  abris  de  jardin </text>
+<text top="618" left="119" width="539" height="16" font="4">soumis à déclaration préalable. Il ressort de ce vote, les résultats suivants : </text>
+<text top="639" left="146" width="6" height="16" font="4">-</text>
+<text top="638" left="152" width="5" height="17" font="8"> </text>
+<text top="639" left="173" width="120" height="16" font="4">8 voix « Pour », </text>
+<text top="660" left="146" width="6" height="16" font="4">-</text>
+<text top="659" left="152" width="5" height="17" font="8"> </text>
+<text top="660" left="173" width="135" height="16" font="4">8 voix « Contre », </text>
+<text top="680" left="146" width="6" height="16" font="4">-</text>
+<text top="680" left="152" width="5" height="17" font="8"> </text>
+<text top="680" left="173" width="129" height="16" font="4">3 « Abstention ». </text>
+<text top="701" left="119" width="659" height="16" font="4">La  voix  de  Monsieur  le  Maire  étant  prépondérante  (« Contre »),  le  Conseil  municipal, </text>
+<text top="722" left="119" width="659" height="16" font="4">après en avoir délibéré, décide à la majorité des membres présents de ne pas exonérer de la </text>
+<text top="739" left="119" width="659" height="20" font="5">part communale de la taxe d’aménagement pour les abris de jardin soumis à déclaration </text>
+<text top="763" left="119" width="75" height="16" font="4">préalable. </text>
+<text top="784" left="119" width="5" height="16" font="4"> </text>
+<text top="805" left="119" width="208" height="13" font="11">Accusé de réception en préfecture </text>
+<text top="823" left="119" width="104" height="13" font="11">044-214400400- </text>
+<text top="841" left="119" width="163" height="13" font="11">Date de télétransmission :  </text>
+<text top="859" left="119" width="186" height="13" font="11">Date de réception préfecture :  </text>
+<text top="877" left="119" width="5" height="16" font="4"> </text>
+<text top="898" left="119" width="5" height="16" font="4"> </text>
+<text top="914" left="119" width="241" height="21" font="5"><i><b> Dénomination d’une impasse </b></i></text>
+<text top="939" left="119" width="659" height="16" font="4">Le comité  « Communication » est  missionné pour établir un listing de noms  qui  seraient </text>
+<text top="960" left="119" width="312" height="16" font="4">attribués à des nouvelles rues ou impasses. </text>
+<text top="981" left="119" width="5" height="16" font="4"> </text>
+<text top="1002" left="200" width="5" height="16" font="4"> </text>
+<text top="1039" left="119" width="420" height="21" font="5"><i><b> DE-2014/105 – Rue des Orvaults : Problème d’arbres</b></i> </text>
+<text top="1064" left="119" width="659" height="16" font="4">Monsieur  le  Maire,  rapporteur,  informe  les  membres  du  Conseil  municipal  que  des </text>
+<text top="1081" left="119" width="625" height="20" font="5">riverains de la rue des Orvaults se plaignent d’être envahis par les feuilles de platanes. </text>
+<text top="1102" left="119" width="659" height="20" font="5">Il  est  demandé  au  Conseil  municipal  de  statuer  sur  l’avenir  de  ces  arbres :  Abattage, </text>
+<text top="1126" left="119" width="233" height="16" font="4">Elagage annuel ou ne rien faire. </text>
+<text top="1147" left="119" width="659" height="16" font="4">Il est procédé à un vote à bulletin secret demandé par Monsieur le Maire. Il ressort de ce </text>
+<text top="1167" left="119" width="202" height="16" font="4">vote, les résultats suivants : </text>
+<text top="1188" left="146" width="6" height="16" font="4">-</text>
+<text top="1187" left="152" width="5" height="17" font="8"> </text>
+<text top="1188" left="173" width="161" height="16" font="4">2 voix : « Abattage », </text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="33" size="-1" family="Times" color="#000000"/>
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="553" width="164" height="16" font="0"><i><b>CM 4 novembre 2014 </b></i></text>
+<text top="67" left="119" width="282" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="747" width="32" height="16" font="1"><b>108 </b></text>
+<text top="132" left="146" width="6" height="16" font="4">-</text>
+<text top="131" left="152" width="5" height="17" font="8"> </text>
+<text top="132" left="173" width="205" height="16" font="4">14 voix « Elagage annuel », </text>
+<text top="152" left="146" width="6" height="16" font="4">-</text>
+<text top="152" left="152" width="5" height="17" font="8"> </text>
+<text top="152" left="173" width="172" height="16" font="4">3 voix « Ne rien faire » </text>
+<text top="173" left="119" width="659" height="16" font="4">Le Conseil municipal, après en avoir délibéré, décide à la majorité des membres présents, </text>
+<text top="194" left="119" width="555" height="16" font="4">de procéder à un élagage annuel des platanes situés dans la rue des Orvaults. </text>
+<text top="214" left="119" width="5" height="16" font="4"> </text>
+<text top="235" left="119" width="208" height="13" font="11">Accusé de réception en préfecture </text>
+<text top="253" left="119" width="104" height="13" font="11">044-214400400- </text>
+<text top="271" left="119" width="163" height="13" font="11">Date de télétransmission :  </text>
+<text top="289" left="119" width="186" height="13" font="11">Date de réception préfecture :  </text>
+<text top="308" left="119" width="5" height="16" font="4"> </text>
+<text top="328" left="119" width="5" height="16" font="4"> </text>
+<text top="345" left="119" width="583" height="21" font="5"><i><b> DE-2014/106 – Aménagement de la route de Rouans : Approbation du plan </b></i></text>
+<text top="370" left="119" width="659" height="16" font="4">Monsieur Michel  GRAVOUIL, rapporteur, présente aux membres du Conseil municipal, </text>
+<text top="387" left="119" width="659" height="20" font="5">l’avant-projet  de  l’aménagement  de  la  route  de  Rouans  estimé  à  153 925,00  €  H.T.  Cet </text>
+<text top="411" left="119" width="656" height="16" font="4">avant-projet est provisoire, car il n’a pas été encore validé par les services du département. </text>
+<text top="432" left="119" width="659" height="16" font="4">Il est proposé aux membres du Conseil municipal de valider cet avant-projet afin de lancer </text>
+<text top="453" left="119" width="659" height="16" font="4">la consultation des entreprises. Dans le cas où ce projet n’aurait pas l’aval des services du </text>
+<text top="473" left="119" width="659" height="16" font="4">département,  le  plan  modifié  sera  de  nouveau  soumis  au  Conseil  municipal  pour </text>
+<text top="494" left="119" width="95" height="16" font="4">approbation. </text>
+<text top="515" left="119" width="659" height="16" font="4">Le  Conseil  municipal,  après  avoir  entendu  son  rapporteur  en  son  exposé  et  délibéré, </text>
+<text top="532" left="119" width="323" height="20" font="5">décide à l’unanimité des membres présents : </text>
+<text top="556" left="146" width="6" height="16" font="4">-</text>
+<text top="556" left="152" width="5" height="17" font="8"> </text>
+<text top="552" left="173" width="605" height="20" font="5">D’approuver  l’avant-projet  présenté  pour  un  montant  estimé  aux  environs  de </text>
+<text top="577" left="173" width="141" height="16" font="4">153 925,00 € H.T., </text>
+<text top="598" left="146" width="6" height="16" font="4">-</text>
+<text top="597" left="152" width="5" height="17" font="8"> </text>
+<text top="598" left="173" width="605" height="16" font="4">De  donner  tous  pouvoirs  à  Monsieur  le  Maire  pour  mener  ce  dossier  à  bien, </text>
+<text top="618" left="173" width="381" height="16" font="4">notamment de lancer la consultation des entreprises. </text>
+<text top="639" left="119" width="5" height="16" font="4"> </text>
+<text top="660" left="119" width="208" height="13" font="11">Accusé de réception en préfecture </text>
+<text top="678" left="119" width="104" height="13" font="11">044-214400400- </text>
+<text top="696" left="119" width="163" height="13" font="11">Date de télétransmission :  </text>
+<text top="714" left="119" width="186" height="13" font="11">Date de réception préfecture :  </text>
+<text top="732" left="119" width="5" height="16" font="4"> </text>
+<text top="753" left="119" width="5" height="16" font="4"> </text>
+<text top="769" left="119" width="185" height="21" font="5"><i><b> Informations diverses </b></i></text>
+<text top="795" left="119" width="600" height="16" font="4">Les informations suivantes ont été présentées aux membres du Conseil municipal : </text>
+<text top="815" left="146" width="6" height="16" font="4">-</text>
+<text top="815" left="152" width="5" height="17" font="8"> </text>
+<text top="812" left="173" width="605" height="20" font="5">Lancement d’un marché local hebdomadaire le mardi 11 novembre 2014 (Virginie </text>
+<text top="836" left="173" width="98" height="16" font="4">PORCHER), </text>
+<text top="857" left="146" width="6" height="16" font="4">-</text>
+<text top="856" left="152" width="5" height="17" font="8"> </text>
+<text top="857" left="173" width="605" height="16" font="4">Des travaux de fondations pour un mur de clôture ont été réalisés rue de Pornic sur </text>
+<text top="877" left="173" width="605" height="16" font="4">une  propriété  privée  dans  le  cadre  d’un  accord  intervenu  entre  la  commune  et </text>
+<text top="894" left="173" width="309" height="20" font="5">l’AFUL du Brandais (Monsieur le Maire), </text>
+<text top="919" left="146" width="6" height="16" font="4">-</text>
+<text top="918" left="152" width="5" height="17" font="8"> </text>
+<text top="915" left="173" width="605" height="20" font="5">Date de la cérémonie des vœux : Samedi après-midi du 10 janvier 2015 (Monsieur </text>
+<text top="939" left="173" width="75" height="16" font="4">le Maire), </text>
+<text top="960" left="146" width="6" height="16" font="4">-</text>
+<text top="960" left="152" width="5" height="17" font="8"> </text>
+<text top="960" left="173" width="605" height="16" font="4">Rencontre  avec  les  élus  d’ARTHON  EN  RETZ  afin  d’entamer  une  réflexion  sur </text>
+<text top="981" left="173" width="605" height="16" font="4">des  aménagements  de  voiries  concommittantes  et  sur  une  mutualisation  des </text>
+<text top="1002" left="173" width="216" height="16" font="4">moyens (Monsieur le Maire), </text>
+<text top="1022" left="146" width="6" height="16" font="4">-</text>
+<text top="1022" left="152" width="5" height="17" font="8"> </text>
+<text top="1022" left="173" width="605" height="16" font="4">Election  du  Conseil  municipal  Junior  le  jeudi  11  décembre  2014  (Gérard </text>
+<text top="1043" left="173" width="101" height="16" font="4">CHAUVET). </text>
+<text top="1064" left="119" width="5" height="16" font="4"> </text>
+<text top="1084" left="119" width="536" height="16" font="4">Madame Virginie PORCHER donne lecture des documents d’urbanisme : </text>
+<text top="1105" left="122" width="191" height="13" font="10"><b>PERMIS DE CONSTRUIRE </b></text>
+<text top="1137" left="147" width="21" height="13" font="10"><b>N° </b></text>
+<text top="1137" left="192" width="73" height="13" font="10"><b>Date dépôt </b></text>
+<text top="1137" left="318" width="80" height="13" font="10"><b>Demandeur </b></text>
+<text top="1137" left="474" width="55" height="13" font="10"><b>Adresse </b></text>
+<text top="1137" left="571" width="53" height="13" font="10"><b>Réf cad </b></text>
+<text top="1137" left="688" width="40" height="13" font="10"><b>Objet </b></text>
+<text top="1184" left="133" width="132" height="13" font="11">A 1018  12/09/2014 </text>
+<text top="1184" left="288" width="139" height="13" font="11">CHEVALIER Jacques </text>
+<text top="1175" left="460" width="82" height="13" font="11">17 bis rue du </text>
+<text top="1192" left="470" width="62" height="13" font="11">Coudreau </text>
+<text top="1184" left="570" width="53" height="13" font="11">F 1589p </text>
+<text top="1184" left="647" width="123" height="13" font="11">Maison d'habitation </text>
+<text top="1212" left="457" width="0" height="1" font="33"><b> </b></text>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="1262" width="892">
+<text top="47" left="119" width="350" height="16" font="0"><i><b>DEPARTEMENT DE LOIRE-ATLANTIQUE </b></i></text>
+<text top="47" left="553" width="164" height="16" font="0"><i><b>CM 4 novembre 2014 </b></i></text>
+<text top="67" left="119" width="282" height="16" font="0"><i><b>Canton de BOURGNEUF-EN-RETZ </b></i></text>
+<text top="88" left="119" width="198" height="16" font="0"><i><b>Commune de CHEMERE </b></i></text>
+<text top="47" left="747" width="32" height="16" font="1"><b>109 </b></text>
+<text top="131" left="122" width="228" height="13" font="10"><b>DECLARATIONS PREALABLES </b></text>
+<text top="160" left="147" width="21" height="13" font="10"><b>N° </b></text>
+<text top="160" left="188" width="73" height="13" font="10"><b>Date dépôt </b></text>
+<text top="160" left="292" width="80" height="13" font="10"><b>Demandeur </b></text>
+<text top="160" left="440" width="55" height="13" font="10"><b>Adresse </b></text>
+<text top="160" left="562" width="53" height="13" font="10"><b>Réf cad </b></text>
+<text top="160" left="693" width="40" height="13" font="10"><b>Objet </b></text>
+<text top="198" left="133" width="128" height="13" font="11">A 2037  09/09/2014 </text>
+<text top="190" left="276" width="111" height="13" font="11">LE FUR Dimitri / </text>
+<text top="207" left="269" width="125" height="13" font="11">GAGLIONE Emilie </text>
+<text top="190" left="407" width="122" height="13" font="11">35 rue de la Bride à </text>
+<text top="207" left="448" width="40" height="13" font="11">mains </text>
+<text top="198" left="564" width="48" height="13" font="11">G 3028 </text>
+<text top="198" left="689" width="49" height="13" font="11">Clôture </text>
+<text top="237" left="133" width="128" height="13" font="11">A 2038  17/09/2014 </text>
+<text top="229" left="274" width="116" height="13" font="11">COQUENLORGE </text>
+<text top="246" left="303" width="57" height="13" font="11">Gwénaël </text>
+<text top="237" left="409" width="118" height="13" font="11">24 rue de la Treille </text>
+<text top="237" left="564" width="48" height="13" font="11">G 2093 </text>
+<text top="237" left="694" width="38" height="13" font="11">Préau </text>
+<text top="276" left="133" width="128" height="13" font="11">A 2039  22/09/2014 </text>
+<text top="276" left="291" width="82" height="13" font="11">WHITE Neil </text>
+<text top="276" left="411" width="112" height="13" font="11">3 Le Grand Credo </text>
+<text top="276" left="566" width="46" height="13" font="11">F 1374 </text>
+<text top="268" left="645" width="136" height="13" font="11">Remplacement portail </text>
+<text top="285" left="676" width="74" height="13" font="11">par fenêtres </text>
+<text top="315" left="133" width="128" height="13" font="11">A 2040  25/09/2014 </text>
+<text top="307" left="276" width="107" height="13" font="11">GUIMARD Jean-</text>
+<text top="324" left="312" width="40" height="13" font="11">Julien </text>
+<text top="315" left="404" width="127" height="13" font="11">16 bis rue du Béziau </text>
+<text top="307" left="546" width="86" height="13" font="11">G 2270, 2272 </text>
+<text top="324" left="568" width="41" height="13" font="11">et 297 </text>
+<text top="315" left="646" width="135" height="13" font="11">Pose clôture et portail </text>
+<text top="340" left="122" width="0" height="1" font="33"><b> </b></text>
+<text top="344" left="119" width="5" height="16" font="4"> </text>
+<text top="365" left="119" width="273" height="16" font="4">Séance levée à 22 heures 45 minutes. </text>
+<text top="386" left="119" width="5" height="16" font="4"> </text>
+<text top="407" left="119" width="4" height="15" font="15"> </text>
+<text top="426" left="119" width="242" height="16" font="4">Tatiana BERTHELOT : Excusée </text>
+<text top="447" left="119" width="4" height="15" font="15"> </text>
+<text top="407" left="456" width="4" height="15" font="15"> </text>
+<text top="426" left="456" width="237" height="16" font="4">Sabrina PENNETIER-BIGOT :  </text>
+<text top="447" left="456" width="4" height="15" font="15"> </text>
+<text top="466" left="119" width="4" height="15" font="15"> </text>
+<text top="486" left="119" width="159" height="16" font="4">Nicolas BOUCHER : </text>
+<text top="506" left="119" width="4" height="15" font="15"> </text>
+<text top="466" left="456" width="4" height="15" font="15"> </text>
+<text top="486" left="456" width="166" height="16" font="4">Anne BRUNETEAU : </text>
+<text top="487" left="622" width="4" height="15" font="15"> </text>
+<text top="526" left="119" width="4" height="15" font="15"> </text>
+<text top="545" left="119" width="152" height="16" font="4">Philippe BRIAND :  </text>
+<text top="566" left="119" width="4" height="15" font="15"> </text>
+<text top="526" left="456" width="4" height="15" font="15"> </text>
+<text top="545" left="456" width="154" height="16" font="4">Gérard CHAUVET : </text>
+<text top="546" left="610" width="4" height="15" font="15"> </text>
+<text top="585" left="119" width="4" height="15" font="15"> </text>
+<text top="605" left="119" width="181" height="16" font="4">Jacques CHEVALIER :  </text>
+<text top="625" left="119" width="4" height="15" font="15"> </text>
+<text top="585" left="456" width="4" height="15" font="15"> </text>
+<text top="605" left="456" width="167" height="16" font="4">Marie-Laure DAVID : </text>
+<text top="606" left="623" width="4" height="15" font="15"> </text>
+<text top="645" left="119" width="4" height="15" font="15"> </text>
+<text top="664" left="119" width="156" height="16" font="4">Karine FOUQUET :  </text>
+<text top="683" left="119" width="5" height="16" font="4"> </text>
+<text top="684" left="124" width="4" height="15" font="15"> </text>
+<text top="645" left="456" width="4" height="15" font="15"> </text>
+<text top="664" left="456" width="134" height="16" font="4">Sylviane GIBET : </text>
+<text top="684" left="456" width="4" height="15" font="15"> </text>
+<text top="704" left="119" width="4" height="15" font="15"> </text>
+<text top="723" left="119" width="159" height="16" font="4">Michel GRAVOUIL :</text>
+<text top="724" left="278" width="4" height="15" font="15"> </text>
+<text top="704" left="456" width="4" height="15" font="15"> </text>
+<text top="723" left="456" width="177" height="16" font="4">Christelle GUIGNON :  </text>
+<text top="744" left="456" width="4" height="15" font="15"> </text>
+<text top="764" left="119" width="5" height="16" font="4"> </text>
+<text top="784" left="119" width="183" height="16" font="4">Anthony LATOUCHE :  </text>
+<text top="764" left="456" width="4" height="15" font="15"> </text>
+<text top="783" left="456" width="156" height="16" font="4">Valérie LEBLOND : </text>
+<text top="803" left="456" width="4" height="15" font="15"> </text>
+<text top="823" left="119" width="4" height="15" font="15"> </text>
+<text top="842" left="119" width="163" height="16" font="4">Georges LECLEVE :  </text>
+<text top="863" left="119" width="4" height="15" font="15"> </text>
+<text top="823" left="456" width="4" height="15" font="15"> </text>
+<text top="842" left="456" width="211" height="16" font="4">Dominique MUSLEWSKI :  </text>
+<text top="843" left="667" width="4" height="15" font="15"> </text>
+<text top="882" left="119" width="4" height="15" font="15"> </text>
+<text top="901" left="119" width="157" height="16" font="4">Virginie PORCHER :</text>
+<text top="902" left="276" width="4" height="15" font="15"> </text>
+<text top="882" left="456" width="4" height="15" font="15"> </text>
+<text top="901" left="456" width="163" height="16" font="4">Romain RUNGOAT : </text>
+<text top="922" left="456" width="5" height="16" font="4"> </text>
+<text top="944" left="119" width="4" height="15" font="15"> </text>
+<text top="962" left="119" width="146" height="15" font="15">Jean-Marc VOYAU : </text>
+<text top="981" left="119" width="4" height="15" font="15"> </text>
+<text top="944" left="456" width="4" height="15" font="15"> </text>
+<text top="1001" left="119" width="5" height="16" font="4"> </text>
+<text top="1022" left="119" width="5" height="16" font="4"> </text>
+</page>
+</pdf2xml>
