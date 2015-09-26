@@ -13,6 +13,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/navbar-fixed-top.css" rel="stylesheet">
+    <link href="css/jquery.dataTables.min.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -150,6 +151,44 @@
 
 </div></div>
 
+<h2>Les données brutes</h2>
+<br/>
+<div class="text-center">
+                <table class="table table-in-dark-section" id="assotable" data-pagination="true"
+                       data-search="true">
+                    <thead>
+                    <tr>
+                        <th data-field="Année" data-sortable="true">Années</th>
+                        <th data-field="Catégorie" data-sortable="true">Type</th>
+                        <th data-field="Association" data-sortable="true">Association</th>
+                        <th data-align="right" data-field="Montant"
+                            data-formatter="sunshine.utils.formatMoney"
+                            data-sortable="true">Montant
+                        </th>
+                    </tr>
+                    </thead>
+                </table>
+</div>
+
+<h2>Les données brutes</h2>
+<br/>
+<div class="text-center">
+<h3>Des données en pdf :-(</h3>
+<img src="img/pdf1.png"/>
+<img src="img/pdf2.png"/>
+<h3>Convertion en données</h3>
+<p>Quatre personnes & 20 minutes</p>
+<img src="img/csv_creation.png"/>
+<h3>Homogénéisation des données</h3>
+<img src="img/csv_refine.png"/>
+<h3>Un outil libre & en ligne pour les visualisations</h3>
+<img src="img/raw_import.png"/>
+<img src="img/raw_type.png"/>
+<img src="img/raw_entites.png"/>
+<img src="img/raw_final.png"/>
+
+
+</div>
     </div> <!-- /container -->
 
 
@@ -157,8 +196,20 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$(document).ready(function() {
+/*
+    $('#assotable').DataTable( {
+        "ajax": "data/2009-2014_Chéméré_SubventionsAssociations.tsv"
+    } );
+*/
+} );
+
+
+</script>
   </body>
 </html>
