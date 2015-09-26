@@ -81,9 +81,9 @@ re_affichage = re.compile(ur"Date d’affichage", re.I)
 re_convoc = re.compile(ur'Convocation\s*:?$', re.I)
 re_presents = re.compile(ur'Pr(?:e|é|É)sents\s*:', re.I)
 re_absents = re.compile(ur'Absents? (non-* *)?excus(?:e|é|É)s? *:', re.I)
-re_secretaire = re.compile(ur'secrétaire de séance *:(?: *M[ME\. ]*)? *(.+)', re.I)
-re_conseillers = re.compile(ur'^(?:M(?:\.|MES?) )*(.+?)(, (Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir donné à [^,]+))+', re.I)
-re_conseillers2 = re.compile(ur'^(?:M(?:\.|MES?) )+(.+?)\.?$', re.I)
+re_secretaire = re.compile(ur'secrétaire de séance *:(?: *M[MLE\. ]*)? *(.+)', re.I)
+re_conseillers = re.compile(ur'^(?:M[MLES,\.]* )*(.+?)(, (Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir donné à [^,]+))+', re.I)
+re_conseillers2 = re.compile(ur'^(?:M[MLES,\.]* )+(.+?)\.?$', re.I)
 
 def parse_PV(text):
     data = {'date': '', 'heure_debut': '', 'heure_fin': '', 'date_convocation': '', 'date_affichage': '', 'president': '', 'presents': [], 'excuses': [], 'absents': [], 'secretaire': '', 'ODJ': '', 'deliberations': []}
