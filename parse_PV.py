@@ -26,6 +26,7 @@ def convert_month(text):
 
 numbers = {
     "": 00,
+    "dix": 10,
     "dix-huit": 18,
     "dix-neuf": 19,
     "vingt": 20,
@@ -40,9 +41,12 @@ def numberize(text):
     except:
         return numbers[text.replace(' ', '-')]
 
-re_time = re.compile(ur'^(.+?)\s*(?:h(?:eures?)?)\s*(.*?)\s*(minutes?)?$', re.I)
+re_clean_mins = re.compile(r'\s*minutes?\s*$')
+re_clean_hours = re.compile(r'\s*heures?\s*')
+re_clean_hours2 = re.compile(r'(\d)h(\d)')
+re_time = re.compile(ur'^(.+?)H(.*)$')
 def clean_time(text):
-    text = text.lower().strip()
+    text = re_clean_hours2.sub(r"\1H\2", re_clean_hours.sub('H', re_clean_mins.sub('', text.lower().strip())))
     if text == "minuit":
         return "00:00"
     hourmins = re_time.search(text)
@@ -92,7 +96,7 @@ def parse_PV(text):
         if not line:
             continue
         if len(sys.argv) > 3:
-            print >> sys.stderr, "TEST %s: %s" % (read, line)
+            print >> sys.stderr, ("TEST %s: %s" % (read, line)).encode('utf-8')
         header = re_header.search(line)
         heurefin = re_heurefin.search(line)
         seance = re_seance.search(line)
@@ -124,12 +128,10 @@ def parse_PV(text):
         elif read:
             conseil = re_conseillers.search(line)
             if conseil:
-                print >> sys.stderr, "FOUND:", read, conseil.group(1)
                 handle_elus(data, conseil.group(1), read)
             else:
                 conseil = re_conseillers2.search(line)
                 if conseil:
-                    print >> sys.stderr, "FOUND:", read, conseil.group(1)
                     handle_elus(data, conseil.group(1), read)
                 else:
                     read = ""
@@ -145,13 +147,13 @@ def parse_PV(text):
 def test_data(data):
     errors = 0
     if not len(data['presents']) or (data['total_presents'] and len(data["presents"]) != data['total_presents']):
-        print >> sys.stderr, "ERROR presents missing:", data['total_presents'], data["presents"]
+        print >> sys.stderr, ("ERROR presents missing: %s, %s" % (data['total_presents'], data["presents"])).encode('utf-8')
         errors +=1
     for k, v in data.items():
         if k in ["absents", "presents", "excuses", "total_presents", "date_affichage"]: continue
         if k in ["ODJ", "deliberations"]: continue      # TO BE REMOVED WHEN PARSED
         if not v:
-            print >> sys.stderr, "ERROR field missing:", k
+            print >> sys.stderr, ("ERROR field missing: %s" % k).encode('utf-8')
             errors +=1
     if errors:
         pprint.pprint(data)
@@ -166,5 +168,5 @@ if __name__ == "__main__":
         pprint.pprint(data)
     else:
         for a in data['presents']:
-            print "%s,%s,%s" % (data['date'], data['heure_debut'], a)
+            print ("%s,%s,%s" % (data['date'], data['heure_debut'], a)).encode('utf-8')
 
