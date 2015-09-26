@@ -6,7 +6,7 @@ import re, sys, pprint
 with open(sys.argv[1], 'r') as PV:
     text = PV.read().decode('utf-8')
 
-data = {'date': '', 'heure': '', 'convocation': '', 'session' : '', 'president': '', 'presents': [], 'excuses': [], 'absents': [], 'secretaire': '', 'secretaire_adjoint': ''}
+data = {'date': '', 'heure': '', 'heure_fin': '', 'date_convocation': '', 'date_affichage': '', 'session' : '', 'president': '', 'presents': [], 'excuses': [], 'absents': [], 'secretaire': '', 'ODJ': '', 'deliberations': []}
 
 re_html = re.compile(r'<[^>]*>')
 re_nbsp = re.compile(r'\s*&(#160|nbsp);\s*')
@@ -30,14 +30,11 @@ def lowerize(text):
             res += a[0]+a[1:].lower().replace(u'É', u'é').replace(u'È', u'è').replace(u'À', u'à').replace(u'Î', u'î').replace(u'Ï', u'ï').replace(u'Ô', u'ô').replace(u'Ù', u'ù').replace(u'Û', u'û').replace(u'Ü', u'ü')
     return res.strip()
 
-re_dash = re.compile(ur' *(– *)+ *')
-re_exceptions = re.compile(ur' -[    ]+M')
-re_clean_blanks = re.compile(ur'[    \s]+')
+re_clean_parent = re.compile(r'\s*\([^)]+\)')
 def handle_elus(text, field):
-    text = re_dash.sub(u'–', re_clean_blanks.sub(' ', re_exceptions.sub(u' – M', text.strip(u' –'))))
-    res = []
-    for elu in text.split(u'–'):
-        nom = lowerize(elu)
+    for elu in text.split(u','):
+        elu = re_clean_parent.sub('', elu)
+        nom = lowerize(elu.strip())
         if nom not in data[field]:
             data[field].append(nom)
 
@@ -54,7 +51,7 @@ re_presents = re.compile(ur'Pr(?:e|é|É)sents\s*:', re.I)
 re_absents = re.compile(ur'Absents? (non-* *)?excus(?:e|é|É)s? *:', re.I)
 #re_match_secretaire = re.compile(r'((auxiliaire).*)?Secr(?:é|É|e)taire(?: de s(?:é|É|e)ance)?(?: désignée)?( *\w+)? *: *(.+)', re.I)
 #re_match_secretaire2 = re.compile(r'(M\w+ .*) est désignée secr(?:é|É|e)taire', re.I)
-re_conseillers = re.compile(ur'^(?:M(?:\.|MES?) )*(.+), (Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?)(, pouvoir donné à .*)?\.?$', re.I)
+re_conseillers = re.compile(ur'^(?:M(?:\.|MES?) )*(.+?)(, (Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir donné à [^,]+))+', re.I)
 
 read = None
 for line in nohtml.split('\n'):
@@ -82,11 +79,11 @@ for line in nohtml.split('\n'):
         print line
         read = "presents"
         continue
-    if re_absents.match(line):
-        print line
-        read = "absents"
-        if "excus" in line.lower():
-            read = "excuses"
+    abse = re_absents.match(line)
+    if abse:
+        if abse.group(1):
+            read = 'absents'
+        else: read = 'excuses'
         continue
     if read == "convoc":
         dateconv = re_date.search(line)
@@ -96,19 +93,11 @@ for line in nohtml.split('\n'):
     elif read:
         conseil = re_conseillers.search(line)
         if conseil:
-            [handle_elus(c.strip(), read) for c in conseil.group(1).split(",")]
             print "FOUND:", read, conseil.group(1)
+            handle_elus(conseil.group(1), read)
         else:
-            print "WERID:", read, line
+            print "WEIRD:", read, line
             read = None
-#    if presents:
-#        handle_elus(presents.group(1), 'presents')
-#    absents = re_match_absents.search(line)
-#    if absents:
-#        if absents.group(1):
-#            handle_elus(absents.group(2), 'absents')
-#        else:
-#            handle_elus(absents.group(2), 'excuses')
 #    secretaire = re_match_secretaire.search(line)
 #    if secretaire:
 #        option = ""
@@ -124,6 +113,10 @@ for line in nohtml.split('\n'):
 #        secretaire = re_match_secretaire2.search(line)
 #        if secretaire:
 #            data['secretaire'] = secretaire.group(1).strip(' –')
+
+for abse in data['absents'] + data['excuses']:
+    if abse in data['presents']:
+        data['presents'].remove(abse)
 
 pprint.pprint(data)
 for a in data['presents']:
