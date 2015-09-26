@@ -3,7 +3,6 @@
 
 # TODO
 # - check all PVs in html
-# - run on all
 # - viz
 # - data conseillers
 # - ODJ
@@ -76,13 +75,13 @@ clear_alpha = re.compile(r'\D')
 
 re_seance = re.compile(ur'(?:CONSEIL MUNICIPAL|S[EÉ]ANCE) DU (\d+)[eErR]* *([\wéû]+) *(\d{4})')
 re_date = re.compile(ur'(\d+)[eErR]* *([\wéû]+) *(\d{4})')
-re_header = re.compile(ur"L'an [^,]+, le [^,]+, [àAÀ]\s*([^,]+), .*, sous la présidence de (Monsieur|Madame) *([^,\.]+)", re.I)
+re_header = re.compile(ur"L'an [^,]+, le [^,]+(, [àAÀ]\s*([^,]+))?, .*, sous la présidence de (Monsieur|Madame) *([^,\.]+)", re.I)
 re_heurefin = re.compile(ur"Séance levée à *(.+?)\.?$", re.I)
 re_affichage = re.compile(ur"Date d’affichage", re.I)
 re_convoc = re.compile(ur'Convocation\s*:?$', re.I)
 re_presents = re.compile(ur'Pr(?:e|é|É)sents\s*:', re.I)
 re_absents = re.compile(ur'Absents? (non-* *)?excus(?:e|é|É)s? *:', re.I)
-re_secretaire = re.compile(ur'secrétaire de séance *: *M[ME\. ]* +(.+)', re.I)
+re_secretaire = re.compile(ur'secrétaire de séance *:(?: *M[ME\. ]*)? *(.+)', re.I)
 re_conseillers = re.compile(ur'^(?:M(?:\.|MES?) )*(.+?)(, (Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir donné à [^,]+))+', re.I)
 re_conseillers2 = re.compile(ur'^(?:M(?:\.|MES?) )+(.+?)\.?$', re.I)
 
@@ -102,8 +101,9 @@ def parse_PV(text):
         seance = re_seance.search(line)
         abse = re_absents.match(line)
         if header:
-            data['heure_debut'] = clean_time(header.group(1))
-            data['president'] = lowerize(header.group(3))
+            if header.group(1):
+                data['heure_debut'] = clean_time(header.group(2))
+            data['president'] = lowerize(header.group(4))
         elif heurefin:
             data['heure_fin'] = clean_time(heurefin.group(1))
         elif seance:
@@ -123,7 +123,9 @@ def parse_PV(text):
             else: read = 'excuses'
         elif read.startswith("date_"):
             dateconv = re_date.search(line)
-            data[read] = "%04d-%s-%02d" % (int(dateconv.group(3)), convert_month(dateconv.group(2)), int(dateconv.group(1)))
+            try:
+                data[read] = "%04d-%s-%02d" % (int(dateconv.group(3)), convert_month(dateconv.group(2)), int(dateconv.group(1)))
+            except: pass
             read = ""
         elif read:
             conseil = re_conseillers.search(line)
@@ -146,17 +148,16 @@ def parse_PV(text):
 
 def test_data(data):
     errors = 0
-    if not len(data['presents']) or (data['total_presents'] and len(data["presents"]) != data['total_presents']):
+    if not len(data['presents']):# or (data['total_presents'] and len(data["presents"]) != data['total_presents']):
         print >> sys.stderr, ("ERROR presents missing: %s, %s" % (data['total_presents'], data["presents"])).encode('utf-8')
         errors +=1
     for k, v in data.items():
-        if k in ["absents", "presents", "excuses", "total_presents", "date_affichage"]: continue
+        if k in ["absents", "presents", "excuses", "total_presents", "date_affichage", "heure_fin", "heure_debut"]: continue
         if k in ["ODJ", "deliberations"]: continue      # TO BE REMOVED WHEN PARSED
         if not v:
             print >> sys.stderr, ("ERROR field missing: %s" % k).encode('utf-8')
             errors +=1
     if errors:
-        pprint.pprint(data)
         sys.exit(1)
 
 if __name__ == "__main__":
