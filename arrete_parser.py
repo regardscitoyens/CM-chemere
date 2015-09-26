@@ -6,16 +6,16 @@ import sys
 import json
 
 from bs4 import BeautifulSoup, NavigableString
+from utils import extract_date
 
 re_html = re.compile(r'<[^>]*>')
 re_nbsp = re.compile(r'\s*&(#160|nbsp);\s*')
 re_assemble_lines = re.compile(r'([^>])\n\s*')
 clean_html = lambda x: re_html.sub('', re_assemble_lines.sub(r'\1 ', re_nbsp.sub(' ', x.replace('&amp;', '&'))))
 
-
 re_numero_arrete = re.compile(ur'ARRETE MUNICIPAL n°(.+)')
-re_references = re.compile(ur'Vu l[a|e|\'] (.+)')
-re_articles = re.compile(ur'Article \d+ –\s*(.+)')
+re_references = re.compile(ur'Vu (?:la|le|les|l\’)(.+)')
+re_articles = re.compile(ur'Article \d+ (?:–|-)\s*(.+)')
 re_date = re.compile(ur'le (\d+ \w+ \d+)')
 re_end = re.compile(ur'Fait à')
 
@@ -35,7 +35,7 @@ def parse_arrete(filename):
                 continue
 
             if re_end.search(line):
-                data['date'] = re_date.search(line).group(1)
+                data['date'] = extract_date(line)
                 break
 
             numero = re_numero_arrete.search(line)
@@ -49,6 +49,7 @@ def parse_arrete(filename):
                 continue
 
             current_article = re_articles.search(line)
+
             if current_article:
                 data['articles'].append(line)
                 prev_article = current_article
