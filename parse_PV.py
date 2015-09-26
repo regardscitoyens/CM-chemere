@@ -142,7 +142,7 @@ def parse_PV(text):
 
 def test_data(data):
     errors = 0
-    if data['total_presents'] and len(data["presents"]) != data['total_presents']:
+    if not len(data['presents']) or (data['total_presents'] and len(data["presents"]) != data['total_presents']):
         print >> sys.stderr, "ERROR presents missing:", data['total_presents'], data["presents"]
         errors +=1
     if data['total_votants'] and len(data["presents"]+data["excuses"]) != data['total_votants']:
