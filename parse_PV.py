@@ -96,13 +96,6 @@ for line in nohtml.split('\n'):
         continue
     if len(sys.argv) > 3:
         print >> sys.stderr, "TEST %s: %s" % (read, line)
-#    heure = re_heure.search(line)
-#    if heure:
-#        mins = 0
-#        if heure.group(2):
-#            mins = int(heure.group(2))
-#        data['heure'] = "%02d:%02d" % (int(heure.group(1)), mins)
-#        continue
     header = re_header.search(line)
     heurefin = re_heurefin.search(line)
     seance = re_seance.search(line)
