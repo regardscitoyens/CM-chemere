@@ -3,22 +3,20 @@
 
 # TODO
 # - check all PVs in html
-# - run on all
 # - viz
 # - data conseillers
 # - ODJ
 # - delibs
 
-
 import re, sys, pprint
 
-
-re_html = re.compile(r'<[^>]*>')
 re_nbsp = re.compile(r'\s*&(#160|nbsp);\s*')
-re_assemble_lines = re.compile(r'([^>])\n\s*')
-clean_html = lambda x: re_html.sub('', re_assemble_lines.sub(r'\1 ', re_nbsp.sub(' ', x.replace('&amp;', '&'))))
+re_assemble_lines = re.compile(r'([^>:])\n\s*')
+re_clean_secretaire = re.compile(ur'(secrétaire de séance.*:)\s*\n\s*', re.I|re.M)
+re_html = re.compile(r'<[^>]*>')
+clean_html = lambda x: re_html.sub('', re_clean_secretaire.sub(r'\1 ', re_assemble_lines.sub(r'\1 ', re_nbsp.sub(' ', x.replace('&amp;', '&')))))
 
-months={'janvier': '01', 'fevrier': '02', 'mars': '03', 'avril': '04', 'mai': '05', 'juin': '06', 'juillet': '07', 'aout': '08', 'septembre': '09', 'octobre': '10', 'novembre': '11', 'decembre': '12'}
+months = {'janvier': '01', 'fevrier': '02', 'mars': '03', 'avril': '04', 'mai': '05', 'juin': '06', 'juillet': '07', 'aout': '08', 'septembre': '09', 'octobre': '10', 'novembre': '11', 'decembre': '12'}
 def convert_month(text):
     month = text.lower().strip().replace(u'É', 'e').replace(u'é', 'e').replace(u'û', 'u').replace(u'Û', 'u')
     if month in months:
@@ -27,6 +25,7 @@ def convert_month(text):
 
 numbers = {
     "": 00,
+    "dix": 10,
     "dix-huit": 18,
     "dix-neuf": 19,
     "vingt": 20,
@@ -41,9 +40,12 @@ def numberize(text):
     except:
         return numbers[text.replace(' ', '-')]
 
-re_time = re.compile(ur'^(.+?)\s*(?:h(?:eures?)?)\s*(.*?)\s*(minutes?)?$', re.I)
+re_clean_mins = re.compile(r'\s*minutes?\s*$')
+re_clean_hours = re.compile(r'\s*heures?\s*')
+re_clean_hours2 = re.compile(r'(\d)h(\d)')
+re_time = re.compile(ur'^(.+?)H(.*)$')
 def clean_time(text):
-    text = text.lower().strip()
+    text = re_clean_hours2.sub(r"\1H\2", re_clean_hours.sub('H', re_clean_mins.sub('', text.lower().strip())))
     if text == "minuit":
         return "00:00"
     hourmins = re_time.search(text)
@@ -62,8 +64,8 @@ def lowerize(text):
     return res.strip()
 
 re_clean_parent = re.compile(r'\s*\([^)]+\)')
-def handle_elus(text, field):
-    for elu in text.split(u','):
+def handle_elus(data, text, field):
+    for elu in text.replace('.', ',').split(u','):
         elu = re_clean_parent.sub('', elu)
         nom = lowerize(elu.strip())
         if nom not in data[field]:
@@ -71,36 +73,37 @@ def handle_elus(text, field):
 
 clear_alpha = re.compile(r'\D')
 
-re_seance = re.compile(ur'S[EÉ]ANCE DU (\d+)[eErR]* *([\wéû]+) *(\d{4})')
+re_seance = re.compile(ur'(?:CONSEIL MUNICIPAL|S[EÉ]ANCE) DU (\d+)[eErR]* *([\wéû]+) *(\d{4})')
 re_date = re.compile(ur'(\d+)[eErR]* *([\wéû]+) *(\d{4})')
-re_header = re.compile(ur"L'an [^,]+, le [^,]+, [àAÀ]\s*([^,]+), .*, sous la présidence de (Monsieur|Madame) *([^,\.]+)", re.I)
+re_header = re.compile(ur"L'an [^,]+, le [^,]+(, [àAÀ]\s*([^,]+))?, .*, sous la présidence de (Monsieur|Madame) *([^,\.]+)", re.I)
 re_heurefin = re.compile(ur"Séance levée à *(.+?)\.?$", re.I)
 re_affichage = re.compile(ur"Date d’affichage", re.I)
-re_convoc = re.compile(ur'Convocation\s*:', re.I)
+re_convoc = re.compile(ur'Convocation\s*:?$', re.I)
 re_presents = re.compile(ur'Pr(?:e|é|É)sents\s*:', re.I)
 re_absents = re.compile(ur'Absents? (non-* *)?excus(?:e|é|É)s? *:', re.I)
-re_secretaire = re.compile(ur'secrétaire de séance *: *M[ME\. ]* +(.+)', re.I)
-re_conseillers = re.compile(ur'^(?:M(?:\.|MES?) )*(.+?)(, (Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir donné à [^,]+))+', re.I)
+re_secretaire = re.compile(ur'secrétaire de séance *:(?: *M[MLE\. ]*)? *(.+)', re.I)
+re_conseillers = re.compile(ur'^(?:M[MLES,\.]* )*(.+?)(, (Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir donné à [^,]+))+', re.I)
+re_conseillers2 = re.compile(ur'^(?:M[MLES,\.]* )+(.+?)\.?$', re.I)
 
 def parse_PV(text):
     data = {'date': '', 'heure_debut': '', 'heure_fin': '', 'date_convocation': '', 'date_affichage': '', 'president': '', 'presents': [], 'excuses': [], 'absents': [], 'secretaire': '', 'ODJ': '', 'deliberations': []}
     nohtml = clean_html(text)
     read = ""
-    data['total_pr'] = 0
-    data['total_vt'] = 0
+    data['total_presents'] = 0
     for line in nohtml.split('\n'):
         line = line.strip()
         if not line:
             continue
         if len(sys.argv) > 3:
-            print >> sys.stderr, "TEST %s: %s" % (read, line)
+            print >> sys.stderr, ("TEST %s: %s" % (read, line)).encode('utf-8')
         header = re_header.search(line)
         heurefin = re_heurefin.search(line)
         seance = re_seance.search(line)
         abse = re_absents.match(line)
         if header:
-            data['heure_debut'] = clean_time(header.group(1))
-            data['president'] = lowerize(header.group(3))
+            if header.group(1):
+                data['heure_debut'] = clean_time(header.group(2))
+            data['president'] = lowerize(header.group(4))
         elif heurefin:
             data['heure_fin'] = clean_time(heurefin.group(1))
         elif seance:
@@ -112,7 +115,7 @@ def parse_PV(text):
         elif re_presents.match(line):
             read = "presents"
             try:
-                data['total_pr'] = int(clear_alpha.sub('', line))
+                data['total_presents'] = int(clear_alpha.sub('', line))
             except: pass
         elif abse:
             if abse.group(1):
@@ -120,19 +123,20 @@ def parse_PV(text):
             else: read = 'excuses'
         elif read.startswith("date_"):
             dateconv = re_date.search(line)
-            data[read] = "%04d-%s-%02d" % (int(dateconv.group(3)), convert_month(dateconv.group(2)), int(dateconv.group(1)))
+            try:
+                data[read] = "%04d-%s-%02d" % (int(dateconv.group(3)), convert_month(dateconv.group(2)), int(dateconv.group(1)))
+            except: pass
             read = ""
         elif read:
             conseil = re_conseillers.search(line)
             if conseil:
-                print >> sys.stderr, "FOUND:", read, conseil.group(1)
-                handle_elus(conseil.group(1), read)
+                handle_elus(data, conseil.group(1), read)
             else:
-                read = ""
-                if 'votants' in line.lower():
-                    try:
-                        data['total_vt'] = int(clear_alpha.sub('', line))
-                    except: pass
+                conseil = re_conseillers2.search(line)
+                if conseil:
+                    handle_elus(data, conseil.group(1), read)
+                else:
+                    read = ""
         secretaire = re_secretaire.search(line)
         if secretaire:
             data['secretaire'] = lowerize(secretaire.group(1))
@@ -144,20 +148,16 @@ def parse_PV(text):
 
 def test_data(data):
     errors = 0
-    if data['total_pr'] and len(data["presents"]) != data['total_pr']:
-        print >> sys.stderr, "ERROR presents missing:", data['total_pr'], data["presents"]
-        errors +=1
-    if data['total_vt'] and len(data["presents"]+data["excuses"]) != data['total_vt']:
-        print >> sys.stderr, "ERROR presents missing:", data['total_vt'], data["presents"], data["excuses"], data["absents"]
+    if not len(data['presents']):# or (data['total_presents'] and len(data["presents"]) != data['total_presents']):
+        print >> sys.stderr, ("ERROR presents missing: %s, %s" % (data['total_presents'], data["presents"])).encode('utf-8')
         errors +=1
     for k, v in data.items():
-        if k in ["absents", "presents", "excuses", "total_pr", "total_vt"]: continue
+        if k in ["absents", "presents", "excuses", "total_presents", "date_affichage", "heure_fin", "heure_debut"]: continue
         if k in ["ODJ", "deliberations"]: continue      # TO BE REMOVED WHEN PARSED
         if not v:
-            print >> sys.stderr, "ERROR field missing:", k
+            print >> sys.stderr, ("ERROR field missing: %s" % k).encode('utf-8')
             errors +=1
     if errors:
-        pprint.pprint(data)
         sys.exit(1)
 
 if __name__ == "__main__":
@@ -169,5 +169,5 @@ if __name__ == "__main__":
         pprint.pprint(data)
     else:
         for a in data['presents']:
-            print "%s,%s,%s" % (data['date'], data['heure_debut'], a)
+            print ("%s,%s,%s" % (data['date'], data['heure_debut'], a)).encode('utf-8')
 
