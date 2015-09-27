@@ -41,6 +41,9 @@ def parse_arrete(filename):
                 data['date'] = extract_date(line)
                 break
 
+            if line.startswith('Portant'):
+                data['titre'] = line
+
             numero = re_numero_arrete.search(line)
             if numero:
                 data['numero'] = numero.group(1).strip()
