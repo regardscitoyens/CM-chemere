@@ -35,7 +35,6 @@ def find_poi_from_streetnames(data):
 
 def find_poi_from_street_id(data):
     streets = []
-    data = json.load(input, encoding='utf-8')
     for article in data['articles']:
         for group in re_street_id.findall(article):
             streets.append(' '.join(group).strip()+u" 44680 Chéméré")
