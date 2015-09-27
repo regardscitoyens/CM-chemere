@@ -13,8 +13,10 @@ import re, sys, pprint
 re_nbsp = re.compile(r'\s*&(#160|nbsp);\s*')
 re_assemble_lines = re.compile(r'([^>:])\n\s*')
 re_clean_secretaire = re.compile(ur'(secrétaire de séance.*:)\s*\n\s*', re.I|re.M)
+re_clean_presents = re.compile(ur'(M[MLES,\. ]+)(?:<[^>]+>)+\s*\n\s*(?:<[^>]+>)+', re.M)
+re_clean_presents2 = re.compile(ur'(M\.)([A-Z])', re.M)
 re_html = re.compile(r'<[^>]*>')
-clean_html = lambda x: re_html.sub('', re_clean_secretaire.sub(r'\1 ', re_assemble_lines.sub(r'\1 ', re_nbsp.sub(' ', x.replace('&amp;', '&')))))
+clean_html = lambda x: re_html.sub('', re_clean_presents2.sub(r'\1 \2', re_clean_presents.sub(r'\1 ', re_clean_secretaire.sub(r'\1 ', re_assemble_lines.sub(r'\1 ', re_nbsp.sub(' ', x.replace('&amp;', '&')))))))
 
 months = {'janvier': '01', 'fevrier': '02', 'mars': '03', 'avril': '04', 'mai': '05', 'juin': '06', 'juillet': '07', 'aout': '08', 'septembre': '09', 'octobre': '10', 'novembre': '11', 'decembre': '12'}
 def convert_month(text):
@@ -63,10 +65,20 @@ def lowerize(text):
             res += a[0]+a[1:].lower().replace(u'É', u'é').replace(u'È', u'è').replace(u'À', u'à').replace(u'Î', u'î').replace(u'Ï', u'ï').replace(u'Ô', u'ô').replace(u'Ù', u'ù').replace(u'Û', u'û').replace(u'Ü', u'ü')
     return res.strip()
 
+re_miss_commas = re.compile(r'([A-Z][a-z]{3,} [A-Z]{3,}) ([A-Z][a-z]{3,}(-[A-Z][a-z]+)? [A-Z]{3,})')
+def fix_missing_commas(text):
+    if re_miss_commas.search(text):
+        return re_miss_commas.sub(r'\1, \2', text)
+    return text
+
 re_clean_parent = re.compile(r'\s*\([^)]+\)')
 def handle_elus(data, text, field):
+    text = re_clean_parent.sub('', text)
+    text = fix_missing_commas(text)
     for elu in text.replace('.', ',').split(u','):
-        elu = re_clean_parent.sub('', elu)
+        elu = elu.strip()
+        if not elu:
+            continue
         nom = lowerize(elu.strip())
         if nom not in data[field]:
             data[field].append(nom)
@@ -82,7 +94,7 @@ re_convoc = re.compile(ur'Convocation\s*:?$', re.I)
 re_presents = re.compile(ur'Pr(?:e|é|É)sents\s*:', re.I)
 re_absents = re.compile(ur'Absents? (non-* *)?excus(?:e|é|É)s? *:', re.I)
 re_secretaire = re.compile(ur'secrétaire de séance *:(?: *M[MLE\. ]*)? *(.+)', re.I)
-re_conseillers = re.compile(ur'^(?:M[MLES,\.]* )*(.+?)(, (Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir donné à [^,]+))+', re.I)
+re_conseillers = re.compile(ur'^(?:M[MLES,\.]* )*(.+?)(, *(Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir donné à [^,]+))+', re.I)
 re_conseillers2 = re.compile(ur'^(?:M[MLES,\.]* )+(.+?)\.?$', re.I)
 
 def parse_PV(text):
