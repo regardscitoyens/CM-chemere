@@ -1,0 +1,37 @@
+{
+  "absents": [], 
+  "heure_fin": "23:00", 
+  "secretaire": "Marie-Jos\u00e8phe Batard", 
+  "date": "2008-10-15", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2008-10-08", 
+  "date_affichage": "", 
+  "excuses": [
+    "Georges Lecleve", 
+    "pouvoir donn\u00e9 \u00e0 M", 
+    "Jean-Pierre Grandjouan Mme R\u00e9gine Cormier"
+  ], 
+  "total_presents": 0, 
+  "presents": [
+    "Jean-Paul Leray", 
+    "Bernard Chazelas", 
+    "Philippe Gaillard", 
+    "Jean-Marie Gatard", 
+    "Alain Guilbaud", 
+    "Jean-Pierre Grandjouan", 
+    "Michel Gravouil", 
+    "Jacques Chevalier", 
+    "Nicolas Boucher", 
+    "Marie-Jos\u00e8phe Batard", 
+    "Eric Lombrey", 
+    "Annie Bardoul", 
+    "Alice Biczysko", 
+    "Philippe Briand", 
+    "Paul Pipaud", 
+    "Mich\u00e8le Francheteau", 
+    "Lionel Lescurat"
+  ], 
+  "heure_debut": "20:30", 
+  "ODJ": ""
+}

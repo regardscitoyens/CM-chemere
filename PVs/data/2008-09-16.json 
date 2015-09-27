@@ -1,0 +1,39 @@
+{
+  "absents": [], 
+  "heure_fin": "23:10", 
+  "secretaire": "Jean-Pierre Grandjouan", 
+  "date": "2008-09-16", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2008-09-09", 
+  "date_affichage": "", 
+  "excuses": [
+    "Marie-Jos\u00e8phe Batard", 
+    "pouvoir donn\u00e9 \u00e0 Mme Bardoul Annie M", 
+    "Eric Lombrey", 
+    "pouvoir donn\u00e9 \u00e0 M", 
+    "Nicolas Boucher Mme Mich\u00e8le Francheteau", 
+    "Jean-Pierre Grandjouan M", 
+    "Lionel Lescurat"
+  ], 
+  "total_presents": 0, 
+  "presents": [
+    "Jean-Paul Leray", 
+    "Georges Lecleve", 
+    "Bernard Chazelas", 
+    "Philippe Gaillard", 
+    "Jean-Marie Gatard", 
+    "Alain Guilbaud", 
+    "Jean-Pierre Grandjouan", 
+    "Michel Gravouil", 
+    "Jacques Chevalier", 
+    "R\u00e9gine Cormier", 
+    "Nicolas Boucher", 
+    "Annie Bardoul", 
+    "Alice Biczysko", 
+    "Philippe Briand", 
+    "Paul Pipaud"
+  ], 
+  "heure_debut": "20:30", 
+  "ODJ": ""
+}

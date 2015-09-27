@@ -1,0 +1,35 @@
+{
+  "absents": [], 
+  "heure_fin": "22:45", 
+  "secretaire": "R\u00e9gine Cormier", 
+  "date": "2009-06-24", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2009-06-16", 
+  "date_affichage": "", 
+  "excuses": [
+    "Lionel Lescurat"
+  ], 
+  "total_presents": 0, 
+  "presents": [
+    "Jean-Paul Leray", 
+    "Georges Lecleve", 
+    "Bernard Chazelas", 
+    "Jean-Marie Gatard", 
+    "Alain Guilbaud", 
+    "Jean-Pierre Grandjouan", 
+    "Michel Gravouil", 
+    "Jacques Chevalier", 
+    "R\u00e9gine Cormier", 
+    "Nicolas Boucher", 
+    "Marie-Jos\u00e8phe Batard", 
+    "Eric Lombrey", 
+    "Annie Bardoul", 
+    "Alice Biczysko", 
+    "Philippe Briand", 
+    "Paul Pipaud", 
+    "Mich\u00e8le Francheteau"
+  ], 
+  "heure_debut": "20:30", 
+  "ODJ": ""
+}
