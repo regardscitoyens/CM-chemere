@@ -9,7 +9,7 @@ function parsePV {
     echo "ERROR on $f"
   else
     python parse_PV.py "$f" 1 > /tmp/parsedPV.json
-    outfile=$(grep '"date":' /tmp/parsedPV.json | sed 's/^.*: "//' | sed 's/",/.json/')
+    outfile=$(grep '"date":' /tmp/parsedPV.json | sed 's/^.*: "//' | sed 's/",.*$/.json/')
     mv -f /tmp/parsedPV.json "data/$outfile"
   fi
 }
