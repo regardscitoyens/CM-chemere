@@ -34,7 +34,10 @@ def parse_arrete(filename):
             if not line:
                 continue
 
-            if re_end.search(line):
+            if re_end.search(line) and not re_date.search(line):
+                continue
+
+            if re_end.search(line) and re_date.search(line):
                 data['date'] = extract_date(line)
                 break
 
