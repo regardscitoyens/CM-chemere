@@ -22,6 +22,7 @@ clean_html_light = lambda x: re_spaces.sub(' ', re_html.sub('', re_nbsp.sub(' ',
 
 re_format_xml_like_html = re.compile(ur'(Convocation|Présents?|Pouvoirs? donn[^:]*|Absents?[^:]*)\s*:\s*')
 re_format_xml_like_html2 = re.compile(ur'(Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?)', re.I)
+re_format_xml_like_html3 = re.compile(ur'(pouvoir (?:donné )?à(?: M(?:\.|[MmLl][Ee]))? .+?[A-Z]{3,})(?: M(?:\.|[MmLl][Ee]))? ([A-Z][a-zéè]+)')
 re_parse_xml = re.compile(ur'^<text top="(\d+)" left="(\d+)" width="(\d+)" height="(\d+)" font="(\d+)">(.*)</text>$')
 def clean_xml_from_pdf(text):
     text = text.replace(u'', '')
@@ -44,7 +45,7 @@ def clean_xml_from_pdf(text):
         lasttop = top
         lastleft = left
         lastfont = font
-    return re_format_xml_like_html2.sub(r'\1\n', re_format_xml_like_html.sub(r'\n\1 :\n', clean_html_light(result)))
+    return re_format_xml_like_html3.sub(r'\2', re_format_xml_like_html2.sub(r'\1\n', re_format_xml_like_html.sub(r'\n\1 :\n', clean_html_light(result))))
 
 months = {'janvier': '01', 'fevrier': '02', 'mars': '03', 'avril': '04', 'mai': '05', 'juin': '06', 'juillet': '07', 'aout': '08', 'septembre': '09', 'octobre': '10', 'novembre': '11', 'decembre': '12'}
 def convert_month(text):
@@ -93,10 +94,10 @@ def lowerize(text):
             res += a[0]+a[1:].lower().replace(u'É', u'é').replace(u'È', u'è').replace(u'À', u'à').replace(u'Î', u'î').replace(u'Ï', u'ï').replace(u'Ô', u'ô').replace(u'Ù', u'ù').replace(u'Û', u'û').replace(u'Ü', u'ü')
     return res.strip()
 
-re_miss_commas = re.compile(r'([A-Z][a-z]{3,} [A-Z]{3,}) ([A-Z][a-z]{3,}(-[A-Z][a-z]+)? [A-Z]{3,})')
+re_miss_commas = re.compile(ur'([A-Z][a-z]{3,}(-[A-Z][a-èz]+)? [A-Z]{3,}) ([A-Z][a-z]{3,}(-[A-Z][a-z]+)? [A-Z]{3,})')
 def fix_missing_commas(text):
     if re_miss_commas.search(text):
-        return re_miss_commas.sub(r'\1, \2', text)
+        return re_miss_commas.sub(r'\1, \3', text)
     return text
 
 re_clean_parent = re.compile(r'\s*\([^)]+\)')
@@ -105,9 +106,9 @@ def handle_elus(data, text, field):
     text = fix_missing_commas(text)
     for elu in text.replace('.', ',').split(u','):
         elu = elu.strip()
-        if not elu:
+        if not elu or (field == 'excuses' and elu.lower().startswith(u"pouvoir ")):
             continue
-        nom = lowerize(elu.strip())
+        nom = re_clean_fonctions.sub('', lowerize(elu.strip()))
         nom = nom.replace(u"Marie-Josèphe ", u"Marie-Jo ")
         if nom not in data[field]:
             data[field].append(nom)
@@ -122,9 +123,11 @@ re_affichage = re.compile(ur"Date d’affichage", re.I)
 re_convoc = re.compile(ur'Convocation\s*:?$', re.I)
 re_presents = re.compile(ur'Pr(?:e|é|É)sents\s*:', re.I)
 re_absents = re.compile(ur'Absents? (non-* *)?(?:et *)?excus(?:e|é|É)s? *[^:]*:', re.I)
-re_secretaire = re.compile(ur'secrétaire de séance *:(?: *M(?:.|ME|LE)?) +(.+)', re.I)
-re_conseillers = re.compile(ur'^(?:M[MLES,\.]* )*(.+?)(, *(Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir donné à [^,]+))+', re.I)
+re_secretaire = re.compile(ur'secrétaire de séance *: *(.+)', re.I)
+re_conseillers = re.compile(ur'^(?:M[MLES,\.]* )*(.+?)(, *(Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir (?:donné )?à [^,]+))+', re.I)
 re_conseillers2 = re.compile(ur'^(?:M[MLES,\.]* )+(.+?)\.?$', re.I)
+re_clean_MMLE = re.compile(ur'^M(\.|[MLml][Ee])? +')
+re_clean_fonctions = re.compile(ur'([, ]*(Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir (?:donné )?à [^,]+))+', re.I)
 
 def parse_PV(text, xml=False):
     data = {'date': '', 'heure_debut': '', 'heure_fin': '', 'date_convocation': '', 'date_affichage': '', 'president': '', 'presents': [], 'excuses': [], 'absents': [], 'secretaire': '', 'ODJ': '', 'deliberations': []}
@@ -183,7 +186,7 @@ def parse_PV(text, xml=False):
                     read = ""
         secretaire = re_secretaire.search(line)
         if secretaire:
-            data['secretaire'] = lowerize(secretaire.group(1))
+            data['secretaire'] = lowerize(re_clean_MMLE.sub('', secretaire.group(1)).rstrip("."))
 
     for abse in data['absents'] + data['excuses']:
         if abse in data['presents']:
