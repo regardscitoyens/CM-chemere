@@ -8,7 +8,7 @@ BAN_URL = "http://api-adresse.data.gouv.fr/search"
 
 
 def geocode(address):
-    response = requests.get(BAN_URL + '?postcode=44680&q=' + address + ' 44680 Chéméré')
+    response = requests.get(BAN_URL + '?q=' + address)
 
     for feature in response.json()['features']:
         if feature['properties']['score'] > 0.8:
