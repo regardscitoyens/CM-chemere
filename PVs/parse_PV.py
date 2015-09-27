@@ -4,7 +4,6 @@
 # TODO
 # - data conseillers
 # - ODJ
-# - delibs
 
 import re, sys, json
 from pprint import pprint
@@ -128,6 +127,11 @@ re_conseillers2 = re.compile(ur'^(?:M[MLES,\.]* )+(.+?)\.?$', re.I)
 re_clean_MMLE = re.compile(ur'^M(\.|[MLml][Ee])? +')
 re_clean_fonctions = re.compile(ur'([, ]*(Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir (?:donné )?à [^,]+))+', re.I)
 
+re_delibs = re.compile(ur'\s*DE\D*(\d{4})\D+(\d+)\W+(.*)$')
+re_acc_rec = re.compile(ur"accus[eéÉ] de r[eéÉ]ception en pr[eéÉ]fecture", re.I)
+re_date_trans = re.compile(ur"date de t[eéÉ]l[eéÉ]transmission[ :]+(\d+)[/\-](\d+)[/\-](\d+)", re.I)
+re_date_recep = re.compile(ur"date de r[eéÉ]ception.*[ :]+(\d+)[/\-](\d+)[/\-](\d+)", re.I)
+
 def parse_PV(text, xml=False):
     data = {'date': '', 'heure_debut': '', 'heure_fin': '', 'date_convocation': '', 'date_affichage': '', 'president': '', 'presents': [], 'excuses': [], 'absents': [], 'secretaire': '', 'ODJ': '', 'deliberations': []}
     if xml:
@@ -135,6 +139,8 @@ def parse_PV(text, xml=False):
     else:
         nohtml = clean_html(text)
     read = ""
+    readidpref = False
+    delibs = False
     data['total_presents'] = 0
     for line in nohtml.split('\n'):
         line = line.strip()
@@ -152,6 +158,7 @@ def parse_PV(text, xml=False):
             data['president'] = lowerize(header.group(4))
         elif heurefin:
             data['heure_fin'] = clean_time(heurefin.group(1))
+            delibs = False
         elif seance:
             data['date'] = "%04d-%s-%02d" % (int(seance.group(3)), convert_month(seance.group(2)), int(seance.group(1)))
         elif re_affichage.match(line):
@@ -186,6 +193,43 @@ def parse_PV(text, xml=False):
         secretaire = re_secretaire.search(line)
         if secretaire:
             data['secretaire'] = lowerize(re_clean_MMLE.sub('', secretaire.group(1)).rstrip("."))
+        if line.startswith(u""):
+            delibs = True
+            metas = re_delibs.search(line)
+            if metas:
+                delid = "%s/%s" % (metas.group(1), metas.group(2))
+                titre = metas.group(3)
+            else:
+                delid = "n/a"
+                titre = line
+            data["deliberations"].append({
+                "id": delid,
+                "titre": titre.strip(u' :'),
+                "text": "",
+                "id_pref": "",
+                "date_transmission_pref": "",
+                "date_reception_pref": ""
+            })
+        if delibs:
+            date1 = re_date_trans.search(line)
+            date2 = re_date_recep.search(line)
+            if re_acc_rec.match(line):
+                readidpref = True
+            elif readidpref:
+                readidpref = False
+                data["deliberations"][-1]["id_pref"] = line
+            elif date1:
+                data["deliberations"][-1]["date_transmission_pref"] = "%s-%s-%s" % (date1.group(3), date1.group(2), date1.group(1))
+            elif date2:
+                data["deliberations"][-1]["date_reception_pref"] = "%s-%s-%s" % (date2.group(3), date2.group(2), date2.group(1))
+            else:
+                data["deliberations"][-1]["text"] += line + "\n"
+
+#Accusé de réception en préfecture
+#044-214400400-20150915-D2015-80-DE
+#Date de télétransmission : 23/09/2015
+#Date de réception préfecture : 23/09/2015
+
 
     for abse in data['absents'] + data['excuses']:
         if abse in data['presents']:
