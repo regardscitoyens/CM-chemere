@@ -44,11 +44,9 @@ def find_poi_from_street_id(filename):
 
 
 def find_poi(filename):
-    streets = []
-    streets = find_poi_from_street_id(filename)
-    if not streets:
-        streets = find_poi_from_streetnames(filename)
-    print streets
+    streets = list(set(find_poi_from_street_id(filename) + find_poi_from_streetnames(filename)))
+    if streets:
+        print filename + " : " + ';'.join(streets)
                 
 if __name__ == '__main__':
     for arg in sys.argv[1:]:
