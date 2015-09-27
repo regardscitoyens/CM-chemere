@@ -62,4 +62,4 @@ def parse_arrete(filename):
 
 
 if __name__ == '__main__':
-    print json.dumps(parse_arrete(sys.argv[1]), ensure_ascii=False)
+    print json.dumps(parse_arrete(sys.argv[1]), ensure_ascii=False).encode('utf-8')
