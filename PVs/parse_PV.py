@@ -22,7 +22,7 @@ clean_html_light = lambda x: re_spaces.sub(' ', re_html.sub('', re_nbsp.sub(' ',
 
 re_format_xml_like_html = re.compile(ur'(Convocation|Présents?|Pouvoirs? donn[^:]*|Absents?[^:]*)\s*:\s*')
 re_format_xml_like_html2 = re.compile(ur'(Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?)', re.I)
-re_format_xml_like_html3 = re.compile(ur'(pouvoir donné à .+?[A-Z]{3,}) ([A-Z][a-zé]+)')
+re_format_xml_like_html3 = re.compile(ur'(pouvoir (?:donné )?à(?: M(?:\.|[MmLl][Ee]))? .+?[A-Z]{3,})(?: M(?:\.|[MmLl][Ee]))? ([A-Z][a-zéè]+)')
 re_parse_xml = re.compile(ur'^<text top="(\d+)" left="(\d+)" width="(\d+)" height="(\d+)" font="(\d+)">(.*)</text>$')
 def clean_xml_from_pdf(text):
     text = text.replace(u'', '')
@@ -106,9 +106,9 @@ def handle_elus(data, text, field):
     text = fix_missing_commas(text)
     for elu in text.replace('.', ',').split(u','):
         elu = elu.strip()
-        if not elu:
+        if not elu or (field == 'excuses' and elu.lower().startswith(u"pouvoir ")):
             continue
-        nom = lowerize(elu.strip())
+        nom = re_clean_fonctions.sub('', lowerize(elu.strip()))
         nom = nom.replace(u"Marie-Josèphe ", u"Marie-Jo ")
         if nom not in data[field]:
             data[field].append(nom)
@@ -124,9 +124,10 @@ re_convoc = re.compile(ur'Convocation\s*:?$', re.I)
 re_presents = re.compile(ur'Pr(?:e|é|É)sents\s*:', re.I)
 re_absents = re.compile(ur'Absents? (non-* *)?(?:et *)?excus(?:e|é|É)s? *[^:]*:', re.I)
 re_secretaire = re.compile(ur'secrétaire de séance *: *(.+)', re.I)
-re_conseillers = re.compile(ur'^(?:M[MLES,\.]* )*(.+?)(, *(Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir donné à [^,]+))+', re.I)
+re_conseillers = re.compile(ur'^(?:M[MLES,\.]* )*(.+?)(, *(Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir (?:donné )?à [^,]+))+', re.I)
 re_conseillers2 = re.compile(ur'^(?:M[MLES,\.]* )+(.+?)\.?$', re.I)
 re_clean_MMLE = re.compile(ur'^M(\.|[MLml][Ee])? +')
+re_clean_fonctions = re.compile(ur'([, ]*(Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir (?:donné )?à [^,]+))+', re.I)
 
 def parse_PV(text, xml=False):
     data = {'date': '', 'heure_debut': '', 'heure_fin': '', 'date_convocation': '', 'date_affichage': '', 'president': '', 'presents': [], 'excuses': [], 'absents': [], 'secretaire': '', 'ODJ': '', 'deliberations': []}
