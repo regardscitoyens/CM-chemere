@@ -1,0 +1,37 @@
+{
+  "absents": [], 
+  "heure_fin": "23:20", 
+  "secretaire": "R\u00e9gine Cormier", 
+  "date": "2008-05-28", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2008-05-20", 
+  "date_affichage": "", 
+  "excuses": [
+    "Nicolas Boucher Conseiller municipal", 
+    "pouvoir \u00e0 M", 
+    "Philippe Gaillard Mme Alice Biczysko"
+  ], 
+  "total_presents": 0, 
+  "presents": [
+    "Jean-Paul Leray", 
+    "Georges Lecleve", 
+    "Bernard Chazelas", 
+    "Philippe Gaillard", 
+    "Jean-Marie Gatard", 
+    "Alain Guilbaud", 
+    "Jean-Pierre Grandjouan", 
+    "Michel Gravouil", 
+    "Jacques Chevalier", 
+    "R\u00e9gine Cormier", 
+    "Marie-Jos\u00e8phe Batard", 
+    "Eric Lombrey", 
+    "Annie Bardoul", 
+    "Philippe Briand", 
+    "Paul Pipaud", 
+    "Mich\u00e8le Francheteau", 
+    "Lionel Lescurat"
+  ], 
+  "heure_debut": "20:30", 
+  "ODJ": ""
+}

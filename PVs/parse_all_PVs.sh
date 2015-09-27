@@ -22,7 +22,7 @@ done
 
 ls ../source-doc/CM* ../source-pdf/CM* | sed 's/^.*\/CM //' | sed 's/\..*$//' | sort -u > /tmp/allPVs
 ls ../html/CM* | sed 's/^.*\/CM //' | sed 's/\..*$//' | sort -u > /tmp/allHtmls
-diff /tmp/allPVs /tmp/allHtmls | grep '>' | sed 's|> |../xml/CM |' | sed 's/$/.xml/' | while read f; do
+diff /tmp/allPVs /tmp/allHtmls | grep '<' | sed 's|< |../xml/CM |' | sed 's/$/.xml/' | while read f; do
   parsePV "$f" data/presences.tmp
 done
 
