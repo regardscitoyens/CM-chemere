@@ -51,6 +51,8 @@ def find_poi(data):
             result = GEOCODE_CACHE.get(street)
 
             if result:
+                if  'streets' not in data['meta']:
+                    data['meta']['streets'] = []            
                 data['meta']['streets'].append({
                     'raw_name': street,
                     'coordinates': result['geometry']['coordinates'],
@@ -69,17 +71,17 @@ def find_personnes_morales(data):
         m = re_personnes_morales.search(article)
         if (m):
             if not re_exclude.search(m.group(2)):
-                companies[m.group(2)] = m.group(1)
+                companies[re_suppr_phrase.sub('', m.group(2))] = m.group(1)
     for companie in companies:
         if  'companies' not in data['meta']:
             data['meta']['companies'] = []            
-        data['meta']['companies'] += {"nom": companie, "type": companies[companie]}
+        data['meta']['companies'].append({"nom": companie, "type": companies[companie]})
     return data
 
 def general_find(filename):
     with open(filename, 'r') as input:
         data = json.load(input, encoding='utf-8')
-        data['meta'] = {'streets': []}
+        data['meta'] = {}
         data = find_poi(data)
         data = find_personnes_morales(data)
     with open(filename.replace('json/', 'json/meta_'), 'w') as output:
