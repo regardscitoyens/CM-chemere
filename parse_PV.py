@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 
 # TODO
-# - check all PVs in html
 # - viz
 # - data conseillers
 # - ODJ
 # - delibs
 
-import re, sys, pprint
+import re, sys
+from pprint import pprint
 
 re_nbsp = re.compile(r'\s*&(#160|nbsp);\s*')
 re_assemble_lines = re.compile(r'([^>:])\n\s*')
@@ -16,7 +16,35 @@ re_clean_secretaire = re.compile(ur'(secrétaire de séance.*:)\s*\n\s*', re.I|r
 re_clean_presents = re.compile(ur'(M[MLES,\. ]+)(?:<[^>]+>)+\s*\n\s*(?:<[^>]+>)+', re.M)
 re_clean_presents2 = re.compile(ur'(M\.)([A-Z])', re.M)
 re_html = re.compile(r'<[^>]*>')
-clean_html = lambda x: re_html.sub('', re_clean_presents2.sub(r'\1 \2', re_clean_presents.sub(r'\1 ', re_clean_secretaire.sub(r'\1 ', re_assemble_lines.sub(r'\1 ', re_nbsp.sub(' ', x.replace('&amp;', '&')))))))
+re_spaces = re.compile(r' +')
+clean_html = lambda x: re_spaces.sub(' ', re_html.sub('', re_clean_presents2.sub(r'\1 \2', re_clean_presents.sub(r'\1 ', re_clean_secretaire.sub(r'\1 ', re_assemble_lines.sub(r'\1 ', re_nbsp.sub(' ', x.replace('&amp;', '&'))))))))
+clean_html_light = lambda x: re_spaces.sub(' ', re_html.sub('', re_nbsp.sub(' ', x.replace('&amp;', '&'))))
+
+re_format_xml_like_html = re.compile(ur'(Convocation|Présents?|Pouvoirs? donn[^:]*|Absents?[^:]*)\s*:\s*')
+re_format_xml_like_html2 = re.compile(ur'(Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?)', re.I)
+re_parse_xml = re.compile(ur'^<text top="(\d+)" left="(\d+)" width="(\d+)" height="(\d+)" font="(\d+)">(.*)</text>$')
+def clean_xml_from_pdf(text):
+    text = text.replace(u'', '')
+    result = ""
+    lasttop = None
+    lastleft = None
+    lastfont = None
+    for line in text.split("\n"):
+        if not line.startswith('<text'):
+            continue
+        parsed = re_parse_xml.search(line)
+        top = parsed.group(1)
+        left = parsed.group(2)
+        font = parsed.group(5)
+        text = parsed.group(6)
+        if text == u"er": continue # Skip misformatting of dates as 1er
+        if lasttop and lastleft and lastfont is not None and top != lasttop and left != lastleft and font != lastfont:
+            result += "\n"
+        result += text
+        lasttop = top
+        lastleft = left
+        lastfont = font
+    return re_format_xml_like_html2.sub(r'\1\n', re_format_xml_like_html.sub(r'\n\1 :\n', clean_html_light(result)))
 
 months = {'janvier': '01', 'fevrier': '02', 'mars': '03', 'avril': '04', 'mai': '05', 'juin': '06', 'juillet': '07', 'aout': '08', 'septembre': '09', 'octobre': '10', 'novembre': '11', 'decembre': '12'}
 def convert_month(text):
@@ -88,18 +116,21 @@ clear_alpha = re.compile(r'\D')
 re_seance = re.compile(ur'(?:CONSEIL MUNICIPAL|S[EÉ]ANCE) DU (\d+)[eErR]* *([\wéû]+) *(\d{4})')
 re_date = re.compile(ur'(\d+)[eErR]* *([\wéû]+) *(\d{4})')
 re_header = re.compile(ur"L'an [^,]+, le [^,]+(, [àAÀ]\s*([^,]+))?, .*, sous la présidence de (Monsieur|Madame) *([^,\.]+)", re.I)
-re_heurefin = re.compile(ur"Séance levée à *(.+?)\.?$", re.I)
+re_heurefin = re.compile(ur"Séance levée à *([^\.]+?)(\.|$)+", re.I)
 re_affichage = re.compile(ur"Date d’affichage", re.I)
 re_convoc = re.compile(ur'Convocation\s*:?$', re.I)
 re_presents = re.compile(ur'Pr(?:e|é|É)sents\s*:', re.I)
-re_absents = re.compile(ur'Absents? (non-* *)?excus(?:e|é|É)s? *:', re.I)
-re_secretaire = re.compile(ur'secrétaire de séance *:(?: *M[MLE\. ]*)? *(.+)', re.I)
+re_absents = re.compile(ur'Absents? (non-* *)?(?:et *)?excus(?:e|é|É)s? *[^:]*:', re.I)
+re_secretaire = re.compile(ur'secrétaire de séance *:(?: *M(?:.|ME|LE)?) +(.+)', re.I)
 re_conseillers = re.compile(ur'^(?:M[MLES,\.]* )*(.+?)(, *(Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir donné à [^,]+))+', re.I)
 re_conseillers2 = re.compile(ur'^(?:M[MLES,\.]* )+(.+?)\.?$', re.I)
 
-def parse_PV(text):
+def parse_PV(text, xml=False):
     data = {'date': '', 'heure_debut': '', 'heure_fin': '', 'date_convocation': '', 'date_affichage': '', 'president': '', 'presents': [], 'excuses': [], 'absents': [], 'secretaire': '', 'ODJ': '', 'deliberations': []}
-    nohtml = clean_html(text)
+    if xml:
+        nohtml = clean_xml_from_pdf(text)
+    else:
+        nohtml = clean_html(text)
     read = ""
     data['total_presents'] = 0
     for line in nohtml.split('\n'):
@@ -160,7 +191,7 @@ def parse_PV(text):
 
 def test_data(data):
     errors = 0
-    if not len(data['presents']):# or (data['total_presents'] and len(data["presents"]) != data['total_presents']):
+    if not len(data['presents']):
         print >> sys.stderr, ("ERROR presents missing: %s, %s" % (data['total_presents'], data["presents"])).encode('utf-8')
         errors +=1
     for k, v in data.items():
@@ -170,15 +201,18 @@ def test_data(data):
             print >> sys.stderr, ("ERROR field missing: %s" % k).encode('utf-8')
             errors +=1
     if errors:
+        if len(sys.argv) > 2:
+            pprint(data)
         sys.exit(1)
 
 if __name__ == "__main__":
-    with open(sys.argv[1], 'r') as PV:
+    filename = sys.argv[1]
+    with open(filename, 'r') as PV:
         text = PV.read().decode('utf-8')
-    data = parse_PV(text)
+    data = parse_PV(text, xml=(filename.endswith('.xml')))
     test_data(data)
     if len(sys.argv) > 2:
-        pprint.pprint(data)
+        pprint(data)
     else:
         for a in data['presents']:
             print ("%s,%s,%s" % (data['date'], data['heure_debut'], a)).encode('utf-8')
