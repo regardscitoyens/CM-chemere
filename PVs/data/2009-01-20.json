@@ -1,0 +1,33 @@
+{
+  "absents": [], 
+  "heure_fin": "23:00", 
+  "secretaire": "Philippe Briand", 
+  "date": "2009-01-20", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2009-01-13", 
+  "date_affichage": "", 
+  "excuses": [], 
+  "total_presents": 0, 
+  "presents": [
+    "Jean-Paul Leray", 
+    "Georges Lecleve", 
+    "Bernard Chazelas", 
+    "Philippe Gaillard", 
+    "Jean-Marie Gatard", 
+    "Alain Guilbaud", 
+    "Jean-Pierre Grandjouan", 
+    "Michel Gravouil", 
+    "Jacques Chevalier", 
+    "R\u00e9gine Cormier", 
+    "Nicolas Boucher", 
+    "Eric Lombrey", 
+    "Annie Bardoul", 
+    "Philippe Briand", 
+    "Paul Pipaud", 
+    "Mich\u00e8le Francheteau", 
+    "Lionel Lescurat"
+  ], 
+  "heure_debut": "20:00", 
+  "ODJ": ""
+}

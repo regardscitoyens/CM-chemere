@@ -1,0 +1,34 @@
+{
+  "absents": [], 
+  "heure_fin": "21:35", 
+  "secretaire": "Michel Gravouil", 
+  "date": "2010-11-16", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2010-11-09", 
+  "date_affichage": "", 
+  "excuses": [
+    "Jacques Chevalier", 
+    "Alice Biczysko", 
+    "R\u00e9gine Cormier", 
+    "Eric Lombrey", 
+    "Paul Pipaud", 
+    "Lionel Lescurat"
+  ], 
+  "total_presents": 0, 
+  "presents": [
+    "Jean-Paul Leray", 
+    "Georges Lecleve", 
+    "Bernard Chazelas", 
+    "Jean-Marie Gatard", 
+    "Jean-Pierre Grandjouan", 
+    "Nicolas Boucher", 
+    "Michel Gravouil", 
+    "Marie-Jo Batard", 
+    "Annie Bardoul", 
+    "Philippe Briand", 
+    "Mich\u00e8le Francheteau"
+  ], 
+  "heure_debut": "20:00", 
+  "ODJ": ""
+}

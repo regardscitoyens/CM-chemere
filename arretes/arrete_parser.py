@@ -15,7 +15,7 @@ clean_html = lambda x: re_html.sub('', re_assemble_lines.sub(r'\1 ', re_nbsp.sub
 
 re_numero_arrete = re.compile(ur'ARRETE MUNICIPAL n°(.+)')
 re_references = re.compile(ur'Vu (?:la|le|les|l\’)(.+)')
-re_articles = re.compile(ur'Article \d+ (?:–|-)\s*(.+)')
+re_articles = re.compile(ur'Article \d+\s*(?:–|-)\s*(.+)')
 re_date = re.compile(ur'le (\d+ \w+ \d+)')
 re_end = re.compile(ur'Fait à')
 
@@ -40,6 +40,9 @@ def parse_arrete(filename):
             if re_end.search(line) and re_date.search(line):
                 data['date'] = extract_date(line)
                 break
+
+            if line.startswith('Portant'):
+                data['titre'] = line
 
             numero = re_numero_arrete.search(line)
             if numero:

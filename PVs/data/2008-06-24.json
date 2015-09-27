@@ -1,0 +1,38 @@
+{
+  "absents": [], 
+  "heure_fin": "23:20", 
+  "secretaire": "Alice Biczysko", 
+  "date": "2008-06-24", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2008-06-17", 
+  "date_affichage": "", 
+  "excuses": [
+    "R\u00e9gine Cormier", 
+    "pouvoir donn\u00e9 \u00e0 M", 
+    "Jean-Paul Leray M", 
+    "Lionel Lescurat"
+  ], 
+  "total_presents": 0, 
+  "presents": [
+    "Jean-Paul Leray", 
+    "Georges Lecleve", 
+    "Bernard Chazelas", 
+    "Philippe Gaillard", 
+    "Jean-Marie Gatard", 
+    "Alain Guilbaud", 
+    "Jean-Pierre Grandjouan", 
+    "Michel Gravouil", 
+    "Jacques Chevalier", 
+    "Nicolas Boucher", 
+    "Marie-Jo Batard", 
+    "Eric Lombrey", 
+    "Annie Bardoul", 
+    "Alice Biczysko", 
+    "Philippe Briand", 
+    "Paul Pipaud", 
+    "Mich\u00e8le Francheteau"
+  ], 
+  "heure_debut": "20:30", 
+  "ODJ": ""
+}

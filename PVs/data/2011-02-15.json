@@ -1,0 +1,34 @@
+{
+  "absents": [], 
+  "heure_fin": "22:30", 
+  "secretaire": "Mich\u00e8le Francheteau", 
+  "date": "2011-02-15", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2011-02-08", 
+  "date_affichage": "2011-02-25", 
+  "excuses": [
+    "Georges Lecleve", 
+    "Alice Biczysko", 
+    "Marie-Jo Batard", 
+    "Lionel Lescurat"
+  ], 
+  "total_presents": 13, 
+  "presents": [
+    "Jean-Paul Leray", 
+    "Bernard Chazelas", 
+    "Jean-Marie Gatard", 
+    "Jean-Pierre Grandjouan", 
+    "Jacques Chevalier", 
+    "Nicolas Boucher", 
+    "Michel Gravouil", 
+    "R\u00e9gine Cormier", 
+    "Eric Lombrey", 
+    "Annie Bardoul", 
+    "Philippe Briand", 
+    "Paul Pipaud", 
+    "Mich\u00e8le Francheteau"
+  ], 
+  "heure_debut": "20:00", 
+  "ODJ": ""
+}

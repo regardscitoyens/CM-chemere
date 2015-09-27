@@ -1,0 +1,34 @@
+{
+  "absents": [], 
+  "heure_fin": "22:30", 
+  "secretaire": "Alice Biczysko", 
+  "date": "2012-06-20", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2012-06-12", 
+  "date_affichage": "2012-05-22", 
+  "excuses": [
+    "Mich\u00e8le Francheteau", 
+    "Bernard Chazelas", 
+    "Paul Pipaud", 
+    "Marie-Jo Batard", 
+    "Nicolas Boucher"
+  ], 
+  "total_presents": 12, 
+  "presents": [
+    "Jean-Paul Leray", 
+    "Georges Lecleve", 
+    "Jean-Marie Gatard", 
+    "Jean-Pierre Grandjouan", 
+    "Jacques Chevalier", 
+    "Michel Gravouil", 
+    "R\u00e9gine Cormier", 
+    "Annie Bardoul", 
+    "Alice Biczysko", 
+    "Philippe Briand", 
+    "Eric Lombrey", 
+    "Lionel Lescurat"
+  ], 
+  "heure_debut": "20:30", 
+  "ODJ": ""
+}

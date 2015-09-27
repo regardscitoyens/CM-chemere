@@ -1,0 +1,36 @@
+{
+  "absents": [], 
+  "heure_fin": "23:15", 
+  "secretaire": "Nicolas Boucher", 
+  "date": "2009-03-24", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2009-03-17", 
+  "date_affichage": "", 
+  "excuses": [
+    "Alice Biczysko", 
+    "pouvoir donn\u00e9 \u00e0 Mme Mich\u00e8le Francheteau M", 
+    "Jacques Chevalier"
+  ], 
+  "total_presents": 0, 
+  "presents": [
+    "Jean-Paul Leray", 
+    "Georges Lecleve", 
+    "Bernard Chazelas", 
+    "Jean-Marie Gatard", 
+    "Alain Guilbaud", 
+    "Jean-Pierre Grandjouan", 
+    "Michel Gravouil", 
+    "R\u00e9gine Cormier", 
+    "Nicolas Boucher", 
+    "Marie-Jo Batard", 
+    "Eric Lombrey", 
+    "Annie Bardoul", 
+    "Philippe Briand", 
+    "Paul Pipaud", 
+    "Mich\u00e8le Francheteau", 
+    "Lionel Lescurat"
+  ], 
+  "heure_debut": "20:00", 
+  "ODJ": ""
+}
