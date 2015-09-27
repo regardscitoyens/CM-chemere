@@ -108,6 +108,7 @@ def handle_elus(data, text, field):
         if not elu:
             continue
         nom = lowerize(elu.strip())
+        nom = nom.replace(u"Marie-Josèphe ", u"Marie-Jo ")
         if nom not in data[field]:
             data[field].append(nom)
 
