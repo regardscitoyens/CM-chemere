@@ -1,0 +1,35 @@
+{
+  "absents": [], 
+  "heure_fin": "", 
+  "secretaire": "Jacques Jaunatre", 
+  "date": "2005-02-23", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2005-02-15", 
+  "date_affichage": "", 
+  "excuses": [
+    "R\u00e9gine Cormier", 
+    "Jean-Marie Gatard"
+  ], 
+  "total_presents": 0, 
+  "presents": [
+    "Sonia Bailly", 
+    "Marie-Jo Batard", 
+    "G\u00e9rard Bigot", 
+    "Jacques Chevalier", 
+    "Louis-Marie Droneau", 
+    "Mith\u00e9 Gouy", 
+    "Michel Gravouil", 
+    "Alain Guilbaud", 
+    "G\u00e9rard Guilbaud", 
+    "Jacques Jaunatre", 
+    "Georges Lecleve", 
+    "Jean-Paul Leray", 
+    "Karine Mosnier", 
+    "Bernard Pennetier", 
+    "Jean Rondeau", 
+    "Pierre Voyau"
+  ], 
+  "heure_debut": "", 
+  "ODJ": ""
+}

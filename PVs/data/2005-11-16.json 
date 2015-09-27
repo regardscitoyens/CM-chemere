@@ -1,0 +1,31 @@
+{
+  "absents": [], 
+  "heure_fin": "", 
+  "secretaire": "Mith\u00e9 Gouy.", 
+  "date": "2005-11-16", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2005-11-08", 
+  "date_affichage": "", 
+  "excuses": [], 
+  "total_presents": 0, 
+  "presents": [
+    "Marie-Jo Batard", 
+    "Jacques Chevalier", 
+    "Louis-Marie Droneau", 
+    "Jean-Marie Gatard", 
+    "Mith\u00e9 Gouy", 
+    "Michel Gravouil", 
+    "Alain Guilbaud", 
+    "G\u00e9rard Guilbaud", 
+    "Jacques Jaunatre", 
+    "Georges Lecleve", 
+    "Jean-Paul Leray", 
+    "Karine Mosnier", 
+    "Bernard Pennetier", 
+    "Jean Rondeau", 
+    "Pierre Voyau"
+  ], 
+  "heure_debut": "", 
+  "ODJ": ""
+}

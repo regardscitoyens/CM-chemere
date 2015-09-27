@@ -1,0 +1,36 @@
+{
+  "absents": [], 
+  "heure_fin": "23:05", 
+  "secretaire": "Dominique Muslewski", 
+  "date": "2015-01-20", 
+  "president": "Georges Lecleve", 
+  "deliberations": [], 
+  "date_convocation": "2015-01-14", 
+  "date_affichage": "2015-01-28", 
+  "excuses": [
+    "Sabrina Pennetier-Bigot", 
+    "Anthony Latouche", 
+    "Nicolas Boucher"
+  ], 
+  "total_presents": 16, 
+  "presents": [
+    "Georges Lecleve", 
+    "Virginie Porcher", 
+    "Michel Gravouil", 
+    "Marie-Laure David", 
+    "G\u00e9rard Chauvet", 
+    "Jean-Marc Voyau", 
+    "Jacques Chevalier", 
+    "Karine Fouquet", 
+    "Romain Rungoat", 
+    "Sylviane Gibet", 
+    "Anne Bruneteau", 
+    "Philippe Briand", 
+    "Christelle Guignon", 
+    "Dominique Muslewski", 
+    "Tatiana Berthelot", 
+    "Thierry Favreau"
+  ], 
+  "heure_debut": "19:30", 
+  "ODJ": ""
+}

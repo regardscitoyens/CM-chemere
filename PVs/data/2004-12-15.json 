@@ -1,0 +1,33 @@
+{
+  "absents": [], 
+  "heure_fin": "", 
+  "secretaire": "Michel Gravouil", 
+  "date": "2004-12-15", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2004-12-07", 
+  "date_affichage": "", 
+  "excuses": [
+    "Marie-Jo Batard"
+  ], 
+  "total_presents": 0, 
+  "presents": [
+    "Sonia Bailly", 
+    "Jacques Chevalier", 
+    "R\u00e9gine Cormier", 
+    "Louis-Marie Droneau", 
+    "Mith\u00e9 Gouy", 
+    "Michel Gravouil", 
+    "Alain Guilbaud", 
+    "G\u00e9rard Guilbaud", 
+    "Jacques Jaunatre", 
+    "Georges Lecleve", 
+    "Jean-Paul Leray", 
+    "Karine Mosnier", 
+    "Bernard Pennetier", 
+    "Jean Rondeau", 
+    "Pierre Voyau"
+  ], 
+  "heure_debut": "", 
+  "ODJ": ""
+}

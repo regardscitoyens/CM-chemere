@@ -1,0 +1,31 @@
+{
+  "absents": [], 
+  "heure_fin": "22:15", 
+  "secretaire": "Philippe Briand", 
+  "date": "2011-04-19", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2011-04-12", 
+  "date_affichage": "2011-04-26", 
+  "excuses": [], 
+  "total_presents": 15, 
+  "presents": [
+    "Jean-Paul Leray", 
+    "Georges Lecleve", 
+    "Bernard Chazelas", 
+    "Jean-Marie Gatard", 
+    "Jean-Pierre Grandjouan", 
+    "Jacques Chevalier", 
+    "Nicolas Boucher", 
+    "Alice Biczysko", 
+    "Michel Gravouil", 
+    "R\u00e9gine Cormier", 
+    "Eric Lombrey", 
+    "Annie Bardoul", 
+    "Philippe Briand", 
+    "Paul Pipaud", 
+    "Lionel Lescurat"
+  ], 
+  "heure_debut": "20:30", 
+  "ODJ": ""
+}

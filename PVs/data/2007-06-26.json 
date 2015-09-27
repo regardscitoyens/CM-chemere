@@ -1,0 +1,34 @@
+{
+  "absents": [], 
+  "heure_fin": "23:00", 
+  "secretaire": "Marie-Jos\u00e8phe Batard", 
+  "date": "2007-06-26", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2007-06-19", 
+  "date_affichage": "", 
+  "excuses": [
+    "Louis-Marie Droneau"
+  ], 
+  "total_presents": 0, 
+  "presents": [
+    "Sonia Bailly", 
+    "Marie-Jos\u00e8phe Batard", 
+    "G\u00e9rard Bigot", 
+    "Jacques Chevalier", 
+    "R\u00e9gine Cormier", 
+    "Jean-Marie Gatard", 
+    "Michel Gravouil", 
+    "Alain Guilbaud", 
+    "G\u00e9rard Guilbaud", 
+    "Jacques Jaunatre", 
+    "Georges Lecleve", 
+    "Jean-Paul Leray", 
+    "Karine Mosnier", 
+    "Bernard Pennetier", 
+    "Jean Rondeau", 
+    "Pierre Voyau"
+  ], 
+  "heure_debut": "20:30", 
+  "ODJ": ""
+}

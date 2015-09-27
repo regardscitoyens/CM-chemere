@@ -1,0 +1,36 @@
+{
+  "absents": [], 
+  "heure_fin": "21:30", 
+  "secretaire": "Romain Rungoat", 
+  "date": "2014-05-13", 
+  "president": "Georges Lecleve", 
+  "deliberations": [], 
+  "date_convocation": "2014-05-05", 
+  "date_affichage": "2014-05-15", 
+  "excuses": [
+    "Michel Gravouil", 
+    "Val\u00e9rie Leblond", 
+    "Tatiana Berthelot"
+  ], 
+  "total_presents": 16, 
+  "presents": [
+    "Georges Lecleve", 
+    "Virginie Porcher", 
+    "Marie-Laure David", 
+    "G\u00e9rard Chauvet", 
+    "Jean-Marc Voyau", 
+    "Jacques Chevalier", 
+    "Karine Fouquet", 
+    "Romain Rungoat", 
+    "Sabrina Pennetier-Bigot", 
+    "Anthony Latouche", 
+    "Sylviane Gibet", 
+    "Anne Bruneteau", 
+    "Philippe Briand", 
+    "Christelle Guignon", 
+    "Dominique Muslewski", 
+    "Nicolas Boucher"
+  ], 
+  "heure_debut": "19:30", 
+  "ODJ": ""
+}

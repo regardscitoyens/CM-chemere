@@ -1,0 +1,36 @@
+{
+  "absents": [], 
+  "heure_fin": "22:00", 
+  "secretaire": "Anthony Latouche", 
+  "date": "2014-04-22", 
+  "president": "Georges Lecleve", 
+  "deliberations": [], 
+  "date_convocation": "2014-04-11", 
+  "date_affichage": "2014-04-28", 
+  "excuses": [
+    "Michel Gravouil"
+  ], 
+  "total_presents": 18, 
+  "presents": [
+    "Georges Lecleve", 
+    "Virginie Porcher", 
+    "Marie-Laure David", 
+    "G\u00e9rard Chauvet", 
+    "Jean-Marc Voyau", 
+    "Jacques Chevalier", 
+    "Karine Fouquet", 
+    "Romain Rungoat", 
+    "Sabrina Pennetier-Bigot", 
+    "Anthony Latouche", 
+    "Sylviane Gibet", 
+    "Val\u00e9rie Leblond", 
+    "Anne Bruneteau", 
+    "Philippe Briand", 
+    "Christelle Guignon", 
+    "Dominique Muslewski", 
+    "Nicolas Boucher", 
+    "Tatiana Berthelot"
+  ], 
+  "heure_debut": "19:30", 
+  "ODJ": ""
+}
