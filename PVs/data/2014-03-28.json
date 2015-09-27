@@ -1,0 +1,36 @@
+{
+  "absents": [], 
+  "heure_fin": "20:30", 
+  "secretaire": "Anthony Latouche", 
+  "date": "2014-03-28", 
+  "president": "", 
+  "deliberations": [], 
+  "date_convocation": "", 
+  "date_affichage": "", 
+  "excuses": [
+    "Dominique Muslewski", 
+    "Sylviane Gibet"
+  ], 
+  "total_presents": 17,
+  "presents": [
+    "Georges Lecleve", 
+    "Virginie Porcher", 
+    "Marie-Laure David", 
+    "G\u00e9rard Chauvet", 
+    "Jean-Marc Voyau", 
+    "Jacques Chevalier", 
+    "Karine Fouquet", 
+    "Romain Rungoat", 
+    "Sabrina Pennetier-Bigot", 
+    "Anthony Latouche", 
+    "Michel Gravouil",
+    "Val\u00e9rie Leblond", 
+    "Anne Bruneteau", 
+    "Philippe Briand", 
+    "Christelle Guignon", 
+    "Nicolas Boucher", 
+    "Tatiana Berthelot"
+  ], 
+  "heure_debut": "21:00", 
+  "ODJ": ""
+}
