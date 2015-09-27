@@ -13,7 +13,7 @@ def load_streetnames():
     renames = []
     with open('voies.txt', 'r') as input:
         for line in input.readlines():
-            str = ur'(\w+ '+line.strip()+')'
+            str = ur'((\d+ |)\w+ '+line.strip()+')'
             renames.append(re.compile(str, re.I))
     return renames
 
@@ -46,7 +46,7 @@ def find_poi_from_street_id(filename):
 def find_poi(filename):
     streets = list(set(find_poi_from_street_id(filename) + find_poi_from_streetnames(filename)))
     if streets:
-        print filename + " : " + ';'.join(streets)
+        print (filename.decode('UTF-8') + " : " + ';'.join(streets)).encode('UTF-8')
                 
 if __name__ == '__main__':
     for arg in sys.argv[1:]:
