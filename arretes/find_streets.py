@@ -17,15 +17,12 @@ def load_streetnames():
             renames.append(re.compile(str, re.I))
     return renames
 
+re_streetnames = load_streetnames()
 
 def find_poi_from_streetnames(filename):
     with open(filename, 'r') as input:
         data = json.load(input, encoding='utf-8')
-
-        re_streetnames = load_streetnames()
-
         streets = []
-        
         for article in data['articles']:
             for p in re_streetnames:
                 m = p.search(article)
