@@ -23,24 +23,33 @@ def find_poi_from_streetnames(filename):
         data = json.load(input, encoding='utf-8')
 
         re_streetnames = load_streetnames()
+
+        streets = []
         
         for article in data['articles']:
             for p in re_streetnames:
                 m = p.search(article)
                 if (m):
-                    print m.group()
-
+                    streets.append(m.group())
+    return streets
+                    
 def find_poi_from_street_id(filename):
+    streets = []
     with open(filename, 'r') as input:
         data = json.load(input, encoding='utf-8')
         for article in data['articles']:        
             for group in re_street_id.findall(article):
-                print data['numero'], group
+                streets.append(' '.join(group).strip())
+    return streets
 
 
 def find_poi(filename):
-    find_poi_from_streetnames(filename)
-    find_poi_from_street_id(filename)
+    streets = []
+    streets = find_poi_from_street_id(filename)
+    if not streets:
+        streets = find_poi_from_streetnames(filename)
+    print streets
                 
 if __name__ == '__main__':
-    find_poi(sys.argv[1])
+    for arg in sys.argv[1:]:
+        find_poi(arg)
