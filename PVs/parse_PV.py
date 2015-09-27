@@ -22,7 +22,7 @@ clean_html_light = lambda x: re_spaces.sub(' ', re_html.sub('', re_nbsp.sub(' ',
 
 re_format_xml_like_html = re.compile(ur'(Convocation|Présents?|Pouvoirs? donn[^:]*|Absents?[^:]*)\s*:\s*')
 re_format_xml_like_html2 = re.compile(ur'(Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?)', re.I)
-re_format_xml_like_html3 = re.compile(ur'(pouvoir donné à .*?[A-Z]{3,}) ([A-Z][a-zé]+)')
+re_format_xml_like_html3 = re.compile(ur'(pouvoir donné à .+?[A-Z]{3,}) ([A-Z][a-zé]+)')
 re_parse_xml = re.compile(ur'^<text top="(\d+)" left="(\d+)" width="(\d+)" height="(\d+)" font="(\d+)">(.*)</text>$')
 def clean_xml_from_pdf(text):
     text = text.replace(u'', '')
@@ -123,9 +123,10 @@ re_affichage = re.compile(ur"Date d’affichage", re.I)
 re_convoc = re.compile(ur'Convocation\s*:?$', re.I)
 re_presents = re.compile(ur'Pr(?:e|é|É)sents\s*:', re.I)
 re_absents = re.compile(ur'Absents? (non-* *)?(?:et *)?excus(?:e|é|É)s? *[^:]*:', re.I)
-re_secretaire = re.compile(ur'secrétaire de séance *:(?: *M(?:.|ME|LE)?) +(.+)', re.I)
+re_secretaire = re.compile(ur'secrétaire de séance *: *(.+)', re.I)
 re_conseillers = re.compile(ur'^(?:M[MLES,\.]* )*(.+?)(, *(Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir donné à [^,]+))+', re.I)
 re_conseillers2 = re.compile(ur'^(?:M[MLES,\.]* )+(.+?)\.?$', re.I)
+re_clean_MMLE = re.compile(ur'^M(\.|[MLml][Ee])? +')
 
 def parse_PV(text, xml=False):
     data = {'date': '', 'heure_debut': '', 'heure_fin': '', 'date_convocation': '', 'date_affichage': '', 'president': '', 'presents': [], 'excuses': [], 'absents': [], 'secretaire': '', 'ODJ': '', 'deliberations': []}
@@ -184,7 +185,7 @@ def parse_PV(text, xml=False):
                     read = ""
         secretaire = re_secretaire.search(line)
         if secretaire:
-            data['secretaire'] = lowerize(secretaire.group(1))
+            data['secretaire'] = lowerize(re_clean_MMLE.sub('', secretaire.group(1)).rstrip("."))
 
     for abse in data['absents'] + data['excuses']:
         if abse in data['presents']:
