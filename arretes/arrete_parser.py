@@ -13,11 +13,11 @@ re_nbsp = re.compile(r'\s*&(#160|nbsp);\s*')
 re_assemble_lines = re.compile(r'([^>])\n\s*')
 clean_html = lambda x: re_html.sub('', re_assemble_lines.sub(r'\1 ', re_nbsp.sub(' ', x.replace('&amp;', '&'))))
 
-re_numero_arrete = re.compile(ur'ARRETE MUNICIPAL n°(.+)')
+re_numero_arrete = re.compile(ur'ARRETE MUNICIPAL(?: CONJOINT)? n°(.+)')
 re_references = re.compile(ur'Vu (?:la|le|les|l\’)(.+)')
 re_articles = re.compile(ur'Article \d+\s*(?:–|-)\s*(.+)')
-re_date = re.compile(ur'le (\d+ \w+ \d+)')
-re_end = re.compile(ur'Fait à')
+re_date = re.compile(ur'(\d+ \w+ \d+)', re.UNICODE)
+re_end = re.compile(ur'Fait à', re.UNICODE)
 
 
 def parse_arrete(filename):
@@ -36,6 +36,12 @@ def parse_arrete(filename):
 
             if re_end.search(line) and not re_date.search(line):
                 continue
+
+            if re_date.search(line):
+                try:
+                    data['date'] = extract_date(line)
+                except:
+                    pass
 
             if re_end.search(line) and re_date.search(line):
                 data['date'] = extract_date(line)
