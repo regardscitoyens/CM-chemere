@@ -1,9 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import re
 import sys
 import json
 import re
+
+re_street_id = re.compile(ur'(\d+)?\s*(impasse|rue|rues|chemin|allée|allee|lotissement|place|route)\s([\w\s-]+)(?:,|et|\s-)', re.I)
+re_lieu_dit = re.compile(ur'(lieu-dit|lieux-dits|lieudit)')
 
 def load_streetnames():
     renames = []
@@ -14,13 +18,10 @@ def load_streetnames():
     return renames
 
 
-
-def find_pio_from_streetnames(filename):
+def find_poi_from_streetnames(filename):
     with open(filename, 'r') as input:
         data = json.load(input, encoding='utf-8')
 
-        print data['articles']
-        
         re_streetnames = load_streetnames()
         
         for article in data['articles']:
@@ -29,8 +30,17 @@ def find_pio_from_streetnames(filename):
                 if (m):
                     print m.group()
 
-def find_streets(filename):
-    return find_pio_from_streetnames(filename)
+def find_poi_from_street_id(filename):
+    with open(filename, 'r') as input:
+        data = json.load(input, encoding='utf-8')
+        for article in data['articles']:        
+            for group in re_street_id.findall(article):
+                print data['numero'], group
+
+
+def find_poi(filename):
+    find_poi_from_streetnames(filename)
+    find_poi_from_street_id(filename)
                 
 if __name__ == '__main__':
-    print json.dumps(find_streets(sys.argv[1]), ensure_ascii=False).encode('utf-8')
+    find_poi(sys.argv[1])
