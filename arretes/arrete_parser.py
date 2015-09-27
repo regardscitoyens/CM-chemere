@@ -34,7 +34,10 @@ def parse_arrete(filename):
             if not line:
                 continue
 
-            if re_end.search(line):
+            if re_end.search(line) and not re_date.search(line):
+                continue
+
+            if re_end.search(line) and re_date.search(line):
                 data['date'] = extract_date(line)
                 break
 
@@ -62,4 +65,4 @@ def parse_arrete(filename):
 
 
 if __name__ == '__main__':
-    print json.dumps(parse_arrete(sys.argv[1]), ensure_ascii=False)
+    print json.dumps(parse_arrete(sys.argv[1]), ensure_ascii=False).encode('utf-8')

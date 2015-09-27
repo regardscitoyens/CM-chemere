@@ -1,0 +1,10 @@
+allée
+chemin
+impasse
+lotissement
+place
+route
+rue
+lieu-dit
+lieux-dits
+lieudit
