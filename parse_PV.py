@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 
 # TODO
-# - check all PVs in html
 # - viz
 # - data conseillers
 # - ODJ
 # - delibs
 
-import re, sys, pprint
+import re, sys
+from pprint import pprint
 
 re_nbsp = re.compile(r'\s*&(#160|nbsp);\s*')
 re_assemble_lines = re.compile(r'([^>:])\n\s*')
@@ -20,8 +20,8 @@ re_spaces = re.compile(r' +')
 clean_html = lambda x: re_spaces.sub(' ', re_html.sub('', re_clean_presents2.sub(r'\1 \2', re_clean_presents.sub(r'\1 ', re_clean_secretaire.sub(r'\1 ', re_assemble_lines.sub(r'\1 ', re_nbsp.sub(' ', x.replace('&amp;', '&'))))))))
 clean_html_light = lambda x: re_spaces.sub(' ', re_html.sub('', re_nbsp.sub(' ', x.replace('&amp;', '&'))))
 
-re_format_xml_like_html = re.compile(ur'(Convocation|Présents?|Absents?[^:]*)\s*:\s*', re.I)
-re_format_xml_like_html2 = re.compile(ur'(Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir donné à [^,]+)', re.I)
+re_format_xml_like_html = re.compile(ur'(Convocation|Présents?|Pouvoirs? donn[^:]*|Absents?[^:]*)\s*:\s*')
+re_format_xml_like_html2 = re.compile(ur'(Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?)', re.I)
 re_parse_xml = re.compile(ur'^<text top="(\d+)" left="(\d+)" width="(\d+)" height="(\d+)" font="(\d+)">(.*)</text>$')
 def clean_xml_from_pdf(text):
     text = text.replace(u'', '')
@@ -120,7 +120,7 @@ re_heurefin = re.compile(ur"Séance levée à *([^\.]+?)(\.|$)+", re.I)
 re_affichage = re.compile(ur"Date d’affichage", re.I)
 re_convoc = re.compile(ur'Convocation\s*:?$', re.I)
 re_presents = re.compile(ur'Pr(?:e|é|É)sents\s*:', re.I)
-re_absents = re.compile(ur'Absents? (non-* *)?excus(?:e|é|É)s? *[^:]*:', re.I)
+re_absents = re.compile(ur'Absents? (non-* *)?(?:et *)?excus(?:e|é|É)s? *[^:]*:', re.I)
 re_secretaire = re.compile(ur'secrétaire de séance *:(?: *M(?:.|ME|LE)?) +(.+)', re.I)
 re_conseillers = re.compile(ur'^(?:M[MLES,\.]* )*(.+?)(, *(Maire|Adjoints?|Conseill(?:e|è)re?s? municipa(le?s?|ux)( déléguée?s?)?|pouvoir donné à [^,]+))+', re.I)
 re_conseillers2 = re.compile(ur'^(?:M[MLES,\.]* )+(.+?)\.?$', re.I)
@@ -201,7 +201,8 @@ def test_data(data):
             print >> sys.stderr, ("ERROR field missing: %s" % k).encode('utf-8')
             errors +=1
     if errors:
-        pprint.pprint(data)
+        if len(sys.argv) > 2:
+            pprint(data)
         sys.exit(1)
 
 if __name__ == "__main__":
@@ -211,7 +212,7 @@ if __name__ == "__main__":
     data = parse_PV(text, xml=(filename.endswith('.xml')))
     test_data(data)
     if len(sys.argv) > 2:
-        pprint.pprint(data)
+        pprint(data)
     else:
         for a in data['presents']:
             print ("%s,%s,%s" % (data['date'], data['heure_debut'], a)).encode('utf-8')
