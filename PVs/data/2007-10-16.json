@@ -1,0 +1,34 @@
+{
+  "absents": [], 
+  "heure_fin": "23:00", 
+  "secretaire": "Bernard Pennetier", 
+  "date": "2007-10-16", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2007-10-09", 
+  "date_affichage": "", 
+  "excuses": [
+    "Jacques Jaunatre", 
+    "Karine Mosnier"
+  ], 
+  "total_presents": 0, 
+  "presents": [
+    "Sonia Bailly", 
+    "Marie-Jo Batard", 
+    "G\u00e9rard Bigot", 
+    "Jacques Chevalier", 
+    "R\u00e9gine Cormier", 
+    "Louis-Marie Droneau", 
+    "Jean-Marie Gatard", 
+    "Michel Gravouil", 
+    "Alain Guilbaud", 
+    "G\u00e9rard Guilbaud", 
+    "Georges Lecleve", 
+    "Jean-Paul Leray", 
+    "Bernard Pennetier", 
+    "Jean Rondeau", 
+    "Pierre Voyau"
+  ], 
+  "heure_debut": "20:30", 
+  "ODJ": ""
+}

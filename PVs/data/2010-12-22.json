@@ -1,0 +1,30 @@
+{
+  "absents": [], 
+  "heure_fin": "23:00", 
+  "secretaire": "Marie-Jos\u00e8phe Batard", 
+  "date": "2010-12-22", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2010-12-14", 
+  "date_affichage": "", 
+  "excuses": [], 
+  "total_presents": 0, 
+  "presents": [
+    "Jean-Paul Leray", 
+    "Georges Lecleve", 
+    "Bernard Chazelas", 
+    "Jean-Marie Gatard", 
+    "Jean-Pierre Grandjouan", 
+    "Jacques Chevalier", 
+    "Nicolas Boucher", 
+    "Michel Gravouil", 
+    "Marie-Jo Batard", 
+    "Eric Lombrey", 
+    "Annie Bardoul", 
+    "Philippe Briand", 
+    "Paul Pipaud", 
+    "Lionel Lescurat"
+  ], 
+  "heure_debut": "20:00", 
+  "ODJ": ""
+}

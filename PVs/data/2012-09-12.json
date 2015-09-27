@@ -1,0 +1,34 @@
+{
+  "absents": [], 
+  "heure_fin": "22:30", 
+  "secretaire": "Mich\u00e8le Francheteau", 
+  "date": "2012-09-12", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2012-09-04", 
+  "date_affichage": "", 
+  "excuses": [
+    "Marie-Jo Batard", 
+    "Paul Pipaud", 
+    "Lionel Lescurat", 
+    "Alice Biczysko"
+  ], 
+  "total_presents": 13, 
+  "presents": [
+    "Jean-Paul Leray", 
+    "Georges Lecleve", 
+    "Bernard Chazelas", 
+    "Jean-Marie Gatard", 
+    "Jean-Pierre Grandjouan", 
+    "Jacques Chevalier", 
+    "Michel Gravouil", 
+    "R\u00e9gine Cormier", 
+    "Annie Bardoul", 
+    "Mich\u00e8le Francheteau", 
+    "Nicolas Boucher", 
+    "Philippe Briand", 
+    "Eric Lombrey"
+  ], 
+  "heure_debut": "20:30", 
+  "ODJ": ""
+}

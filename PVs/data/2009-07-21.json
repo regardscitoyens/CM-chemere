@@ -1,0 +1,36 @@
+{
+  "absents": [], 
+  "heure_fin": "22:45", 
+  "secretaire": "Michel Gravouil", 
+  "date": "2009-07-21", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2009-07-10", 
+  "date_affichage": "", 
+  "excuses": [
+    "Jean-Marie Gatard", 
+    "pouvoir donn\u00e9 \u00e0 M", 
+    "Georges Lecleve", 
+    "Jean-Pierre Grandjouan", 
+    "Jean-Paul Leray", 
+    "Jacques Chevalier", 
+    "Bernard Chazelas R\u00e9gine Cormier", 
+    "pouvoir donn\u00e9 \u00e0 Mme Marie-Jo Batard Eric Lombrey", 
+    "Nicolas Boucher", 
+    "Annie Bardoul", 
+    "Philippe Briand", 
+    "Paul Pipaud"
+  ], 
+  "total_presents": 0, 
+  "presents": [
+    "Bernard Chazelas", 
+    "Alain Guilbaud", 
+    "Michel Gravouil", 
+    "Marie-Jo Batard", 
+    "Alice Biczysko", 
+    "Mich\u00e8le Francheteau", 
+    "Lionel Lescurat"
+  ], 
+  "heure_debut": "20:30", 
+  "ODJ": ""
+}

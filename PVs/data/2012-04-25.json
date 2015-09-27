@@ -1,0 +1,34 @@
+{
+  "absents": [], 
+  "heure_fin": "22:45", 
+  "secretaire": "Lionel Lescurat", 
+  "date": "2012-04-25", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2012-04-17", 
+  "date_affichage": "2012-05-02", 
+  "excuses": [
+    "Marie-Jo Batard", 
+    "Eric Lombrey"
+  ], 
+  "total_presents": 15, 
+  "presents": [
+    "Jean-Paul Leray", 
+    "Georges Lecleve", 
+    "Bernard Chazelas", 
+    "Jean-Marie Gatard", 
+    "Jean-Pierre Grandjouan", 
+    "Jacques Chevalier", 
+    "Michel Gravouil", 
+    "R\u00e9gine Cormier", 
+    "Nicolas Boucher", 
+    "Annie Bardoul", 
+    "Alice Biczysko", 
+    "Philippe Briand", 
+    "Paul Pipaud", 
+    "Mich\u00e8le Francheteau", 
+    "Lionel Lescurat"
+  ], 
+  "heure_debut": "20:30", 
+  "ODJ": ""
+}

@@ -1,0 +1,34 @@
+{
+  "absents": [], 
+  "heure_fin": "23:20", 
+  "secretaire": "Annie Bardoul", 
+  "date": "2013-06-18", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2013-06-11", 
+  "date_affichage": "2013-06-28", 
+  "excuses": [
+    "R\u00e9gine Cormier", 
+    "Marie-Jo Batard", 
+    "Mich\u00e8le Francheteau", 
+    "Lionel Lescurat"
+  ], 
+  "total_presents": 13, 
+  "presents": [
+    "Jean-Paul Leray", 
+    "Georges Lecleve", 
+    "Bernard Chazelas", 
+    "Jean-Marie Gatard", 
+    "Jean-Pierre Grandjouan", 
+    "Jacques Chevalier", 
+    "Michel Gravouil", 
+    "Nicolas Boucher", 
+    "Eric Lombrey", 
+    "Annie Bardoul", 
+    "Alice Biczysko", 
+    "Philippe Briand", 
+    "Paul Pipaud"
+  ], 
+  "heure_debut": "20:30", 
+  "ODJ": ""
+}
