@@ -13,6 +13,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/navbar-fixed-top.css" rel="stylesheet">
+    <link href="css/jquery.dataTables.min.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -23,6 +24,9 @@
       <script src="js/html5shiv.min.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
+  <style>
+	main.h2{margin-top: 50px !important;}	
+  </style>
   </head>
 
   <body>
@@ -37,30 +41,17 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Les subs de Chéméré</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+            <li><a href="#global">Global</a></li>
+            <li><a href="#lesassos">Les associations</a></li>
+            <li><a href="#temps">Dans le temps</a></li>
+            <li><a href="#donnees">Les données</a></li>
+            <li><a href="#comment">Comment</a></li>
+
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -74,9 +65,9 @@
 	<h2>Par la mairie Chéméré</h2>
 	<p>Issues des subventions votées par le conseil municipal de Chéméré de 2009 à 2014.</p>
       </div>
-
+<div id="main">
 <div class="row"><div class="col-sm-12"/>
-<h2>Évolution des subventions dans le temps</h2>
+<h2 id="global">Évolution des subventions dans le temps</h2>
 <br/>
 <div class="text-center">
 <p>
@@ -85,7 +76,7 @@
 <p><b>Répartition des subventions entre 2009 et 2014 par typologie d'associations</b></p>
 </div>
 
-<h2>Les subventions par associations</h2>
+<h2 id="lesassos">Les subventions par associations</h2>
 <br/>
 <div class="text-center">
 <p>
@@ -111,7 +102,7 @@
 </div>
 
 
-<h2>Évolution dans le temps</h2>
+<h2 id="temps">Évolution dans le temps</h2>
 <br/>
   <!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist">
@@ -150,6 +141,44 @@
 
 </div></div>
 
+<h2 id="donnees">Les données brutes</h2>
+<br/>
+<div class="text-center">
+                <table class="table table-in-dark-section" id="assotable" data-pagination="true"
+                       data-search="true">
+                    <thead>
+                    <tr>
+                        <th data-field="Année" data-sortable="true">Années</th>
+                        <th data-field="Catégorie" data-sortable="true">Type</th>
+                        <th data-field="Association" data-sortable="true">Association</th>
+                        <th data-align="right" data-field="Montant"
+                            data-formatter="sunshine.utils.formatMoney"
+                            data-sortable="true">Montant
+                        </th>
+                    </tr>
+                    </thead>
+                </table>
+</div>
+
+<h2 id="comment">La méthode de création</h2>
+<br/>
+<div class="text-center">
+<h3>Des données en pdf :-(</h3>
+<img src="img/pdf1.png"/>
+<img src="img/pdf2.png"/>
+<h3>Convertion en données</h3>
+<p>Quatre personnes & 20 minutes</p>
+<img src="img/csv_creation.png"/>
+<h3>Homogénéisation des données</h3>
+<img src="img/csv_refine.png"/>
+<h3>Un outil libre & en ligne pour les visualisations</h3>
+<img src="img/raw_import.png"/>
+<img src="img/raw_type.png"/>
+<img src="img/raw_entites.png"/>
+<img src="img/raw_final.png"/>
+
+</div>
+</div>
     </div> <!-- /container -->
 
 
@@ -157,8 +186,20 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$(document).ready(function() {
+/*
+    $('#assotable').DataTable( {
+        "ajax": "data/2009-2014_Chéméré_SubventionsAssociations.tsv"
+    } );
+*/
+} );
+
+
+</script>
   </body>
 </html>
