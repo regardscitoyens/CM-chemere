@@ -63,7 +63,7 @@ def find_poi(data):
 
 re_personnes_morales = re.compile(ur'(sociétés?|entreprises?|associations?) ?([^,\.:]+)', re.I)
 re_suppr_phrase = re.compile(ur'( est| sont| et| dès| chargé| à| \d| de | TP| SAG| SARL| agence| ouest| ouets).*', re.I)
-re_exclude = re.compile(ur'(personne physique|\()')
+re_exclude = re.compile(ur'(personne physique|\(|industrielle)')
 
 def find_personnes_morales(data):
     companies = {}
