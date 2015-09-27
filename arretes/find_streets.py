@@ -1,19 +1,22 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import re
 import sys
 import json
 
 
-def find_streets(filename):
-    with open(filename, 'r') as input:
-        for line in input.readlines():
-            line.strip()
+re_street_id = re.compile(ur'(\d+)?\s*(impasse|rue|rues|chemin|allée|allee|lotissement|place|route)\s([\w\s-]+)(?:,|et|\s-)', re.I)
+re_lieu_dit = re.compile(ur'(lieu-dit|lieux-dits|lieudit)')
 
+
+def find_poi_from_street_id(filename):
+    with open(filename, 'r') as input:
         data = json.load(input, encoding='utf-8')
 
         for article in data['articles']:
-            pass
+            for group in re_street_id.findall(article):
+                print data['numero'], group
 
 if __name__ == '__main__':
-    print json.dumps(find_streets(sys.argv[1]), ensure_ascii=False).encode('utf-8')
+    find_poi_from_street_id(sys.argv[1])
