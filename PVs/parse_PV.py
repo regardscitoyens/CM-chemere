@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 # TODO
-# - viz
 # - data conseillers
 # - ODJ
 # - delibs
