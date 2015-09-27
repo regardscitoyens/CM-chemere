@@ -1,0 +1,35 @@
+{
+  "absents": [], 
+  "heure_fin": "", 
+  "secretaire": "Alain Guilbaud", 
+  "date": "2004-09-22", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2004-09-14", 
+  "date_affichage": "", 
+  "excuses": [
+    "G\u00e9rard Guilbaud"
+  ], 
+  "total_presents": 0, 
+  "presents": [
+    "Sonia Bailly", 
+    "Marie-Jo Batard", 
+    "G\u00e9rard Bigot", 
+    "Jacques Chevalier", 
+    "R\u00e9gine Cormier", 
+    "Louis-Marie Droneau", 
+    "Jean-Marie Gatard", 
+    "Mith\u00e9 Gouy", 
+    "Michel Gravouil", 
+    "Alain Guilbaud", 
+    "Jacques Jaunatre", 
+    "Georges Lecleve", 
+    "Jean-Paul Leray", 
+    "Karine Mosnier", 
+    "Bernard Pennetier", 
+    "Jean Rondeau", 
+    "Pierre Voyau"
+  ], 
+  "heure_debut": "", 
+  "ODJ": ""
+}

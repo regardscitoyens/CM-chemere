@@ -7,7 +7,7 @@
 # - ODJ
 # - delibs
 
-import re, sys
+import re, sys, json
 from pprint import pprint
 
 re_nbsp = re.compile(r'\s*&(#160|nbsp);\s*')
@@ -212,7 +212,7 @@ if __name__ == "__main__":
     data = parse_PV(text, xml=(filename.endswith('.xml')))
     test_data(data)
     if len(sys.argv) > 2:
-        pprint(data)
+        print json.dumps(data, indent=2)
     else:
         for a in data['presents']:
             print ("%s,%s,%s" % (data['date'], data['heure_debut'], a)).encode('utf-8')

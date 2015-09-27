@@ -1,0 +1,31 @@
+{
+  "absents": [], 
+  "heure_fin": "23:30", 
+  "secretaire": "Thierry Favreau", 
+  "date": "2015-02-24", 
+  "president": "Georges Lecleve", 
+  "deliberations": [], 
+  "date_convocation": "2015-02-18", 
+  "date_affichage": "2015-03-06", 
+  "excuses": [], 
+  "total_presents": 18, 
+  "presents": [
+    "Georges Lecleve", 
+    "Virginie Porcher", 
+    "Michel Gravouil", 
+    "Marie-Laure David", 
+    "G\u00e9rard Chauvet", 
+    "Jean-Marc Voyau", 
+    "Jacques Chevalier", 
+    "Romain Rungoat", 
+    "Sylviane Gibet", 
+    "Anne Bruneteau", 
+    "Philippe Briand", 
+    "Christelle Guignon", 
+    "Dominique Muslewski", 
+    "Tatiana Berthelot", 
+    "Thierry Favreau"
+  ], 
+  "heure_debut": "19:30", 
+  "ODJ": ""
+}

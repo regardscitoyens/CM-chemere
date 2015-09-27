@@ -1,0 +1,34 @@
+{
+  "absents": [], 
+  "heure_fin": "22:15", 
+  "secretaire": "Nicolas Boucher", 
+  "date": "2012-11-13", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2012-11-06", 
+  "date_affichage": "2012-11-19", 
+  "excuses": [
+    "R\u00e9gine Cormier Conseill\u00e8re municipale", 
+    "Marie-Jos\u00e8phe Batard", 
+    "Eric Lombrey", 
+    "Philippe Briand", 
+    "Lionel Lescurat"
+  ], 
+  "total_presents": 12, 
+  "presents": [
+    "Jean-Paul Leray", 
+    "Georges Lecleve", 
+    "Bernard Chazelas", 
+    "Jean-Marie Gatard", 
+    "Jean-Pierre Grandjouan", 
+    "Jacques Chevalier", 
+    "Michel Gravouil", 
+    "Nicolas Boucher", 
+    "Annie Bardoul", 
+    "Alice Biczysko", 
+    "Paul Pipaud", 
+    "Mich\u00e8le Francheteau"
+  ], 
+  "heure_debut": "20:00", 
+  "ODJ": ""
+}

@@ -1,0 +1,34 @@
+{
+  "absents": [], 
+  "heure_fin": "22:45", 
+  "secretaire": "Paul Pipaud", 
+  "date": "2012-01-17", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2012-01-10", 
+  "date_affichage": "2012-01-25", 
+  "excuses": [
+    "Nicolas Boucher", 
+    "Alice Biczysko", 
+    "Marie-Jos\u00e8phe Batard"
+  ], 
+  "total_presents": 14, 
+  "presents": [
+    "Jean-Paul Leray", 
+    "Georges Lecleve", 
+    "Bernard Chazelas", 
+    "Jean-Marie Gatard", 
+    "Jean-Pierre Grandjouan", 
+    "Jacques Chevalier", 
+    "Michel Gravouil", 
+    "R\u00e9gine Cormier", 
+    "Eric Lombrey", 
+    "Annie Bardoul", 
+    "Philippe Briand", 
+    "Paul Pipaud", 
+    "Mich\u00e8le Francheteau", 
+    "Lionel Lescurat"
+  ], 
+  "heure_debut": "20:00", 
+  "ODJ": ""
+}

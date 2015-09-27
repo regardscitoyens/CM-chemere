@@ -1,0 +1,36 @@
+{
+  "absents": [], 
+  "heure_fin": "22:40", 
+  "secretaire": "Philippe Briand", 
+  "date": "2015-09-15", 
+  "president": "Georges Lecleve", 
+  "deliberations": [], 
+  "date_convocation": "2015-09-09", 
+  "date_affichage": "2015-09-21", 
+  "excuses": [
+    "Nicolas Boucher", 
+    "Tatiana Berthelot", 
+    "Thierry Favreau"
+  ], 
+  "total_presents": 16, 
+  "presents": [
+    "Georges Lecleve", 
+    "Virginie Porcher", 
+    "Michel Gravouil", 
+    "Marie-Laure David", 
+    "G\u00e9rard Chauvet", 
+    "Jean-Marc Voyau", 
+    "Jacques Chevalier", 
+    "Karine Fouquet", 
+    "Romain Rungoat", 
+    "Sabrina Pennetier-Bigot", 
+    "Anthony Latouche", 
+    "Sylviane Gibet", 
+    "Anne Bruneteau", 
+    "Philippe Briand", 
+    "Christelle Guignon", 
+    "Dominique Muslewski"
+  ], 
+  "heure_debut": "19:30", 
+  "ODJ": ""
+}

@@ -1,0 +1,32 @@
+{
+  "absents": [], 
+  "heure_fin": "22:00", 
+  "secretaire": "Jacques Jaunatre", 
+  "date": "2007-01-17", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2007-01-09", 
+  "date_affichage": "", 
+  "excuses": [], 
+  "total_presents": 0, 
+  "presents": [
+    "Marie-Jo Batard", 
+    "G\u00e9rard Bigot", 
+    "Jacques Chevalier", 
+    "R\u00e9gine Cormier", 
+    "Louis-Marie Droneau", 
+    "Jean-Marie Gatard", 
+    "Michel Gravouil", 
+    "Alain Guilbaud", 
+    "G\u00e9rard Guilbaud", 
+    "Jacques Jaunatre", 
+    "Georges Lecleve", 
+    "Karine Mosnier", 
+    "Jean-Paul Leray", 
+    "Bernard Pennetier", 
+    "Jean Rondeau", 
+    "Pierre Voyau"
+  ], 
+  "heure_debut": "20:00", 
+  "ODJ": ""
+}

@@ -1,0 +1,35 @@
+{
+  "absents": [], 
+  "heure_fin": "", 
+  "secretaire": "Marie-Jo Batard.", 
+  "date": "2004-07-20", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2004-07-13", 
+  "date_affichage": "", 
+  "excuses": [
+    "Sonia Bailly", 
+    "G\u00e9rard Bigot", 
+    "R\u00e9gine Cormier", 
+    "Louis-Marie Droneau", 
+    "Jean-Marie Gatard", 
+    "Alain Guilbaud"
+  ], 
+  "total_presents": 0, 
+  "presents": [
+    "Marie-Jo Batard", 
+    "Jacques Chevalier", 
+    "Mith\u00e9 Gouy", 
+    "Michel Gravouil", 
+    "G\u00e9rard Guilbaud", 
+    "Jacques Jaunatre", 
+    "Georges Lecleve", 
+    "Jean-Paul Leray", 
+    "Karine Mosnier", 
+    "Bernard Pennetier", 
+    "Jean Rondeau", 
+    "Pierre Voyau"
+  ], 
+  "heure_debut": "", 
+  "ODJ": ""
+}

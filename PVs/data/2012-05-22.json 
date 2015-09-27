@@ -1,0 +1,34 @@
+{
+  "absents": [], 
+  "heure_fin": "22:30", 
+  "secretaire": "R\u00e9gine Cormier", 
+  "date": "2012-05-22", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2012-05-15", 
+  "date_affichage": "2012-05-31", 
+  "excuses": [
+    "Georges Lecleve", 
+    "Marie-Jos\u00e8phe Batard", 
+    "Lionel Lescurat"
+  ], 
+  "total_presents": 14, 
+  "presents": [
+    "Jean-Paul Leray", 
+    "Bernard Chazelas", 
+    "Jean-Marie Gatard", 
+    "Jean-Pierre Grandjouan", 
+    "Jacques Chevalier", 
+    "Michel Gravouil", 
+    "R\u00e9gine Cormier", 
+    "Nicolas Boucher", 
+    "Annie Bardoul", 
+    "Alice Biczysko", 
+    "Philippe Briand", 
+    "Paul Pipaud", 
+    "Mich\u00e8le Francheteau", 
+    "Eric Lombrey"
+  ], 
+  "heure_debut": "20:30", 
+  "ODJ": ""
+}

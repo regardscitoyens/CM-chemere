@@ -1,0 +1,34 @@
+{
+  "absents": [], 
+  "heure_fin": "23:00", 
+  "secretaire": "G\u00e9rard Bigot", 
+  "date": "2007-02-20", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2007-02-13", 
+  "date_affichage": "", 
+  "excuses": [
+    "Sonia Bailly", 
+    "R\u00e9gine Cormier", 
+    "Alain Guilbaud", 
+    "Karine Mosnier"
+  ], 
+  "total_presents": 0, 
+  "presents": [
+    "Marie-Jos\u00e8phe Batard", 
+    "G\u00e9rard Bigot", 
+    "Jacques Chevalier", 
+    "Louis-Marie Droneau", 
+    "Jean-Marie Gatard", 
+    "Michel Gravouil", 
+    "G\u00e9rard Guilbaud", 
+    "Jacques Jaunatre", 
+    "Georges Lecleve", 
+    "Jean-Paul Leray", 
+    "Bernard Pennetier", 
+    "Jean Rondeau", 
+    "Pierre Voyau"
+  ], 
+  "heure_debut": "20:00", 
+  "ODJ": ""
+}

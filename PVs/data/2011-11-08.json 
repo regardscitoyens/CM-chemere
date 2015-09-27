@@ -1,0 +1,34 @@
+{
+  "absents": [], 
+  "heure_fin": "22:50", 
+  "secretaire": "Michel Gravouil", 
+  "date": "2011-11-08", 
+  "president": "Jean-Paul Leray", 
+  "deliberations": [], 
+  "date_convocation": "2011-10-28", 
+  "date_affichage": "2011-11-21", 
+  "excuses": [
+    "Nicolas Boucher", 
+    "Marie-Jos\u00e8phe Batard", 
+    "Eric Lombrey", 
+    "Lionel Lescurat"
+  ], 
+  "total_presents": 13, 
+  "presents": [
+    "Jean-Paul Leray", 
+    "Georges Lecleve", 
+    "Bernard Chazelas", 
+    "Jean-Marie Gatard", 
+    "Jean-Pierre Grandjouan", 
+    "Jacques Chevalier", 
+    "Alice Biczysko", 
+    "Michel Gravouil", 
+    "R\u00e9gine Cormier", 
+    "Annie Bardoul", 
+    "Philippe Briand", 
+    "Paul Pipaud", 
+    "Mich\u00e8le Francheteau"
+  ], 
+  "heure_debut": "20:00", 
+  "ODJ": ""
+}
