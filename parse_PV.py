@@ -63,8 +63,15 @@ def lowerize(text):
             res += a[0]+a[1:].lower().replace(u'É', u'é').replace(u'È', u'è').replace(u'À', u'à').replace(u'Î', u'î').replace(u'Ï', u'ï').replace(u'Ô', u'ô').replace(u'Ù', u'ù').replace(u'Û', u'û').replace(u'Ü', u'ü')
     return res.strip()
 
+re_miss_commas = re.compile(r'([A-Z][a-z]{3,} [A-Z]{3,}) ([A-Z][a-z]{3,} [A-Z]{3,})')
+def fix_missing_commas(text):
+    if re_miss_commas.search(text):
+        return re_miss_commas.sub(r'\1, \2', text)
+    return text
+
 re_clean_parent = re.compile(r'\s*\([^)]+\)')
 def handle_elus(data, text, field):
+    text = fix_missing_commas(text)
     for elu in text.replace('.', ',').split(u','):
         elu = re_clean_parent.sub('', elu)
         nom = lowerize(elu.strip())
